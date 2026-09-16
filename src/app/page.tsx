@@ -4,6 +4,7 @@ import { ProjectsOverview } from "@/components/ProjectsOverview";
 import { CountdownWidget } from "@/components/CountdownWidget";
 import { QuickCapture } from "@/components/QuickCapture";
 import { GraphView } from "@/components/GraphView";
+import { TodoLists } from "@/components/TodoLists";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         </div>
         <div className="flex flex-wrap items-start gap-6">
           <CountdownWidget />
+          <TodoLists />
           <TodayWidget />
           <QuickCapture />
           <ProjectsOverview />
