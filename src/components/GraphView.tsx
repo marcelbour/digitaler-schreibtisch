@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { CARD, HEADING, iconBadge } from "@/lib/ui";
 
 type GraphNode = { id: string; label: string; folder: string };
 type GraphEdge = { source: string; target: string };
@@ -8,25 +9,8 @@ type GraphResponse = { nodes: GraphNode[]; edges: GraphEdge[] };
 
 type Positioned = GraphNode & { x: number; y: number };
 
-const WIDTH = 480;
-const HEIGHT = 420;
-
-const PALETTE = [
-  "#3b82f6", // blue
-  "#22c55e", // green
-  "#f59e0b", // amber
-  "#ef4444", // red
-  "#a855f7", // purple
-  "#06b6d4", // cyan
-  "#ec4899", // pink
-  "#84cc16", // lime
-];
-
-function colorForFolder(folder: string): string {
-  let hash = 0;
-  for (let i = 0; i < folder.length; i++) hash = (hash * 31 + folder.charCodeAt(i)) >>> 0;
-  return PALETTE[hash % PALETTE.length];
-}
+const WIDTH = 440;
+const HEIGHT = 440;
 
 /** Einfaches Fruchterman-Reingold-artiges Kräfte-Layout, einmalig berechnet (kein Live-Physik-Loop). */
 function computeLayout(nodes: GraphNode[], edges: GraphEdge[]): Positioned[] {
@@ -104,6 +88,45 @@ function computeLayout(nodes: GraphNode[], edges: GraphEdge[]): Positioned[] {
       p.x = Math.min(WIDTH - 10, Math.max(10, p.x));
       p.y = Math.min(HEIGHT - 10, Math.max(10, p.y));
     }
+  }
+
+  // Layout auf die volle Zeichenfläche strecken (mit Rand). Ohne diesen Schritt
+  // nutzt das Kräfte-Layout oft nur einen Teil des Canvas und lässt viel leere
+  // Fläche stehen - das wirkte im Dashboard unfertig/unbalanciert.
+  //
+  // WICHTIG: hier NICHT auf die volle Breite/Höhe strecken (min/max auf den
+  // Rand mappen) - das zwingt die äußersten Knoten (auch einzelne Ausreißer)
+  // immer exakt an den Rand der Zeichenfläche. Marcels Vorbild (Obsidians
+  // eigene Graph-Ansicht) zeigt einen natürlich geclusterten "Ball" in der
+  // Mitte mit echtem Freiraum drumrum - deshalb nur zentrieren und höchstens
+  // verkleinern (nie künstlich vergrößern/strecken), damit die organische
+  // Form des Kräfte-Layouts erhalten bleibt.
+  const PADDING = WIDTH * 0.22;
+  let minX = Infinity;
+  let maxX = -Infinity;
+  let minY = Infinity;
+  let maxY = -Infinity;
+  for (const node of nodes) {
+    const p = positions.get(node.id)!;
+    minX = Math.min(minX, p.x);
+    maxX = Math.max(maxX, p.x);
+    minY = Math.min(minY, p.y);
+    maxY = Math.max(maxY, p.y);
+  }
+  const spanX = Math.max(maxX - minX, 1);
+  const spanY = Math.max(maxY - minY, 1);
+  const availableW = WIDTH - PADDING * 2;
+  const availableH = HEIGHT - PADDING * 2;
+  // Zusätzlicher Sicherheitsfaktor: selbst auf der "engsten" Achse (die die
+  // Verkleinerung bestimmt) soll noch spürbar Luft bleiben, nicht nur exakt
+  // bis an den Rand der Padding-Zone.
+  const scale = Math.min(1, availableW / spanX, availableH / spanY) * 0.8;
+  const centerX = (minX + maxX) / 2;
+  const centerY = (minY + maxY) / 2;
+  for (const node of nodes) {
+    const p = positions.get(node.id)!;
+    p.x = WIDTH / 2 + (p.x - centerX) * scale;
+    p.y = HEIGHT / 2 + (p.y - centerY) * scale;
   }
 
   return nodes.map((node) => ({ ...node, ...positions.get(node.id)! }));
@@ -216,33 +239,34 @@ export function GraphView() {
   }, [positioned]);
 
   return (
-    <div className="w-full max-w-md rounded-lg border border-zinc-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+    <div className={CARD}>
       <div className="mb-2 flex items-center justify-between gap-2">
-        <h2 className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-          Graph-Ansicht ({data?.nodes.length ?? 0} Notizen)
-        </h2>
+        <div className="flex items-center gap-2.5">
+          <span className={iconBadge("purple")}>🕸️</span>
+          <h2 className={HEADING}>Graph-Ansicht ({data?.nodes.length ?? 0} Notizen)</h2>
+        </div>
         <button
           onClick={handleRefreshClick}
           disabled={loading}
-          className="rounded px-2 py-1 text-xs text-zinc-500 hover:bg-zinc-100 disabled:opacity-40 dark:text-zinc-400 dark:hover:bg-zinc-800"
+          className="rounded-lg px-2 py-1 text-xs text-zinc-400 hover:bg-white/5 disabled:opacity-40"
           title="Graph neu aus dem aktuellen Vault-Stand berechnen"
         >
           {loading ? "Lädt…" : "↻ Aktualisieren"}
         </button>
       </div>
-      <p className="mb-2 text-xs text-zinc-400">
+      <p className="mb-2 text-xs text-zinc-500">
         Mausrad = zoomen, Ziehen = verschieben. Momentaufnahme – aktualisiert sich
         nicht automatisch, dafür oben auf &quot;Aktualisieren&quot; klicken.
       </p>
-      {error && <p className="text-sm text-red-500">{error}</p>}
+      {error && <p className="text-sm text-rose-400">{error}</p>}
       {!data && !error && (
-        <p className="text-sm text-zinc-400">Lädt… (kann bei vielen Notizen ein paar Sekunden dauern)</p>
+        <p className="text-sm text-zinc-500">Lädt… (kann bei vielen Notizen ein paar Sekunden dauern)</p>
       )}
       {data && (
         <svg
           ref={svgRef}
           viewBox={`${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`}
-          className="w-full touch-none rounded bg-zinc-50 dark:bg-zinc-950"
+          className="aspect-square w-full touch-none rounded-xl bg-transparent"
           style={{ cursor: isDragging ? "grabbing" : "grab" }}
           onPointerDown={handlePointerDown}
           onPointerMove={handlePointerMove}
@@ -260,38 +284,41 @@ export function GraphView() {
                 y1={a.y}
                 x2={b.x}
                 y2={b.y}
-                stroke="currentColor"
-                className="text-zinc-300 dark:text-zinc-700"
-                strokeWidth={1}
+                stroke="white"
+                strokeOpacity={0.1}
+                strokeWidth={0.75}
               />
             );
           })}
-          {positioned.map((node) => (
-            <g
-              key={node.id}
-              onMouseEnter={() => setHovered(node.id)}
-              onMouseLeave={() => setHovered((h) => (h === node.id ? null : h))}
-            >
-              <circle
-                cx={node.x}
-                cy={node.y}
-                r={hovered === node.id ? 6 : 4}
-                fill={colorForFolder(node.folder)}
+          {positioned.map((node) => {
+            const isHovered = hovered === node.id;
+            return (
+              <g
+                key={node.id}
+                onMouseEnter={() => setHovered(node.id)}
+                onMouseLeave={() => setHovered((h) => (h === node.id ? null : h))}
               >
-                <title>{node.id}</title>
-              </circle>
-              {hovered === node.id && (
-                <text
-                  x={node.x + 8}
-                  y={node.y + 4}
-                  fontSize={10}
-                  className="fill-zinc-800 dark:fill-zinc-200"
+                <circle
+                  cx={node.x}
+                  cy={node.y}
+                  r={isHovered ? 4.5 : 3}
+                  fill={isHovered ? "#c4b5fd" : "#8b8ba7"}
                 >
-                  {node.label}
-                </text>
-              )}
-            </g>
-          ))}
+                  <title>{node.id}</title>
+                </circle>
+                {isHovered && (
+                  <text
+                    x={node.x + 8}
+                    y={node.y + 3.5}
+                    fontSize={10}
+                    className="fill-zinc-300"
+                  >
+                    {node.label}
+                  </text>
+                )}
+              </g>
+            );
+          })}
         </svg>
       )}
     </div>

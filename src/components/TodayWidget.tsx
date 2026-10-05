@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Fragment } from "react";
+import { CARD, HEADING, iconBadge } from "@/lib/ui";
 
 type TodayResponse = {
   path: string;
@@ -28,18 +29,18 @@ function renderInline(text: string, key: number) {
 function MarkdownLite({ content }: { content: string }) {
   const lines = content.split("\n");
   return (
-    <div className="flex flex-col gap-1 text-sm text-zinc-700 dark:text-zinc-300">
+    <div className="flex flex-col gap-1 text-sm text-zinc-300">
       {lines.map((line, i) => {
         if (line.startsWith("## ")) {
           return (
-            <p key={i} className="mt-2 font-semibold text-zinc-900 dark:text-zinc-100">
+            <p key={i} className="mt-2 font-semibold text-zinc-100">
               {renderInline(line.slice(3), i)}
             </p>
           );
         }
         if (line.startsWith("# ")) {
           return (
-            <p key={i} className="mt-2 text-base font-bold text-zinc-900 dark:text-zinc-100">
+            <p key={i} className="mt-2 text-base font-bold text-zinc-100">
               {renderInline(line.slice(2), i)}
             </p>
           );
@@ -50,7 +51,7 @@ function MarkdownLite({ content }: { content: string }) {
           return (
             <p key={i} className="flex items-start gap-1.5 pl-1">
               <span>{done ? "☑" : "☐"}</span>
-              <span className={done ? "text-zinc-400 line-through" : ""}>
+              <span className={done ? "text-zinc-500 line-through" : ""}>
                 {renderInline(checkboxMatch[2], i)}
               </span>
             </p>
@@ -86,14 +87,15 @@ export function TodayWidget() {
   }, []);
 
   return (
-    <div className="w-full max-w-md rounded-lg border border-zinc-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-      <h2 className="mb-2 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        Heute
-      </h2>
-      {error && <p className="text-sm text-red-500">{error}</p>}
-      {!data && !error && <p className="text-sm text-zinc-400">Lädt…</p>}
+    <div className={CARD}>
+      <div className="mb-3 flex items-center gap-2.5">
+        <span className={iconBadge("cyan")}>🏠</span>
+        <h2 className={HEADING}>Heute</h2>
+      </div>
+      {error && <p className="text-sm text-rose-400">{error}</p>}
+      {!data && !error && <p className="text-sm text-zinc-500">Lädt…</p>}
       {data && !data.exists && (
-        <p className="text-sm text-zinc-400">
+        <p className="text-sm text-zinc-500">
           Noch keine Daily Note für heute ({data.path.split("/").pop()}).
         </p>
       )}

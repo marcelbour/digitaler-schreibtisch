@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { CARD, HEADING, iconBadge } from "@/lib/ui";
 
 type Entry = {
   name: string;
@@ -56,33 +57,25 @@ function FolderNode({ path, name }: { path: string; name: string }) {
     <li>
       <button
         onClick={toggle}
-        className="flex w-full items-center gap-1.5 rounded px-1.5 py-1 text-left text-sm hover:bg-zinc-100 dark:hover:bg-zinc-800"
+        className="flex w-full items-center gap-1.5 rounded-lg px-1.5 py-1 text-left text-sm hover:bg-white/5"
       >
-        <span className="w-3 text-zinc-400">{open ? "▾" : "▸"}</span>
+        <span className="w-3 text-zinc-500">{open ? "▾" : "▸"}</span>
         <span>📁</span>
-        <span className="text-zinc-800 dark:text-zinc-200">{name}</span>
+        <span className="text-zinc-200">{name}</span>
       </button>
       {open && (
-        <div className="ml-4 border-l border-zinc-200 pl-2 dark:border-zinc-700">
-          {loading && (
-            <p className="px-1.5 py-1 text-xs text-zinc-400">Lädt…</p>
-          )}
-          {error && (
-            <p className="px-1.5 py-1 text-xs text-red-500">{error}</p>
-          )}
+        <div className="ml-4 border-l border-white/10 pl-2">
+          {loading && <p className="px-1.5 py-1 text-xs text-zinc-500">Lädt…</p>}
+          {error && <p className="px-1.5 py-1 text-xs text-rose-400">{error}</p>}
           {entries && (
             <ul>
               {entries.map((entry) =>
                 entry.isFolder ? (
-                  <FolderNode
-                    key={entry.path}
-                    path={entry.path}
-                    name={entry.name}
-                  />
+                  <FolderNode key={entry.path} path={entry.path} name={entry.name} />
                 ) : (
                   <li
                     key={entry.path}
-                    className="flex items-center gap-1.5 rounded px-1.5 py-1 pl-[1.125rem] text-sm text-zinc-600 dark:text-zinc-400"
+                    className="flex items-center gap-1.5 rounded-lg px-1.5 py-1 pl-[1.125rem] text-sm text-zinc-500"
                   >
                     <span>📄</span>
                     <span>{entry.name}</span>
@@ -90,7 +83,7 @@ function FolderNode({ path, name }: { path: string; name: string }) {
                 ),
               )}
               {entries.length === 0 && (
-                <li className="px-1.5 py-1 text-xs text-zinc-400">leer</li>
+                <li className="px-1.5 py-1 text-xs text-zinc-500">leer</li>
               )}
             </ul>
           )}
@@ -111,23 +104,22 @@ export function VaultBrowser() {
   }, []);
 
   return (
-    <div className="w-full max-w-md rounded-lg border border-zinc-200 bg-white p-4 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-      <h2 className="mb-2 text-sm font-semibold text-zinc-900 dark:text-zinc-100">
-        Vault-Übersicht
-      </h2>
+    <div className={CARD}>
+      <div className="mb-3 flex items-center gap-2.5">
+        <span className={iconBadge("amber")}>📁</span>
+        <h2 className={HEADING}>Vault-Übersicht</h2>
+      </div>
       {error && (
-        <p className="text-sm text-red-500">
+        <p className="text-sm text-rose-400">
           {error}
           <br />
-          <span className="text-xs text-zinc-400">
+          <span className="text-xs text-zinc-500">
             Läuft die App lokal (npm run dev) und Obsidian mit aktiviertem
             Local REST API Plugin?
           </span>
         </p>
       )}
-      {!entries && !error && (
-        <p className="text-sm text-zinc-400">Lädt…</p>
-      )}
+      {!entries && !error && <p className="text-sm text-zinc-500">Lädt…</p>}
       {entries && (
         <ul>
           {entries.map((entry) =>
@@ -136,7 +128,7 @@ export function VaultBrowser() {
             ) : (
               <li
                 key={entry.path}
-                className="flex items-center gap-1.5 rounded px-1.5 py-1 text-sm text-zinc-600 dark:text-zinc-400"
+                className="flex items-center gap-1.5 rounded-lg px-1.5 py-1 text-sm text-zinc-500"
               >
                 <span>📄</span>
                 <span>{entry.name}</span>
