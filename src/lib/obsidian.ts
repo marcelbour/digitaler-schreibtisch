@@ -66,7 +66,14 @@ export async function readNote(path: string): Promise<string | null> {
     if (!res.ok) {
       throw new ObsidianConnectionError(`Obsidian API antwortete mit ${res.status}`);
     }
-    return await res.text();
+    const text = await res.text();
+    // Notizen liegen im Vault teils mit CRLF-Zeilenenden und UTF-8-BOM vor
+    // (OneDrive / Windows-Editoren). Beides hier zentral wegnormalisieren,
+    // damit alle Widget-Parser verlaesslich auf LF-Zeilenenden und auf
+    // "---" am Dateianfang matchen koennen.
+    // Fundstelle 13.10.2026: Das To-Dos-Widget zeigte nichts an, weil der
+    // Regex /## Aktiv\n/ an einem CRLF-Zeilenende scheiterte.
+    return text.replace(/^\uFEFF/, "").replace(/\r\n/g, "\n");
   } catch (err) {
     if (err instanceof ObsidianConnectionError) throw err;
     throw new ObsidianConnectionError(
