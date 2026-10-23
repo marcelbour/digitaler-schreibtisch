@@ -20,7 +20,9 @@ export default function Home() {
         <div id="fokus">
           <CountdownWidget />
         </div>
-        <div id="todos">
+        {/* Doppelte Breite (24.10.2026): Die To-Do-Karte trägt ~26 Einträge und hatte
+            die schmalste Spalte – jede Überschrift brach auf zwei Wörter um. */}
+        <div id="todos" className="md:col-span-2">
           <TodoLists />
         </div>
         <div id="heute">
