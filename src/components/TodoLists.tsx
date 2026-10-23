@@ -113,11 +113,11 @@ export function TodoLists() {
       </div>
       {error && <p className="text-sm text-rose-400">{error}</p>}
       {!data && !error && <p className="text-sm text-zinc-500">Lädt…</p>}
-      {/* Untereinander statt nebeneinander (24.10.2026): In zwei Spalten blieben pro
-          Eintrag ~170px, da brach jede Überschrift auf zwei Wörter um. Gestapelt hat
-          jede Zeile die volle Kartenbreite – und genau darum ging es. */}
+      {/* Zwei Spalten (24.10.2026): Die Karte spannt jetzt die volle Seitenbreite, damit
+          bleiben pro Spalte ~600px statt der ~170px von vorher – da passt jede
+          Überschrift in eine Zeile. Unter md wird gestapelt, sonst wird es wieder eng. */}
       {data && (
-        <div className="flex flex-col gap-4">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-5 md:grid-cols-2">
           <TodoColumn title="Heute / dringend" items={data.heute} />
           <TodoColumn title="Diese Woche" items={data.woche} />
         </div>

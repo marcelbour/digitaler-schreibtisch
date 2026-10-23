@@ -16,17 +16,22 @@ export default function Home() {
         </h1>
         <p className="text-sm text-zinc-500">Alles Wichtige auf einen Blick.</p>
       </div>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+      {/* items-start (24.10.2026): Ohne das zieht das Grid jede Karte auf die Höhe der
+          höchsten in ihrer Reihe – der Countdown wurde dadurch zur lilafarbenen
+          Riesenfläche. Jetzt ist jede Karte so hoch wie ihr Inhalt. */}
+      <div className="grid grid-cols-1 items-start gap-6 md:grid-cols-2 xl:grid-cols-3">
+        {/* Reihe 1: Countdown oben links als kompakter Kasten – das Erste, was man
+            sieht. Von Marcel am 24.10. so bestellt. */}
         <div id="fokus">
           <CountdownWidget />
         </div>
-        {/* Doppelte Breite (24.10.2026): Die To-Do-Karte trägt ~26 Einträge und hatte
-            die schmalste Spalte – jede Überschrift brach auf zwei Wörter um. */}
-        <div id="todos" className="md:col-span-2">
-          <TodoLists />
-        </div>
         <div id="heute">
           <TodayWidget />
+        </div>
+        {/* Reihe 2: To-Dos über die volle Seitenbreite. "Heute" links, "Diese Woche"
+            rechts – die Aufteilung macht TodoLists selbst. */}
+        <div id="todos" className="md:col-span-2 xl:col-span-3">
+          <TodoLists />
         </div>
         <div id="kalender" className="md:col-span-2 xl:col-span-3">
           <CalendarWidget />
