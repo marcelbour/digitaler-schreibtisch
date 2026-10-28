@@ -243,7 +243,13 @@ function Fahrstunden({ data }: { data: Budget }) {
             className="flex items-center gap-2 text-xs"
             title={f.hinweis}
           >
-            <span>{f.status === "gefahren" ? "✅" : "⏳"}</span>
+            <span>
+              {f.status === "gefahren"
+                ? "✅"
+                : f.status === "abgesagt"
+                  ? "🚫"
+                  : "⏳"}
+            </span>
             <span className="w-12 shrink-0 tabular-nums text-zinc-400">
               {tag(f.datum)}
             </span>
@@ -252,7 +258,11 @@ function Fahrstunden({ data }: { data: Budget }) {
                 f.inhalt.length ? "truncate text-zinc-300" : "text-zinc-600"
               }
             >
-              {f.inhalt.length ? f.inhalt.join(" + ") : "offen"}
+              {f.status === "abgesagt"
+                ? "abgesagt – nachbuchen"
+                : f.inhalt.length
+                  ? f.inhalt.join(" + ")
+                  : "offen"}
             </span>
             {f.hinweis && <span className="ml-auto shrink-0">🦷</span>}
           </div>

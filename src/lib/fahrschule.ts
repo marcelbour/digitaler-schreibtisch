@@ -31,7 +31,10 @@ export type Fahrstunde = {
   nr: number;
   datum: string;
   dauer_min: number;
-  status: "gefahren" | "geplant";
+  // "abgesagt" seit 29.10.2026: Die Fahrstunde vom 30.10. wurde abgesagt und
+  // muss nachgebucht werden. Vorher fiel alles ausser "gefahren" auf "geplant"
+  // zurueck - eine Absage haette also wie ein fester Termin ausgesehen.
+  status: "gefahren" | "geplant" | "abgesagt";
   inhalt: string[];
   hinweis?: string;
 };
@@ -174,7 +177,12 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
       nr: requireNumber(row.nr, `fahrstunden[${i}].nr`),
       datum: String(row.datum ?? "").slice(0, 10),
       dauer_min: requireNumber(row.dauer_min, `fahrstunden[${i}].dauer_min`),
-      status: row.status === "gefahren" ? "gefahren" : "geplant",
+      status:
+        row.status === "gefahren"
+          ? "gefahren"
+          : row.status === "abgesagt"
+            ? "abgesagt"
+            : "geplant",
       inhalt,
       hinweis: row.hinweis ? String(row.hinweis) : undefined,
     } satisfies Fahrstunde;

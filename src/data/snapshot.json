@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-28T22:33:04.779Z",
+  "generatedAt": "2026-10-28T23:27:44.091Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-10-28T22:33:04.232Z",
+      "capturedAt": "2026-10-28T23:27:43.143Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -25,7 +25,7 @@
             "betrag": 38.3
           }
         ],
-        "sonderfahrtenOffen": 11,
+        "sonderfahrtenOffen": 9,
         "sonderfahrtenKosten": 1068,
         "uebungsstundenGefahren": 1,
         "uebungsstundenGeplant": 6,
@@ -97,7 +97,7 @@
           {
             "art": "Überland",
             "pflicht": 5,
-            "gefahren": 1
+            "gefahren": 3
           },
           {
             "art": "Autobahn",
@@ -125,8 +125,11 @@
             "nr": 2,
             "datum": "2026-10-28",
             "dauer_min": 90,
-            "status": "geplant",
-            "inhalt": []
+            "status": "gefahren",
+            "inhalt": [
+              "Überland",
+              "Überland"
+            ]
           },
           {
             "nr": 3,
@@ -139,8 +142,9 @@
             "nr": 4,
             "datum": "2026-10-30",
             "dauer_min": 90,
-            "status": "geplant",
-            "inhalt": []
+            "status": "abgesagt",
+            "inhalt": [],
+            "hinweis": "Von Marcel am 28.10. abgesagt. Rechtzeitig, also keine Ausfallgebühr. Muss nachgebucht werden."
           },
           {
             "nr": 5,
@@ -161,7 +165,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-10-28T22:33:04.604Z",
+      "capturedAt": "2026-10-28T23:27:43.874Z",
       "data": {
         "nodes": [
           {
@@ -776,66 +780,6 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "05 Daily Notes/2026-10-17"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
-          },
-          {
             "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
           },
@@ -862,6 +806,10 @@
           {
             "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "00 Kontext/Vault-Durchsicht 2026-10-17"
           },
           {
             "source": "00 Kontext/Erinnerungen",
@@ -916,6 +864,18 @@
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "02 Projekte/Abitur",
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
@@ -968,24 +928,48 @@
             "target": "CLAUDE"
           },
           {
-            "source": "02 Projekte/Führerschein - Budget (Daten)",
-            "target": "02 Projekte/Führerschein"
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
           {
-            "source": "02 Projekte/Führerschein",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
           },
           {
-            "source": "02 Projekte/Führerschein",
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "05 Daily Notes/2026-10-17"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
             "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
           },
           {
-            "source": "02 Projekte/Führerschein",
-            "target": "02 Projekte/Abitur"
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "02 Projekte/Führerschein",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
           },
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
@@ -1006,6 +990,26 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/Führerschein - Budget (Daten)",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
@@ -1036,16 +1040,20 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
@@ -1088,12 +1096,16 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
@@ -1110,6 +1122,10 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
@@ -1188,6 +1204,10 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
             "source": "03 Bereiche/Finanzen/Finanzen",
             "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
           },
@@ -1196,28 +1216,28 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/Abitur"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
             "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
             "target": "05 Daily Notes/2026-09-15"
-          },
-          {
-            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
@@ -1260,40 +1280,16 @@
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-12"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-28"
+            "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
+            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
             "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
@@ -1328,20 +1324,28 @@
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/Abitur"
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-11"
           },
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-12"
           },
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-28"
           },
           {
             "source": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
@@ -1354,6 +1358,18 @@
           {
             "source": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
           },
           {
             "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
@@ -1380,28 +1396,12 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "05 Daily Notes/2026-09-25"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "02 Projekte/Abitur"
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
           },
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
             "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
-            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
@@ -1422,10 +1422,6 @@
           {
             "source": "04 Ressourcen/Schule/Noten (Daten)",
             "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
             "source": "04 Ressourcen/Schule/Noten (Daten)",
@@ -1464,6 +1460,18 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-25"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "02 Projekte/Abitur"
+          },
+          {
             "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -1500,6 +1508,18 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
             "source": "05 Daily Notes/2026-09-16",
             "target": "00 Kontext/Kalender-Kategorien"
           },
@@ -1514,18 +1534,6 @@
           {
             "source": "05 Daily Notes/2026-09-16",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "05 Daily Notes/2026-09-21",
@@ -1800,10 +1808,6 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "05 Daily Notes/2026-10-16",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
             "source": "05 Daily Notes/2026-10-17",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
@@ -1832,12 +1836,36 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
-            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+            "source": "05 Daily Notes/2026-10-16",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "05 Daily Notes/2026-10-19"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "05 Daily Notes/2026-10-20"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "05 Daily Notes/2026-10-20",
@@ -1904,22 +1932,6 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
             "source": "05 Daily Notes/2026-10-24",
             "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
           },
@@ -1946,6 +1958,22 @@
           {
             "source": "05 Daily Notes/2026-10-24",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "05 Daily Notes/2026-10-25",
@@ -2130,36 +2158,12 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-10-28T22:33:04.639Z",
+      "capturedAt": "2026-10-28T23:27:43.968Z",
       "data": {
         "tage": [
           {
@@ -2701,11 +2705,11 @@
         ],
         "tageGesamt": 3,
         "letzterEintrag": "2026-10-28",
-        "tageSeitLetztem": 0
+        "tageSeitLetztem": 1
       }
     },
     "noten": {
-      "capturedAt": "2026-10-28T22:33:04.674Z",
+      "capturedAt": "2026-10-28T23:27:43.987Z",
       "data": {
         "halbjahre": [
           {
@@ -3541,7 +3545,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-10-28T22:33:04.708Z",
+      "capturedAt": "2026-10-28T23:27:44.029Z",
       "data": {
         "projects": [
           {
@@ -3590,9 +3594,14 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-10-28T22:33:04.736Z",
+      "capturedAt": "2026-10-28T23:27:44.051Z",
       "data": {
         "heute": [
+          {
+            "icon": "🏫",
+            "title": "Morgen früh entscheiden: Schule oder Tag zu Hause?",
+            "details": "Marcel hat das am Abend des 28.10. angesprochen (*„vielleicht auch mal wieder Homeoffice einlegen\"*) und **bewusst offen gelassen** – die Entscheidung sollte ausgeschlafen fallen, nicht müde um 22:30. Donnerstag ist sein schlechtester Tag: Deutsch beim strengsten Lehrer in Stunde 1–2, dann Sporttheorie, dann Kunst, danach Fahrstunde, App, W-Seminar, Training, Teambesprechung. ⚠️ **Das Notenrisiko liegt allein bei Deutsch** – Problemfach der Einbringung (12/2 von 10 auf **7**, großer LN 4,00 Punkte), laufende Kafka-Lektüre, die er nicht gelesen hat, und schon eine 3 aus „unvorbereitet drangezogen\". Sporttheorie und Kunst sind ohne Risiko. ➡️ **Bleibt er daheim: Vormittag sofort als W-Seminar-Block anlegen** – ein freier Donnerstagmorgen wären ~4 Stunden für Kapitel 3."
+          },
           {
             "icon": "🚗",
             "title": "Fahrstunde nachbuchen – der 30.10. ist abgesagt und es fehlen jetzt FÜNF Sonderfahrten ohne Termin",
@@ -3640,6 +3649,31 @@
           }
         ],
         "woche": [
+          {
+            "icon": "💰",
+            "title": "Bio bei Frau Schönawa nachfragen – es geht um einen ganzen Notenpunkt (8 → 9)",
+            "details": "Bei Aufgabe 2.1 („zwei Voraussetzungen für das Ruhepotential\") hat Marcel **„chemischer Gradient\"** geschrieben. Im Unterrichtsheft steht wörtlich *„Chemischer Gradient (Konzentrationsgefälle)\"* für den **Konzentrationsunterschied der Ionen** – also **Voraussetzung 1, nur anders benannt**; die Beschreibung dazu hat sie selbst **zweimal abgehakt**. Bei 5 BE für zwei Voraussetzungen wären ~2,5 BE zu erwarten, vergeben wurden **1,5**. **13,0 von 20 BE sind die Grenze zu 9 Punkten** – 12,5 + 1 = 13,5. ➡️ **Als Verständnisfrage stellen, nicht als Forderung** – Formulierungsvorschlag steht in [[04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert).md]]. ⚠️ Gegenrede ist möglich (die vermischte Darstellung könnte den richtigen Teil entwerten). **Marcel entscheidet, ob er es anspricht.**"
+          },
+          {
+            "icon": "📊",
+            "title": "Entscheidung offen: BGB-Normen doch lernen?",
+            "details": "Die Testanalyse vom 28.10. zeigt, dass im Wirtschaft-LN vom 16.10. **rund 2 von 4,5 verlorenen BE einfach leere Normfelder** waren – die Fallzuordnung war **überall richtig**. Auf dem Angabenblatt steht fett: *„…und **nennen Sie die Normen des BGB**.\"* Rechnerisch wären es mit den Normen **~13 statt 11 Punkte** gewesen. ⚠️ **Das widerspricht Marcels eigener Regel** („keine Paragrafen auswendig abfragen\"), die er **am Abend genau dieses Tests** aufgestellt hat. 💡 **Mittelweg-Vorschlag:** nicht das BGB, sondern die **8–10 Kernnormen des Leistungsstörungsrechts** (§§ 275, 280, 281, 283, 323, 324, 241 II, 278, 434) als 2-Minuten-Aufwärmrunde. ➡️ **Marcel entscheidet** – bis dahin bleibt die Regel. Details: [[04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht.md]]."
+          },
+          {
+            "icon": "🇫🇷",
+            "title": "Französisch: Die Vorbereitung zielt auf die falschen 40 %",
+            "details": "Testanalyse 28.10.: Teil A (Vokabular, 40 % Gewicht) liegt auf **14-Punkte-Niveau**, Teil B+C (eigene Interpretation, **60 %**) bei 8/9. Im Vault gibt es nur eine **Vokabel- und Wendungssammlung** – also Material für den Teil, der ohnehin sitzt. **Für 60 % des Gewichts existiert nichts.** ➡️ Nächste Französisch-Session: **keine Vokabeln, sondern Interpretationstiefe** – auf jede Aussage „Comment ? Pourquoi ? Quelles conséquences ?\" nachsetzen, bis drei Ebenen stehen. Übungen stehen in [[04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch.md]]."
+          },
+          {
+            "icon": "🧬",
+            "title": "Bio: fünf Übungsaufgaben im Stil von Schönawa warten auf einen Termin",
+            "details": "Die Testanalyse vom 28.10. hat ergeben: **keine einzige echte Wissenslücke** – alle 7,5 verlorenen BE kamen aus der Art zu antworten. Teuerster Posten: **Operator missverstanden** (*„zwei Voraussetzungen\"* beantwortet mit dem Ablauf, −3,5 BE), obwohl die Antwort als Überschrift in der eigenen Lernnotiz stand. ➡️ Die fünf Aufgaben stehen fertig in [[04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie.md]], **schriftlich auf kariertem Papier** zu bearbeiten. ⚠️ **Noch kein Bio-Termin in der Klausurenphase ab 16.11. verifiziert** – sobald er feststeht, die Aufgaben einem Kalendertermin zuordnen, sonst passieren sie nicht."
+          },
+          {
+            "icon": "💻",
+            "title": "Dashboard startet nicht von allein – „localhost hat die Verbindung abgelehnt\" kam am 28.10. zum ersten Mal",
+            "details": "Ursache war simpel: **`npm run dev` lief nicht**, es lauschte nichts auf Port 3000. Der Server wurde manuell gestartet, aber er ist **nach jedem Neustart des PCs wieder weg**. ✅ **Teil 1 ist am 29.10. nachts gelöst:** Das Dashboard zeigt jetzt bei nicht erreichbarem Obsidian den **letzten Schnappschuss** statt einer leeren Seite, mit gelbem Offline-Band und Stand-Anzeige (Commit `6432a48`). ⏳ **Offen bleibt die Automatik:** ➡️ **Autostart einrichten** – in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]] steht seit dem 16.09. der fertige Vorschlag: Windows Task Scheduler, Trigger „Bei Anmeldung\", Skript wechselt nach `C:SERSMARCEPROJECTSDIGITALER-SCHREIBTISCH` UND STARTET `NPM RUN DEV` MINIMIERT. **SOLANGE DAS NICHT LäUFT, IST DAS DASHBOARD NUR ERREICHBAR, WENN VORHER JEMAND DEN SERVER STARTET** � UND GENAU DAS FäLLT NIEMANDEM EIN, WENN MAN SCHNELL DRAUFSCHAUEN WILL."
+          },
           {
             "icon": "💰",
             "title": "Führerschein: Das Elternbudget von 2.400 € ist überschritten – Eigenanteil mindestens 837,12 €",
@@ -3764,15 +3798,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-10-28T22:33:04.756Z",
+      "capturedAt": "2026-10-28T23:27:44.073Z",
       "data": {
-        "path": "05 Daily Notes/2026-10-28.md",
-        "exists": true,
-        "content": "# 2026-10-28 (Mittwoch)\n\n> [!info] Diese Notiz ist am Abend um 19:3x angelegt worden\n> Marcel hat mit „Was steht an\" eingestiegen, kurz vor dem W-Seminar-Block. Alles davor ist aus Kalender und Rückmeldungen rekonstruiert, nicht live mitgeschrieben.\n\n## ✅ Was heute belegt gelaufen ist\n\n| Was | Stand |\n|---|---|\n| 🏫 Schule | Französisch 08:00 · Biologie 09:50 · Informatik 11:40 |\n| 🚗 **Fahrstunde 2/5 (Muzi), 15:30–17:00** | ✅ **2 Überlandfahrten** – von Marcel bestätigt |\n| 🚗 **Fahrschul-App, 1 Stunde** | ✅ **In der Schule erledigt**, wie am 27.10. angekündigt |\n| 🧬 **Bio-Test vom 12.10. zurück** | 😞 **8 Punkte** |\n| 💻 **Dashboard** | ✅ **Committet und gepusht** |\n\n## 🧬 Bio-Test: 8 Punkte – und was daran die eigentliche Nachricht ist\n\nMarcels Reaktion: *„Enttäuschende 8 Punkte, so eine Scheiße.\"* Er schickt den korrigierten Test und lädt ihn hoch.\n\n**Die Zahl ist eingetragen** in [[04 Ressourcen/Schule/Noten & Leistungsnachweise Q13.md]] und in [[04 Ressourcen/Schule/Noten (Daten).md]] (`13/1 → Biologie → klein_noten`). Damit ist **kein Ergebnis des Halbjahres mehr offen** – der Test war 16 Tage unterwegs.\n\n⚠️ **Der Befund, der bleibt:** Die Lehre vom 16.10. („Marcels Bauchgefühl ist eher zu pessimistisch\") ist so **nicht haltbar**. Direkt nach dem Test am 12.10. hieß es „lief gut\" / „in Ordnung\" – es wurden 8 Punkte. Bei Wirtschaft und Französisch lag das Gefühl zu tief, hier deutlich zu hoch. Die engere Regel passt besser: Wo **vorher gelernt und geübt** wurde (Deutsch 13, Informatik 12, Wirtschaft 11), trifft die Einschätzung. Wo sie nur aus „war machbar\" kommt, nicht.\n\n➡️ **Wenn der Scan da ist:** Punkteaufstellung durchgehen und schauen, **wo** die BE weggegangen sind. Das ist die verwertbare Information, nicht die 8. Zielort für das Foto: `Claude Files/01 Schule/Biologie/`.\n\n## 🚗 Fahrstunde 2/5: die Vermutung hat genau gestimmt\n\n**2 Überlandfahrten**, keine Übungsstunde – also **keine 89 € extra**. Marcels Einschätzung vom 26.10. (*„wahrscheinlich 2 Überland\"*) war richtig.\n\n**Neuer Sonderfahrten-Stand:** Überland **3 von 5** · Autobahn **0 von 4** · Dämmerung/Dunkelheit **0 von 3** → **3 von 12 gefahren, 9 offen = 801,00 €**. Eingetragen in [[02 Projekte/Führerschein.md]].\n\n⚠️ **Steht aber nur so lange, wie die Termine standen** – siehe den Abschnitt zur Absage weiter unten: Mit dem Wegfall des 30.10. fehlen **5 Sonderfahrten ohne Termin**, nicht mehr 3.\n\n## 💻 Dashboard: gepusht – und dabei kam ein zweiter Fund heraus\n\nMarcel hat gefragt, was Committen überhaupt ändert („Kann ich danach nicht mehr editieren?\"). Geklärt: Es ändert nichts an der Editierbarkeit, es macht den Stand nur **auf Vercel sichtbar** und jederzeit zurückdrehbar. Daraufhin: *„Ja, mach.\"*\n\n- `npx tsc --noEmit` **sauber** (Exit 0), dann commit `338418d` „Drei neue Widgets: Fahrschul-Budget, Noten und Habits\" – 13 Dateien, +2.620 Zeilen.\n- 🔴 **Der eigentliche Fund:** Der Push ging von `1db3e0b` auf `338418d` – es sind **drei** Commits rausgegangen, nicht einer. Die beiden älteren („Dashboard-Layout: Countdown oben links\" und „To-Do-Widget als Akkordeon\") lagen **ebenfalls unveröffentlicht lokal**. Das ist **zum dritten Mal** dasselbe Muster nach dem 13.10. und dem 05.10.\n- ➡️ **Daraus folgt eine Regel, keine Aufgabe:** Nach jedem fertigen Arbeitsschritt am Dashboard entweder sofort pushen oder den offenen Stand in die Projektnotiz schreiben. „Später\" hat hier dreimal „wochenlang\" bedeutet.\n\n## 🚫 Fahrstunde Freitag 30.10. abgesagt – Folge größer als der Termin\n\nVon Marcel am Abend gemeldet, rechtzeitig, also **keine 178-€-Ausfallgebühr**. Kalender und [[02 Projekte/Führerschein.md]] sind nachgezogen:\n\n- 🌅 Morgenroutine Fr zurück auf die **Freitagsregel 07:00** (die 06:00-Ausnahme gab es nur wegen der Fahrstunde)\n- 🔎 Recherche Kapitel 5 von 06:50–07:45 auf **08:00–09:15** verlängert (75 statt 55 Min, 35 Min Puffer bis Mathe 09:50)\n- 📋 [[02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md]] an beiden Stellen korrigiert\n\n🔴 **Der eigentliche Befund:** Die Rechnung vom 26.10. („die Termine 2–5 deckten genau die 8 Nicht-Nachtfahrten ab\") ist aufgebrochen. **Jetzt fehlen 5 Sonderfahrten ohne Termin statt 3** – 2 Überland/Autobahn plus die 3 Nachtfahrten. Es braucht also **drei** weitere Doppelstunden statt zwei. Die Praxisprüfung setzt alle 12 voraus und rutscht sonst in die Klausurenphase ab 16.11.\n\n## 🔗 „Live-URL\" – und eine Korrektur von mir\n\nMarcel hat gefragt, was damit gemeint ist: **https://digitaler-schreibtisch.vercel.app**, die öffentliche Adresse, die Vercel bei jedem Push auf `main` neu baut.\n\n⚠️ **Ich hatte vorher falsch gesagt, die Widgets seien dort „in 1–2 Minuten\" sichtbar.** Im Code nachgesehen: `api/noten`, `api/fahrschule` und `api/habits` holen ihre Daten alle über `readNote` aus `src/lib/obsidian.ts`, und das greift auf **`127.0.0.1`** zu – Obsidians Local REST API. Auf Vercel läuft kein Obsidian, also liefern die drei Widgets dort keine Daten. Das ist dieselbe Einschränkung, die seit dem 16.09. in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]] steht; die Tunnel-Lösung ist nach wie vor nicht gebaut.\n**Was das Pushen trotzdem gebracht hat:** Der Code ist aus dem Schwebezustand raus und liegt auf GitHub.\n\n## 🌙 Abend-Check (22:2x–22:4x)\n\n| Habit | Stand |\n|---|---|\n| 🛏️ Aufstehen | **07:33** statt 06:00 – *„so verklatscht aufgewacht\"* |\n| 😴 Schlaf | Bett ~**00:00**, also **7,5 h** – Menge fast passend, **Qualität schlecht** |\n| 🌅 Morgenroutine | ✗ **nur Zähneputzen** – Wasser, Dehnen, Nachrichten, Duschen fehlten |\n| 🚗 Fahrschul-App | ✅ **60 Min**, in der Schule |\n| ⌨️ 10-Finger | ✗ |\n| 🇬🇧 Englisch | ✗ |\n| 📕 Lesen | ✗ (*„sehr unwahrscheinlich\"* – meldet sich, falls doch) |\n| 🏊 Schwimmen (Mi fällig) | ✗ **ausgefallen** – der Tag gab es nicht her |\n| 📝 W-Seminar | ✗ **gar nicht angefangen** |\n\n### 🩹 Nacken und Rücken – neu, aber kein Arztfall\n\n*„Schlimm war es auf jeden Fall jetzt nicht, aber es war schon sehr unangenehm über den Tag.\"* Ursache vermutlich falsch gelegen. **1,5 Stunden im Auto waren nicht förderlich.**\n✅ **Besser geworden durch Bewegung:** 17:30–18:30 war er mit Freunden **Padel** spielen, *„da ging es dann mit der Bewegung auch in Ordnung\"*. ⛔ **Kein Arzt nötig** – Marcels eigene Einschätzung.\n➡️ Morgen beim Training mitfragen, zusammen mit dem Knöchel. Und: **Dehnen** aus der Morgenroutine wäre hier der konkrete Hebel – es fehlt seit Tagen.\n\n### 📉 Der Tag in einem Satz\n\nAlles, was von außen getaktet war, hat funktioniert – Schule, Fahrstunde, App in der Schule, Padel mit Freunden. **Alles, was Marcel selbst ansetzen musste, ist ausgefallen** – Morgenroutine, 10-Finger, Englisch, Lesen, Schwimmen und der 2,5-Stunden-W-Seminar-Block. Nach der Schule hat er erst **45 Minuten gedöst**, dann gegessen, dann war schon Fahrschule.\n\n## 📍 NÄCHSTER SCHRITT (bei Rückkehr)\n\n### 1. 🔴 W-Seminar 3.2 Absatz C – ZUM DRITTEN MAL AUSGEFALLEN (26., 27., 28.10.)\n\nDer Block 19:30–22:00 hat **gar nicht stattgefunden**, von Marcel bestätigt. Ersatz ist **sofort gelegt**, wie es die Regel verlangt:\n\n🗓️ **Neu: Do 29.10., 17:15–18:30** – der Slot, in dem vorher „4.3 Folgen der Finanzkrise\" stand. Begründung: Marcels eigene Entscheidung vom 26.10. war **Kapitel 3 wird zuerst fertig**; ein Kapitel-4-Block vor dem unfertigen Kapitel 3 widerspricht dem.\n\n1. Gleichung `0,0165 = 0,88·x + 0,09·0,0287 + 0,02·0,045 + 0,01·0,1185` nach `x` auflösen – **Marcel rechnet, Claude prüft nach**\n2. Absatz C (85–95 W.), **Fußnote 19**\n3. Wenn die Zeit reicht: Absatz D (Bayes, 65–75 W.), **Fußnote 20**, Schreibweise `P_B(A)`\n\n⚠️ **75 Minuten sind für alle drei Schritte knapp.** Realistisch sind Gleichung + C; D braucht voraussichtlich einen weiteren Slot.\n⚠️ **Kapitel 4.3 hat jetzt KEINEN Slot mehr.** Das ist bewusst offen gelassen und gehört in die Seitenbudget-Entscheidung.\n\n### 2. 🔴 Seitenbudget-Entscheidung – morgen ist der letzte sinnvolle Tag\n\nSeit dem 26.10. aufgeschoben, **Do 29.10.** war der selbst gesetzte Termin. Es fehlen ~2.520 Wörter ≈ 37 h, im Kalender stehen ~21 h – und davon sind diese Woche schon **2,5 h ungenutzt verfallen**. Die Rohfassung am **01.11.** ist rechnerisch nicht zu halten.\n🔁 **Mit zu entscheiden:** Der Freitagabend-Block (Fr 17:45–20:15, 2,5 h, aktuell „Kapitel 5 Regulierung\") steht im selben Widerspruch wie der Donnerstagsblock – Kapitel 5 vor dem unfertigen Kapitel 3. Hintergrund in [[05 Daily Notes/2026-10-27.md]].\n\n### 3. 🏫 Offen: bleibt Marcel morgen zu Hause?\n\nEr hat es abends angesprochen (*„vielleicht auch mal wieder Homeoffice einlegen\"*) und **nicht entschieden**. Grund: Donnerstag ist sein schlechtester Tag – Deutsch beim strengsten Lehrer in Stunde 1–2, dann Sporttheorie, dann Kunst, danach Fahrstunde, App, W-Seminar, Training, Teambesprechung.\n**Vereinbarung:** nicht abends im müden Zustand entscheiden, sondern **morgen früh**. Bleibt er daheim, wird der Vormittag sofort als W-Seminar-Block angelegt.\n⚠️ **Das Risiko liegt allein bei Deutsch** – Problemfach der Einbringung (12/2 von 10 auf **7** gefallen, großer LN 4,00 Punkte), laufende Kafka-Lektüre, die er nicht gelesen hat, und schon eine 3 aus „unvorbereitet drangezogen\". Sporttheorie und Kunst sind ohne Notenrisiko.\n\n### 4. 🩹🚗 Morgen abfragen\n\n- **Knöchel** (Außenrist besser/gleich/schlechter – gleich oder schlechter → Arzt) **und Rücken** beim Training\n- **Fahrstunde 3/5**, 13:30–15:00: welche Art gefahren wurde. Günstigere Uhrzeit als heute, also ohne Dämmerung und Berufsverkehr\n- Ob die **Fahrstunde vom 30.10. und die 3 Nachtfahrten** bei Muzi nachgebucht wurden\n\n### 5. ❓ Weiter offen, mehrfach nicht beantwortet\n\n- **Kafka/Deutsch:** Hat die Zusammenfassung in der Stunde am 27.10. gereicht?\n- **Zwei Diktatstellen** vom 27.10. – nicht interpretieren, nachfragen:\n  - *„Das ist jetzt das Englisch-Wesenar. Den muss ich jetzt mal nicht ganz durchlesen.\"*\n  - *„Die Ernährung, ja, genau, meint das Fazit.\"*\n\n---\n\n## 🌙 Nachtrag (22:4x–23:0x)\n\n### 💻 „localhost hat die Verbindung abgelehnt\" – Ursache gefunden\n\nMarcel kam nicht ins Dashboard. **Grund: `npm run dev` lief nicht**, auf Port 3000 lauschte nichts (`netstat` leer). Manuell gestartet → Next.js 16.3.5, „Ready in 1077ms\", **http://localhost:3000** erreichbar.\n⚠️ **Das kommt wieder.** Der Dev-Server ist nach jedem PC-Neustart weg. Der Autostart-Vorschlag (Task Scheduler, Trigger „Bei Anmeldung\") steht seit dem **16.09.** ungenutzt in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]] – jetzt als Erinnerung eingetragen, weil es heute das erste Mal wirklich gestört hat.\n\n### 🧬 Bio-Test übertragen – und der Befund ist ein anderer als erwartet\n\nFünf Fotos hochgeladen (`bio.zip`, 22:41), einsortiert nach `Claude Files/01 Schule/Biologie/Bio-Test 12.10.2026 (korrigiert)/`, Root wieder leer. Vollständige Übertragung: [[04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert).md]].\n\n**1. Stegreifaufgabe Biologie 13/1**, Kurs 2b3, Lehrkraft **Schönawa**, korrigiert am 25.10.26. **8 Punkte = 12,5 von 20 BE** (62,5 %).\n\n| Aufgabe | erreicht/möglich | Verlust |\n|---|---|---|\n| 1 Nervenbestandteile | 3/3 | – |\n| **2.1 Voraussetzungen Ruhepotential** | **1,5/5** | **−3,5** |\n| 2.2 Zustandekommen durch K⁺ | 2,5/3 | −0,5 |\n| 2.3 Sauerstoff/ATP | 2/3 | −1 |\n| 3 Gramicidin-A-Hypothese | 1,5/3 | −1,5 |\n| 4 Szenarien a–c | 2/3 | −1 |\n\n🎯 **Der eigentliche Befund:** **Fast die Hälfte des Verlusts steckt in einer einzigen Teilaufgabe.** Bei 2.1 war nach *Voraussetzungen* gefragt, geantwortet wurde mit dem *Ablauf* – der elektrische Gradient ist laut Korrektur „eher Folge! ⇒ keine Ausgangsvoraussetzung\". Die fehlende zweite Voraussetzung war die **Selektivität der Membran**. **Mit 2.1 richtig wären es 16/20 BE gewesen.**\n\nDie restlichen Abzüge sind ein einziges Muster: **fehlende Fachbegriffe**. „Kaliumpumpe\" statt *Natrium-Kalium-Pumpe*, „Neutralisation\" statt *Ausgleich der Kräfte*, kein *Kaliumgleichgewichtspotenzial* – obwohl der Begriff **wörtlich in Material 2 stand**. Dazu eine erfundene Zahl („60 mV\") bei Aufgabe 3.\n\n💡 **Das korrigiert die Einschätzung von vorhin.** Ich hatte heute Abend geschrieben, Marcels „lief gut\" sei eine Fehleinschätzung gewesen. Stimmt nur halb: **Bei vier von sechs Aufgaben lag er richtig.** Die Fehleinschätzung kam allein aus 2.1 – einer Aufgabe, bei der er die Frage missverstanden hat, ohne es merken zu können. Das ist kein zu optimistisches Bauchgefühl, sondern ein blinder Fleck. **Gegen beides hilft etwas anderes.**\n\n✅ **Geklärt:** Die rote **„4\"** oben rechts ist **keine Note** – Marcel ist Nummer 4 in der Namensliste, die Zahl dient der Lehrkraft nur zum Sortieren.\n\n### 📊 `/testanalyse` gebaut – und sofort komplett am Bio-Test durchgezogen\n\nMarcel hat den Befehl am 28.10. bestellt: *„Jedes Mal, wenn du einen Test hochgeladen bekommst, gleichst du den mit den Materialien ab … Du beherzigst das dann für den nächsten Test und stellst dann mehr so Aufgaben, wie es im Test ist.\"* Liegt als `/testanalyse [Fach]` in `.claude/commands/`, in CLAUDE.md eingetragen, läuft ab jetzt automatisch bei korrigierten Arbeiten.\n\n**Die vollständige Analyse am Bio-Test hat drei Dinge ergeben, die alle nicht in der Note stehen:**\n\n1. **💰 0,5 BE haben zu 9 Punkten gefehlt.** Die Korrektur ist rechnerisch sauber (12,5/20 = 62,5 %, Band 60–<65 % = 8 P.), es gibt **nichts zu reklamieren**. Aber die 9-Punkte-Grenze liegt bei 13,0 BE – und der fehlende halbe Punkt steht namentlich in der Korrektur: `½ Selektivität der Membran`.\n2. **🔴 Null echte Wissenslücken.** Alle 7,5 verlorenen BE stammen aus der *Art* zu antworten: Operator missverstanden (−3,5), Fachbegriffe (3×), fehlende Begründung/Schlusssatz (2×), Transfer (2×), erfundene Zahl (1×). **Der Stoff saß.**\n3. **📄 Drei Abzüge betrafen Angaben, die wörtlich im Angabenblatt standen** – das Kaliumgleichgewichtspotenzial im letzten Satz von M2, „Na⁺ **und** K⁺\" in M3, die Durchlässigkeitsregel in M4. **Es wurde aus dem Gedächtnis geantwortet statt aus dem Material.**\n\n> [!danger] 🎯 Der Befund, der am meisten wehtut\n> **Die Antwort auf die teuerste Aufgabe stand als Überschrift in Marcels eigener Lernnotiz.**\n> [[04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung.md]], Kapitel 4: „**Voraussetzung 1: Konzentrationsunterschiede der Ionen**\" und „**Voraussetzung 2: Selektive Permeabilität der Membran**\".\n> Die Testfrage lautete: *„Beschreiben Sie zwei Voraussetzungen für das Ruhepotential.\"* Die Notiz hatte die Antwort in der exakt gefragten Form **und** Anzahl. Geantwortet wurde mit dem Abschnitt darunter.\n> **Das ist kein Wissensproblem, das ist ein Zugriffsproblem.**\n\n**Warum die Vorbereitung es nicht gefunden hat:** Am 11.10. liefen ~4 h Bio mit zwei Abfragerunden, am 12.10. um 07:10 noch eine Stolperfallen-Runde. Alles gut gemacht – aber **jede Frage zielte auf Mechanismen und Unterscheidungen** („Wie entsteht das Ruhepotenzial?\", „Gradient vs. Potenzial\"). **Kein einziges Mal wurde die Gliederung der Notiz selbst abgefragt.** Und: **von den vier geübten Stolperfallen kam keine einzige im Test vor.**\n\n➡️ Neu angelegt: [[04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie.md]] – Operatoren mit BE-Gewicht, Reproduktion 70 % vs. Transfer 30 %, Korrekturstil Schönawa, **fünf Übungsaufgaben im Stil dieses Tests**. ⚠️ Basis ist **ein** Test, also Verdacht, kein Muster.\n➡️ Warnhinweis direkt in die Lernnotiz an Kapitel 4 gesetzt.\n➡️ `/lernen` korrigiert: Biologie zählt nicht mehr als Beleg für das Lernmuster, und es gibt eine neue Regel – **jede nummerierte Liste als Liste abfragen, in den Operatoren der Lehrkraft.**\n\n### 📊 `/testanalyse` auch auf Französisch und Wirtschaft angewendet (23:2x–23:5x)\n\nMarcel: *„Kannst du das kurz noch mit Französisch und Wirtschaft machen?\"* Material lag vollständig in `Claude Files/01 Schule/`.\n\n**🇫🇷 Französisch (07.10., 11 Punkte) – die offene Frage vom 26.10. ist gelöst.**\nIm Vault stand der Verdacht, die Note müsste rechnerisch eher 13 sein, weil „08/09\" als *8 von 9 BE* gelesen wurde. **Falsche Lesart:** Das sind **zwei Notenpunkt-Zahlen** – Teil B = 8, Teil C = 9. Gegenprobe: Teil A 11/12 BE = 91,7 % → 14 Punkte, gewichtet 40 % = 5,60; B+C Mittel 8,5 × 60 % = 5,10; **Summe 10,70 → 11**. Trifft die Note exakt. **Nichts zu reklamieren**, der Punkt ist erledigt.\n🎯 **Der Befund ist ein Gefälle:** Teil A (Vokabular, 40 %) auf **14-Punkte-Niveau**, Teil B+C (eigene Interpretation, **60 %**) bei 8/9. In Teil B und C steht **keine einzige Grammatik- oder Vokabelrüge** – nur Tiefenfragen: *„Quel comportement ?\"*, *„Comment ? Explique.\"*, *„+ conséquences ?\"*, *„Évite les généralités.\"*\n⚠️ Und die Vorbereitung im Vault ist eine **Vokabel- und Wendungssammlung** – sie deckt genau den Teil ab, der ohnehin sitzt. **Für 60 % des Gewichts gibt es nichts.**\n\n**💼 Wirtschaft (16.10., 11 Punkte, 15,5/20) – die Rechnung stimmt, 0,5 BE fehlten zu 12.**\n🎯 **Rund 2 der 4,5 verlorenen BE sind schlicht leer gelassene BGB-Normfelder** – zwei in Aufgabe 1, eines in Aufgabe 2. Die **Zuordnung war überall richtig** (Unmöglichkeit, Sachmangel, Nebenpflichtverletzung alle abgehakt), nur die Paragrafen fehlten. Und auf dem Blatt steht fett unter „Hinweise\": *„…und **nennen Sie die Normen des BGB**.\"*\n⚠️ **Das kollidiert mit einer Regel in CLAUDE.md:** „Keine Paragrafen auswendig abfragen in Wirtschaft/Recht\" – von Marcel **am Abend dieses Tests** aufgestellt. Mit den drei Normen wären es rechnerisch ~17,5/20 = **13 Punkte** gewesen. **Nicht eigenmächtig geändert** – als Entscheidung mit Mittelweg-Vorschlag (nur die 8–10 Kernnormen) ins Profil geschrieben.\n\n> [!important] 🧭 Der Befund des Abends: dasselbe Muster in drei Fächern bei drei Lehrkräften\n> **In keinem der drei Tests gab es eine einzige echte Wissenslücke.**\n> Und alle drei Korrekturen verlangen denselben nicht gegangenen Schritt: `weil?` · `≠ Erhalt Ruhepotential` · `Comment ? Explique.` · `Quel comportement ?` · `+ conséquences ?` · `eher nicht, sonst kein Schaden`.\n> **Marcel nennt zuverlässig das Richtige – und hört einen Schritt zu früh auf.** Beobachtung ohne Folgerung, Mechanismus ohne Zweck, Oberbegriff ohne Konkretisierung.\n> Das ist kein Fachproblem, sondern eine **Antwortgewohnheit** – und deshalb in allen Fächern gleichzeitig reparierbar.\n> Dazu ein zweites Muster: **~7 BE in zwei Tests** gingen verloren, weil die Arbeitsanweisung nicht wörtlich befolgt wurde (Normen nennen · „zwei Voraussetzungen\" · Material verwenden).\n> ➡️ [[04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13).md]] mit drei 60-Sekunden-Checks vor der Abgabe: **Operator-Check · Ein-Schritt-weiter-Check · Anweisungs-Check.**\n\nNeu: [[04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch.md]] · [[04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht.md]] · [[04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13).md]] – je mit Übungsaufgaben im Stil der Lehrkraft.\n\n### 💰 Nachtrag (00:0x): Marcel korrigiert die Reklamations-Regel – inhaltlicher Durchgang nachgeholt\n\n*„Ich meinte auch, dass du so inhaltlich schaust, was die abgefragt haben, was ich geantwortet habe und ob man da irgendwie noch einen Punkt rausholen kann. Auch wenn es nur ein Verdacht ist, ob ich dann wirklich reklamiere, frage ich.\"*\n\n**Berechtigte Korrektur an meinem eigenen Befehl.** `/testanalyse` hatte als harte Regel „nur melden, was wörtlich belegbar ist\". Das war zu streng – es hat Kandidaten unterschlagen, die Marcel hätte sehen wollen.\n➡️ **Schritt 2c neu im Befehl**: fünf inhaltliche Tests (Synonym · Teilleistung · Operator · Richtung · Doppelabzug) und eine **dreistufige Ampel** (🟢 stark / 🟡 mittel / 🔴 schwach) statt Verschweigen. **Alles wird gemeldet, Marcel entscheidet.**\n\n**Der Durchgang hat einen echten Fund ergeben:**\n\n> [!danger] 🟢 Biologie 2.1 – eine der zwei Voraussetzungen WAR genannt\n> Marcel schrieb „ein **chemischer Gradient**\". In seinem eigenen Unterrichtsheft steht: *„**Chemischer Gradient (Konzentrationsgefälle):** Der reine räumliche Unterschied in der Ionenkonzentration…\"* – das **ist** Voraussetzung 1 („Konzentrationsunterschiede der Ionen\"), nur anders benannt. Die Beschreibung dazu hat die Lehrkraft **zweimal abgehakt**.\n> 5 BE für zwei Voraussetzungen ≈ 2,5 pro Stück. Eine vollständig geliefert → erwartbar ~2,5 BE, vergeben **1,5**. **Differenz ca. 1 BE.**\n> 💥 **Und 13,0 BE sind die Grenze zu 9 Notenpunkten.** 12,5 + 1 = 13,5 → **9 statt 8 Punkte.**\n> ⚠️ Gegenrede möglich (die vermischte Darstellung könnte den richtigen Teil mit entwerten), aber die Frage lohnt sich.\n\n**🇫🇷 Französisch – Marcels eigene Beobachtung war richtig.** Er fragte, ob die Bewertung von Teil B/C zur Menge an Rot passt. Durchgezählt: **null inhaltliche Fehler** markiert, alles ist „geh tiefer\" oder „nimm das Fachwort\". Und **drei der vier roten Ergänzungen sagen in Fachsprache das, was er im Nebensatz schon geschrieben hatte** (*„utilisation excessive\"* ↔ *„le temps énorme que les gens passent\"* · *„dépendance\"* ↔ *„personne ne pourrait vivre sans son portable\"* · *„changer ses habitudes\"* ↔ *„chacun devrait faire plus attention\"*). 🟢 **Guter Gesprächskandidat** – ⚠️ aber **rechnerisch wertlos**: B von 8 auf 9 ergäbe 11,00 statt 10,70, die Note bliebe **11**. Der Wert liegt in der Information, nicht im Punkt.\n\n**💼 Wirtschaft – hier ist am wenigsten zu holen.** Alle Kreuze in Aufgabe 2 geprüft: **alle richtig**. Aufgabe 1 ist exakt proportional bewertet (4 von 6 Elementen → 2 von 3 BE). Der große Verlustposten sind **drei leere Felder**, und dafür gibt es keine Punkte. Zwei 🟡-Kandidaten (3a „vertragsmäßig\", 4 §278) sind eher Lernbefunde.\n\n📌 **Unterm Strich: ein Kandidat, der wirklich etwas ändern würde** – Biologie 2.1, Wert ein ganzer Notenpunkt. Formulierungsvorschlag steht in der Testnotiz."
+        "path": "05 Daily Notes/2026-10-29.md",
+        "exists": false,
+        "content": null
       }
     },
     "vault": {
-      "capturedAt": "2026-10-28T22:33:04.778Z",
+      "capturedAt": "2026-10-28T23:27:44.091Z",
       "data": {
         "files": [
           "00 Kontext/",
