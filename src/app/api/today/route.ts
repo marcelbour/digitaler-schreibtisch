@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { readNote, stripFrontmatter, errorToResponseInit } from "@/lib/obsidian";
+import { snapshotResponse } from "@/lib/snapshot";
 
 function todayPath(): string {
   const now = new Date();
@@ -22,6 +23,11 @@ export async function GET() {
       content: stripFrontmatter(raw),
     });
   } catch (err) {
+    // Obsidian nicht erreichbar (z. B. auf Vercel oder wenn der Dev-Server
+    // nicht laeuft): lieber den letzten bekannten Stand zeigen als nichts.
+    // Die Antwort traegt X-Snapshot-Stale, das Offline-Band macht es sichtbar.
+    const stale = snapshotResponse("today");
+    if (stale) return stale;
     const { body, status } = errorToResponseInit(err);
     return NextResponse.json(body, { status });
   }

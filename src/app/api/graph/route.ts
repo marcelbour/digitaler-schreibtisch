@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { listFolder, readNote, errorToResponseInit } from "@/lib/obsidian";
+import { snapshotResponse } from "@/lib/snapshot";
 
 // Ordner, die für die Graph-Ansicht keinen Mehrwert bieten (Anhänge sind keine
 // Notizen, .obsidian ist Konfiguration) bzw. zu groß/irrelevant für Links sind.
@@ -81,6 +82,11 @@ export async function GET() {
 
     return NextResponse.json({ nodes, edges });
   } catch (err) {
+    // Obsidian nicht erreichbar (z. B. auf Vercel oder wenn der Dev-Server
+    // nicht laeuft): lieber den letzten bekannten Stand zeigen als nichts.
+    // Die Antwort traegt X-Snapshot-Stale, das Offline-Band macht es sichtbar.
+    const stale = snapshotResponse("graph");
+    if (stale) return stale;
     const { body, status } = errorToResponseInit(err);
     return NextResponse.json(body, { status });
   }

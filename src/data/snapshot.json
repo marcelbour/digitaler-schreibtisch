@@ -1,0 +1,3791 @@
+{
+  "generatedAt": "2026-10-28T22:33:04.779Z",
+  "entries": {
+    "fahrschule": {
+      "capturedAt": "2026-10-28T22:33:04.232Z",
+      "data": {
+        "budgetGesamt": 2400,
+        "preisFahrstunde": 89,
+        "bezahlt": 1643.82,
+        "bezahltAusBudget": 1489,
+        "bezahltVonMarcel": 154.82,
+        "budgetRest": 911,
+        "offenFixSumme": 436.3,
+        "offenFix": [
+          {
+            "posten": "Vorstellung zur Theorieprüfung",
+            "betrag": 99
+          },
+          {
+            "posten": "Vorstellung zur Praxisprüfung",
+            "betrag": 299
+          },
+          {
+            "posten": "Fahrerlaubnisbehörde (mit Probezeit)",
+            "betrag": 38.3
+          }
+        ],
+        "sonderfahrtenOffen": 11,
+        "sonderfahrtenKosten": 1068,
+        "uebungsstundenGefahren": 1,
+        "uebungsstundenGeplant": 6,
+        "uebungsstunden": 7,
+        "gutscheinFahrstunden": 2,
+        "gutscheinWert": 178,
+        "uebungKosten": 445,
+        "gesamtMinimum": 3593.12,
+        "eigenanteil": 1193.12,
+        "markerAnteil": 66.79431803001292,
+        "segmente": [
+          {
+            "key": "eltern_bezahlt",
+            "label": "Eltern bezahlt",
+            "betrag": 1489,
+            "anteil": 41.440308144453844,
+            "bezahlt": true,
+            "wer": "eltern"
+          },
+          {
+            "key": "eltern_offen",
+            "label": "Eltern offen",
+            "betrag": 911,
+            "anteil": 25.35400988555907,
+            "bezahlt": false,
+            "wer": "eltern"
+          },
+          {
+            "key": "du_bezahlt",
+            "label": "du bezahlt",
+            "betrag": 154.82,
+            "anteil": 4.308790132252749,
+            "bezahlt": true,
+            "wer": "marcel"
+          },
+          {
+            "key": "du_offen",
+            "label": "du offen",
+            "betrag": 1038.3,
+            "anteil": 28.896891837734334,
+            "bezahlt": false,
+            "wer": "marcel"
+          }
+        ],
+        "zahlungen": [
+          {
+            "posten": "Theorieblock (Grundbetrag)",
+            "betrag": 549,
+            "zahler": "Mutter",
+            "datum": null,
+            "hinweis": "Laut §5 fällig bei Vertragsabschluss (15.07.2026). Genaues Zahldatum unbekannt."
+          },
+          {
+            "posten": "10 Schaltstunden + Schaltkompetenz (Testfahrt B197)",
+            "betrag": 940,
+            "zahler": "Mutter",
+            "datum": null,
+            "hinweis": "Bereits gefahren. 10 × 89,00 + 50,00 = 940,00. Genaues Zahldatum unbekannt."
+          },
+          {
+            "posten": "TÜV-Kostenvorschuss (Theorie + Praxis)",
+            "betrag": 154.82,
+            "zahler": "Marcel",
+            "datum": "2026-10-21",
+            "hinweis": "Trägt Marcel selbst, läuft nicht über das Elternbudget."
+          }
+        ],
+        "sonderfahrten": [
+          {
+            "art": "Überland",
+            "pflicht": 5,
+            "gefahren": 1
+          },
+          {
+            "art": "Autobahn",
+            "pflicht": 4,
+            "gefahren": 0
+          },
+          {
+            "art": "Nacht",
+            "pflicht": 3,
+            "gefahren": 0
+          }
+        ],
+        "fahrstunden": [
+          {
+            "nr": 1,
+            "datum": "2026-10-23",
+            "dauer_min": 90,
+            "status": "gefahren",
+            "inhalt": [
+              "Übung",
+              "Überland"
+            ]
+          },
+          {
+            "nr": 2,
+            "datum": "2026-10-28",
+            "dauer_min": 90,
+            "status": "geplant",
+            "inhalt": []
+          },
+          {
+            "nr": 3,
+            "datum": "2026-10-29",
+            "dauer_min": 90,
+            "status": "geplant",
+            "inhalt": []
+          },
+          {
+            "nr": 4,
+            "datum": "2026-10-30",
+            "dauer_min": 90,
+            "status": "geplant",
+            "inhalt": []
+          },
+          {
+            "nr": 5,
+            "datum": "2026-11-06",
+            "dauer_min": 90,
+            "status": "geplant",
+            "inhalt": [],
+            "hinweis": "4 Tage nach der Weisheitszahn-OP"
+          }
+        ],
+        "nichtBezifferbar": [
+          "Sehtest",
+          "Erste-Hilfe-Kurs",
+          "Antrags- und Verwaltungsgebühren",
+          "Lehrmittel / Lernmaterial / App",
+          "Biometrisches Passbild"
+        ]
+      }
+    },
+    "graph": {
+      "capturedAt": "2026-10-28T22:33:04.604Z",
+      "data": {
+        "nodes": [
+          {
+            "id": "00 Kontext/Angebot",
+            "label": "Angebot",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Branding",
+            "label": "Branding",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Erinnerungen - Archiv",
+            "label": "Erinnerungen - Archiv",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Erinnerungen",
+            "label": "Erinnerungen",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/ICP",
+            "label": "ICP",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Kalender-Kategorien",
+            "label": "Kalender-Kategorien",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Schreibstil",
+            "label": "Schreibstil",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "label": "Vault-Durchsicht 2026-10-17",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "00 Kontext/Über mich",
+            "label": "Über mich",
+            "folder": "00 Kontext"
+          },
+          {
+            "id": "01 Inbox/Brain Dump",
+            "label": "Brain Dump",
+            "folder": "01 Inbox"
+          },
+          {
+            "id": "02 Projekte/Abitur",
+            "label": "Abitur",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "label": "Digitaler Schreibtisch (Dashboard)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/Führerschein - Budget (Daten)",
+            "label": "Führerschein - Budget (Daten)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/Führerschein",
+            "label": "Führerschein",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/KI Business (Etsy Shop)",
+            "label": "KI Business (Etsy Shop)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "label": "W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "label": "W-Seminararbeit - Fragen an die Lehrkraft",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)",
+            "label": "W-Seminararbeit - Gliederungs-Revision (25.10.2026)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "label": "W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "label": "W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "label": "W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)",
+            "label": "W-Seminararbeit - Materialsammlung (geparkte Sätze)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "label": "W-Seminararbeit - Quellen & Recherche",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "label": "W-Seminararbeit - Schreibanleitung",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "label": "W-Seminararbeit",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "label": "Zweiwochenplan (15.10.-01.11.2026)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "03 Bereiche/Finanzen/Finanzen",
+            "label": "Finanzen",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)",
+            "label": "Housekeeping-Rechnungen (Airbnb)",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "03 Bereiche/Gesundheit/Gesundheit",
+            "label": "Gesundheit",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
+            "label": "Habit-Log",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "label": "Routinen & Gewohnheiten",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "03 Bereiche/Sport & Fitness/Sport & Fitness",
+            "label": "Sport & Fitness",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "03 Bereiche/Sprachen/Sprachen",
+            "label": "Sprachen",
+            "folder": "03 Bereiche"
+          },
+          {
+            "id": "04 Ressourcen/Fußball/Fußball",
+            "label": "Fußball",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien",
+            "label": "Investieren & Immobilien",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "label": "Claude & Vault Workflow optimieren",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen",
+            "label": "Claude Modelle und Denkstufen",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck",
+            "label": "Etsy Shop Launch - Strategie & Realitätscheck",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
+            "label": "KI & E-Commerce",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
+            "label": "Wirtschaft vor acht - ARD-Mediathek auslesen",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)",
+            "label": "Gmail - Inbox aufräumen (Filter & Label)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "label": "Obsidian Autostart (Windows)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
+            "label": "Windows Energieeinstellungen",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Politik & Nachrichten/Politik & Nachrichten",
+            "label": "Politik & Nachrichten",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Psychologie/Psychologie",
+            "label": "Psychologie",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "label": "Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
+            "label": "Neuronale Informationsverarbeitung",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "label": "Prüfungsprofil Biologie",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen",
+            "label": "Mario und der Zauberer - Lektüretest-Fragen",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "label": "Referat Q13 - Herta Müller",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "label": "Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
+            "label": "Fehlermuster über alle Fächer (Q13)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)",
+            "label": "Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
+            "label": "Prüfungsprofil Französisch",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
+            "label": "Laufzeit von Algorithmen",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "label": "Flächeninhalt und bestimmtes Integral",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "label": "Noten & Leistungsnachweise Q13",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Noten (Daten)",
+            "label": "Noten (Daten)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
+            "label": "Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Notenschlüssel Oberstufe",
+            "label": "Notenschlüssel Oberstufe",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "label": "Prüfungsprofil Wirtschaft und Recht",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
+            "label": "Recht - Leistungsstörungen beim Kauf (S. 54-64)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-14",
+            "label": "2026-09-14",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-15",
+            "label": "2026-09-15",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-16",
+            "label": "2026-09-16",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-17",
+            "label": "2026-09-17",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-21",
+            "label": "2026-09-21",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-22",
+            "label": "2026-09-22",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-23",
+            "label": "2026-09-23",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-24",
+            "label": "2026-09-24",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-25",
+            "label": "2026-09-25",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-09-29",
+            "label": "2026-09-29",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-05",
+            "label": "2026-10-05",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-06",
+            "label": "2026-10-06",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-07",
+            "label": "2026-10-07",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-08",
+            "label": "2026-10-08",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-09",
+            "label": "2026-10-09",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-10",
+            "label": "2026-10-10",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-11",
+            "label": "2026-10-11",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-12",
+            "label": "2026-10-12",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-13",
+            "label": "2026-10-13",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-14",
+            "label": "2026-10-14",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-15",
+            "label": "2026-10-15",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-16",
+            "label": "2026-10-16",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-17",
+            "label": "2026-10-17",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-18",
+            "label": "2026-10-18",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-19",
+            "label": "2026-10-19",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-20",
+            "label": "2026-10-20",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-21",
+            "label": "2026-10-21",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-22",
+            "label": "2026-10-22",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-23",
+            "label": "2026-10-23",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-24",
+            "label": "2026-10-24",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-25",
+            "label": "2026-10-25",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-26",
+            "label": "2026-10-26",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-27",
+            "label": "2026-10-27",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-10-28",
+            "label": "2026-10-28",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "07 Anhänge",
+            "label": "07 Anhänge",
+            "folder": "(root)"
+          },
+          {
+            "id": "CLAUDE",
+            "label": "CLAUDE",
+            "folder": "(root)"
+          }
+        ],
+        "edges": [
+          {
+            "source": "00 Kontext/Branding",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-21"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-19"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-20"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "05 Daily Notes/2026-10-17"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "05 Daily Notes/2026-10-14"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "01 Inbox/Brain Dump"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "02 Projekte/Führerschein - Budget (Daten)"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "02 Projekte/Führerschein - Budget (Daten)",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "00 Kontext/Angebot"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "00 Kontext/Branding"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "05 Daily Notes/2026-10-19"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-19"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-21"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-24"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-14"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "05 Daily Notes/2026-10-25"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "03 Bereiche/Finanzen/Finanzen",
+            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
+            "target": "05 Daily Notes/2026-09-15"
+          },
+          {
+            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-12"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-28"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
+            "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
+            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
+            "target": "05 Daily Notes/2026-09-22"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
+            "target": "05 Daily Notes/2026-09-23"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-25"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenschlüssel Oberstufe",
+            "target": "05 Daily Notes/2026-09-23"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-14",
+            "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "01 Inbox/Brain Dump"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-16",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-16",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-16",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-16",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-22",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "00 Kontext/ICP"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "05 Daily Notes/2026-10-08"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-10",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Branding"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-13",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-16",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "05 Daily Notes/2026-10-19"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "05 Daily Notes/2026-10-21"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "05 Daily Notes/2026-10-24"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "05 Daily Notes/2026-10-26"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-25",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-26",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-26",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-26",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "05 Daily Notes/2026-10-27"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
+          },
+          {
+            "source": "07 Anhänge",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "07 Anhänge",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "00 Kontext/Über mich"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "00 Kontext/Schreibstil"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "CLAUDE",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          }
+        ]
+      }
+    },
+    "habits": {
+      "capturedAt": "2026-10-28T22:33:04.639Z",
+      "data": {
+        "tage": [
+          {
+            "datum": "2026-10-26",
+            "wochentag": "Mo",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "07:00",
+                "zahl": 7
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "app": {
+                "status": "ok",
+                "roh": "✓",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-10-27",
+            "wochentag": "Di",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "app": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "ok",
+                "roh": "✓",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-10-28",
+            "wochentag": "Mi",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "07:33",
+                "zahl": 7.55
+              },
+              "schlaf": {
+                "status": "ok",
+                "roh": "7,5",
+                "zahl": 7.5
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "app": {
+                "status": "ok",
+                "roh": "✓",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            }
+          }
+        ],
+        "habits": [
+          {
+            "def": {
+              "key": "auf",
+              "spalte": "Auf",
+              "label": "Aufstehen",
+              "icon": "🕕",
+              "ziel": null,
+              "einheit": "",
+              "tage": [],
+              "numerisch": false
+            },
+            "verlauf": [
+              {
+                "status": "ok",
+                "roh": "07:00",
+                "zahl": 7
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "07:33",
+                "zahl": 7.55
+              }
+            ],
+            "erledigt": 2,
+            "faellig": 2,
+            "quote": 1,
+            "streak": 2,
+            "ausfallStreak": 0,
+            "schnitt": 7.275,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "schlaf",
+              "spalte": "Schlaf",
+              "label": "Schlaf",
+              "icon": "😴",
+              "ziel": 7.5,
+              "einheit": "h",
+              "tage": [],
+              "numerisch": true
+            },
+            "verlauf": [
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "7,5",
+                "zahl": 7.5
+              }
+            ],
+            "erledigt": 1,
+            "faellig": 1,
+            "quote": 1,
+            "streak": 1,
+            "ausfallStreak": 0,
+            "schnitt": 7.5,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "morgen",
+              "spalte": "Morgen",
+              "label": "Morgenroutine",
+              "icon": "🌅",
+              "ziel": null,
+              "einheit": "",
+              "tage": [],
+              "numerisch": false
+            },
+            "verlauf": [
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            ],
+            "erledigt": 0,
+            "faellig": 3,
+            "quote": 0,
+            "streak": 0,
+            "ausfallStreak": 3,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "app",
+              "spalte": "App",
+              "label": "Fahrschul-App",
+              "icon": "🚗",
+              "ziel": 60,
+              "einheit": "Min",
+              "tage": [],
+              "numerisch": true
+            },
+            "verlauf": [
+              {
+                "status": "ok",
+                "roh": "✓",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "✓",
+                "zahl": null
+              }
+            ],
+            "erledigt": 2,
+            "faellig": 3,
+            "quote": 0.6666666666666666,
+            "streak": 1,
+            "ausfallStreak": 0,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "zehnfinger",
+              "spalte": "10F",
+              "label": "10-Finger",
+              "icon": "⌨️",
+              "ziel": null,
+              "einheit": "",
+              "tage": [],
+              "numerisch": false
+            },
+            "verlauf": [
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            ],
+            "erledigt": 0,
+            "faellig": 3,
+            "quote": 0,
+            "streak": 0,
+            "ausfallStreak": 3,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "englisch",
+              "spalte": "Engl",
+              "label": "Englisch",
+              "icon": "🇬🇧",
+              "ziel": null,
+              "einheit": "",
+              "tage": [],
+              "numerisch": false
+            },
+            "verlauf": [
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            ],
+            "erledigt": 0,
+            "faellig": 3,
+            "quote": 0,
+            "streak": 0,
+            "ausfallStreak": 3,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "lesen",
+              "spalte": "Lesen",
+              "label": "Lesen",
+              "icon": "📕",
+              "ziel": 30,
+              "einheit": "Min",
+              "tage": [],
+              "numerisch": true
+            },
+            "verlauf": [
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            ],
+            "erledigt": 0,
+            "faellig": 3,
+            "quote": 0,
+            "streak": 0,
+            "ausfallStreak": 3,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "schwimmen",
+              "spalte": "Schwimmen",
+              "label": "Schwimmen",
+              "icon": "🏊",
+              "ziel": null,
+              "einheit": "m",
+              "tage": [
+                "Mi",
+                "Sa"
+              ],
+              "numerisch": true
+            },
+            "verlauf": [
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            ],
+            "erledigt": 0,
+            "faellig": 1,
+            "quote": 0,
+            "streak": 0,
+            "ausfallStreak": 1,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "training",
+              "spalte": "Training",
+              "label": "Training",
+              "icon": "⚽",
+              "ziel": null,
+              "einheit": "",
+              "tage": [
+                "Di",
+                "Do"
+              ],
+              "numerisch": false
+            },
+            "verlauf": [
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "✓",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              }
+            ],
+            "erledigt": 1,
+            "faellig": 1,
+            "quote": 1,
+            "streak": 1,
+            "ausfallStreak": 0,
+            "schnitt": null,
+            "trend": null
+          },
+          {
+            "def": {
+              "key": "wsem",
+              "spalte": "W-Sem",
+              "label": "W-Seminar",
+              "icon": "📝",
+              "ziel": null,
+              "einheit": "",
+              "tage": [],
+              "numerisch": false
+            },
+            "verlauf": [
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            ],
+            "erledigt": 0,
+            "faellig": 3,
+            "quote": 0,
+            "streak": 0,
+            "ausfallStreak": 3,
+            "schnitt": null,
+            "trend": null
+          }
+        ],
+        "tageGesamt": 3,
+        "letzterEintrag": "2026-10-28",
+        "tageSeitLetztem": 0
+      }
+    },
+    "noten": {
+      "capturedAt": "2026-10-28T22:33:04.674Z",
+      "data": {
+        "halbjahre": [
+          {
+            "id": "12/1",
+            "abgeschlossen": true,
+            "begonnen": true,
+            "slots": [
+              {
+                "id": "12/1|Deutsch",
+                "halbjahr": "12/1",
+                "fach": "Deutsch",
+                "kuerzel": "D",
+                "gross": 7,
+                "klein": 12.3,
+                "roh": 9.65,
+                "zeugnis": 10,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/1|Mathematik",
+                "halbjahr": "12/1",
+                "fach": "Mathematik",
+                "kuerzel": "M",
+                "gross": 8,
+                "klein": 9,
+                "roh": 8.5,
+                "zeugnis": 9,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/1|Französisch",
+                "halbjahr": "12/1",
+                "fach": "Französisch",
+                "kuerzel": "F",
+                "gross": 7,
+                "klein": 14,
+                "roh": 10.5,
+                "zeugnis": 11,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/1|Sport",
+                "halbjahr": "12/1",
+                "fach": "Sport",
+                "kuerzel": "Smw",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": 13,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/1|Wirtschaft und Recht",
+                "halbjahr": "12/1",
+                "fach": "Wirtschaft und Recht",
+                "kuerzel": "WR",
+                "gross": 13,
+                "klein": 14,
+                "roh": 13.5,
+                "zeugnis": 14,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/1|Biologie",
+                "halbjahr": "12/1",
+                "fach": "Biologie",
+                "kuerzel": "B",
+                "gross": 13,
+                "klein": 8.5,
+                "roh": 10.75,
+                "zeugnis": 11,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/1|Informatik",
+                "halbjahr": "12/1",
+                "fach": "Informatik",
+                "kuerzel": "Inf",
+                "gross": 13,
+                "klein": 12,
+                "roh": 12.5,
+                "zeugnis": 13,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "12/1|Ethik",
+                "halbjahr": "12/1",
+                "fach": "Ethik",
+                "kuerzel": "Eth",
+                "gross": 12,
+                "klein": 11,
+                "roh": 11.5,
+                "zeugnis": 12,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "12/1|Kunst",
+                "halbjahr": "12/1",
+                "fach": "Kunst",
+                "kuerzel": "Ku",
+                "gross": 10,
+                "klein": 9.6,
+                "roh": 9.8,
+                "zeugnis": 10,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "12/1|Geschichte",
+                "halbjahr": "12/1",
+                "fach": "Geschichte",
+                "kuerzel": "G",
+                "gross": 8,
+                "klein": 11,
+                "roh": 9.5,
+                "zeugnis": 10,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": false,
+                "pflicht": false
+              },
+              {
+                "id": "12/1|Politik und Gesellschaft",
+                "halbjahr": "12/1",
+                "fach": "Politik und Gesellschaft",
+                "kuerzel": "PuG",
+                "gross": 9,
+                "klein": 11.5,
+                "roh": 10.25,
+                "zeugnis": 10,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": false,
+                "pflicht": false
+              }
+            ],
+            "schnittAlle": 11.18,
+            "schnittEingebracht": 11.44,
+            "anzahlMitNote": 11
+          },
+          {
+            "id": "12/2",
+            "abgeschlossen": true,
+            "begonnen": true,
+            "slots": [
+              {
+                "id": "12/2|Deutsch",
+                "halbjahr": "12/2",
+                "fach": "Deutsch",
+                "kuerzel": "D",
+                "gross": 4,
+                "klein": 9,
+                "roh": 6.5,
+                "zeugnis": 7,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/2|Mathematik",
+                "halbjahr": "12/2",
+                "fach": "Mathematik",
+                "kuerzel": "M",
+                "gross": 10,
+                "klein": 9.3,
+                "roh": 9.65,
+                "zeugnis": 10,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/2|Französisch",
+                "halbjahr": "12/2",
+                "fach": "Französisch",
+                "kuerzel": "F",
+                "gross": 10,
+                "klein": 13.5,
+                "roh": 11.75,
+                "zeugnis": 12,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/2|Sport",
+                "halbjahr": "12/2",
+                "fach": "Sport",
+                "kuerzel": "Smw",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": 14,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/2|Wirtschaft und Recht",
+                "halbjahr": "12/2",
+                "fach": "Wirtschaft und Recht",
+                "kuerzel": "WR",
+                "gross": 13,
+                "klein": 11.5,
+                "roh": 12.25,
+                "zeugnis": 12,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/2|Biologie",
+                "halbjahr": "12/2",
+                "fach": "Biologie",
+                "kuerzel": "B",
+                "gross": 12,
+                "klein": 11.5,
+                "roh": 11.75,
+                "zeugnis": 12,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "12/2|Informatik",
+                "halbjahr": "12/2",
+                "fach": "Informatik",
+                "kuerzel": "Inf",
+                "gross": 8,
+                "klein": 13,
+                "roh": 10.5,
+                "zeugnis": 11,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "12/2|Ethik",
+                "halbjahr": "12/2",
+                "fach": "Ethik",
+                "kuerzel": "Eth",
+                "gross": 10,
+                "klein": 11,
+                "roh": 10.5,
+                "zeugnis": 11,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "12/2|Kunst",
+                "halbjahr": "12/2",
+                "fach": "Kunst",
+                "kuerzel": "Ku",
+                "gross": 8,
+                "klein": 10,
+                "roh": 9,
+                "zeugnis": 9,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": false,
+                "pflicht": false
+              },
+              {
+                "id": "12/2|Geschichte",
+                "halbjahr": "12/2",
+                "fach": "Geschichte",
+                "kuerzel": "G",
+                "gross": 11,
+                "klein": 11.5,
+                "roh": 11.25,
+                "zeugnis": 11,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "12/2|Politik und Gesellschaft",
+                "halbjahr": "12/2",
+                "fach": "Politik und Gesellschaft",
+                "kuerzel": "PuG",
+                "gross": 9,
+                "klein": 12,
+                "roh": 10.5,
+                "zeugnis": 11,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              }
+            ],
+            "schnittAlle": 10.91,
+            "schnittEingebracht": 11.1,
+            "anzahlMitNote": 11
+          },
+          {
+            "id": "13/1",
+            "abgeschlossen": false,
+            "begonnen": true,
+            "slots": [
+              {
+                "id": "13/1|Deutsch",
+                "halbjahr": "13/1",
+                "fach": "Deutsch",
+                "kuerzel": "D",
+                "gross": null,
+                "klein": 13,
+                "roh": 13,
+                "zeugnis": 13,
+                "kleinNoten": [
+                  {
+                    "art": "Lektüretest",
+                    "datum": "2026-10-13",
+                    "punkte": 13,
+                    "thema": "Mario und der Zauberer"
+                  }
+                ],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/1|Mathematik",
+                "halbjahr": "13/1",
+                "fach": "Mathematik",
+                "kuerzel": "M",
+                "gross": null,
+                "klein": 6,
+                "roh": 6,
+                "zeugnis": 6,
+                "kleinNoten": [
+                  {
+                    "art": "Kleiner LN",
+                    "datum": "2026-09-25",
+                    "punkte": 6,
+                    "thema": "Flächeninhalt & bestimmtes Integral"
+                  }
+                ],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/1|Französisch",
+                "halbjahr": "13/1",
+                "fach": "Französisch",
+                "kuerzel": "F",
+                "gross": null,
+                "klein": 11,
+                "roh": 11,
+                "zeugnis": 11,
+                "kleinNoten": [
+                  {
+                    "art": "Kleiner LN",
+                    "datum": "2026-10-07",
+                    "punkte": 11,
+                    "thema": "Karikaturanalyse"
+                  }
+                ],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/1|Sport",
+                "halbjahr": "13/1",
+                "fach": "Sport",
+                "kuerzel": "Smw",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/1|Wirtschaft und Recht",
+                "halbjahr": "13/1",
+                "fach": "Wirtschaft und Recht",
+                "kuerzel": "WR",
+                "gross": null,
+                "klein": 11,
+                "roh": 11,
+                "zeugnis": 11,
+                "kleinNoten": [
+                  {
+                    "art": "Kleiner LN",
+                    "datum": "2026-10-16",
+                    "punkte": 11,
+                    "thema": "Grundlagen Pflichtverletzung"
+                  }
+                ],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/1|Biologie",
+                "halbjahr": "13/1",
+                "fach": "Biologie",
+                "kuerzel": "B",
+                "gross": null,
+                "klein": 8,
+                "roh": 8,
+                "zeugnis": 8,
+                "kleinNoten": [
+                  {
+                    "art": "Test",
+                    "datum": "2026-10-12",
+                    "punkte": 8,
+                    "thema": "Neuronale Informationsverarbeitung"
+                  }
+                ],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/1|Informatik",
+                "halbjahr": "13/1",
+                "fach": "Informatik",
+                "kuerzel": "Inf",
+                "gross": null,
+                "klein": 7.5,
+                "roh": 7.5,
+                "zeugnis": 8,
+                "kleinNoten": [
+                  {
+                    "art": "Test",
+                    "datum": "2026-09-23",
+                    "punkte": 12,
+                    "thema": "Laufzeit von Algorithmen"
+                  },
+                  {
+                    "art": "mündliche Abfrage",
+                    "datum": "2026-10-12",
+                    "punkte": 3,
+                    "thema": "unvorbereitet drangezogen"
+                  }
+                ],
+                "grossNoten": [],
+                "eingebracht": false,
+                "pflicht": false
+              },
+              {
+                "id": "13/1|Ethik",
+                "halbjahr": "13/1",
+                "fach": "Ethik",
+                "kuerzel": "Eth",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "13/1|Kunst",
+                "halbjahr": "13/1",
+                "fach": "Kunst",
+                "kuerzel": "Ku",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "13/1|Geschichte",
+                "halbjahr": "13/1",
+                "fach": "Geschichte",
+                "kuerzel": "G",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              }
+            ],
+            "schnittAlle": 9.5,
+            "schnittEingebracht": 9.8,
+            "anzahlMitNote": 6
+          },
+          {
+            "id": "13/2",
+            "abgeschlossen": false,
+            "begonnen": false,
+            "slots": [
+              {
+                "id": "13/2|Deutsch",
+                "halbjahr": "13/2",
+                "fach": "Deutsch",
+                "kuerzel": "D",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/2|Mathematik",
+                "halbjahr": "13/2",
+                "fach": "Mathematik",
+                "kuerzel": "M",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/2|Französisch",
+                "halbjahr": "13/2",
+                "fach": "Französisch",
+                "kuerzel": "F",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/2|Sport",
+                "halbjahr": "13/2",
+                "fach": "Sport",
+                "kuerzel": "Smw",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/2|Wirtschaft und Recht",
+                "halbjahr": "13/2",
+                "fach": "Wirtschaft und Recht",
+                "kuerzel": "WR",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/2|Biologie",
+                "halbjahr": "13/2",
+                "fach": "Biologie",
+                "kuerzel": "B",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": true
+              },
+              {
+                "id": "13/2|Informatik",
+                "halbjahr": "13/2",
+                "fach": "Informatik",
+                "kuerzel": "Inf",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": false,
+                "pflicht": false
+              },
+              {
+                "id": "13/2|Ethik",
+                "halbjahr": "13/2",
+                "fach": "Ethik",
+                "kuerzel": "Eth",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": false,
+                "pflicht": false
+              },
+              {
+                "id": "13/2|Kunst",
+                "halbjahr": "13/2",
+                "fach": "Kunst",
+                "kuerzel": "Ku",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              },
+              {
+                "id": "13/2|Geschichte",
+                "halbjahr": "13/2",
+                "fach": "Geschichte",
+                "kuerzel": "G",
+                "gross": null,
+                "klein": null,
+                "roh": null,
+                "zeugnis": null,
+                "kleinNoten": [],
+                "grossNoten": [],
+                "eingebracht": true,
+                "pflicht": false
+              }
+            ],
+            "schnittAlle": null,
+            "schnittEingebracht": null,
+            "anzahlMitNote": 0
+          }
+        ],
+        "regeln": [
+          {
+            "fach": "Biologie",
+            "kuerzel": "B",
+            "belegt": 4,
+            "eingebracht": 4,
+            "pflicht": true,
+            "grund": "einzige Naturwissenschaft – Informatik zählt laut OSK nicht als NWS"
+          },
+          {
+            "fach": "Deutsch",
+            "kuerzel": "D",
+            "belegt": 4,
+            "eingebracht": 4,
+            "pflicht": true,
+            "grund": "Abiturprüfungsfach + Pflicht (D/M/LF jeweils 4)"
+          },
+          {
+            "fach": "Französisch",
+            "kuerzel": "F",
+            "belegt": 4,
+            "eingebracht": 4,
+            "pflicht": true,
+            "grund": "Abiturprüfungsfach + einzige Fremdsprache"
+          },
+          {
+            "fach": "Mathematik",
+            "kuerzel": "M",
+            "belegt": 4,
+            "eingebracht": 4,
+            "pflicht": true,
+            "grund": "Abiturprüfungsfach + Pflicht (D/M/LF jeweils 4)"
+          },
+          {
+            "fach": "Sport",
+            "kuerzel": "Smw",
+            "belegt": 4,
+            "eingebracht": 4,
+            "pflicht": true,
+            "grund": "Abiturprüfungsfach + Leistungsfach"
+          },
+          {
+            "fach": "Wirtschaft und Recht",
+            "kuerzel": "WR",
+            "belegt": 4,
+            "eingebracht": 4,
+            "pflicht": true,
+            "grund": "Abiturprüfungsfach"
+          },
+          {
+            "fach": "Ethik",
+            "kuerzel": "Eth",
+            "belegt": 4,
+            "eingebracht": 3,
+            "pflicht": false,
+            "grund": "übriges Fach – höchstens eine Streichung"
+          },
+          {
+            "fach": "Geschichte",
+            "kuerzel": "G",
+            "belegt": 4,
+            "eingebracht": 3,
+            "pflicht": false,
+            "grund": "übriges Fach – höchstens eine Streichung"
+          },
+          {
+            "fach": "Kunst",
+            "kuerzel": "Ku",
+            "belegt": 4,
+            "eingebracht": 3,
+            "pflicht": false,
+            "grund": "übriges Fach – höchstens eine Streichung"
+          },
+          {
+            "fach": "Informatik",
+            "kuerzel": "Inf",
+            "belegt": 4,
+            "eingebracht": 2,
+            "pflicht": false,
+            "grund": "Profilfach, laut OSK keine Naturwissenschaft – mindestens 2 (von Marcel bestätigt)"
+          },
+          {
+            "fach": "Politik und Gesellschaft",
+            "kuerzel": "PuG",
+            "belegt": 2,
+            "eingebracht": 1,
+            "pflicht": false,
+            "grund": "übriges Fach – höchstens eine Streichung (nur 2 Halbjahre belegt)"
+          }
+        ],
+        "schnittAbgeschlossen": 11.05,
+        "schnittAktuell": 9.5,
+        "aktuellesHalbjahr": "13/1",
+        "wSeminar": {
+          "thema": "Wahrscheinlichkeit im Alltag",
+          "punkte": {
+            "12/1": 14,
+            "12/2": 13
+          },
+          "schriftlich": null,
+          "praesentation": null,
+          "arbeitNote": null
+        },
+        "pruefungen": [
+          {
+            "fach": "Deutsch",
+            "art": "schriftlich",
+            "punkte": null
+          },
+          {
+            "fach": "Mathematik",
+            "art": "schriftlich",
+            "punkte": null
+          },
+          {
+            "fach": "Französisch",
+            "art": "schriftlich",
+            "punkte": null
+          },
+          {
+            "fach": "Wirtschaft und Recht",
+            "art": "Kolloquium",
+            "punkte": null
+          },
+          {
+            "fach": "Sport",
+            "art": "Leistungsfach",
+            "punkte": null
+          }
+        ],
+        "pool": {
+          "faecher": [
+            "Informatik",
+            "Ethik",
+            "Kunst",
+            "Geschichte",
+            "Politik und Gesellschaft"
+          ],
+          "verfuegbar": 18,
+          "soll": 12,
+          "streichungen": 6,
+          "mindest": 12
+        },
+        "soll": {
+          "gesamt": 40,
+          "ausFaechern": 36,
+          "ausSeminar": 4,
+          "maxBlockI": 600,
+          "maxBlockII": 300,
+          "maxGesamt": 900,
+          "bestehen": 300,
+          "fuenfPunkteHuerde": 32
+        }
+      }
+    },
+    "projects": {
+      "capturedAt": "2026-10-28T22:33:04.708Z",
+      "data": {
+        "projects": [
+          {
+            "name": "Führerschein",
+            "path": "02 Projekte/Führerschein.md",
+            "status": "aktiv",
+            "nextStep": "🦷 Bei der OP-Aufklärung fragen, ob die Prüfung **3 Tage nach der Weisheitszahn-OP** realistisch ist (und die Fahrstunde 4 Tage danach)",
+            "priority": 2
+          },
+          {
+            "name": "KI Business (Etsy Shop)",
+            "path": "02 Projekte/KI Business (Etsy Shop).md",
+            "status": "pausiert",
+            "nextStep": "**Erstes Produkt bauen: Budget-Planer, Englisch, PDF (US Letter + A4)** – Start jetzt Sa 10.10.2026, 14:00 (am 06.10. vom Do 08.10. verschoben, weil Marcel der W-Seminararbeit Vorrang gibt – harte Deadline 10.11., noch keine Zeile geschrieben; Kalendereintrag ist ein Platzhalter und darf innerhalb des Wochenendes wandern). Detaillierter Ablauf siehe Abschnitt \"Produkt-Fahrplan\" unten",
+            "priority": 3
+          },
+          {
+            "name": "Digitaler Schreibtisch (Dashboard)",
+            "path": "02 Projekte/Digitaler Schreibtisch (Dashboard).md",
+            "status": "aktiv",
+            "nextStep": "Design/Optik verbessern – aktuell laut Marcel noch nicht \"schön genug\"",
+            "priority": 4
+          },
+          {
+            "name": "Abitur",
+            "path": "02 Projekte/Abitur.md",
+            "status": "aktiv",
+            "nextStep": "Sobald die genauen Kolloquium-Tage (Sport + Französisch) sowie der genaue Sport-Praxis-Termin feststehen, in den Kalender eintragen",
+            "priority": 5
+          },
+          {
+            "name": "Führerschein - Budget (Daten)",
+            "path": "02 Projekte/Führerschein - Budget (Daten).md",
+            "status": "aktiv",
+            "nextStep": null,
+            "priority": null
+          },
+          {
+            "name": "Zweiwochenplan (15.10.-01.11.2026)",
+            "path": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md",
+            "status": "aktiv",
+            "nextStep": null,
+            "priority": null
+          }
+        ]
+      }
+    },
+    "reminders": {
+      "capturedAt": "2026-10-28T22:33:04.736Z",
+      "data": {
+        "heute": [
+          {
+            "icon": "🚗",
+            "title": "Fahrstunde nachbuchen – der 30.10. ist abgesagt und es fehlen jetzt FÜNF Sonderfahrten ohne Termin",
+            "details": "Bis zum 28.10. waren nur die **3 Nachtfahrten** terminlos; durch die Absage vom Fr 30.10. kommen **2 weitere** dazu. Stand: **3 von 12 gefahren** (3 Überland), in den Terminen Do 29.10. und Fr 06.11. stecken noch **4** → **7 von 12**. ➡️ **Beim nächsten Kontakt mit Muzi gleich beides nachbuchen** – die ausgefallene Doppelstunde **und** die 3 Nachtfahrten (135 Min), am besten noch in die Herbstferien 02.–06.11. ⚠️ **Die Praxisprüfung setzt alle 12 Sonderfahrten voraus** – je später gebucht, desto tiefer rutscht sie in die Klausurenphase ab **Mo 16.11.** (9 Klausuren bis Mitte Dezember). ✅ Rechtzeitig abgesagt, also **keine 178-€-Ausfallgebühr**; die Kosten bleiben unverändert. Aufstellung: [[02 Projekte/Führerschein.md]]."
+          },
+          {
+            "icon": "🚗",
+            "title": "Fahrschul-App: 1 Stunde, jeden Tag – die Kette läuft wieder",
+            "details": "✅ **Mo 26.10. und Mi 28.10.: je 60 Minuten gemacht** (am 28.10. in der Schule) – ⚠️ **Di 27.10. ist ausgefallen, die Kette ist also schon einmal gerissen.** Der 26.10. war der **erste Haken überhaupt** nach neun Ausfalltagen (17.–25.10.) und null ✅ in 14 Logtagen. Was den Unterschied machte: Der Slot liegt jetzt **direkt nach der 1:30-Pause und VOR dem großen Arbeitsblock**, nicht mehr als letzter Termin des Tages. ⚠️ **Jetzt nicht abreißen lassen.** Theorieprüfung **Do 05.11., 08:45**, bezahlt – **noch 8 Tage**. Die Prüfung liegt 3 Tage nach der OP (02.11.) – nutzbar sind davor realistisch nur **29.10.–01.11. plus 03./04.11.** Alle Slots stehen im Kalender."
+          },
+          {
+            "icon": "📕",
+            "title": "Kafka „Die Verwandlung\" – Triage am 26.10. entschieden: Marcel liest eine Zusammenfassung, nicht das Buch",
+            "details": "Frist war Di 27.10. (Deutsch 1. Stunde, 08:00), Lesestand **0 von ~70 Seiten**, realistisch 4,5–5 h bei 4 Min/Seite – die Zeit war an keiner Stelle vorhanden. ✅ **Kein Lektüretest**, deshalb vertretbar. Marcel am 26.10.: *„Ich schau mir einfach eine Zusammenfassung zum Kafka an.\"* 🎖️ Am Abend des 26.10. war er zudem bei der **Ballon-d'Or-Verleihung mit Freunden** – der Leseblock 22:30 ist damit ohnehin weggefallen. ⚠️ **Bleibt als Restrisiko:** Wenn im Unterricht aus dem Text heraus gearbeitet wird (Textstellen, Zitate), reicht die Zusammenfassung nicht. **Nach der Deutschstunde am 27.10. kurz abfragen, ob es gereicht hat** – falls nicht, braucht es ein echtes Lesefenster in den Herbstferien (02.–06.11.)."
+          },
+          {
+            "icon": "🔴",
+            "title": "W-Seminar: Reihenfolge am 26.10. entschieden – Kapitel 3 wird zuerst fertig, Kapitel 4/5/6 rücken nach hinten",
+            "details": "Marcel hat aus vier Optionen *„Erst Kapitel 3 fertig, Rest danach bewerten\"* gewählt. ✅ **Umgesetzt im Kalender am 26.10.:** Der Block Mo 26.10. (war „Recherche Kapitel 4\", jetzt **17:30–19:00 · 3.2 Absatz C**) und der Block Di 27.10., 16:00–18:00 (war „4.1 Subprime\", jetzt **Kapitel 3 weiter: 3.2 D / 3.3 PD**). ⚠️ **Noch NICHT umgewidmet** sind die Blöcke Mi 28.10. (2× 4.2), Do 29.10. (4.3), Fr 30.10. (Recherche Kap. 5 + Kapitel 5), Sa 31.10. (Kap. 5+6, Einleitung) – das macht erst Sinn, wenn absehbar ist, wie schnell Kapitel 3 läuft. Marcel am 26.10.: *„Wir schauen einfach mal, wie wir vorankommen.\"* ➡️ **Beim Abend-Check nachziehen.** 📎 **Risiko dieser Reihenfolge, von Marcel bewusst getragen:** Kapitel 4 hat bis heute **keine einzige Quelle**, und die Recherche dafür verschiebt sich mit."
+          },
+          {
+            "icon": "🔴",
+            "title": "W-Seminar: Die Zeitrechnung bis zum 01.11. geht weiterhin nicht auf – die Entscheidung über das Seitenbudget ist nur aufgeschoben, nicht getroffen",
+            "details": "📊 **Gerechnet am 26.10., 15:5x:** Offen in **Kapitel 3** sind 3.2 C+D (~80 W.), 3.3 (~186 W.), 3.4 (~279 W.), 3.5 (~279 W.), 3.6 (~279 W.) = **~1.100 Wörter ≈ 14–16 h** bei dem gemessenen Tempo von 68–78 W./h. Offen in **Kapitel 4, 5, 6 und der Einleitung** sind 7 Seiten ≈ 2.600 Wörter ≈ **33–38 h**. 🔴 **Gesamt also rund 48–54 Stunden – im Kalender stehen bis So 01.11. aber nur rund 21 Stunden W-Seminar-Blöcke.** Lücke: über 20 Stunden, auch mit den zusätzlichen Blöcken Mi–Sa. ➡️ **Die drei Hebel liegen weiterhin auf dem Tisch:** (1) Ziel = **Formalia-Minimum 10 Seiten** statt 12–14 · (2) **4.3 „Folgen\"** als Schlussabsatz in 4.2 integrieren statt als eigenes Unterkapitel (dort ist die Quellenlage ohnehin leer, spart Recherche **und** Schreibzeit) · (3) **max. 2 Fassungen pro Absatz** – 3.1 A–C liefen damit mit 78 W./h, Absatz D mit vier Fassungen nur mit 41 W./h. ⛔ **3.6 nicht kürzen** (Scharnier der Arbeit, am 24.10. entschieden), **3.6 und 3.2 nicht antasten.** 📅 **Spätester sinnvoller Zeitpunkt für die Entscheidung: Do 29.10.** – danach bleibt kein Raum mehr, sie umzusetzen. 🔴 **Stand 28.10. abends: morgen, Do 29.10., ist der selbst gesetzte letzte Tag.** Diese Woche sind zusätzlich **~6 h Seminarzeit** verfallen (Absatz C am 26., 27. und 28.10. je nicht angefangen). 🔁 **Mit zu entscheiden:** Der Freitagabend-Block (Fr 17:45–20:15, 2,5 h) steht noch auf „Kapitel 5 Regulierung\" und der Freitagmorgen auf „Recherche Kapitel 5\" – beides widerspricht „Kapitel 3 zuerst\" genauso wie der Donnerstagsblock, der heute schon umgestellt wurde. **Kapitel 4.3 hat seit dem 28.10. gar keinen Slot mehr.**"
+          },
+          {
+            "icon": "📋",
+            "title": "Vault-Durchsicht vom 17.10. lesen – Lücken, neue Befehle, 4 Vorschläge",
+            "details": ""
+          },
+          {
+            "icon": "📝",
+            "title": "W-Seminar 3.2 Absatz C – DRITTER Ausfall, neuer Termin Do 29.10., 17:15–18:30",
+            "details": "A und B stehen, C ist am **26., 27. und 28.10.** nicht passiert; am 28.10. waren 2,5 h angesetzt und es wurde gar nicht angefangen. ➡️ **Ersatzslot steht im Kalender** – er hat vorher „4.3 Folgen der Finanzkrise\" geheißen, weil Kapitel 3 laut Entscheidung vom 26.10. zuerst fertig wird. **Reihenfolge:** (1) Gleichung `0,0165 = 0,88·x + 0,09·0,0287 + 0,02·0,045 + 0,01·0,1185` nach `x` auflösen – **Marcel rechnet, Claude prüft nur nach**; (2) Absatz C, 85–95 W., **Fußnote 19**; (3) falls die Zeit reicht Absatz D (Bayes, 65–75 W., **Fußnote 20**), Schreibweise `P_B(A)`. ⚠️ **75 Minuten sind für alles drei knapp** – realistisch Gleichung + C. ⚠️ **Kapitel 4.3 hat dadurch keinen Slot mehr** und gehört in die Seitenbudget-Entscheidung. Anleitung: [[02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit).md|Arbeitsblatt 3.2]], Teil 3 und 4."
+          },
+          {
+            "icon": "📖",
+            "title": "Für die Theorieprüfung lernen (Fahrschul-App) – Prüfung Do 05.11., noch 9 Tage",
+            "details": "🔴 **Stand 25.10.: ACHT Tage in Folge ausgefallen** (17.–24.10., am 25.10. abgefragt) – nachträglich sichtbar geworden, als die Fragezeichen im Habit-Log für den 21.10. ersetzt wurden. Die Prüfung ist **gebucht und bezahlt** (154,82 €). Marcel am 23.10. selbst: *„Ich muss jetzt wirklich mal durchziehen mit der Fahrschul-App.\"* ⚠️ **Das Muster ist nicht Faulheit, sondern die Slot-Position:** Der App-Block liegt jeden Tag als **letzter** in der Reihe und gibt deshalb jedem anderen Termin nach. **Beim nächsten Morgen-Briefing einen Slot finden, der nicht der letzte ist** – Vorschlag: direkt nach der Schule statt abends. Der Slot am Fr 23.10., 19:45 ist ebenfalls ausgefallen (Friseur, Essen, Freunde). Nächster Slot: Sa 24.10."
+          },
+          {
+            "icon": "📅",
+            "title": "W-Seminar: ISB-Bewertungsbogen ansehen (5 Minuten) – jetzt die wichtigste kleine Aufgabe der Liste",
+            "details": "⬆️ **Am 22.10. von `[WOCHE]` hochgestuft:** Die Lehrkraft hat **kein eigenes Bewertungsblatt** (von Marcel am 22.10. berichtet), und Frage 15 nach dem Bewertungsraster wurde im Gespräch **nicht gestellt**. Damit ist der ISB-Bogen die **beste verfügbare Auskunft darüber, wohin die letzten zweieinhalb Wochen gehen** – und er liegt seit dem 08.10. gefunden da, ungelesen. ⚠️ **Die notierte Gewichtung (Form 10 %, Sprache 20 %, Methode 30 %, Inhalt 40 %) ist am Original noch NICHT gegengeprüft** – vor jeder Planungsentscheidung am PDF verifizieren, Anlage 5a, gedruckte S. 37–38. 💡 Falls sie stimmt, widerspricht sie Marcels Annahme vom 22.10., die Form sei „normal\" gewichtet: 10 % wäre sehr wenig"
+          }
+        ],
+        "woche": [
+          {
+            "icon": "💰",
+            "title": "Führerschein: Das Elternbudget von 2.400 € ist überschritten – Eigenanteil mindestens 837,12 €",
+            "details": "✅ **Am 26.10. vollständig geklärt.** Bezahlt sind **1.643,82 €**: Mutter 549 € Theorieblock + 940 € Schaltpaket (10 Schaltstunden + Testfahrt B197 – **beides bereits gefahren**), Marcel 154,82 € TÜV (**die zahlt er selbst**, sie laufen nicht über das Budget). Vom Budget sind noch **911 €** offen, die der Vater übernimmt. Offen an Kosten: 436,30 € Festposten + 979,00 € für die 11 restlichen Sonderfahrten + 89,00 € Übungsstunde vom 23.10. = **Minimum 3.237,12 €**. ⚠️ **Jede Fahrstunde der Termine 2–5, die keine Pflicht-Sonderfahrt ist, kostet 89 € extra** – eine Doppelstunde 178 €, und die trägt Marcel komplett allein. Aufstellung: [[02 Projekte/Führerschein.md]]. ✅ **Update 28.10.:** Termin 2 waren **2 Überlandfahrten**, keine Übungsstunde – damit sind **3 von 12 Sonderfahrten** durch und bisher sind **keine 89-€-Extrastunden** angefallen. Das Minimum von 3.237,12 € hält weiter, die Termine 3–5 bieten genau die 6 noch offenen Nicht-Nachtfahrten."
+          },
+          {
+            "icon": "💻",
+            "title": "Informatik nacharbeiten braucht einen neuen Slot",
+            "details": "Der Block am Di 27.10. (17:30–18:20) ist beim Kalenderumbau gestrichen worden, weil die Fahrschul-Stunde und W-Seminar 4.1 den Dienstag füllen. Hintergrund: 3 Notenpunkte aus der Abfrage vom 12.10., Kompensationschance ist die Schulaufgabe am **Mo 16.11.** ➡️ Nicht einfach verschwinden lassen – Ersatzfenster festlegen."
+          },
+          {
+            "icon": "🛏️",
+            "title": "Wochenend-Bettzeit entscheiden",
+            "details": "Die 7,5-Stunden-Regel ergibt bei 09:00 Aufstehen eine Bettzeit von **01:30** – das ist bewusst **nicht** im Kalender. Fr- und Sa-Nacht brauchen eine eigene Festlegung."
+          },
+          {
+            "icon": "🇬🇧",
+            "title": "Braucht Englisch einen Kalenderslot?",
+            "details": "✅ Für das **10-Finger-System ist am 26.10. entschieden: kein Slot** (*„mache ich einfach zwischendurch irgendwann\"*) – bewusste Ausnahme von „was keinen Kalendertermin hat, existiert nicht\", es bleibt aber tägliche Abfrage. **Zu Englisch hat Marcel nichts gesagt.** Kleiner Punkt, eilt nicht."
+          },
+          {
+            "icon": "💪",
+            "title": "Kraft-Block ab Mo 16.11. ausplanen",
+            "details": "Marcel hat Mo/Mi/Fr festgelegt und die Details selbst offen gelassen (*„Wie genau machen wir dann noch mal?\"*). **Uhrzeiten und Inhalt fehlen, nichts eingetragen.** ⚠️ Ab 16.11. läuft die Klausurenphase."
+          },
+          {
+            "icon": "📊",
+            "title": "Noten + Einbringung – rechenbar, eine Frage bleibt für die OSK",
+            "details": "✅ Notenbogen Q12 und ✅ die OSK-Einbringungsunterlagen (27.10., sieben Fotos) sind ausgewertet: [[04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen).md]]. **Das Dashboard rechnet jetzt einen Abi-Schnitt:** Stand 27.10. **1,9** hochgerechnet (677 von 900), bestenfalls 1,1 – feststehend sind erst 24 von 40 Halbjahresleistungen. 🔑 **Dein Modell:** D, M, F, Sport, WR und Bio = 24 (alles zählt) · Informatik, Ethik, Kunst, Geschichte, PuG sind ein **freier Topf** mit 18 verfügbaren, davon zählen 12 → **6 Streichungen**, es fallen die schwächsten raus. Plus Seminar 4 = 40. ✅ **Einbringung ist seit 27.10. abends vollständig bestimmt:** Marcel hat bestätigt, dass er in **Informatik mindestens 2** einbringen muss. Damit ergibt sich Geschichte, Ethik, Kunst je 3 von 4 · Informatik 2 von 4 · PuG 1 von 2 = genau 12 – keine freie Einbringung mehr offen. Die Zweistufigkeit ist am offiziellen Abiplaner verifiziert. 💡 **Auffälligster Befund bleibt:** Deutsch ist von 10 auf **7** gefallen, der große LN in 12/2 lag bei 4,00 Punkten."
+          },
+          {
+            "icon": "🧹",
+            "title": "Wochenende: Zimmer und Schreibtisch aufräumen, Bettwäsche wechseln, saubermachen",
+            "details": "Von Marcel am 23.10. nachts selbst als Wochenendaufgabe benannt – *„das ist das, was ich dieses Wochenende machen muss\"*. Gemeint ist der echte Schreibtisch, nicht das Dashboard-Projekt"
+          },
+          {
+            "icon": "⌨️",
+            "title": "Nach dem 10.11.: 10-Finger-System, Klavier und französische Nachrichten wieder anlegen",
+            "details": ""
+          },
+          {
+            "icon": "📖",
+            "title": "Deutsch-Referat: Vortragstermin erfragen und eintragen",
+            "details": ""
+          },
+          {
+            "icon": "🦷",
+            "title": "Fahrstunde Fr 06.11. liegt 4 Tage nach der Weisheitszahn-OP (02.11.)",
+            "details": "bei der OP-Aufklärung fragen, ob Autofahren/Schmerzmittel das zulassen. Sonst rechtzeitig umbuchen"
+          },
+          {
+            "icon": "📘",
+            "title": "W-Seminar: Zwei Schulbuch-Belege nachtragen – ein Griff ins Regal löst beide",
+            "details": "🔴 **Fußnote 15 ist bewusst ein Platzhalter:** Für die **Definition der bedingten Wahrscheinlichkeit** fehlt eine Mathematik-Quelle. Alle Quellen der Arbeit (SCHUFA, Bundesbank/EBA, BaFin, Commerzbank) sind Bank- und Praxisquellen – **keine davon darf eine mathematische Definition belegen.** Im Word-Dokument steht `[FN: Definition bedingte Wahrscheinlichkeit – Beleg Mathe-Schulbuch Q11 nachtragen]`. Gebraucht werden **Titel, Verlag, Erscheinungsjahr, Seitenzahl**. Marcels aktuelles Mathebuch behandelt nur die Normalverteilung – das **Buch aus Q11** müsste es haben, er hatte es am 25.10. nicht dabei. 🟡 **Derselbe Gang löst einen zweiten, älteren Beleg:** „Risiko vs. Unsicherheit\" in **Kapitel 2.2** steht als eigene Begriffsklärung **ohne Fußnote** (im Bauplan seit Langem als offener Punkt vermerkt, Vorschlag dort: das **Wirtschaftsbuch**). ⛔ **Nicht einfach weglassen** – eine unbelegte Definition ist in einer Mathematik-Seminararbeit die auffälligste Lücke, die es gibt. 🔁 **Ersatzwege, falls die Bücher nicht auftauchen:** (1) ISB-Merkhilfe Mathematik, Abschnitt „3 Stochastik\" – ⚠️ Inhalt von Claude **nicht** prüfbar, das PDF ist nicht maschinell lesbar, Marcel müsste selbst aufschlagen; (2) Claude recherchiert ein zitierfähiges Stochastik-Lehrbuch mit überprüfbarer Fundstelle."
+          },
+          {
+            "icon": "🔢",
+            "title": "W-Seminar: Nummerierung von Kapitel 3 am offiziellen Gliederungsblatt gegenprüfen",
+            "details": "✅ **Teilweise geklärt am 25.10.:** Der vermeintliche Widerspruch war **kein Fehler, sondern eine Entscheidung** – Marcel hat die Reihenfolge am **09.10.2026 selbst geändert und bestätigt** (bedingte Wahrscheinlichkeit von 3.5 auf **3.2**, erwarteter Verlust von 3.3 auf **3.5**). Nur die alte Gliederung vom 17.09. in `W-Seminararbeit.md` war nie nachgezogen; das ist jetzt als überholt markiert, die gültige Tabelle steht dort. **Verbindlich gilt:** 3.1 Scoring · 3.2 Bedingte Wahrscheinlichkeit · 3.3 PD · 3.4 Risikoklassen · 3.5 Erwarteter Verlust · 3.6 Binomialverteilung. 🔴 **Was offen bleibt:** Die Arbeit weicht damit in der **Nummerierung vom offiziellen Gliederungsblatt ab**, das die Lehrkraft kennt (inhaltlich dieselben sechs Unterkapitel, andere Folge). Das Blatt liegt nur als **Foto** in `Claude Files\\01 Schule\\W-Seminararbeit\\` – Marcel muss **selbst nachsehen** und entscheiden, ob die neue Folge so bleibt. **Vor dem Inhaltsverzeichnis klären**, weil Querverweise und Fußnoten darauf aufbauen."
+          },
+          {
+            "icon": "📎",
+            "title": "W-Seminar: `Dok1.docx` hat keinen Anhang",
+            "details": "Sobald im Text auf den Anhang verwiesen wird, muss die zwölfzeilige SCHUFA-Kriterientabelle dort stehen. Aktuell verweist noch keine Stelle darauf – also kein Fehler, aber eine Folgepflicht, die mit Kapitel 3 wächst."
+          },
+          {
+            "icon": "💻",
+            "title": "Informatik: Schulaufgabe am 16.11. ist die Kompensation für die 3 Punkte (Vorbereitung ab 11.11.)",
+            "details": ""
+          },
+          {
+            "icon": "🗓️",
+            "title": "Vormittags-W-Seminar-Blöcke im Zweiwochenplan überprüfen",
+            "details": "die Abendblöcke halten, die Vormittagsblöcke reißen (drei Datenpunkte)"
+          },
+          {
+            "icon": "🩹",
+            "title": "Knöchel: Wiedereinstieg lief, Außenrist noch nicht sauber",
+            "details": "Di 27.10. war das **erste Training nach dem Umknicken vom 11.10.** (16 Tage), dazu am selben Tag Sport-Praxis in der Schule – also Doppelbelastung. Marcel: *„Das lief aber sehr gut … es war schon in Ordnung.\"* Aber: **Bandage den ganzen Tag**, allgemein steif, *„nicht komplett in jeden Ball reingegangen\"*, und 🔴 **beim Außenrist-Pass noch stark spürbar** (Umknicken/seitlich dagegen okay). ➡️ **Am Do 29.10. nach dem Training gezielt nachfragen**, ob der Außenrist besser, gleich oder schlechter ist. **Gleich oder schlechter → Arzt** – das ist die seit dem 13.10. vereinbarte Schwelle (Verdacht Bänderriss, Quelle: [gesundheitsinformation.de](https://www.gesundheitsinformation.de/sprunggelenkverstauchung.2676.de.html)). ⚠️ Besonders wichtig, weil **Sport Leistungsfach ist** und die praktische Abiturprüfung ab 25.01.2027 läuft. 🩹 **Zweite Baustelle seit 28.10.:** Nacken- und Rückenschmerzen den ganzen Tag („falsch gelegen\"), verschlimmert durch 1,5 h Autositzen, **besser durch Bewegung** (Padel 17:30–18:30). **Kein Arztfall** – Marcels eigene Einschätzung. ➡️ **Beim Training am Do 29.10. beides abfragen**, Knöchel und Rücken. Und: **Dehnen** aus der Morgenroutine ist hier der konkrete Hebel – es fällt seit Tagen aus."
+          },
+          {
+            "icon": "💌",
+            "title": "Karte an Oma schreiben und nachschicken",
+            "details": ""
+          },
+          {
+            "icon": "💻",
+            "title": "Word nach den Formalia-Vorgaben einrichten",
+            "details": ""
+          },
+          {
+            "icon": "📖",
+            "title": "W-Seminar: EL = PD × LGD × EAD in Kapitel 3 einbauen",
+            "details": ""
+          },
+          {
+            "icon": "🧵",
+            "title": "Knöpfe für die Trachtenweste kaufen (kein Zeitdruck mehr)",
+            "details": ""
+          },
+          {
+            "icon": "📖",
+            "title": "Deutsch-Referat: Buch besorgen (Herta Müller, 112 S.) – Notiz: [[04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller.md]]",
+            "details": ""
+          },
+          {
+            "icon": "📱",
+            "title": "Entscheidung Obsidian Mobile / Vault-Zugriff unterwegs treffen",
+            "details": ""
+          },
+          {
+            "icon": "🗓️",
+            "title": "Morgenroutine überdenken – es gibt jetzt einen echten Datenpunkt",
+            "details": "Am **Mo 26.10.**, dem ersten Tag des neuen Systems, ist Marcel um **07:00 statt 06:00** aufgestanden, und die Routine zerfiel sauber in zwei Hälften: ✅ **Wasser, Zähneputzen, Duschen** (passiert im Bad ohnehin) · ❌ **Dehnen und Nachrichten EN+DE** (brauchen eine bewusste Entscheidung und Zeit). ➡️ **Zwei Fragen daraus:** (1) Gehören Dehnen und Nachrichten überhaupt in den Morgen, oder besser woanders hin? (2) Die Aufstehzeit folgt der **Bettzeit**, nicht dem Wecker – am Wecker zu drehen bringt nichts, solange die Nächte bis 01:3x gehen. ⏳ **Noch einen zweiten Datenpunkt abwarten**, bevor etwas geändert wird – eine einzelne kurze Nacht ist kein Muster."
+          },
+          {
+            "icon": "🗓️",
+            "title": "Zweiwochenplan bis zur W-Seminar-Rohfassung durchgehen und bestätigen",
+            "details": "läuft noch bis **01.11.**, von Marcel aber nie ausdrücklich abgenickt."
+          }
+        ]
+      }
+    },
+    "today": {
+      "capturedAt": "2026-10-28T22:33:04.756Z",
+      "data": {
+        "path": "05 Daily Notes/2026-10-28.md",
+        "exists": true,
+        "content": "# 2026-10-28 (Mittwoch)\n\n> [!info] Diese Notiz ist am Abend um 19:3x angelegt worden\n> Marcel hat mit „Was steht an\" eingestiegen, kurz vor dem W-Seminar-Block. Alles davor ist aus Kalender und Rückmeldungen rekonstruiert, nicht live mitgeschrieben.\n\n## ✅ Was heute belegt gelaufen ist\n\n| Was | Stand |\n|---|---|\n| 🏫 Schule | Französisch 08:00 · Biologie 09:50 · Informatik 11:40 |\n| 🚗 **Fahrstunde 2/5 (Muzi), 15:30–17:00** | ✅ **2 Überlandfahrten** – von Marcel bestätigt |\n| 🚗 **Fahrschul-App, 1 Stunde** | ✅ **In der Schule erledigt**, wie am 27.10. angekündigt |\n| 🧬 **Bio-Test vom 12.10. zurück** | 😞 **8 Punkte** |\n| 💻 **Dashboard** | ✅ **Committet und gepusht** |\n\n## 🧬 Bio-Test: 8 Punkte – und was daran die eigentliche Nachricht ist\n\nMarcels Reaktion: *„Enttäuschende 8 Punkte, so eine Scheiße.\"* Er schickt den korrigierten Test und lädt ihn hoch.\n\n**Die Zahl ist eingetragen** in [[04 Ressourcen/Schule/Noten & Leistungsnachweise Q13.md]] und in [[04 Ressourcen/Schule/Noten (Daten).md]] (`13/1 → Biologie → klein_noten`). Damit ist **kein Ergebnis des Halbjahres mehr offen** – der Test war 16 Tage unterwegs.\n\n⚠️ **Der Befund, der bleibt:** Die Lehre vom 16.10. („Marcels Bauchgefühl ist eher zu pessimistisch\") ist so **nicht haltbar**. Direkt nach dem Test am 12.10. hieß es „lief gut\" / „in Ordnung\" – es wurden 8 Punkte. Bei Wirtschaft und Französisch lag das Gefühl zu tief, hier deutlich zu hoch. Die engere Regel passt besser: Wo **vorher gelernt und geübt** wurde (Deutsch 13, Informatik 12, Wirtschaft 11), trifft die Einschätzung. Wo sie nur aus „war machbar\" kommt, nicht.\n\n➡️ **Wenn der Scan da ist:** Punkteaufstellung durchgehen und schauen, **wo** die BE weggegangen sind. Das ist die verwertbare Information, nicht die 8. Zielort für das Foto: `Claude Files/01 Schule/Biologie/`.\n\n## 🚗 Fahrstunde 2/5: die Vermutung hat genau gestimmt\n\n**2 Überlandfahrten**, keine Übungsstunde – also **keine 89 € extra**. Marcels Einschätzung vom 26.10. (*„wahrscheinlich 2 Überland\"*) war richtig.\n\n**Neuer Sonderfahrten-Stand:** Überland **3 von 5** · Autobahn **0 von 4** · Dämmerung/Dunkelheit **0 von 3** → **3 von 12 gefahren, 9 offen = 801,00 €**. Eingetragen in [[02 Projekte/Führerschein.md]].\n\n⚠️ **Steht aber nur so lange, wie die Termine standen** – siehe den Abschnitt zur Absage weiter unten: Mit dem Wegfall des 30.10. fehlen **5 Sonderfahrten ohne Termin**, nicht mehr 3.\n\n## 💻 Dashboard: gepusht – und dabei kam ein zweiter Fund heraus\n\nMarcel hat gefragt, was Committen überhaupt ändert („Kann ich danach nicht mehr editieren?\"). Geklärt: Es ändert nichts an der Editierbarkeit, es macht den Stand nur **auf Vercel sichtbar** und jederzeit zurückdrehbar. Daraufhin: *„Ja, mach.\"*\n\n- `npx tsc --noEmit` **sauber** (Exit 0), dann commit `338418d` „Drei neue Widgets: Fahrschul-Budget, Noten und Habits\" – 13 Dateien, +2.620 Zeilen.\n- 🔴 **Der eigentliche Fund:** Der Push ging von `1db3e0b` auf `338418d` – es sind **drei** Commits rausgegangen, nicht einer. Die beiden älteren („Dashboard-Layout: Countdown oben links\" und „To-Do-Widget als Akkordeon\") lagen **ebenfalls unveröffentlicht lokal**. Das ist **zum dritten Mal** dasselbe Muster nach dem 13.10. und dem 05.10.\n- ➡️ **Daraus folgt eine Regel, keine Aufgabe:** Nach jedem fertigen Arbeitsschritt am Dashboard entweder sofort pushen oder den offenen Stand in die Projektnotiz schreiben. „Später\" hat hier dreimal „wochenlang\" bedeutet.\n\n## 🚫 Fahrstunde Freitag 30.10. abgesagt – Folge größer als der Termin\n\nVon Marcel am Abend gemeldet, rechtzeitig, also **keine 178-€-Ausfallgebühr**. Kalender und [[02 Projekte/Führerschein.md]] sind nachgezogen:\n\n- 🌅 Morgenroutine Fr zurück auf die **Freitagsregel 07:00** (die 06:00-Ausnahme gab es nur wegen der Fahrstunde)\n- 🔎 Recherche Kapitel 5 von 06:50–07:45 auf **08:00–09:15** verlängert (75 statt 55 Min, 35 Min Puffer bis Mathe 09:50)\n- 📋 [[02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md]] an beiden Stellen korrigiert\n\n🔴 **Der eigentliche Befund:** Die Rechnung vom 26.10. („die Termine 2–5 deckten genau die 8 Nicht-Nachtfahrten ab\") ist aufgebrochen. **Jetzt fehlen 5 Sonderfahrten ohne Termin statt 3** – 2 Überland/Autobahn plus die 3 Nachtfahrten. Es braucht also **drei** weitere Doppelstunden statt zwei. Die Praxisprüfung setzt alle 12 voraus und rutscht sonst in die Klausurenphase ab 16.11.\n\n## 🔗 „Live-URL\" – und eine Korrektur von mir\n\nMarcel hat gefragt, was damit gemeint ist: **https://digitaler-schreibtisch.vercel.app**, die öffentliche Adresse, die Vercel bei jedem Push auf `main` neu baut.\n\n⚠️ **Ich hatte vorher falsch gesagt, die Widgets seien dort „in 1–2 Minuten\" sichtbar.** Im Code nachgesehen: `api/noten`, `api/fahrschule` und `api/habits` holen ihre Daten alle über `readNote` aus `src/lib/obsidian.ts`, und das greift auf **`127.0.0.1`** zu – Obsidians Local REST API. Auf Vercel läuft kein Obsidian, also liefern die drei Widgets dort keine Daten. Das ist dieselbe Einschränkung, die seit dem 16.09. in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]] steht; die Tunnel-Lösung ist nach wie vor nicht gebaut.\n**Was das Pushen trotzdem gebracht hat:** Der Code ist aus dem Schwebezustand raus und liegt auf GitHub.\n\n## 🌙 Abend-Check (22:2x–22:4x)\n\n| Habit | Stand |\n|---|---|\n| 🛏️ Aufstehen | **07:33** statt 06:00 – *„so verklatscht aufgewacht\"* |\n| 😴 Schlaf | Bett ~**00:00**, also **7,5 h** – Menge fast passend, **Qualität schlecht** |\n| 🌅 Morgenroutine | ✗ **nur Zähneputzen** – Wasser, Dehnen, Nachrichten, Duschen fehlten |\n| 🚗 Fahrschul-App | ✅ **60 Min**, in der Schule |\n| ⌨️ 10-Finger | ✗ |\n| 🇬🇧 Englisch | ✗ |\n| 📕 Lesen | ✗ (*„sehr unwahrscheinlich\"* – meldet sich, falls doch) |\n| 🏊 Schwimmen (Mi fällig) | ✗ **ausgefallen** – der Tag gab es nicht her |\n| 📝 W-Seminar | ✗ **gar nicht angefangen** |\n\n### 🩹 Nacken und Rücken – neu, aber kein Arztfall\n\n*„Schlimm war es auf jeden Fall jetzt nicht, aber es war schon sehr unangenehm über den Tag.\"* Ursache vermutlich falsch gelegen. **1,5 Stunden im Auto waren nicht förderlich.**\n✅ **Besser geworden durch Bewegung:** 17:30–18:30 war er mit Freunden **Padel** spielen, *„da ging es dann mit der Bewegung auch in Ordnung\"*. ⛔ **Kein Arzt nötig** – Marcels eigene Einschätzung.\n➡️ Morgen beim Training mitfragen, zusammen mit dem Knöchel. Und: **Dehnen** aus der Morgenroutine wäre hier der konkrete Hebel – es fehlt seit Tagen.\n\n### 📉 Der Tag in einem Satz\n\nAlles, was von außen getaktet war, hat funktioniert – Schule, Fahrstunde, App in der Schule, Padel mit Freunden. **Alles, was Marcel selbst ansetzen musste, ist ausgefallen** – Morgenroutine, 10-Finger, Englisch, Lesen, Schwimmen und der 2,5-Stunden-W-Seminar-Block. Nach der Schule hat er erst **45 Minuten gedöst**, dann gegessen, dann war schon Fahrschule.\n\n## 📍 NÄCHSTER SCHRITT (bei Rückkehr)\n\n### 1. 🔴 W-Seminar 3.2 Absatz C – ZUM DRITTEN MAL AUSGEFALLEN (26., 27., 28.10.)\n\nDer Block 19:30–22:00 hat **gar nicht stattgefunden**, von Marcel bestätigt. Ersatz ist **sofort gelegt**, wie es die Regel verlangt:\n\n🗓️ **Neu: Do 29.10., 17:15–18:30** – der Slot, in dem vorher „4.3 Folgen der Finanzkrise\" stand. Begründung: Marcels eigene Entscheidung vom 26.10. war **Kapitel 3 wird zuerst fertig**; ein Kapitel-4-Block vor dem unfertigen Kapitel 3 widerspricht dem.\n\n1. Gleichung `0,0165 = 0,88·x + 0,09·0,0287 + 0,02·0,045 + 0,01·0,1185` nach `x` auflösen – **Marcel rechnet, Claude prüft nach**\n2. Absatz C (85–95 W.), **Fußnote 19**\n3. Wenn die Zeit reicht: Absatz D (Bayes, 65–75 W.), **Fußnote 20**, Schreibweise `P_B(A)`\n\n⚠️ **75 Minuten sind für alle drei Schritte knapp.** Realistisch sind Gleichung + C; D braucht voraussichtlich einen weiteren Slot.\n⚠️ **Kapitel 4.3 hat jetzt KEINEN Slot mehr.** Das ist bewusst offen gelassen und gehört in die Seitenbudget-Entscheidung.\n\n### 2. 🔴 Seitenbudget-Entscheidung – morgen ist der letzte sinnvolle Tag\n\nSeit dem 26.10. aufgeschoben, **Do 29.10.** war der selbst gesetzte Termin. Es fehlen ~2.520 Wörter ≈ 37 h, im Kalender stehen ~21 h – und davon sind diese Woche schon **2,5 h ungenutzt verfallen**. Die Rohfassung am **01.11.** ist rechnerisch nicht zu halten.\n🔁 **Mit zu entscheiden:** Der Freitagabend-Block (Fr 17:45–20:15, 2,5 h, aktuell „Kapitel 5 Regulierung\") steht im selben Widerspruch wie der Donnerstagsblock – Kapitel 5 vor dem unfertigen Kapitel 3. Hintergrund in [[05 Daily Notes/2026-10-27.md]].\n\n### 3. 🏫 Offen: bleibt Marcel morgen zu Hause?\n\nEr hat es abends angesprochen (*„vielleicht auch mal wieder Homeoffice einlegen\"*) und **nicht entschieden**. Grund: Donnerstag ist sein schlechtester Tag – Deutsch beim strengsten Lehrer in Stunde 1–2, dann Sporttheorie, dann Kunst, danach Fahrstunde, App, W-Seminar, Training, Teambesprechung.\n**Vereinbarung:** nicht abends im müden Zustand entscheiden, sondern **morgen früh**. Bleibt er daheim, wird der Vormittag sofort als W-Seminar-Block angelegt.\n⚠️ **Das Risiko liegt allein bei Deutsch** – Problemfach der Einbringung (12/2 von 10 auf **7** gefallen, großer LN 4,00 Punkte), laufende Kafka-Lektüre, die er nicht gelesen hat, und schon eine 3 aus „unvorbereitet drangezogen\". Sporttheorie und Kunst sind ohne Notenrisiko.\n\n### 4. 🩹🚗 Morgen abfragen\n\n- **Knöchel** (Außenrist besser/gleich/schlechter – gleich oder schlechter → Arzt) **und Rücken** beim Training\n- **Fahrstunde 3/5**, 13:30–15:00: welche Art gefahren wurde. Günstigere Uhrzeit als heute, also ohne Dämmerung und Berufsverkehr\n- Ob die **Fahrstunde vom 30.10. und die 3 Nachtfahrten** bei Muzi nachgebucht wurden\n\n### 5. ❓ Weiter offen, mehrfach nicht beantwortet\n\n- **Kafka/Deutsch:** Hat die Zusammenfassung in der Stunde am 27.10. gereicht?\n- **Zwei Diktatstellen** vom 27.10. – nicht interpretieren, nachfragen:\n  - *„Das ist jetzt das Englisch-Wesenar. Den muss ich jetzt mal nicht ganz durchlesen.\"*\n  - *„Die Ernährung, ja, genau, meint das Fazit.\"*\n\n---\n\n## 🌙 Nachtrag (22:4x–23:0x)\n\n### 💻 „localhost hat die Verbindung abgelehnt\" – Ursache gefunden\n\nMarcel kam nicht ins Dashboard. **Grund: `npm run dev` lief nicht**, auf Port 3000 lauschte nichts (`netstat` leer). Manuell gestartet → Next.js 16.3.5, „Ready in 1077ms\", **http://localhost:3000** erreichbar.\n⚠️ **Das kommt wieder.** Der Dev-Server ist nach jedem PC-Neustart weg. Der Autostart-Vorschlag (Task Scheduler, Trigger „Bei Anmeldung\") steht seit dem **16.09.** ungenutzt in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]] – jetzt als Erinnerung eingetragen, weil es heute das erste Mal wirklich gestört hat.\n\n### 🧬 Bio-Test übertragen – und der Befund ist ein anderer als erwartet\n\nFünf Fotos hochgeladen (`bio.zip`, 22:41), einsortiert nach `Claude Files/01 Schule/Biologie/Bio-Test 12.10.2026 (korrigiert)/`, Root wieder leer. Vollständige Übertragung: [[04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert).md]].\n\n**1. Stegreifaufgabe Biologie 13/1**, Kurs 2b3, Lehrkraft **Schönawa**, korrigiert am 25.10.26. **8 Punkte = 12,5 von 20 BE** (62,5 %).\n\n| Aufgabe | erreicht/möglich | Verlust |\n|---|---|---|\n| 1 Nervenbestandteile | 3/3 | – |\n| **2.1 Voraussetzungen Ruhepotential** | **1,5/5** | **−3,5** |\n| 2.2 Zustandekommen durch K⁺ | 2,5/3 | −0,5 |\n| 2.3 Sauerstoff/ATP | 2/3 | −1 |\n| 3 Gramicidin-A-Hypothese | 1,5/3 | −1,5 |\n| 4 Szenarien a–c | 2/3 | −1 |\n\n🎯 **Der eigentliche Befund:** **Fast die Hälfte des Verlusts steckt in einer einzigen Teilaufgabe.** Bei 2.1 war nach *Voraussetzungen* gefragt, geantwortet wurde mit dem *Ablauf* – der elektrische Gradient ist laut Korrektur „eher Folge! ⇒ keine Ausgangsvoraussetzung\". Die fehlende zweite Voraussetzung war die **Selektivität der Membran**. **Mit 2.1 richtig wären es 16/20 BE gewesen.**\n\nDie restlichen Abzüge sind ein einziges Muster: **fehlende Fachbegriffe**. „Kaliumpumpe\" statt *Natrium-Kalium-Pumpe*, „Neutralisation\" statt *Ausgleich der Kräfte*, kein *Kaliumgleichgewichtspotenzial* – obwohl der Begriff **wörtlich in Material 2 stand**. Dazu eine erfundene Zahl („60 mV\") bei Aufgabe 3.\n\n💡 **Das korrigiert die Einschätzung von vorhin.** Ich hatte heute Abend geschrieben, Marcels „lief gut\" sei eine Fehleinschätzung gewesen. Stimmt nur halb: **Bei vier von sechs Aufgaben lag er richtig.** Die Fehleinschätzung kam allein aus 2.1 – einer Aufgabe, bei der er die Frage missverstanden hat, ohne es merken zu können. Das ist kein zu optimistisches Bauchgefühl, sondern ein blinder Fleck. **Gegen beides hilft etwas anderes.**\n\n✅ **Geklärt:** Die rote **„4\"** oben rechts ist **keine Note** – Marcel ist Nummer 4 in der Namensliste, die Zahl dient der Lehrkraft nur zum Sortieren.\n\n### 📊 `/testanalyse` gebaut – und sofort komplett am Bio-Test durchgezogen\n\nMarcel hat den Befehl am 28.10. bestellt: *„Jedes Mal, wenn du einen Test hochgeladen bekommst, gleichst du den mit den Materialien ab … Du beherzigst das dann für den nächsten Test und stellst dann mehr so Aufgaben, wie es im Test ist.\"* Liegt als `/testanalyse [Fach]` in `.claude/commands/`, in CLAUDE.md eingetragen, läuft ab jetzt automatisch bei korrigierten Arbeiten.\n\n**Die vollständige Analyse am Bio-Test hat drei Dinge ergeben, die alle nicht in der Note stehen:**\n\n1. **💰 0,5 BE haben zu 9 Punkten gefehlt.** Die Korrektur ist rechnerisch sauber (12,5/20 = 62,5 %, Band 60–<65 % = 8 P.), es gibt **nichts zu reklamieren**. Aber die 9-Punkte-Grenze liegt bei 13,0 BE – und der fehlende halbe Punkt steht namentlich in der Korrektur: `½ Selektivität der Membran`.\n2. **🔴 Null echte Wissenslücken.** Alle 7,5 verlorenen BE stammen aus der *Art* zu antworten: Operator missverstanden (−3,5), Fachbegriffe (3×), fehlende Begründung/Schlusssatz (2×), Transfer (2×), erfundene Zahl (1×). **Der Stoff saß.**\n3. **📄 Drei Abzüge betrafen Angaben, die wörtlich im Angabenblatt standen** – das Kaliumgleichgewichtspotenzial im letzten Satz von M2, „Na⁺ **und** K⁺\" in M3, die Durchlässigkeitsregel in M4. **Es wurde aus dem Gedächtnis geantwortet statt aus dem Material.**\n\n> [!danger] 🎯 Der Befund, der am meisten wehtut\n> **Die Antwort auf die teuerste Aufgabe stand als Überschrift in Marcels eigener Lernnotiz.**\n> [[04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung.md]], Kapitel 4: „**Voraussetzung 1: Konzentrationsunterschiede der Ionen**\" und „**Voraussetzung 2: Selektive Permeabilität der Membran**\".\n> Die Testfrage lautete: *„Beschreiben Sie zwei Voraussetzungen für das Ruhepotential.\"* Die Notiz hatte die Antwort in der exakt gefragten Form **und** Anzahl. Geantwortet wurde mit dem Abschnitt darunter.\n> **Das ist kein Wissensproblem, das ist ein Zugriffsproblem.**\n\n**Warum die Vorbereitung es nicht gefunden hat:** Am 11.10. liefen ~4 h Bio mit zwei Abfragerunden, am 12.10. um 07:10 noch eine Stolperfallen-Runde. Alles gut gemacht – aber **jede Frage zielte auf Mechanismen und Unterscheidungen** („Wie entsteht das Ruhepotenzial?\", „Gradient vs. Potenzial\"). **Kein einziges Mal wurde die Gliederung der Notiz selbst abgefragt.** Und: **von den vier geübten Stolperfallen kam keine einzige im Test vor.**\n\n➡️ Neu angelegt: [[04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie.md]] – Operatoren mit BE-Gewicht, Reproduktion 70 % vs. Transfer 30 %, Korrekturstil Schönawa, **fünf Übungsaufgaben im Stil dieses Tests**. ⚠️ Basis ist **ein** Test, also Verdacht, kein Muster.\n➡️ Warnhinweis direkt in die Lernnotiz an Kapitel 4 gesetzt.\n➡️ `/lernen` korrigiert: Biologie zählt nicht mehr als Beleg für das Lernmuster, und es gibt eine neue Regel – **jede nummerierte Liste als Liste abfragen, in den Operatoren der Lehrkraft.**\n\n### 📊 `/testanalyse` auch auf Französisch und Wirtschaft angewendet (23:2x–23:5x)\n\nMarcel: *„Kannst du das kurz noch mit Französisch und Wirtschaft machen?\"* Material lag vollständig in `Claude Files/01 Schule/`.\n\n**🇫🇷 Französisch (07.10., 11 Punkte) – die offene Frage vom 26.10. ist gelöst.**\nIm Vault stand der Verdacht, die Note müsste rechnerisch eher 13 sein, weil „08/09\" als *8 von 9 BE* gelesen wurde. **Falsche Lesart:** Das sind **zwei Notenpunkt-Zahlen** – Teil B = 8, Teil C = 9. Gegenprobe: Teil A 11/12 BE = 91,7 % → 14 Punkte, gewichtet 40 % = 5,60; B+C Mittel 8,5 × 60 % = 5,10; **Summe 10,70 → 11**. Trifft die Note exakt. **Nichts zu reklamieren**, der Punkt ist erledigt.\n🎯 **Der Befund ist ein Gefälle:** Teil A (Vokabular, 40 %) auf **14-Punkte-Niveau**, Teil B+C (eigene Interpretation, **60 %**) bei 8/9. In Teil B und C steht **keine einzige Grammatik- oder Vokabelrüge** – nur Tiefenfragen: *„Quel comportement ?\"*, *„Comment ? Explique.\"*, *„+ conséquences ?\"*, *„Évite les généralités.\"*\n⚠️ Und die Vorbereitung im Vault ist eine **Vokabel- und Wendungssammlung** – sie deckt genau den Teil ab, der ohnehin sitzt. **Für 60 % des Gewichts gibt es nichts.**\n\n**💼 Wirtschaft (16.10., 11 Punkte, 15,5/20) – die Rechnung stimmt, 0,5 BE fehlten zu 12.**\n🎯 **Rund 2 der 4,5 verlorenen BE sind schlicht leer gelassene BGB-Normfelder** – zwei in Aufgabe 1, eines in Aufgabe 2. Die **Zuordnung war überall richtig** (Unmöglichkeit, Sachmangel, Nebenpflichtverletzung alle abgehakt), nur die Paragrafen fehlten. Und auf dem Blatt steht fett unter „Hinweise\": *„…und **nennen Sie die Normen des BGB**.\"*\n⚠️ **Das kollidiert mit einer Regel in CLAUDE.md:** „Keine Paragrafen auswendig abfragen in Wirtschaft/Recht\" – von Marcel **am Abend dieses Tests** aufgestellt. Mit den drei Normen wären es rechnerisch ~17,5/20 = **13 Punkte** gewesen. **Nicht eigenmächtig geändert** – als Entscheidung mit Mittelweg-Vorschlag (nur die 8–10 Kernnormen) ins Profil geschrieben.\n\n> [!important] 🧭 Der Befund des Abends: dasselbe Muster in drei Fächern bei drei Lehrkräften\n> **In keinem der drei Tests gab es eine einzige echte Wissenslücke.**\n> Und alle drei Korrekturen verlangen denselben nicht gegangenen Schritt: `weil?` · `≠ Erhalt Ruhepotential` · `Comment ? Explique.` · `Quel comportement ?` · `+ conséquences ?` · `eher nicht, sonst kein Schaden`.\n> **Marcel nennt zuverlässig das Richtige – und hört einen Schritt zu früh auf.** Beobachtung ohne Folgerung, Mechanismus ohne Zweck, Oberbegriff ohne Konkretisierung.\n> Das ist kein Fachproblem, sondern eine **Antwortgewohnheit** – und deshalb in allen Fächern gleichzeitig reparierbar.\n> Dazu ein zweites Muster: **~7 BE in zwei Tests** gingen verloren, weil die Arbeitsanweisung nicht wörtlich befolgt wurde (Normen nennen · „zwei Voraussetzungen\" · Material verwenden).\n> ➡️ [[04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13).md]] mit drei 60-Sekunden-Checks vor der Abgabe: **Operator-Check · Ein-Schritt-weiter-Check · Anweisungs-Check.**\n\nNeu: [[04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch.md]] · [[04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht.md]] · [[04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13).md]] – je mit Übungsaufgaben im Stil der Lehrkraft.\n\n### 💰 Nachtrag (00:0x): Marcel korrigiert die Reklamations-Regel – inhaltlicher Durchgang nachgeholt\n\n*„Ich meinte auch, dass du so inhaltlich schaust, was die abgefragt haben, was ich geantwortet habe und ob man da irgendwie noch einen Punkt rausholen kann. Auch wenn es nur ein Verdacht ist, ob ich dann wirklich reklamiere, frage ich.\"*\n\n**Berechtigte Korrektur an meinem eigenen Befehl.** `/testanalyse` hatte als harte Regel „nur melden, was wörtlich belegbar ist\". Das war zu streng – es hat Kandidaten unterschlagen, die Marcel hätte sehen wollen.\n➡️ **Schritt 2c neu im Befehl**: fünf inhaltliche Tests (Synonym · Teilleistung · Operator · Richtung · Doppelabzug) und eine **dreistufige Ampel** (🟢 stark / 🟡 mittel / 🔴 schwach) statt Verschweigen. **Alles wird gemeldet, Marcel entscheidet.**\n\n**Der Durchgang hat einen echten Fund ergeben:**\n\n> [!danger] 🟢 Biologie 2.1 – eine der zwei Voraussetzungen WAR genannt\n> Marcel schrieb „ein **chemischer Gradient**\". In seinem eigenen Unterrichtsheft steht: *„**Chemischer Gradient (Konzentrationsgefälle):** Der reine räumliche Unterschied in der Ionenkonzentration…\"* – das **ist** Voraussetzung 1 („Konzentrationsunterschiede der Ionen\"), nur anders benannt. Die Beschreibung dazu hat die Lehrkraft **zweimal abgehakt**.\n> 5 BE für zwei Voraussetzungen ≈ 2,5 pro Stück. Eine vollständig geliefert → erwartbar ~2,5 BE, vergeben **1,5**. **Differenz ca. 1 BE.**\n> 💥 **Und 13,0 BE sind die Grenze zu 9 Notenpunkten.** 12,5 + 1 = 13,5 → **9 statt 8 Punkte.**\n> ⚠️ Gegenrede möglich (die vermischte Darstellung könnte den richtigen Teil mit entwerten), aber die Frage lohnt sich.\n\n**🇫🇷 Französisch – Marcels eigene Beobachtung war richtig.** Er fragte, ob die Bewertung von Teil B/C zur Menge an Rot passt. Durchgezählt: **null inhaltliche Fehler** markiert, alles ist „geh tiefer\" oder „nimm das Fachwort\". Und **drei der vier roten Ergänzungen sagen in Fachsprache das, was er im Nebensatz schon geschrieben hatte** (*„utilisation excessive\"* ↔ *„le temps énorme que les gens passent\"* · *„dépendance\"* ↔ *„personne ne pourrait vivre sans son portable\"* · *„changer ses habitudes\"* ↔ *„chacun devrait faire plus attention\"*). 🟢 **Guter Gesprächskandidat** – ⚠️ aber **rechnerisch wertlos**: B von 8 auf 9 ergäbe 11,00 statt 10,70, die Note bliebe **11**. Der Wert liegt in der Information, nicht im Punkt.\n\n**💼 Wirtschaft – hier ist am wenigsten zu holen.** Alle Kreuze in Aufgabe 2 geprüft: **alle richtig**. Aufgabe 1 ist exakt proportional bewertet (4 von 6 Elementen → 2 von 3 BE). Der große Verlustposten sind **drei leere Felder**, und dafür gibt es keine Punkte. Zwei 🟡-Kandidaten (3a „vertragsmäßig\", 4 §278) sind eher Lernbefunde.\n\n📌 **Unterm Strich: ein Kandidat, der wirklich etwas ändern würde** – Biologie 2.1, Wert ein ganzer Notenpunkt. Formulierungsvorschlag steht in der Testnotiz."
+      }
+    },
+    "vault": {
+      "capturedAt": "2026-10-28T22:33:04.778Z",
+      "data": {
+        "files": [
+          "00 Kontext/",
+          "01 Inbox/",
+          "02 Projekte/",
+          "03 Bereiche/",
+          "04 Ressourcen/",
+          "05 Daily Notes/",
+          "07 Anhänge.md",
+          "07 Anhänge/",
+          "CLAUDE.md"
+        ]
+      }
+    }
+  }
+}

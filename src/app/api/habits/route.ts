@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { readNote, errorToResponseInit } from "@/lib/obsidian";
+import { snapshotResponse } from "@/lib/snapshot";
 import { parseHabitStand, HabitDataError } from "@/lib/habits";
 
 const PATH = "03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md";
@@ -23,6 +24,11 @@ export async function GET() {
         { status: 422 },
       );
     }
+    // Obsidian nicht erreichbar (z. B. auf Vercel oder wenn der Dev-Server
+    // nicht laeuft): lieber den letzten bekannten Stand zeigen als nichts.
+    // Die Antwort traegt X-Snapshot-Stale, das Offline-Band macht es sichtbar.
+    const stale = snapshotResponse("habits");
+    if (stale) return stale;
     const { body, status } = errorToResponseInit(err);
     return NextResponse.json(body, { status });
   }
