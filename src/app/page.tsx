@@ -6,6 +6,9 @@ import { QuickCapture } from "@/components/QuickCapture";
 import { GraphView } from "@/components/GraphView";
 import { TodoLists } from "@/components/TodoLists";
 import { CalendarWidget } from "@/components/CalendarWidget";
+import { FahrschuleBudget } from "@/components/FahrschuleBudget";
+import { NotenWidget } from "@/components/NotenWidget";
+import { HabitWidget } from "@/components/HabitWidget";
 
 export default function Home() {
   return (
@@ -28,6 +31,13 @@ export default function Home() {
         <div id="heute">
           <TodayWidget />
         </div>
+        {/* Reihe 1, dritter Platz: Fahrschul-Budget (26.10.2026). Füllt auf xl
+            die bis dahin leere dritte Spalte – deshalb musste die Daily Note
+            nicht verschoben werden. md:col-span-2, damit auf mittleren
+            Bildschirmen keine halbe Lücke daneben stehen bleibt. */}
+        <div id="fahrschule" className="md:col-span-2 xl:col-span-1">
+          <FahrschuleBudget />
+        </div>
         {/* Reihe 2: To-Dos über die volle Seitenbreite. "Heute" links, "Diese Woche"
             rechts – die Aufteilung macht TodoLists selbst. */}
         <div id="todos" className="md:col-span-2 xl:col-span-3">
@@ -35,6 +45,19 @@ export default function Home() {
         </div>
         <div id="kalender" className="md:col-span-2 xl:col-span-3">
           <CalendarWidget />
+        </div>
+        {/* Noten über die volle Breite (27.10.2026, abends umgebaut auf Marcels Wunsch):
+            eine Spalte je Halbjahr mit Schnitt, Leiste und ankreuzbaren Noten,
+            darüber die Abi-Hochrechnung. Braucht die volle Breite, weil vier
+            Halbjahre × elf Fächer nebeneinander stehen. */}
+        <div id="noten" className="md:col-span-2 xl:col-span-3">
+          <NotenWidget />
+        </div>
+        {/* Habits über die volle Breite (27.10.2026): das Tagesraster braucht
+            Platz, 10 Habits x 14 Tage nebeneinander. Direkt unter den Noten,
+            weil beide dieselbe Frage beantworten: läuft es oder nicht. */}
+        <div id="habits" className="md:col-span-2 xl:col-span-3">
+          <HabitWidget />
         </div>
         <div id="projekte">
           <ProjectsOverview />
