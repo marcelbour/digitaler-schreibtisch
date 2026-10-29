@@ -189,10 +189,22 @@ function Rechenweg({ data }: { data: Budget }) {
                 — die {euro(data.gutscheinWert)} sind also gespart, nicht offen.{" "}
               </>
             )}
-            Die Übungsstunden sind eine{" "}
-            <strong>Schätzung</strong> ({data.uebungsstundenGefahren} gefahren +{" "}
-            {data.uebungsstundenGeplant} geplant). Jede zusätzliche Doppelstunde
-            kostet {euro(data.preisFahrstunde * 2)}.
+            {data.uebungsstundenGeplant > 0 ? (
+              <>
+                Die Übungsstunden sind eine <strong>Schätzung</strong> (
+                {data.uebungsstundenGefahren} gefahren +{" "}
+                {data.uebungsstundenGeplant} geplant).
+              </>
+            ) : (
+              <>
+                Eingerechnet sind nur die{" "}
+                <strong>{data.uebungsstundenGefahren} tatsächlich gefahrenen</strong>{" "}
+                Übungsstunden — die Summe ist damit eine{" "}
+                <strong>Untergrenze</strong> und steigt mit jeder weiteren.
+              </>
+            )}{" "}
+            Jede zusätzliche Doppelstunde kostet{" "}
+            {euro(data.preisFahrstunde * 2)}.
           </p>
         </div>
       )}
@@ -227,7 +239,8 @@ function Sonderfahrten({ data }: { data: Budget }) {
         ))}
 
         {/* Übungsstunden sind KEINE Pflicht – andere Farbe, eigene Trennlinie.
-            Die Gesamtzahl ist Schätzung (gefahren + uebungsstunden_geplant). */}
+            Ohne `uebungsstunden_geplant` wird nur gezählt, was gefahren ist;
+            dann wäre "2 / 2" irreführend (es gibt kein Soll), also nur die Zahl. */}
         <div className="mt-1 flex items-center gap-2 border-t border-white/5 pt-1.5 text-xs">
           <span className="w-16 shrink-0 text-zinc-400">Übung</span>
           <span className="flex flex-wrap gap-0.5">
@@ -241,11 +254,16 @@ function Sonderfahrten({ data }: { data: Budget }) {
             ))}
           </span>
           <span className="ml-auto tabular-nums text-zinc-500">
-            {data.uebungsstundenGefahren} / {data.uebungsstunden}
+            {data.uebungsstundenGeplant > 0
+              ? `${data.uebungsstundenGefahren} / ${data.uebungsstunden}`
+              : data.uebungsstundenGefahren}
           </span>
         </div>
         <p className="pl-[4.5rem] text-[10px] leading-tight text-zinc-600">
-          keine Pflicht · davon {data.uebungsstundenGeplant} nur geschätzt
+          keine Pflicht ·{" "}
+          {data.uebungsstundenGeplant > 0
+            ? `davon ${data.uebungsstundenGeplant} nur geschätzt`
+            : "nur gefahrene gezählt"}
         </p>
       </div>
     </div>
