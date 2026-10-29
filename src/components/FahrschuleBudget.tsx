@@ -204,7 +204,7 @@ function Sonderfahrten({ data }: { data: Budget }) {
   return (
     <div className="mt-3">
       <p className="mb-1.5 text-[11px] font-medium uppercase tracking-wide text-zinc-500">
-        Sonderfahrten
+        Fahrstunden-Soll
       </p>
       <div className="flex flex-col gap-1">
         {data.sonderfahrten.map((f) => (
@@ -225,6 +225,28 @@ function Sonderfahrten({ data }: { data: Budget }) {
             </span>
           </div>
         ))}
+
+        {/* Übungsstunden sind KEINE Pflicht – andere Farbe, eigene Trennlinie.
+            Die Gesamtzahl ist Schätzung (gefahren + uebungsstunden_geplant). */}
+        <div className="mt-1 flex items-center gap-2 border-t border-white/5 pt-1.5 text-xs">
+          <span className="w-16 shrink-0 text-zinc-400">Übung</span>
+          <span className="flex flex-wrap gap-0.5">
+            {Array.from({ length: data.uebungsstunden }, (_, i) => (
+              <span
+                key={i}
+                className={`h-2 w-2 rounded-full ${
+                  i < data.uebungsstundenGefahren ? "bg-amber-400" : "bg-white/10"
+                }`}
+              />
+            ))}
+          </span>
+          <span className="ml-auto tabular-nums text-zinc-500">
+            {data.uebungsstundenGefahren} / {data.uebungsstunden}
+          </span>
+        </div>
+        <p className="pl-[4.5rem] text-[10px] leading-tight text-zinc-600">
+          keine Pflicht · davon {data.uebungsstundenGeplant} nur geschätzt
+        </p>
       </div>
     </div>
   );
@@ -329,17 +351,6 @@ export function FahrschuleBudget() {
           </div>
 
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-zinc-500">
-            <span>
-              Übungsstunden:{" "}
-              <span className="text-zinc-300">{data.uebungsstunden}</span>
-              {data.uebungsstundenGeplant > 0 && (
-                <span className="text-zinc-600">
-                  {" "}
-                  ({data.uebungsstundenGefahren} gefahren +{" "}
-                  {data.uebungsstundenGeplant} geplant)
-                </span>
-              )}
-            </span>
             {data.gutscheinWert > 0 && (
               <span
                 className={`${pill("green")} tabular-nums`}
