@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-10-29T17:27:14.525Z",
+  "generatedAt": "2026-10-29T17:42:49.190Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-10-29T17:27:13.140Z",
+      "capturedAt": "2026-10-29T17:42:47.396Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -194,7 +194,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-10-29T17:27:14.267Z",
+      "capturedAt": "2026-10-29T17:42:48.326Z",
       "data": {
         "nodes": [
           {
@@ -715,26 +715,6 @@
         ],
         "edges": [
           {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-16",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
             "source": "00 Kontext/Branding",
             "target": "07 Anhänge"
           },
@@ -868,10 +848,6 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
@@ -925,6 +901,10 @@
           {
             "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "00 Kontext/Kalender-Kategorien",
@@ -1057,10 +1037,6 @@
           {
             "source": "02 Projekte/Führerschein - Budget (Daten)",
             "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "02 Projekte/Führerschein",
@@ -1355,10 +1331,6 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
             "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
@@ -1367,40 +1339,20 @@
             "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
           },
           {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-12"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-28"
+            "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
+            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
             "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
+            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
@@ -1419,6 +1371,30 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-12"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-28"
+          },
+          {
             "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
             "target": "05 Daily Notes/2026-10-11"
           },
@@ -1433,6 +1409,10 @@
           {
             "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
           },
           {
             "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
@@ -1511,6 +1491,18 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
             "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -1579,6 +1571,18 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
             "source": "05 Daily Notes/2026-09-16",
             "target": "00 Kontext/Kalender-Kategorien"
           },
@@ -1595,27 +1599,15 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
+            "source": "05 Daily Notes/2026-09-21",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-09-22",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-21",
             "target": "00 Kontext/Erinnerungen"
           },
           {
@@ -1691,30 +1683,6 @@
             "target": "CLAUDE"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "05 Daily Notes/2026-10-06"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
             "source": "05 Daily Notes/2026-10-08",
             "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
           },
@@ -1777,6 +1745,30 @@
           {
             "source": "05 Daily Notes/2026-10-09",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "05 Daily Notes/2026-10-10",
@@ -1877,6 +1869,10 @@
           {
             "source": "05 Daily Notes/2026-10-15",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-16",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
             "source": "05 Daily Notes/2026-10-17",
@@ -2266,7 +2262,7 @@
       }
     },
     "habits": {
-      "capturedAt": "2026-10-29T17:27:14.310Z",
+      "capturedAt": "2026-10-29T17:42:48.653Z",
       "data": {
         "tage": [
           {
@@ -2812,7 +2808,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-10-29T17:27:14.348Z",
+      "capturedAt": "2026-10-29T17:42:49.004Z",
       "data": {
         "halbjahre": [
           {
@@ -3648,7 +3644,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-10-29T17:27:14.414Z",
+      "capturedAt": "2026-10-29T17:42:49.059Z",
       "data": {
         "projects": [
           {
@@ -3697,13 +3693,13 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-10-29T17:27:14.451Z",
+      "capturedAt": "2026-10-29T17:42:49.100Z",
       "data": {
         "heute": [
           {
             "icon": "📝",
-            "title": "W-Seminar 3.2 Absatz C – VIERTER Anlauf, heute Do 29.10. um 10:30",
-            "details": "Ausgefallen am **26., 27. und 28.10.** – am 28.10. waren 2,5 h angesetzt und es wurde gar nicht angefangen. ➡️ **Neuer Platz: 10:30–13:00**, weil Marcel heute zu Hause bleibt. Zuerst 30 Min Seitenbudget-Entscheidung, dann Absatz C und D. **17:15–18:30 ist der Puffer**, falls es nicht reicht. **Reihenfolge:** (1) Gleichung `0,0165 = 0,88·x + 0,09·0,0287 + 0,02·0,045 + 0,01·0,1185` nach `x` – **Marcel rechnet, Claude prüft nur nach**; (2) Absatz C, 85–95 W., **Fußnote 19**; (3) Absatz D (Bayes, 65–75 W., **Fußnote 20**), Schreibweise `P_B(A)`. ⚠️ **Kapitel 4.3 ist dadurch verdrängt und hat keinen Slot mehr** – gehört in die Seitenbudget-Entscheidung. Anleitung: [[02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit).md|Arbeitsblatt 3.2]], Teil 3 und 4."
+            "title": "W-Seminar 3.2 Absatz C – FÜNFTER Anlauf, Fr 30.10. um 08:00–09:15",
+            "details": "Ausgefallen am **26., 27., 28. und 29.10.** – am 29.10. trotz freiem Vormittag (Marcel war zu Hause). ✅ **Die Rechnung ist fertig und gegengeprüft: x = 1,34 %**, liegt unter 1,65 %, SCHUFAs Aussage ist damit nachgeprüft. 🔴 **Es fehlt nur noch der Text: 85–95 Wörter, Fußnote 19**, fünf Bausteine (gewichtetes Mittel in Worten → Formel → Ergebnis als eigene Rechnung → Vergleich + B₁-Zugehörigkeit des Beispielkunden → Rundungsvorbehalt). ⚠️ **Der Block heißt bewusst nur „Absatz C\", nicht „C und D\"** – die Doppelaufgabe hat ihn viermal zu groß gemacht. Absatz D (Bayes, Fußnote 20) erst, wenn C freigegeben ist. 📐 Schreibweise `P_B(A)`."
           },
           {
             "icon": "📕",
@@ -3901,15 +3897,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-10-29T17:27:14.490Z",
+      "capturedAt": "2026-10-29T17:42:49.149Z",
       "data": {
         "path": "05 Daily Notes/2026-10-29.md",
         "exists": true,
-        "content": "# 2026-10-29 (Donnerstag)\n\n> [!info] Diese Notiz beginnt um 00:2x – die Session vom 28.10. lief über Mitternacht weiter\n> Alles bis hierher ist Nacharbeit aus dem Vortag. Der eigentliche Tag beginnt mit der Morgenroutine um 09:30.\n\n## 🏫 Entscheidung: Marcel bleibt heute zu Hause\n\n*„Ja ich geh doch nicht zur Schule, also macht jetzt keinen Stress.\"*\n\n**Kalender entsprechend umgebaut** – und zwar nach der Regel, die Marcel in derselben Nachricht eingefordert hat (siehe unten):\n\n| Was | Vorher | Jetzt |\n|---|---|---|\n| 📚 Deutsch · Sporttheorie · Kunst | 08:00–13:10 | 🗑️ **gelöscht** (nur die heutigen Instanzen) |\n| 🌅 Morgenroutine | 06:30 | **09:30–10:15** verschoben |\n| 📝 W-Seminar | – | **10:30–13:00** Seitenbudget-Entscheidung + Absatz C und D |\n| 📝 W-Seminar (17:15) | Absatz C + D | **Puffer** – 3.2 fertig, sonst 3.3 |\n\nUnverändert: Fahrstunde 3/5 um 13:30, App 16:00, Training 19:00, Teambesprechung 21:30.\n\n⚠️ **Das Deutsch-Risiko bleibt** und ist nicht weg, nur weil der Termin weg ist: Kafka läuft, Lesestand 0, strengster Lehrer, Problemfach der Einbringung. Beim nächsten Deutsch-Termin abfragen, was verpasst wurde.\n\n## 🗑️ Neue Regel: Was nicht stattfindet, wird gelöscht – nicht kommentiert\n\nMarcels Worte: *„denk an die regel dass bestehende termine im kalender immer zuerst gelöscht werden müssen vor allem wenn es sowieso nicht stattfindet\"*.\n\n**Mein Fehler war konkret:** Ich hatte die drei Schulstunden stehen lassen und stattdessen in die Beschreibung des W-Seminar-Blocks geschrieben, sie „gelten heute nicht\". Ergebnis: ein Tag, der nach Doppelbelegung aussieht – genau das, was er am 19.10. schon einmal scharf beanstandet hat.\n\n➡️ Jetzt als **Regel 7** im Kalender-Block von [[CLAUDE.md]]. Mit der Unterscheidung: **entfällt → löschen**, **findet später statt → verschieben**. Bei Serien immer nur die eine Instanz.\n\n## 🚗 Marcels Fund: Das Fahrschul-Widget zeigte veraltete Zahlen\n\n*„Warum ist im Fahrschul-Widget bei Überlandfahrten noch immer 1 von 5 und bei Fahrschule 28.10. offen?\"*\n\n**Er hatte recht, und die Ursache ist unangenehm einfach:** Am 28.10. habe ich die 2 Überlandfahrten nur in der Prosa-Datei [[02 Projekte/Führerschein.md]] eingetragen. Das Widget liest aber [[02 Projekte/Führerschein - Budget (Daten).md]] – und die stand noch auf `gefahren: 1`.\n\n**Nachgezogen:**\n- `sonderfahrten → Überland → gefahren` **1 → 3**\n- Fahrstunde Nr. 2 (28.10.): `geplant` → **`gefahren`**, `inhalt: [\"Überland\", \"Überland\"]`\n- Fahrstunde Nr. 4 (30.10.): **`abgesagt`** mit Hinweis\n\n> [!danger] 🐞 Und dabei kam ein zweiter, stiller Fehler heraus\n> Der Parser hatte `status: row.status === \"gefahren\" ? \"gefahren\" : \"geplant\"` – **alles, was nicht „gefahren\" ist, wurde zu „geplant\"**. Mein `abgesagt` wäre also stillschweigend als fester Termin durchgegangen, mit ⏳-Symbol und allem.\n> ➡️ Typ, Parser und Widget kennen jetzt **drei** Zustände; abgesagt rendert als 🚫 „abgesagt – nachbuchen\".\n> **Das ist die vierte stille Parser-Panne in diesem Repo** nach CRLF (13.10.), js-yaml-Default-Export (26.10.) und dem Frontmatter-Parser (27.10.). Immer dasselbe Muster: Typecheck grün, HTTP 200, Widget sieht gut aus – und der Inhalt ist falsch.\n\n## 🔗 Daraus folgt eine zweite neue Regel\n\n**Dashboard-Daten stehen immer in zwei Dateien.** Die Prosa-Notiz ist für Menschen, die Datendatei fürs Widget. Wer nur eine pflegt, baut ein Widget, das wochenlang Falsches anzeigt.\n\n| Thema | Prosa | Datendatei |\n|---|---|---|\n| Noten | Noten & Leistungsnachweise Q13 | Noten (Daten) |\n| Führerschein | Führerschein | Führerschein - Budget (Daten) |\n| Habits | Routinen & Gewohnheiten | Habit-Log |\n| To-Dos | – | Erinnerungen, Abschnitt `## Aktiv` |\n\nBei den **Noten** habe ich das am 28.10. richtig gemacht, bei der **Fahrschule** vergessen. Steht jetzt in [[CLAUDE.md]].\n\n## 🧯 Dabei gefunden: Sechs Erinnerungen waren für das Widget unsichtbar\n\nBeim Prüfen ist aufgefallen, dass **sechs Einträge über der Überschrift `## Aktiv`** gelandet waren – eingefügt in der Nacht zum 29.10. mit einer gemerkten Zeilennummer statt einer Prüfung, wo die Überschrift wirklich steht.\n\nBetroffen waren unter anderem der **Bio-Reklamationspunkt** (ein ganzer Notenpunkt!), die BGB-Entscheidung und die Französisch-Umstellung. **Alle sechs sind jetzt unter `## Aktiv`**, Stand **38 aktive Punkte**. Die Lehre steht als Warnung bei der neuen Zwei-Dateien-Regel.\n\n## 🔌 Dashboard-Offline-Modus ist fertig\n\nGebaut in der Nacht (Commits `6432a48` und `11e00d2`). Vollständige Dokumentation in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]].\n\n- `npm run snapshot` schreibt `src/data/snapshot.json`, acht Leserouten fallen bei Verbindungsfehler darauf zurück\n- Gelbes **Offline-Band** mit Stand-Anzeige, damit alte Daten nicht für aktuelle gehalten werden\n- Offline-Test gegen toten `OBSIDIAN_API_URL` ✅, Live-Gegenprobe ✅, `tsc` ✅, `eslint` ✅, `build` ✅\n- ⏳ **Offen: die Automatik.** Autostart und stündlicher Snapshot fehlen – steht als eigener `[WOCHE]`-Punkt in den Erinnerungen.\n\n## 📍 NÄCHSTER SCHRITT (bei Rückkehr)\n\n### 1. 🔴 10:30 – Seitenbudget-Entscheidung (30 Min)\n\n**Heute ist der letzte sinnvolle Tag**, seit dem 26.10. aufgeschoben. Es fehlen ~2.520 Wörter ≈ 37 h, im Kalender stehen ~21 h. Mitzuentscheiden:\n- Der **Freitagabend-Block** (17:45–20:15, 2,5 h) steht noch auf „Kapitel 5 Regulierung\"\n- Der **Freitagmorgen** (08:00–09:15) steht auf „Recherche Kapitel 5\"\n- **Kapitel 4.3 hat seit dem 28.10. gar keinen Slot mehr**\n\nBeides widerspricht der eigenen Entscheidung vom 26.10., Kapitel 3 zuerst fertigzustellen.\n\n### 2. 🔴 11:00 – Absatz C und D, vierter Anlauf\n\nAusgefallen am 26., 27. und 28.10. Ablauf im [[02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit).md|Arbeitsblatt 3.2]], Teil 3 und 4.\nGleichung `0,0165 = 0,88·x + 0,09·0,0287 + 0,02·0,045 + 0,01·0,1185` → **Marcel rechnet, Claude prüft nach.** Fußnote 19 für C, 20 für D, Schreibweise `P_B(A)`.\n\n### 3. ✅ CLAUDE.md ist gestrafft – erledigt in dieser Session\n\nSiehe unten. Von 35,2 auf 23,5 KB, keine Regel gestrichen.\n⏳ **Was offen bleibt:** ob der W-Seminar-Projektblock (~1,8 KB) aus CLAUDE.md heraus soll. Er veraltet täglich, verhindert aber falsche Rückfragen. **Marcels Entscheidung.**\n\n### 4. 🩹 Knöchel und Rücken beim Training heute abfragen\n\nAußenrist besser/gleich/schlechter – gleich oder schlechter → Arzt. Dazu der Rücken vom 28.10. Und: **Dehnen** stand heute ausdrücklich in der Morgenroutine.\n\n### 5. 🚗 Nach der Fahrstunde 3/5 (13:30–15:00)\n\nArt abfragen und **in beide Dateien** eintragen – Projektnotiz **und** Datendatei. Erwartet: Überland oder Autobahn. Danach `npm run snapshot` + Push.\n\n## 📄 CLAUDE.md gestrafft: 35,2 → 23,5 KB (−33 %)\n\nMarcel hat es freigegeben: *„Solange es den Sinn nicht ändert, kannst du kürzen. Es ist nur wichtig, dass die Regeln, die da drin stehen, auch da drin bleiben.\"*\n\n**Vorgehen, damit nichts verlorengeht:**\n1. **Zwei Sicherungen** der Langfassung – eine dauerhaft in `Claude Files/06 Housekeeping/`.\n2. **Regelinventar** vor dem Kürzen: rund **85 Einzelregeln in 11 Blöcken** aufgelistet.\n3. Gekürzt wurde **nur die Ausführung**: Begründungen, Belegfälle und wörtliche Zitate sind nach [[00 Kontext/Vault-Regeln - Belege und Hintergrund.md]] gewandert (9,8 KB).\n4. **Gegenprüfung in drei Durchgängen:** 54 Regel-Schlüsselbegriffe ✅ · 23 harte Zahlen und Fakten (Aufstehzeiten, Termine, Beträge, Formeln) ✅ · alle **18 Wikilink-Ziele** existieren ✅.\n\n**Nebenbei zwei Fehler aufgeräumt:**\n- Im Kalender-Block stand **Regel 7 vor Regel 6** – jetzt in richtiger Reihenfolge.\n- Der Link auf die **KI-Dokumentations-Datei** war beim Straffen verschwunden und ist zurückgeholt.\n\n⚠️ **Was bewusst aus CLAUDE.md geflogen ist** (nicht verloren, nur verlagert):\n- Die **Führerschein-Detailbeträge** (bezahlt 1.643,82 €, erwartet 3.593,12 €, Eigenanteil 1.193,12 €). Stattdessen steht dort jetzt: *„Aktuelle Zahlen immer aus der Projektdatei lesen, nicht aus dem Gedächtnis.\"* **Das ist eine Verbesserung** – die Zahlen veralteten dort bei jeder Fahrstunde und widersprachen der eigenen Regel „keine Angabe aus dem Gedächtnis\".\n- Begründung zur KI-Business-Pause und die Telefonanruf-Historie zur Theorieprüfung – beides steht in den Projektdateien.\n\n📉 **Realistische Einschätzung:** 23,5 KB sind immer noch viel für eine Datei, die bei jeder Nachricht mitgeht. Weitere Luft gäbe es nur noch im **W-Seminar-Projektblock** (~1,8 KB, veraltet täglich) – aber genau der verhindert falsche Rückfragen. **Nicht ohne Marcels Entscheidung anfassen.**\n\n---\n\n## 🌙 Session-Ende (ca. 01:0x) – Ablauf nach `/sessionende`\n\n### Konsistenz-Prüfung 1: Kalender ↔ Erinnerungen ✅\nHeute gelöscht: Deutsch, Sporttheorie, Kunst (29.10.) und die Fahrstunde 30.10. **Kein verwaister Erinnerungspunkt** – im Gegenteil, zur abgesagten Fahrstunde steht der Nachbuch-Punkt korrekt drin.\n\n### Konsistenz-Prüfung 2: Plan ↔ Kalender ⚠️ → korrigiert\n**Der Zweiwochenplan war an zwei Stellen veraltet** und nannte für Do 29.10. noch Schule und „4.3 Folgen\" um 17:15. Beide Zeilen auf den neuen Stand gebracht: Vormittagsblock 10:30–13:00, 17:15 als Puffer, Hinweis dass 4.3 keinen Slot mehr hat.\n\n### Konsistenz-Prüfung 3: Ausgefallener Arbeitsblock ✅\nDer W-Seminar-Block vom 28.10. (2,5 h) ist ausgefallen. **Ersatz liegt:** 10:30–13:00 plus 17:15–18:30 als Puffer.\n\n### To-Do-Abgleich – drei Befunde\n\n**🔴 Ein Eintrag war verlorengegangen – und ich war selbst die Ursache.** Der Punkt **„Fahrschul-App: 1 Stunde, jeden Tag – die Kette läuft wieder\"** aus der Liste gefallen. Er stand auch nicht im Archiv, war also **wirklich weg**.\n➡️ **Aus der Git-Historie des Dashboard-Schnappschusses wiederhergestellt** (Commit `6432a48` enthielt den alten Stand). Vollständig mit Kettenstand (Mo ✅, Di ✗, Mi ✅) und allen Daten.\n💡 **Das ist nebenbei ein unerwarteter Nutzen des Offline-Schnappschusses:** Er ist faktisch ein **versioniertes Backup der Vault-Daten** geworden.\n\n**🔁 Ein Duplikat aufgelöst.** „Fahrschul-App täglich\" und „Für die Theorieprüfung lernen (Fahrschul-App)\" waren zwei Einträge für dieselbe Sache – zusammengeführt, mit korrigierter Restzeit (**noch 7 Tage**, nicht 9).\n\n**➕ Ein Punkt fehlte.** Das **Deutsch-Risiko des Fehltags** stand nirgends: Beim nächsten Deutsch-Termin abfragen, was am 29.10. verpasst wurde. Kafka läuft, Lesestand 0, strengster Lehrer, Problemfach der Einbringung.\n\n**Außerdem aktualisiert:** Der Absatz-C-Punkt nannte noch den alten Termin (17:15) – jetzt „vierter Anlauf, 10:30\".\n\n**Stand: 39 aktive Erinnerungen**, alle unter `## Aktiv`.\n\n### ⚠️ Zwei Altlasten, die ich NICHT eigenmächtig angefasst habe\nNach der Regel „im Zweifel drin lassen und fragen\":\n- **„Vault-Durchsicht vom 17.10. lesen\"** steht seit **12 Tagen** als `[HEUTE]`. Entweder lesen oder ehrlich streichen.\n- **„Vormittags-W-Seminar-Blöcke im Zweiwochenplan überprüfen\"** und **„Zweiwochenplan bis zur Rohfassung durchgehen und bestätigen\"** sind faktisch dieselbe Aufgabe – und beide gehen in der heutigen Seitenbudget-Entscheidung auf. Danach können vermutlich beide raus.\n\n### 🐞 Nachtrag: die Ursache des verlorenen Eintrags – ein Werkzeugfehler\n\nBeim Aufräumen kam ein **zweites Duplikat** zum Vorschein: Der Absatz-C-Punkt stand doppelt in der Liste. Die Spurensuche hat die Ursache für beides geliefert:\n\n```\ngrep -n \"DRITTER Ausfall\\|Fahrschul-App: 1 Stunde\\|Für die Theorieprüfung\" datei\n→ 55, 74, 92\n```\n\n**`grep` gibt Treffer nach Zeilennummer sortiert aus, nicht in Musterreihenfolge.** Ich habe „55 = erstes Muster\" gelesen – tatsächlich war 55 der **Fahrschul-App-Eintrag**. Den habe ich überschrieben, während der eigentlich gemeinte Absatz-C-Punkt bei Zeile 75 unangetastet blieb und als Dublette stehen blieb.\n\n➡️ **Beides repariert**, Stand **38 aktive Erinnerungen**.\n➡️ **Als Regel in [[CLAUDE.md]]:** Zeilennummern **einzeln** ermitteln und **den Inhalt der Zielzeile anzeigen lassen**, bevor `head`/`tail`/`sed` darauf losgeht. Nie aus einem Mehrfach-`grep` ableiten."
+        "content": "# 2026-10-29 (Donnerstag)\n\n> [!info] Diese Notiz beginnt um 00:2x – die Session vom 28.10. lief über Mitternacht weiter\n> Alles bis hierher ist Nacharbeit aus dem Vortag. Der eigentliche Tag beginnt mit der Morgenroutine um 09:30.\n\n## 🏫 Entscheidung: Marcel bleibt heute zu Hause\n\n*„Ja ich geh doch nicht zur Schule, also macht jetzt keinen Stress.\"*\n\n**Kalender entsprechend umgebaut** – und zwar nach der Regel, die Marcel in derselben Nachricht eingefordert hat (siehe unten):\n\n| Was | Vorher | Jetzt |\n|---|---|---|\n| 📚 Deutsch · Sporttheorie · Kunst | 08:00–13:10 | 🗑️ **gelöscht** (nur die heutigen Instanzen) |\n| 🌅 Morgenroutine | 06:30 | **09:30–10:15** verschoben |\n| 📝 W-Seminar | – | **10:30–13:00** Seitenbudget-Entscheidung + Absatz C und D |\n| 📝 W-Seminar (17:15) | Absatz C + D | **Puffer** – 3.2 fertig, sonst 3.3 |\n\nUnverändert: Fahrstunde 3/5 um 13:30, App 16:00, Training 19:00, Teambesprechung 21:30.\n\n⚠️ **Das Deutsch-Risiko bleibt** und ist nicht weg, nur weil der Termin weg ist: Kafka läuft, Lesestand 0, strengster Lehrer, Problemfach der Einbringung. Beim nächsten Deutsch-Termin abfragen, was verpasst wurde.\n\n## 🗑️ Neue Regel: Was nicht stattfindet, wird gelöscht – nicht kommentiert\n\nMarcels Worte: *„denk an die regel dass bestehende termine im kalender immer zuerst gelöscht werden müssen vor allem wenn es sowieso nicht stattfindet\"*.\n\n**Mein Fehler war konkret:** Ich hatte die drei Schulstunden stehen lassen und stattdessen in die Beschreibung des W-Seminar-Blocks geschrieben, sie „gelten heute nicht\". Ergebnis: ein Tag, der nach Doppelbelegung aussieht – genau das, was er am 19.10. schon einmal scharf beanstandet hat.\n\n➡️ Jetzt als **Regel 7** im Kalender-Block von [[CLAUDE.md]]. Mit der Unterscheidung: **entfällt → löschen**, **findet später statt → verschieben**. Bei Serien immer nur die eine Instanz.\n\n## 🚗 Marcels Fund: Das Fahrschul-Widget zeigte veraltete Zahlen\n\n*„Warum ist im Fahrschul-Widget bei Überlandfahrten noch immer 1 von 5 und bei Fahrschule 28.10. offen?\"*\n\n**Er hatte recht, und die Ursache ist unangenehm einfach:** Am 28.10. habe ich die 2 Überlandfahrten nur in der Prosa-Datei [[02 Projekte/Führerschein.md]] eingetragen. Das Widget liest aber [[02 Projekte/Führerschein - Budget (Daten).md]] – und die stand noch auf `gefahren: 1`.\n\n**Nachgezogen:**\n- `sonderfahrten → Überland → gefahren` **1 → 3**\n- Fahrstunde Nr. 2 (28.10.): `geplant` → **`gefahren`**, `inhalt: [\"Überland\", \"Überland\"]`\n- Fahrstunde Nr. 4 (30.10.): **`abgesagt`** mit Hinweis\n\n> [!danger] 🐞 Und dabei kam ein zweiter, stiller Fehler heraus\n> Der Parser hatte `status: row.status === \"gefahren\" ? \"gefahren\" : \"geplant\"` – **alles, was nicht „gefahren\" ist, wurde zu „geplant\"**. Mein `abgesagt` wäre also stillschweigend als fester Termin durchgegangen, mit ⏳-Symbol und allem.\n> ➡️ Typ, Parser und Widget kennen jetzt **drei** Zustände; abgesagt rendert als 🚫 „abgesagt – nachbuchen\".\n> **Das ist die vierte stille Parser-Panne in diesem Repo** nach CRLF (13.10.), js-yaml-Default-Export (26.10.) und dem Frontmatter-Parser (27.10.). Immer dasselbe Muster: Typecheck grün, HTTP 200, Widget sieht gut aus – und der Inhalt ist falsch.\n\n## 🔗 Daraus folgt eine zweite neue Regel\n\n**Dashboard-Daten stehen immer in zwei Dateien.** Die Prosa-Notiz ist für Menschen, die Datendatei fürs Widget. Wer nur eine pflegt, baut ein Widget, das wochenlang Falsches anzeigt.\n\n| Thema | Prosa | Datendatei |\n|---|---|---|\n| Noten | Noten & Leistungsnachweise Q13 | Noten (Daten) |\n| Führerschein | Führerschein | Führerschein - Budget (Daten) |\n| Habits | Routinen & Gewohnheiten | Habit-Log |\n| To-Dos | – | Erinnerungen, Abschnitt `## Aktiv` |\n\nBei den **Noten** habe ich das am 28.10. richtig gemacht, bei der **Fahrschule** vergessen. Steht jetzt in [[CLAUDE.md]].\n\n## 🧯 Dabei gefunden: Sechs Erinnerungen waren für das Widget unsichtbar\n\nBeim Prüfen ist aufgefallen, dass **sechs Einträge über der Überschrift `## Aktiv`** gelandet waren – eingefügt in der Nacht zum 29.10. mit einer gemerkten Zeilennummer statt einer Prüfung, wo die Überschrift wirklich steht.\n\nBetroffen waren unter anderem der **Bio-Reklamationspunkt** (ein ganzer Notenpunkt!), die BGB-Entscheidung und die Französisch-Umstellung. **Alle sechs sind jetzt unter `## Aktiv`**, Stand **38 aktive Punkte**. Die Lehre steht als Warnung bei der neuen Zwei-Dateien-Regel.\n\n## 🔌 Dashboard-Offline-Modus ist fertig\n\nGebaut in der Nacht (Commits `6432a48` und `11e00d2`). Vollständige Dokumentation in [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]].\n\n- `npm run snapshot` schreibt `src/data/snapshot.json`, acht Leserouten fallen bei Verbindungsfehler darauf zurück\n- Gelbes **Offline-Band** mit Stand-Anzeige, damit alte Daten nicht für aktuelle gehalten werden\n- Offline-Test gegen toten `OBSIDIAN_API_URL` ✅, Live-Gegenprobe ✅, `tsc` ✅, `eslint` ✅, `build` ✅\n- ⏳ **Offen: die Automatik.** Autostart und stündlicher Snapshot fehlen – steht als eigener `[WOCHE]`-Punkt in den Erinnerungen.\n\n## 🌆 Nachmittag/Abend 29.10. (Session ab ca. 15:50)\n\n### ✅ x = 1,34 % – die Rechnung aus Absatz C steht und ist gegengeprüft\n\n`0,0165 = 0,88·x + 0,09·0,0287 + 0,02·0,045 + 0,01·0,1185` → **x = 0,01344545… = 1,34 %**\n\nMarcel hat selbst gerechnet (`0,01344545455`), ich habe unabhängig nachgerechnet und die Gegenprobe rückwärts gemacht: 0,88 · 0,013445… + 0,004668 = **0,0165** ✅. Die vier Gewichte summieren sich auf **genau 1,00** – es fehlt keine Gruppe.\n\n**1,34 % < 1,65 %** → SCHUFAs eigene Aussage ist mit SCHUFAs eigenen Zahlen nachgeprüft.\n⚠️ **Aber „knapp unter\" ist sie nicht:** 0,31 Prozentpunkte darunter, relativ rund 19 %. Bestätigt ist die **Richtung**, nicht die Nuance – und der Grund (gerundete Anteile) gehört in den Rundungsvorbehalt.\n\n🔴 **Was fehlt: nur noch der Text.** 85–95 Wörter, Fußnote 19, fünf Bausteine.\n\n### 🚗 Fahrschule: zwei Korrekturen und drei Termine\n\n**Marcels Korrekturen:**\n1. **23.10. war reine Übung** (seine erste Automatik-Fahrt), nicht „1 Übung + 1 Überland\"\n2. **28.10. war 1 Übung + 1 Überland**, nicht 2× Überland\n3. **29.10. waren 2× Überland** (Fahrstunde 3)\n\n➡️ Überland damit **3 gefahren** statt 4, Übungsstunden **3** statt 2.\n\n**Neue Termine, von Marcel gemeldet** – damit ist die offene Frage „1 oder 2 Doppelstunden?\" beantwortet: zwei.\n\n| Termin | Zeit | Inhalt |\n|---|---|---|\n| Fr 06.11. | 08:00–09:30 | 2× Überland → **Überland komplett** |\n| Do 12.11. | 13:30–15:00 | 2× Autobahn |\n| Fr 13.11. | 08:00–09:30 | 2× Autobahn → **Autobahn komplett** |\n\n✅ **9 von 12 Sonderfahrten** erledigt oder terminiert. 🔴 **Offen: nur die 3 Nachtfahrten** – ohne sie keine Praxisprüfung, und sie rutschen in die Klausurenphase ab 16.11.\n\n**Kalender-Folgekorrekturen:** Mathe-Seminar-Instanz 12.11. gelöscht · Morgenroutine 13.11. auf 06:45–07:45 vorgezogen · Lesen 12.11. auf 22:45–23:15 (Bett 23:15 = Aufstehen 06:45 − 7,5 h).\n\n### 💰 Budget: Untergrenze statt Prognose – Marcels Entscheidung\n\nMarcel hat `uebungsstunden_geplant` **von 6 auf 0** gesetzt: *„erst mal von dem, was wir gerade kennen.\"*\n\n| | |\n|---|---|\n| Gesamtkosten (**Untergrenze**) | **3.237,12 €** |\n| Eigenanteil | **837,12 €** |\n| noch offen insgesamt | 1.593,30 € (911,00 € Eltern-Rest + 682,30 € Marcel) |\n\n⛔ **Im Kopf behalten:** Das ist jetzt eine andere Art von Zahl. Vorher stand da, was es *wahrscheinlich* kostet, jetzt, was es *mindestens* kostet. Jede weitere Übungsstunde +89 €.\n\n### 🐞 Fünfte stille Parser-Panne – diesmal vor dem Schaden gefunden\n\n`uebungsstundenGefahren` zählte `inhalt` aus **allen** Fahrstunden, auch geplanten. Bisher harmlos, weil Planeinträge leer waren – **aber genau heute wurden sie gefüllt.** Eine geplante Übungsstunde wäre still als gefahren in die Kosten gewandert. Zählt jetzt nur noch `status === \"gefahren\"`.\n\nNach CRLF (13.10.), js-yaml (26.10.), Frontmatter-Parser (27.10.) und `abgesagt` (29.10. nachts) die **fünfte**. Immer dasselbe Muster.\n\n### 🗑️ Mathe-Seminar komplett aus dem Kalender gelöscht\n\nMarcels Anweisung: *„du kannst alles löschen fürs W-Seminar, also alle Termine. Ich sage dann, wann das Prüfungsgespräch ist etc.\"* Die Serie lief bis 14.05.2027 und ist vollständig weg – inklusive der vergangenen Termine, weil Google eine Serie nur ganz löscht.\n\n⚠️ **Nicht gelöscht: die 📝-Arbeitsblöcke bis 01.11.** Die heißen auch „W-Seminar\", sind aber Schreibzeit, nicht Kurs.\n🎤 **Das Prüfungsgespräch hat damit keinen Kalenderanker mehr** – als `[WOCHE]`-Erinnerung gesichert. Vorschlag: bei der Abgabe am 10.11. direkt nach dem Termin fragen.\n✅ **Donnerstagnachmittag ist frei** – ab 13:10 bis Training 19:00. Relevant für die Klausurenphase.\n\n### 🧱 Widget: Übungsstunden als eigene Punktereihe\n\nAuf Marcels Wunsch dieselbe Darstellung wie die Sonderfahrten, aber **Amber statt Grün** und mit Trennlinie – weil sie keine Pflicht sind. Ohne geplante Stunden zeigt die Zeile nur die gefahrene Anzahl, nicht „2 / 2\", weil es kein Soll gibt, das man erfüllen könnte.\n\n### 😞 Marcels eigene Einordnung am Abend\n\n*„Ich bin ehrlich, ich weiß nicht, warum ich prokrastiniere hier die ganze Zeit. Ich bin einfach nicht auf der Höhe. Ich weiß auch nicht warum. Es ärgert mich selber richtig. … Okay aber ich pack's wirklich nicht. Es tut mir leid.\"*\n\n**Nüchterner Befund, ohne Schönfärberei:**\n- Absatz C ist jetzt **viermal** ausgefallen (26., 27., 28., 29.10.) – bei einem Umfang von **85–95 Wörtern**.\n- Heute war er **zu Hause und hatte den Vormittag frei** (10:30–13:00 geblockt). Geschrieben wurde nichts.\n- Was tatsächlich passiert ist: **Fahrschul-Admin, Budget, Kalender, Widget.** Alles echte Arbeit – aber **nicht die Arbeit, an der die Note hängt.**\n- ➡️ **Das Muster ist nicht Faulheit, sondern Ausweichen auf das Abschließbare.** Fahrschulzahlen kann man fertigmachen, einen Absatz Fließtext nicht so leicht.\n- 💡 **Konsequenz für den nächsten Versuch:** Der Block darf nicht „Absatz C und D\" heißen. **Nur C. Nur die 85 Wörter.** Alles andere macht ihn wieder zu groß.\n\n## 📍 NÄCHSTER SCHRITT (bei Rückkehr)\n\n### 1. 🔴 Fr 30.10., 08:00–09:15 – Absatz C, fünfter Anlauf\n\n**Der Block ist umgewidmet** – er stand auf „Recherche Kapitel 5 (Stresstests)\", was der eigenen Entscheidung vom 26.10. widersprach (Kapitel 3 zuerst). Jetzt steht dort Absatz C.\n**Die Rechnung ist fertig (1,34 %), es fehlt nur der Text.** Fünf Bausteine, 85–95 Wörter, Fußnote 19. Anleitung: [[02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit).md|Arbeitsblatt 3.2]], Teil 3.\n⚠️ **Nicht gleich D mitplanen.** Erst wenn C freigegeben ist.\n\n### 2. 🩹 Knöchel und Rücken – beim Abend-Check abfragen\n\nAußenrist besser/gleich/schlechter – gleich oder schlechter → Arzt. Dazu der Rücken vom 28.10. Training war heute 19:00.\n\n### 3. 🔴 Seitenbudget-Entscheidung – erneut aufgeschoben\n\nSeit dem 26.10. offen, heute war der „letzte sinnvolle Tag\" und sie ist wieder nicht gefallen. Es fehlen ~2.400 Wörter, im Kalender ~21 h. **Die Rohfassung am 01.11. ist rechnerisch nicht zu halten** – das muss ausgesprochen und umgeplant werden, nicht weiter verschoben.\n\n### 4. 🌙 Nachtfahrten bei Muzi terminieren\n\nAm 06.11. im Auto ansprechen – der einzige offene Pflichtteil.\n\n### 5. ✅ Erledigt in dieser Session\n\nCLAUDE.md gestrafft (siehe unten) · Fahrstunde 3/5 am 29.10. protokolliert (2× Überland) · die beiden Fahrschul-Erinnerungen archiviert.\n## 📄 CLAUDE.md gestrafft: 35,2 → 23,5 KB (−33 %)\n\nMarcel hat es freigegeben: *„Solange es den Sinn nicht ändert, kannst du kürzen. Es ist nur wichtig, dass die Regeln, die da drin stehen, auch da drin bleiben.\"*\n\n**Vorgehen, damit nichts verlorengeht:**\n1. **Zwei Sicherungen** der Langfassung – eine dauerhaft in `Claude Files/06 Housekeeping/`.\n2. **Regelinventar** vor dem Kürzen: rund **85 Einzelregeln in 11 Blöcken** aufgelistet.\n3. Gekürzt wurde **nur die Ausführung**: Begründungen, Belegfälle und wörtliche Zitate sind nach [[00 Kontext/Vault-Regeln - Belege und Hintergrund.md]] gewandert (9,8 KB).\n4. **Gegenprüfung in drei Durchgängen:** 54 Regel-Schlüsselbegriffe ✅ · 23 harte Zahlen und Fakten (Aufstehzeiten, Termine, Beträge, Formeln) ✅ · alle **18 Wikilink-Ziele** existieren ✅.\n\n**Nebenbei zwei Fehler aufgeräumt:**\n- Im Kalender-Block stand **Regel 7 vor Regel 6** – jetzt in richtiger Reihenfolge.\n- Der Link auf die **KI-Dokumentations-Datei** war beim Straffen verschwunden und ist zurückgeholt.\n\n⚠️ **Was bewusst aus CLAUDE.md geflogen ist** (nicht verloren, nur verlagert):\n- Die **Führerschein-Detailbeträge** (bezahlt 1.643,82 €, erwartet 3.593,12 €, Eigenanteil 1.193,12 €). Stattdessen steht dort jetzt: *„Aktuelle Zahlen immer aus der Projektdatei lesen, nicht aus dem Gedächtnis.\"* **Das ist eine Verbesserung** – die Zahlen veralteten dort bei jeder Fahrstunde und widersprachen der eigenen Regel „keine Angabe aus dem Gedächtnis\".\n- Begründung zur KI-Business-Pause und die Telefonanruf-Historie zur Theorieprüfung – beides steht in den Projektdateien.\n\n📉 **Realistische Einschätzung:** 23,5 KB sind immer noch viel für eine Datei, die bei jeder Nachricht mitgeht. Weitere Luft gäbe es nur noch im **W-Seminar-Projektblock** (~1,8 KB, veraltet täglich) – aber genau der verhindert falsche Rückfragen. **Nicht ohne Marcels Entscheidung anfassen.**\n\n---\n\n## 🌙 Session-Ende (ca. 01:0x) – Ablauf nach `/sessionende`\n\n### Konsistenz-Prüfung 1: Kalender ↔ Erinnerungen ✅\nHeute gelöscht: Deutsch, Sporttheorie, Kunst (29.10.) und die Fahrstunde 30.10. **Kein verwaister Erinnerungspunkt** – im Gegenteil, zur abgesagten Fahrstunde steht der Nachbuch-Punkt korrekt drin.\n\n### Konsistenz-Prüfung 2: Plan ↔ Kalender ⚠️ → korrigiert\n**Der Zweiwochenplan war an zwei Stellen veraltet** und nannte für Do 29.10. noch Schule und „4.3 Folgen\" um 17:15. Beide Zeilen auf den neuen Stand gebracht: Vormittagsblock 10:30–13:00, 17:15 als Puffer, Hinweis dass 4.3 keinen Slot mehr hat.\n\n### Konsistenz-Prüfung 3: Ausgefallener Arbeitsblock ✅\nDer W-Seminar-Block vom 28.10. (2,5 h) ist ausgefallen. **Ersatz liegt:** 10:30–13:00 plus 17:15–18:30 als Puffer.\n\n### To-Do-Abgleich – drei Befunde\n\n**🔴 Ein Eintrag war verlorengegangen – und ich war selbst die Ursache.** Der Punkt **„Fahrschul-App: 1 Stunde, jeden Tag – die Kette läuft wieder\"** aus der Liste gefallen. Er stand auch nicht im Archiv, war also **wirklich weg**.\n➡️ **Aus der Git-Historie des Dashboard-Schnappschusses wiederhergestellt** (Commit `6432a48` enthielt den alten Stand). Vollständig mit Kettenstand (Mo ✅, Di ✗, Mi ✅) und allen Daten.\n💡 **Das ist nebenbei ein unerwarteter Nutzen des Offline-Schnappschusses:** Er ist faktisch ein **versioniertes Backup der Vault-Daten** geworden.\n\n**🔁 Ein Duplikat aufgelöst.** „Fahrschul-App täglich\" und „Für die Theorieprüfung lernen (Fahrschul-App)\" waren zwei Einträge für dieselbe Sache – zusammengeführt, mit korrigierter Restzeit (**noch 7 Tage**, nicht 9).\n\n**➕ Ein Punkt fehlte.** Das **Deutsch-Risiko des Fehltags** stand nirgends: Beim nächsten Deutsch-Termin abfragen, was am 29.10. verpasst wurde. Kafka läuft, Lesestand 0, strengster Lehrer, Problemfach der Einbringung.\n\n**Außerdem aktualisiert:** Der Absatz-C-Punkt nannte noch den alten Termin (17:15) – jetzt „vierter Anlauf, 10:30\".\n\n**Stand: 39 aktive Erinnerungen**, alle unter `## Aktiv`.\n\n### ⚠️ Zwei Altlasten, die ich NICHT eigenmächtig angefasst habe\nNach der Regel „im Zweifel drin lassen und fragen\":\n- **„Vault-Durchsicht vom 17.10. lesen\"** steht seit **12 Tagen** als `[HEUTE]`. Entweder lesen oder ehrlich streichen.\n- **„Vormittags-W-Seminar-Blöcke im Zweiwochenplan überprüfen\"** und **„Zweiwochenplan bis zur Rohfassung durchgehen und bestätigen\"** sind faktisch dieselbe Aufgabe – und beide gehen in der heutigen Seitenbudget-Entscheidung auf. Danach können vermutlich beide raus.\n\n### 🐞 Nachtrag: die Ursache des verlorenen Eintrags – ein Werkzeugfehler\n\nBeim Aufräumen kam ein **zweites Duplikat** zum Vorschein: Der Absatz-C-Punkt stand doppelt in der Liste. Die Spurensuche hat die Ursache für beides geliefert:\n\n```\ngrep -n \"DRITTER Ausfall\\|Fahrschul-App: 1 Stunde\\|Für die Theorieprüfung\" datei\n→ 55, 74, 92\n```\n\n**`grep` gibt Treffer nach Zeilennummer sortiert aus, nicht in Musterreihenfolge.** Ich habe „55 = erstes Muster\" gelesen – tatsächlich war 55 der **Fahrschul-App-Eintrag**. Den habe ich überschrieben, während der eigentlich gemeinte Absatz-C-Punkt bei Zeile 75 unangetastet blieb und als Dublette stehen blieb.\n\n➡️ **Beides repariert**, Stand **38 aktive Erinnerungen**.\n➡️ **Als Regel in [[CLAUDE.md]]:** Zeilennummern **einzeln** ermitteln und **den Inhalt der Zielzeile anzeigen lassen**, bevor `head`/`tail`/`sed` darauf losgeht. Nie aus einem Mehrfach-`grep` ableiten."
       }
     },
     "vault": {
-      "capturedAt": "2026-10-29T17:27:14.524Z",
+      "capturedAt": "2026-10-29T17:42:49.189Z",
       "data": {
         "files": [
           "00 Kontext/",
