@@ -218,11 +218,17 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
 
   // Übungsstunden kommen zusätzlich zu den Pflicht-Sonderfahrten dazu –
   // jede Übungsstunde wird separat berechnet.
-  //  - gefahren: aus der Fahrstundenliste gezählt
-  //  - geplant:  Schätzwert von Marcel (27.10.2026: 6 weitere)
+  //  - gefahren: aus der Fahrstundenliste gezählt, NUR aus Terminen mit
+  //    status "gefahren". Sonst würde eine geplante Übungsstunde als
+  //    bereits gefahren gezählt und still in die Kosten wandern.
+  //  - geplant:  Schätzwert aus `uebungsstunden_geplant`; steht seit dem
+  //    29.10.2026 auf 0, weil Marcel nur Gefahrenes gerechnet haben will.
   //  - Gutschein: eine Doppelstunde gratis, mindert die berechneten Stunden
   const uebungsstundenGefahren = fahrstunden.reduce(
-    (s, f) => s + f.inhalt.filter((x) => x.toLowerCase().startsWith("übung")).length,
+    (s, f) =>
+      f.status === "gefahren"
+        ? s + f.inhalt.filter((x) => x.toLowerCase().startsWith("übung")).length
+        : s,
     0,
   );
   const uebungsstundenGeplant = Math.max(
