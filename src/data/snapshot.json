@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-02T18:00:33.185Z",
+  "generatedAt": "2026-11-09T22:06:08.283Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-02T18:00:30.802Z",
+      "capturedAt": "2026-11-09T22:06:04.486Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -194,7 +194,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-02T18:00:32.655Z",
+      "capturedAt": "2026-11-09T22:06:07.754Z",
       "data": {
         "nodes": [
           {
@@ -283,6 +283,11 @@
             "folder": "02 Projekte"
           },
           {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
+            "folder": "02 Projekte"
+          },
+          {
             "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
             "label": "W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
             "folder": "02 Projekte"
@@ -298,8 +303,68 @@
             "folder": "02 Projekte"
           },
           {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.5 (Erwarteter Verlust)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 3.5 (Erwarteter Verlust)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.6 (Binomialverteilung)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 3.6 (Binomialverteilung)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)",
+            "label": "W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)",
+            "folder": "02 Projekte"
+          },
+          {
             "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
             "label": "W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "label": "W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
+            "label": "W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)",
+            "label": "W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)",
             "folder": "02 Projekte"
           },
           {
@@ -333,6 +398,11 @@
             "folder": "02 Projekte"
           },
           {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "label": "W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "folder": "02 Projekte"
+          },
+          {
             "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
             "label": "W-Seminararbeit - Quellen & Recherche",
             "folder": "02 Projekte"
@@ -340,6 +410,16 @@
           {
             "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
             "label": "W-Seminararbeit - Schreibanleitung",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)",
+            "label": "W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
+            "label": "W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
             "folder": "02 Projekte"
           },
           {
@@ -430,6 +510,11 @@
           {
             "id": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)",
             "label": "Gmail - Inbox aufräumen (Filter & Label)",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "label": "Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
             "folder": "04 Ressourcen"
           },
           {
@@ -733,6 +818,41 @@
             "folder": "05 Daily Notes"
           },
           {
+            "id": "05 Daily Notes/2026-11-03",
+            "label": "2026-11-03",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-04",
+            "label": "2026-11-04",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-05",
+            "label": "2026-11-05",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-06",
+            "label": "2026-11-06",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-07",
+            "label": "2026-11-07",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-08",
+            "label": "2026-11-08",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-09",
+            "label": "2026-11-09",
+            "folder": "05 Daily Notes"
+          },
+          {
             "id": "07 Anhänge",
             "label": "07 Anhänge",
             "folder": "(root)"
@@ -745,36 +865,52 @@
         ],
         "edges": [
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
             "source": "00 Kontext/Branding",
             "target": "07 Anhänge"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-11-06"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "00 Kontext/Erinnerungen - Archiv",
@@ -806,19 +942,11 @@
           },
           {
             "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
           },
           {
             "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "00 Kontext/Erinnerungen - Archiv",
@@ -890,6 +1018,10 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
+            "target": "05 Daily Notes/2026-11-09"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
@@ -942,6 +1074,10 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
@@ -958,15 +1094,19 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
             "source": "00 Kontext/ICP",
             "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
@@ -1013,14 +1153,6 @@
             "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
           },
           {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
             "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
             "target": "CLAUDE"
           },
@@ -1051,6 +1183,26 @@
           {
             "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
             "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
@@ -1089,24 +1241,8 @@
             "target": "02 Projekte/Führerschein"
           },
           {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "02 Projekte/Führerschein",
@@ -1115,6 +1251,10 @@
           {
             "source": "02 Projekte/Führerschein",
             "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "05 Daily Notes/2026-11-05"
           },
           {
             "source": "02 Projekte/Führerschein",
@@ -1139,6 +1279,10 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
@@ -1169,6 +1313,26 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
@@ -1182,7 +1346,27 @@
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
@@ -1197,8 +1381,12 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
@@ -1225,6 +1413,10 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
           },
@@ -1233,8 +1425,16 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
@@ -1245,8 +1445,24 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
@@ -1257,16 +1473,40 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
@@ -1313,6 +1553,34 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-11-05"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
@@ -1345,6 +1613,26 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
             "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
             "target": "05 Daily Notes/2026-09-15"
           },
@@ -1369,24 +1657,28 @@
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
-            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
-            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
             "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
             "target": "CLAUDE"
           },
           {
             "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
             "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "target": "05 Daily Notes/2026-11-09"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
@@ -1441,6 +1733,22 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
             "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
             "target": "04 Ressourcen/Schule/Noten (Daten)"
           },
@@ -1467,22 +1775,6 @@
           {
             "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
             "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
-            "target": "05 Daily Notes/2026-10-06"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
           {
             "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
@@ -1585,6 +1877,10 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-09-14",
+            "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
+          },
+          {
             "source": "05 Daily Notes/2026-09-15",
             "target": "00 Kontext/Kalender-Kategorien"
           },
@@ -1647,10 +1943,6 @@
           {
             "source": "05 Daily Notes/2026-09-21",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-14",
-            "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
           },
           {
             "source": "05 Daily Notes/2026-09-22",
@@ -1865,26 +2157,6 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
             "source": "05 Daily Notes/2026-10-14",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
@@ -1917,36 +2189,28 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-16",
+            "source": "05 Daily Notes/2026-10-15",
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
-            "source": "05 Daily Notes/2026-10-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-17",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-17",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-17",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-17",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-17",
+            "source": "05 Daily Notes/2026-10-15",
             "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
           },
           {
-            "source": "05 Daily Notes/2026-10-17",
-            "target": "05 Daily Notes/2026-10-18"
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-16",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
             "source": "05 Daily Notes/2026-10-19",
@@ -2041,6 +2305,22 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
             "source": "05 Daily Notes/2026-10-24",
             "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
           },
@@ -2067,54 +2347,6 @@
           {
             "source": "05 Daily Notes/2026-10-24",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-27",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-10-25",
@@ -2169,40 +2401,36 @@
             "target": "02 Projekte/Führerschein"
           },
           {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Führerschein - Budget (Daten)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
+            "source": "05 Daily Notes/2026-10-27",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
           },
           {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-29",
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-27",
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
+            "source": "05 Daily Notes/2026-10-27",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-10-28",
@@ -2247,6 +2475,42 @@
           {
             "source": "05 Daily Notes/2026-10-28",
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Führerschein - Budget (Daten)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
           },
           {
             "source": "05 Daily Notes/2026-10-30",
@@ -2295,6 +2559,170 @@
           {
             "source": "05 Daily Notes/2026-11-02",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-03",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.5 (Erwarteter Verlust)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.6 (Binomialverteilung)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "07 Anhänge",
@@ -2363,70 +2791,46 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-17",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-02T18:00:32.739Z",
+      "capturedAt": "2026-11-09T22:06:07.974Z",
       "data": {
         "tage": [
-          {
-            "datum": "2026-10-26",
-            "wochentag": "Mo",
-            "werte": {
-              "auf": {
-                "status": "ok",
-                "roh": "07:00",
-                "zahl": 7
-              },
-              "schlaf": {
-                "status": "unbekannt",
-                "roh": "?",
-                "zahl": null
-              },
-              "morgen": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "app": {
-                "status": "ok",
-                "roh": "✓",
-                "zahl": null
-              },
-              "zehnfinger": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "englisch": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "lesen": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "schwimmen": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "training": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "wsem": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              }
-            }
-          },
           {
             "datum": "2026-10-27",
             "wochentag": "Di",
@@ -2762,6 +3166,454 @@
                 "zahl": null
               }
             }
+          },
+          {
+            "datum": "2026-11-02",
+            "wochentag": "Mo",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "app": {
+                "status": "ok",
+                "roh": "**>60** ✓",
+                "zahl": 60
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-03",
+            "wochentag": "Di",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "fehlt",
+                "roh": "**<6**",
+                "zahl": 6
+              },
+              "morgen": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "app": {
+                "status": "ok",
+                "roh": "**>60** ✓",
+                "zahl": 60
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "ok",
+                "roh": "– (OP)",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "fehlt",
+                "roh": "✗",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-04",
+            "wochentag": "Mi",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "fehlt",
+                "roh": "**~6,0** ⚠️",
+                "zahl": 6
+              },
+              "morgen": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "app": {
+                "status": "ok",
+                "roh": "**>60** ✓",
+                "zahl": 60
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "ok",
+                "roh": "– (OP)",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "ok",
+                "roh": "**✓**",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-05",
+            "wochentag": "Do",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "app": {
+                "status": "ok",
+                "roh": "✓ (kurz, vor der Prüfung)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "ok",
+                "roh": "– (OP)",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "ok",
+                "roh": "**✓**",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-06",
+            "wochentag": "Fr",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "**?** 🔴",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "**0/5** ✗",
+                "zahl": 0
+              },
+              "app": {
+                "status": "fehlt",
+                "roh": "– (entfällt ab 06.11.)",
+                "zahl": 6.11
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "ok",
+                "roh": "läuft",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-07",
+            "wochentag": "Sa",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "**0/4** ✗",
+                "zahl": 0
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "ok",
+                "roh": "**✓**",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-08",
+            "wochentag": "So",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "**10:30** ⚠️",
+                "zahl": 10
+              },
+              "schlaf": {
+                "status": "ok",
+                "roh": "**7,5** ✅",
+                "zahl": 7.5
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "**0/4** ✗",
+                "zahl": 0
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "ok",
+                "roh": "**✓✓**",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-09",
+            "wochentag": "Mo",
+            "werte": {
+              "auf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "schlaf": {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              "morgen": {
+                "status": "ok",
+                "roh": "**1/5** (nur Duschen)",
+                "zahl": 1
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "ok",
+                "roh": "**✓✓ FERTIG**",
+                "zahl": null
+              }
+            }
           }
         ],
         "habits": [
@@ -2777,11 +3629,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "07:00",
-                "zahl": 7
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -2811,14 +3658,54 @@
                 "status": "ok",
                 "roh": "**10:20** ⚠️",
                 "zahl": 10
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**?** 🔴",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**10:30** ⚠️",
+                "zahl": 10
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
               }
             ],
-            "erledigt": 5,
-            "faellig": 5,
+            "erledigt": 6,
+            "faellig": 6,
             "quote": 1,
-            "streak": 5,
+            "streak": 6,
             "ausfallStreak": 0,
-            "schnitt": 8.51,
+            "schnitt": 9.11,
             "trend": "gleich"
           },
           {
@@ -2833,11 +3720,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "unbekannt",
-                "roh": "?",
-                "zahl": null
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -2867,15 +3749,55 @@
                 "status": "fehlt",
                 "roh": "**~6,0** ⚠️",
                 "zahl": 6
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "**<6**",
+                "zahl": 6
+              },
+              {
+                "status": "fehlt",
+                "roh": "**~6,0** ⚠️",
+                "zahl": 6
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**7,5** ✅",
+                "zahl": 7.5
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
               }
             ],
-            "erledigt": 2,
-            "faellig": 4,
-            "quote": 0.5,
-            "streak": 0,
-            "ausfallStreak": 2,
-            "schnitt": 6.75,
-            "trend": null
+            "erledigt": 3,
+            "faellig": 7,
+            "quote": 0.42857142857142855,
+            "streak": 1,
+            "ausfallStreak": 0,
+            "schnitt": 6.642857142857143,
+            "trend": "schlechter"
           },
           {
             "def": {
@@ -2889,11 +3811,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
               {
                 "status": "fehlt",
                 "roh": "✗",
@@ -2923,14 +3840,54 @@
                 "status": "fehlt",
                 "roh": "✗",
                 "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "**0/5** ✗",
+                "zahl": 0
+              },
+              {
+                "status": "fehlt",
+                "roh": "**0/4** ✗",
+                "zahl": 0
+              },
+              {
+                "status": "fehlt",
+                "roh": "**0/4** ✗",
+                "zahl": 0
+              },
+              {
+                "status": "ok",
+                "roh": "**1/5** (nur Duschen)",
+                "zahl": 1
               }
             ],
-            "erledigt": 1,
-            "faellig": 7,
-            "quote": 0.14285714285714285,
-            "streak": 0,
-            "ausfallStreak": 2,
-            "schnitt": 0.6666666666666666,
+            "erledigt": 3,
+            "faellig": 11,
+            "quote": 0.2727272727272727,
+            "streak": 1,
+            "ausfallStreak": 0,
+            "schnitt": 0.42857142857142855,
             "trend": "besser"
           },
           {
@@ -2945,11 +3902,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "✓",
-                "zahl": null
-              },
               {
                 "status": "fehlt",
                 "roh": "✗",
@@ -2979,15 +3931,55 @@
                 "status": "ok",
                 "roh": "**~180** ✓✓",
                 "zahl": 180
+              },
+              {
+                "status": "ok",
+                "roh": "**>60** ✓",
+                "zahl": 60
+              },
+              {
+                "status": "ok",
+                "roh": "**>60** ✓",
+                "zahl": 60
+              },
+              {
+                "status": "ok",
+                "roh": "**>60** ✓",
+                "zahl": 60
+              },
+              {
+                "status": "ok",
+                "roh": "✓ (kurz, vor der Prüfung)",
+                "zahl": null
+              },
+              {
+                "status": "fehlt",
+                "roh": "– (entfällt ab 06.11.)",
+                "zahl": 6.11
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
               }
             ],
-            "erledigt": 6,
-            "faellig": 7,
+            "erledigt": 12,
+            "faellig": 14,
             "quote": 0.8571428571428571,
-            "streak": 5,
+            "streak": 3,
             "ausfallStreak": 0,
-            "schnitt": 120,
-            "trend": "besser"
+            "schnitt": 71.01833333333333,
+            "trend": "gleich"
           },
           {
             "def": {
@@ -3012,8 +4004,43 @@
                 "zahl": null
               },
               {
-                "status": "fehlt",
-                "roh": "✗",
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
                 "zahl": null
               },
               {
@@ -3038,10 +4065,10 @@
               }
             ],
             "erledigt": 0,
-            "faellig": 3,
+            "faellig": 2,
             "quote": 0,
             "streak": 0,
-            "ausfallStreak": 3,
+            "ausfallStreak": 2,
             "schnitt": null,
             "trend": null
           },
@@ -3068,8 +4095,43 @@
                 "zahl": null
               },
               {
-                "status": "fehlt",
-                "roh": "✗",
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
                 "zahl": null
               },
               {
@@ -3094,10 +4156,10 @@
               }
             ],
             "erledigt": 0,
-            "faellig": 3,
+            "faellig": 2,
             "quote": 0,
             "streak": 0,
-            "ausfallStreak": 3,
+            "ausfallStreak": 2,
             "schnitt": null,
             "trend": null
           },
@@ -3134,11 +4196,6 @@
                 "zahl": null
               },
               {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
@@ -3147,13 +4204,53 @@
                 "status": "fehlt",
                 "roh": "✗",
                 "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
               }
             ],
-            "erledigt": 1,
-            "faellig": 7,
-            "quote": 0.14285714285714285,
-            "streak": 0,
-            "ausfallStreak": 1,
+            "erledigt": 5,
+            "faellig": 10,
+            "quote": 0.5,
+            "streak": 4,
+            "ausfallStreak": 0,
             "schnitt": null,
             "trend": "besser"
           },
@@ -3172,11 +4269,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
               {
                 "status": "nichtFaellig",
                 "roh": "–",
@@ -3206,15 +4298,55 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (OP)",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
-            "erledigt": 1,
-            "faellig": 2,
-            "quote": 0.5,
-            "streak": 1,
+            "erledigt": 3,
+            "faellig": 4,
+            "quote": 0.75,
+            "streak": 3,
             "ausfallStreak": 0,
             "schnitt": 1,
-            "trend": null
+            "trend": "besser"
           },
           {
             "def": {
@@ -3232,11 +4364,6 @@
             },
             "verlauf": [
               {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "✓",
                 "zahl": null
@@ -3249,6 +4376,46 @@
               {
                 "status": "ok",
                 "roh": "✓",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (OP)",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (OP)",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
                 "zahl": null
               },
               {
@@ -3267,13 +4434,13 @@
                 "zahl": null
               }
             ],
-            "erledigt": 2,
-            "faellig": 2,
+            "erledigt": 4,
+            "faellig": 4,
             "quote": 1,
-            "streak": 2,
+            "streak": 4,
             "ausfallStreak": 0,
             "schnitt": null,
-            "trend": null
+            "trend": "gleich"
           },
           {
             "def": {
@@ -3318,27 +4485,62 @@
                 "zahl": null
               },
               {
+                "status": "unbekannt",
+                "roh": "?",
+                "zahl": null
+              },
+              {
                 "status": "fehlt",
                 "roh": "✗",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✓**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✓**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "läuft",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✓**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✓✓**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✓✓ FERTIG**",
+                "zahl": null
               }
             ],
-            "erledigt": 0,
-            "faellig": 7,
-            "quote": 0,
-            "streak": 0,
-            "ausfallStreak": 7,
+            "erledigt": 6,
+            "faellig": 13,
+            "quote": 0.46153846153846156,
+            "streak": 6,
+            "ausfallStreak": 0,
             "schnitt": null,
-            "trend": "gleich"
+            "trend": "besser"
           }
         ],
-        "tageGesamt": 7,
-        "letzterEintrag": "2026-11-01",
-        "tageSeitLetztem": 1
+        "tageGesamt": 15,
+        "letzterEintrag": "2026-11-09",
+        "tageSeitLetztem": 0
       }
     },
     "noten": {
-      "capturedAt": "2026-11-02T18:00:32.816Z",
+      "capturedAt": "2026-11-09T22:06:08.073Z",
       "data": {
         "halbjahre": [
           {
@@ -4174,14 +5376,14 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-02T18:00:32.916Z",
+      "capturedAt": "2026-11-09T22:06:08.166Z",
       "data": {
         "projects": [
           {
             "name": "Führerschein",
             "path": "02 Projekte/Führerschein.md",
             "status": "aktiv",
-            "nextStep": "🦷 Bei der OP-Aufklärung fragen, ob die Prüfung **3 Tage nach der Weisheitszahn-OP** realistisch ist (und die Fahrstunde 4 Tage danach)",
+            "nextStep": "Sonderfahrten (Automatik) abschließen",
             "priority": 2
           },
           {
@@ -4215,7 +5417,7 @@
           {
             "name": "Zweiwochenplan (15.10.-01.11.2026)",
             "path": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md",
-            "status": "aktiv",
+            "status": "abgeschlossen",
             "nextStep": null,
             "priority": null
           }
@@ -4223,13 +5425,28 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-02T18:00:33.017Z",
+      "capturedAt": "2026-11-09T22:06:08.209Z",
       "data": {
         "heute": [
           {
+            "icon": "🔴",
+            "title": "HEUTE ABEND, PER HAND, IN BEIDEN GEBUNDENEN EXEMPLAREN: Schlusserklärung ausfüllen",
+            "details": "Stand 09.11.2026, 21:0x. Die Arbeit ist gedruckt und **zweifach gebunden**, Titelblatt ist eingebunden – aber auf **S. 25** sind **beide Kästchen leer** und Ort, Datum, Name und Unterschrift fehlen. ➡️ **Zweites Kästchen ankreuzen** („Bei der Erstellung meiner W-Seminararbeit habe ich KI-gestützte Werkzeuge gemäß den seminarspezifischen Vorgaben verwendet\"), dazu **Ort und Datum**, **Vor- und Zuname**, **Unterschrift**. ⚠️ **Der einzige Punkt, an dem die Abgabe morgen 07:00 formal noch hängen könnte.** Nicht auf morgen früh schieben."
+          },
+          {
+            "icon": "🗓️",
+            "title": "MORGEN NACH DER ABGABE: die Zeit nach dem W-Seminar einmal komplett neu planen – das ist der wichtigste Termin der Woche",
+            "details": "Angelegt am 09.11.2026 beim Session-Ende. Mit der Abgabe am 10.11. fallen **sieben** Dinge gleichzeitig an, die alle an einem Kalendereintrag hängen und ohne ihn nicht existieren: **(1) 🎓 Die Klausurenphase beginnt Mo 16.11. mit der Schulaufgabe Informatik – im Kalender steht die Prüfung, aber KEIN EINZIGER Lernblock dafür.** Das ist die dringendste Lücke, es sind nur sechs Tage. **(2) 💪 Kraft-Block ab 16.11.** (Mo/Mi/Fr festgelegt, Details offen – siehe eigenen Eintrag). **(3) ⌨️ 10-Finger-System, Englisch, Klavier und französische Nachrichten** waren bis 10.11. ausgesetzt und werden ab 11.11. wieder abgefragt – brauchen Slots. **(4) ⏸️ Blockstruktur mit mehr echten Pausen** – von Marcel am 07.11. ausdrücklich bestellt, war bewusst bis nach dem 10.11. geparkt. **(5) 🛒 KI Business (Etsy) war bis nach dem 10.11. pausiert** – entpausieren und terminieren. **(6) 🗓️ Der Zweiwochenplan deckt 15.10.–01.11. ab und ist seit acht Tagen abgelaufen** – ein neuer Plan für die Klausurenphase fehlt. **(7) 📕 Lesen ist sechs Tage in Folge ausgefallen** – ab 10.11. steht kein Abendblock mehr dagegen, der Kalendereintrag sollte jetzt tragen. ⚠️ **Nicht einzeln abarbeiten, sondern in einem Planungsgespräch** – sonst entsteht wieder eine Taktung ohne Pausen. ⏰ Vormittagsblöcke gegen die **tatsächlichen** Aufstehzeiten aus dem Habit-Log legen, nicht gegen das Soll."
+          },
+          {
+            "icon": "🚗",
+            "title": "Die 2 Pflicht-Überlandfahrten und die 3 Nachtfahrten haben KEINEN Termin mehr – zusammen 5 von 12 Sonderfahrten",
+            "details": "Am **04.11.** hat Marcel die Fahrstunde vom **Fr 06.11. (08:00–09:30, 2× Überland)** selbst abgesagt – *„mir geht's da nicht gut genug\"*, 4 Tage nach der OP, unter Schmerzmitteln. ✅ Die Absage ist richtig, der Termin ist im Kalender **gelöscht**. 🔴 **Damit sind die Überlandfahrten wieder offen**, und die 3 Nachtfahrten waren es schon. ⚠️ **Ohne Sonderfahrten keine Praxisprüfung**, und ab **Mo 16.11.** läuft die Klausurenphase (9 Klausuren bis Mitte Dezember). ➡️ **Bei Muzi anrufen, sobald sich Marcel fit fühlt – realistisch ab der Woche 09.–13.11.**, und gleich alle fünf auf einmal legen. 💰 Erinnerung: Jede zusätzliche Doppelstunde kostet **178 € selbst**. ❓ **Ungeklärt: ob für die kurzfristige Absage eine Gebühr anfällt** – beim Anruf mitfragen, nicht annehmen."
+          },
+          {
             "icon": "🦷",
-            "title": "Nach der OP (02.11.): drei Fragen sind offen geblieben – bei der Praxis nachfragen",
-            "details": "Die OP ist durch (Mo 02.11., 10:45, Dr. Amelie Parvany). Marcel abends: *„ziemlich fertig\"*. ⚠️ **Beim Termin wurde NICHT besprochen:** (1) 🚗 **Autofahren und Schmerzmittel** – am **Fr 06.11.** steht eine Fahrstunde; eine Doppelstunde kostet **178 € selbst**, also vorher klären statt kurzfristig absagen. (2) 🏃 **Ab wann wieder Sport** – Training **Do 05.11.** steht noch im Kalender, Fußball/Tennis sind laut Vorgabe einige Tage gesperrt. (3) 🗓️ **Nachsorge-/Kontrolltermin** – ob einer vereinbart ist, steht nirgends. ⛔ Nichts davon aus dem Gedächtnis beantworten – nur Praxis bzw. Aufklärungsbogen gilt."
+            "title": "OP-Nachsorge: zwei von drei Fragen sind beantwortet, eine Lücke bleibt",
+            "details": "✅ **Kontrolltermin am Mi 04.11., 10:15 wahrgenommen.** ✅ **Nachsorge steht:** Fäden ziehen **Mo 09.11., 16:15**, Dr. Amelie Parvany, Jahnstraße 5, Grafing – im Kalender. ✅ **Sport:** fällt **Do 05.11. und das ganze Wochenende** aus, danach nach Befinden – Training am 05.11. ist gelöscht. ✅ **Autofahren:** Marcel hat die Fahrstunde am 06.11. von sich aus abgesagt, er nimmt weiterhin Schmerzmittel. ⚠️ **Die Lücke:** Ob die **Praxis selbst** etwas zur Fahrtüchtigkeit unter diesen Schmerzmitteln gesagt hat, ist **nicht festgehalten** – die Absage ist Marcels eigene Einschätzung, keine ärztliche Freigabe oder Untersagung. ➡️ **Beim Fäden-Ziehen am 09.11. nachfragen**, bevor die nächste Fahrstunde terminiert wird."
           },
           {
             "icon": "😴",
@@ -4247,11 +5464,6 @@
             "details": "Marcel kam in der Nacht zum 01.11. um **ca. 04:00** heim, aufgestanden **10:20**. Der W-Seminar-Block lag auf **10:30** und war damit erneut praktisch unplanbar – obwohl die Regel vom 31.10. („frühestens 90 Min nach der **tatsächlichen** Aufstehzeit\") genau das verhindern sollte. Sie greift aber nur **rückblickend**. ➡️ **Ergänzung: Ist ein spätes Heimkommen vorher bekannt** (Feier, Spiel, Veranstaltung), wird der Vormittagsblock **im Voraus gestrichen oder verlegt**, nicht hinterher als „ausgefallen\" dokumentiert. **Nach dem 10.11. in die Kalenderregeln in CLAUDE.md einarbeiten** (Regel 8 erweitern) – jetzt nicht, weil CLAUDE.md bei jeder Nachricht mitgeht."
           },
           {
-            "icon": "🖨️",
-            "title": "W-Seminar: Formalia und der komplette Durchgang haben KEINEN Termin mehr",
-            "details": "Beide standen am So 01.11. (09:30–12:30 Formalia · 14:00–17:00 „Kompletter Durchgang → ROHFASSUNG STEHT\") und sind am **31.10. auf Marcels Entscheidung auf echtes Schreiben an Kapitel 3 umgewidmet** worden – der Grund: beide Blöcke setzen einen fertigen Text voraus, den es nicht gibt. ⚠️ **Sie sind damit nicht erledigt, sondern heimatlos.** Inhalt Formalia: Deckblatt, Inhaltsverzeichnis, ab S. 3 nummeriert, Literaturverzeichnis als vorletzter Teil, Selbstständigkeitserklärung als letzte nummerierte Seite; DIN A4 einseitig, Zeilenabstand 1,5 (Fußnoten 1,0), 12 pt (Fußnoten 10 pt), Ränder 2,5 cm. ➡️ **Beides braucht einen neuen Slot, sobald Text da ist** – realistisch erst in der Woche 07.–09.11. vor der Abgabe am Di 10.11. 🔴 **Offen und seit dem 08.10. unbeantwortet: die Zitierweise mit der Lehrkraft klären** – das muss VOR dem Umwandeln der `[FN: ...]`-Platzhalter in echte Fußnoten passieren."
-          },
-          {
             "icon": "🎉",
             "title": "Allerheiligen-Ausnahme bewusst gemacht am 31.10.2026",
             "details": "Die Vault-Regel sagt: nichts Schulgebundenes auf Feiertage. Am **So 01.11. (Allerheiligen, gesetzlicher Feiertag in Bayern)** liegen trotzdem **drei W-Seminar-Blöcke** (09:30–12:30 · 14:00–17:00 · 18:45–20:45) plus Fahrschul-App 17:30–18:30. Marcel hat die Ausnahme auf Rückfrage ausdrücklich gewählt: *„Arbeiten trotzdem – Deadline sticht\"*, wegen der Abgabe am **10.11.** ➡️ Festgehalten, damit die Regel nicht still aufgeweicht wird – das ist eine **einmalige, begründete Ausnahme**, kein neuer Normalfall."
@@ -4267,24 +5479,9 @@
             "details": "Frist war Di 27.10. (Deutsch 1. Stunde, 08:00), Lesestand **0 von ~70 Seiten**, realistisch 4,5–5 h bei 4 Min/Seite – die Zeit war an keiner Stelle vorhanden. ✅ **Kein Lektüretest**, deshalb vertretbar. Marcel am 26.10.: *„Ich schau mir einfach eine Zusammenfassung zum Kafka an.\"* 🎖️ Am Abend des 26.10. war er zudem bei der **Ballon-d'Or-Verleihung mit Freunden** – der Leseblock 22:30 ist damit ohnehin weggefallen. ⚠️ **Bleibt als Restrisiko:** Wenn im Unterricht aus dem Text heraus gearbeitet wird (Textstellen, Zitate), reicht die Zusammenfassung nicht. **Nach der Deutschstunde am 27.10. kurz abfragen, ob es gereicht hat** – falls nicht, braucht es ein echtes Lesefenster in den Herbstferien (02.–06.11.)."
           },
           {
-            "icon": "🔴",
-            "title": "W-Seminar: Reihenfolge am 26.10. entschieden – Kapitel 3 wird zuerst fertig, Kapitel 4/5/6 rücken nach hinten",
-            "details": "Marcel hat aus vier Optionen *„Erst Kapitel 3 fertig, Rest danach bewerten\"* gewählt. ✅ **Umgesetzt im Kalender am 26.10.:** Der Block Mo 26.10. (war „Recherche Kapitel 4\", jetzt **17:30–19:00 · 3.2 Absatz C**) und der Block Di 27.10., 16:00–18:00 (war „4.1 Subprime\", jetzt **Kapitel 3 weiter: 3.2 D / 3.3 PD**). ⚠️ **Noch NICHT umgewidmet** sind die Blöcke Mi 28.10. (2× 4.2), Do 29.10. (4.3), Fr 30.10. (Recherche Kap. 5 + Kapitel 5), Sa 31.10. (Kap. 5+6, Einleitung) – das macht erst Sinn, wenn absehbar ist, wie schnell Kapitel 3 läuft. Marcel am 26.10.: *„Wir schauen einfach mal, wie wir vorankommen.\"* ➡️ **Beim Abend-Check nachziehen.** 📎 **Risiko dieser Reihenfolge, von Marcel bewusst getragen:** Kapitel 4 hat bis heute **keine einzige Quelle**, und die Recherche dafür verschiebt sich mit."
-          },
-          {
-            "icon": "🔴",
-            "title": "W-Seminar: Die Rohfassung zum 01.11. ist GEFALLEN – und die Seitenbudget-Entscheidung ist jetzt fällig",
-            "details": "⚠️ **Nicht mehr „rechnerisch knapp\", sondern faktisch vorbei:** Am 31.10. sind **beide** Samstagsblöcke ausgefallen, und die zwei Sonntagsblöcke, die den Durchgang und die Formalia machen sollten, sind auf echtes Schreiben umgewidmet. 📊 **Stand unverändert seit dem 27.10.: ~1.199 Wörter ≈ 3,2 Seiten** (Kapitel 2 ✅ · 3.1 ✅ · 3.2 A+B ✅). Offen: 3.2 C+D, 3.3–3.6, Kapitel 4, 5, 6 **und** die Einleitung. 🔴 **Die Entscheidung über das Seitenbudget ist seit dem 26.10. aufgeschoben und gehört in den Block am So 01.11., 14:00–17:00.** Ohne sie wird am 07.–09.11. improvisiert. ➡️ Nach dem 01.11. bleiben: OP 02.11., Theorieprüfung 05.11., dann **07.–09.11. für Formalia, Durchgang und Korrekturlesen** vor der Abgabe am **Di 10.11.**"
-          },
-          {
             "icon": "📋",
             "title": "Vault-Durchsicht vom 17.10. lesen – Lücken, neue Befehle, 4 Vorschläge",
             "details": ""
-          },
-          {
-            "icon": "🚗",
-            "title": "Fahrschul-App: 1 Stunde, jeden Tag – Theorieprüfung Do 05.11., 08:45. Noch 4 Tage",
-            "details": "🔴 **HEUTE (So 01.11.) 16:30–17:30, höchste Priorität – Marcel hat sie am 31.10. ausdrücklich nicht geschafft und selbst als oberste Aufgabe benannt.** ⚠️ **Morgen (02.11., 10:45) ist die OP – danach ist kein Tag mehr verlässlich.** Stand: 26.10. ✓60 · 27.10. ✗ · 28.10. ✓60 · 29.10. ✓ · 30.10. ✓~60 · **31.10. ✗** = 5 von 6. ✅ **Mo 26.10. und Mi 28.10.: je 60 Minuten** (am 28.10. in der Schule) – ⚠️ **Di 27.10. ausgefallen, die Kette ist schon einmal gerissen.** Der 26.10. war der **erste Haken überhaupt** nach neun Ausfalltagen (17.–25.10.) und null ✅ in 14 Logtagen. Was den Unterschied machte: Der Slot liegt jetzt **direkt nach der 1:30-Pause und VOR dem großen Arbeitsblock**, nicht als letzter Termin des Tages. ⚠️ **Jetzt nicht abreißen lassen.** Die Prüfung liegt **3 Tage nach der Weisheitszahn-OP** (02.11.) – nutzbar sind davor realistisch nur **29.10.–01.11. plus 03./04.11.** Alle Slots stehen im Kalender. Prüfung ist **bezahlt** (154,82 € Kostenvorschuss, deckt auch die Praxisprüfung)."
           },
           {
             "icon": "📅",
@@ -4294,9 +5491,19 @@
         ],
         "woche": [
           {
-            "icon": "📚",
-            "title": "Vor jeder Bibliotheksfahrt in der Woche 07.–09.11. die Öffnungszeiten prüfen – Pflicht, nicht optional",
-            "details": "Am Sa 31.10. ist Marcel umsonst zur **Stabi** gefahren, die war offiziell geschlossen ([BSB-Öffnungszeiten](https://www.bsb-muenchen.de/recherche-und-service/besuche-vor-ort/oeffnungszeiten/)). 🔴 **07.–09.11. sind die letzten Arbeitstage vor der Abgabe am Di 10.11.** – ein zweiter umsonst-Weg kostet dort einen halben Arbeitstag, den es nicht mehr gibt. ➡️ **Claude prüft die Seite, bevor Marcel losfährt**, und nennt die Alternative mit: die **UB der LMU** (Geschwister-Scholl-Platz, [Betriebsinformationen](https://www.ub.lmu.de/de/newsuebersicht/news/aktuelle-betriebsinformationen-75a04e94.html)). ⚠️ Zugang zur UB LMU als Schüler ist **nicht geprüft** – vor einer Fahrt dorthin klären."
+            "icon": "✅",
+            "title": "W-SEMINARARBEIT IST FERTIG UND GEBUNDEN (09.11.2026, ca. 18:40) – dieser Eintrag sticht ALLE W-Seminar-Einträge darunter",
+            "details": "Marcel: *„Das ist jetzt endgültig. Mehr kommt nicht, mehr wird nicht passieren.\"* ⛔ **Keinen Text-, Fußnoten-, Formalia- oder Kürzungspunkt aus den Einträgen unter diesem hier erneut aufmachen** – sie beziehen sich alle auf eine Fassung, die es nicht mehr gibt. Abgegeben wird Di 10.11., 07:00. 📄 **Die abgegebene Fassung ist `W-Seminar.pdf`** in `Claude Files\\01 Schule\\W-Seminararbeit\\` (26 Seiten, gespeichert 18:38), **nicht** `Dok1.docx` (18:43) – die docx hat zwei spätere Mini-Änderungen an der KI-Tabelle, die nicht mitgedruckt sind. 🎙️ **Was aus der Durchsicht noch Wert hat, hängt nur noch am Prüfungsgespräch:** (1) im Inhaltsverzeichnis fehlt die Zeile `3.4 Risikoklassen`, die Seitenzahlen sind korrekt · (2) in 3.6 fehlt der Rechenweg `P(X ≥ 10) = 1 − P(X ≤ 9)`, das Ergebnis 31,40 % ist richtig · (3) die **Schreibanleitungen fehlen als Zeile in der KI-Tabelle** – von sich aus ansprechen, sie belegen gerade die Eigenleistung · (4) auf „stand KI-geschriebener Text in der Arbeit?\" lautet die Antwort **nicht „nein\"**, sondern: **„Fußnotenangaben in der Zitierform – inhaltlich von mir an der Originalquelle geprüft.\"** · (5) die Kompetenzstufen in 3.4 sind ein **selbst konstruiertes Beispiel** zum Kompetenzprinzip; die Staffelung selbst ist belegt (Geschäftsbericht gedr. S. 249, rechte Spalte). ➡️ **Beim nächsten `/sessionende` den ganzen W-Seminar-Block nach [[00 Kontext/Erinnerungen - Archiv.md]] verschieben.**"
+          },
+          {
+            "icon": "🎤",
+            "title": "W-Seminar: ab morgen zählt nur noch das Prüfungsgespräch – fünf Sätze liegen bereit",
+            "details": "Angelegt am 09.11.2026 nach der Durchsicht der gebundenen Fassung. Vorbereitung steht in [[02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch.md]]; die fünf Punkte aus der Schlussdurchsicht stehen im W-Seminar-Sammeleintrag darüber und in [[05 Daily Notes/2026-11-09.md]]. 📌 Die beiden, die Marcel **von sich aus** ansprechen sollte: die **Schreibanleitungen fehlen als Zeile in der KI-Tabelle** (sie belegen gerade seine Eigenleistung), und auf die Frage „stand KI-geschriebener Text in der Arbeit?\" lautet die Antwort **nicht „nein\"**, sondern: **„Fußnotenangaben in der Zitierform – inhaltlich von mir an der Originalquelle geprüft.\"** ❓ **Der Termin des Gesprächs ist weiterhin unbekannt und hat keinen Kalendereintrag** – in der Schule erfragen."
+          },
+          {
+            "icon": "⏸️",
+            "title": "Nach dem 10.11.: Blockstruktur mit mehr Pausen neu aufsetzen – von Marcel am 07.11. bestellt",
+            "details": "Seine Worte im Abend-Check: *„Ja, das war jetzt auch nur eine Ausnahmesituation, weil die Deadline halt näher rückt, aber an sich brauche ich schon mehr Pausen eigentlich.\"* ➡️ Das ist die erste Rückmeldung, die nicht an einem einzelnen Block hängt, sondern an der **Taktung insgesamt**. Umzusetzen: **kürzere Blöcke mit echten Schnitten** statt drei Stunden am Stück, und bei jedem Block über 2 Stunden ein **Zwischenschnitt**. 📌 Belegfall: Am 07.11. hing über eine Stunde an einem einzigen Satz, bis Marcel abgebrochen hat. ⚠️ Nicht vor dem 10.11. anfassen – bis dahin trägt die Dichte bewusst. Erkenntnisse stehen im Kalibrierungs-Log vom 07.11."
           },
           {
             "icon": "📢",
@@ -4344,11 +5551,6 @@
             "details": "✅ **Am 26.10. vollständig geklärt.** Bezahlt sind **1.643,82 €**: Mutter 549 € Theorieblock + 940 € Schaltpaket (10 Schaltstunden + Testfahrt B197 – **beides bereits gefahren**), Marcel 154,82 € TÜV (**die zahlt er selbst**, sie laufen nicht über das Budget). Vom Budget sind noch **911 €** offen, die der Vater übernimmt. Offen an Kosten: 436,30 € Festposten + 979,00 € für die 11 restlichen Sonderfahrten + 89,00 € Übungsstunde vom 23.10. = **Minimum 3.237,12 €**. ⚠️ **Jede Fahrstunde der Termine 2–5, die keine Pflicht-Sonderfahrt ist, kostet 89 € extra** – eine Doppelstunde 178 €, und die trägt Marcel komplett allein. Aufstellung: [[02 Projekte/Führerschein.md]]. ✅ **Update 28.10.:** Termin 2 waren **2 Überlandfahrten**, keine Übungsstunde – damit sind **3 von 12 Sonderfahrten** durch und bisher sind **keine 89-€-Extrastunden** angefallen. Das Minimum von 3.237,12 € hält weiter, die Termine 3–5 bieten genau die 6 noch offenen Nicht-Nachtfahrten."
           },
           {
-            "icon": "📝",
-            "title": "W-Seminar 3.2 Absatz C – ACHTER Anlauf, Di 03.11. um 16:30–18:00",
-            "details": "🔴 Ausgefallen am **26., 27., 28., 29., 30., 31.10. und am 01.11. gleich zweimal** (Vormittagsblock 10:30 nach der Halloween-Nacht · Abendblock 17:45, weil der „kurze\" Mittagsschlaf bis 19:00 ging). ⚠️ **Die These „Abendblöcke halten\" ist damit auch gefallen** – am 01.11. ist zum ersten Mal ein Abendblock gerissen. Der Grund war aber nicht die Tageszeit, sondern ein **4-Stunden-Schlaf ab 15:00**. 📅 **Der 8. Anlauf liegt am Tag 1 nach der Weisheitszahn-OP** (02.11., 10:45) – bewusst von Marcel so gewählt, weil in der Woche 02.–04.11. **kein einziger W-Seminar-Block** im Kalender stand. ⏱️ **Nur 90 Minuten für 90 Wörter** – der Block ist absichtlich klein, damit er nicht an seiner eigenen Größe scheitert. ➡️ **Geht es nach der OP wirklich nicht: ehrlich melden und auf Mi 04.11. legen.** ⛔ Nicht stillschweigend verfallen lassen – Abgabe ist **Di 10.11.** ⚠️ **Am 29.10. trotz freiem Vormittag** (Marcel war zu Hause), **am 30.10.** (am 31.10. nachgetragen, der Abend-Check war ausgefallen), **am 31.10.** (Marcel war schwimmen und an der geschlossenen Bibliothek). ✅ **Die Rechnung ist fertig und gegengeprüft: x = 1,34 %**, liegt unter 1,65 %, SCHUFAs Aussage ist damit nachgeprüft. 🔴 **Es fehlt nur noch der Text: 85–95 Wörter, Fußnote 19**, fünf Bausteine (gewichtetes Mittel in Worten → Formel → Ergebnis als eigene Rechnung → Vergleich + B₁-Zugehörigkeit des Beispielkunden → Rundungsvorbehalt). ⚠️ **Der Block heißt bewusst nur „Absatz C\", nicht „C und D\"** – die Doppelaufgabe hat ihn viermal zu groß gemacht. Absatz D (Bayes, Fußnote 20) erst, wenn C freigegeben ist. ⚠️ **Am 31.10. hatte Claude den Block fälschlich auf „C + D\" umbenannt – korrigiert.** 📐 Schreibweise `P_B(A)`. 🔴 **Alle sechs gerissenen Blöcke lagen am Vormittag.** Der siebte liegt wieder vormittags – das ist bewusst zu entscheiden, nicht aus Versehen so."
-          },
-          {
             "icon": "💻",
             "title": "Informatik nacharbeiten braucht einen neuen Slot",
             "details": "Der Block am Di 27.10. (17:30–18:20) ist beim Kalenderumbau gestrichen worden, weil die Fahrschul-Stunde und W-Seminar 4.1 den Dienstag füllen. Hintergrund: 3 Notenpunkte aus der Abfrage vom 12.10., Kompensationschance ist die Schulaufgabe am **Mo 16.11.** ➡️ Nicht einfach verschwinden lassen – Ersatzfenster festlegen."
@@ -4389,34 +5591,9 @@
             "details": ""
           },
           {
-            "icon": "🦷",
-            "title": "Fahrstunde Fr 06.11. liegt 4 Tage nach der Weisheitszahn-OP (02.11.)",
-            "details": "bei der OP-Aufklärung fragen, ob Autofahren/Schmerzmittel das zulassen. Sonst rechtzeitig umbuchen"
-          },
-          {
-            "icon": "📘",
-            "title": "W-Seminar: Zwei Schulbuch-Belege nachtragen – ein Griff ins Regal löst beide",
-            "details": "🔴 **Fußnote 15 ist bewusst ein Platzhalter:** Für die **Definition der bedingten Wahrscheinlichkeit** fehlt eine Mathematik-Quelle. Alle Quellen der Arbeit (SCHUFA, Bundesbank/EBA, BaFin, Commerzbank) sind Bank- und Praxisquellen – **keine davon darf eine mathematische Definition belegen.** Im Word-Dokument steht `[FN: Definition bedingte Wahrscheinlichkeit – Beleg Mathe-Schulbuch Q11 nachtragen]`. Gebraucht werden **Titel, Verlag, Erscheinungsjahr, Seitenzahl**. Marcels aktuelles Mathebuch behandelt nur die Normalverteilung – das **Buch aus Q11** müsste es haben, er hatte es am 25.10. nicht dabei. 🟡 **Derselbe Gang löst einen zweiten, älteren Beleg:** „Risiko vs. Unsicherheit\" in **Kapitel 2.2** steht als eigene Begriffsklärung **ohne Fußnote** (im Bauplan seit Langem als offener Punkt vermerkt, Vorschlag dort: das **Wirtschaftsbuch**). ⛔ **Nicht einfach weglassen** – eine unbelegte Definition ist in einer Mathematik-Seminararbeit die auffälligste Lücke, die es gibt. 🔁 **Ersatzwege, falls die Bücher nicht auftauchen:** (1) ISB-Merkhilfe Mathematik, Abschnitt „3 Stochastik\" – ⚠️ Inhalt von Claude **nicht** prüfbar, das PDF ist nicht maschinell lesbar, Marcel müsste selbst aufschlagen; (2) Claude recherchiert ein zitierfähiges Stochastik-Lehrbuch mit überprüfbarer Fundstelle."
-          },
-          {
-            "icon": "🔢",
-            "title": "W-Seminar: Nummerierung von Kapitel 3 am offiziellen Gliederungsblatt gegenprüfen",
-            "details": "✅ **Teilweise geklärt am 25.10.:** Der vermeintliche Widerspruch war **kein Fehler, sondern eine Entscheidung** – Marcel hat die Reihenfolge am **09.10.2026 selbst geändert und bestätigt** (bedingte Wahrscheinlichkeit von 3.5 auf **3.2**, erwarteter Verlust von 3.3 auf **3.5**). Nur die alte Gliederung vom 17.09. in `W-Seminararbeit.md` war nie nachgezogen; das ist jetzt als überholt markiert, die gültige Tabelle steht dort. **Verbindlich gilt:** 3.1 Scoring · 3.2 Bedingte Wahrscheinlichkeit · 3.3 PD · 3.4 Risikoklassen · 3.5 Erwarteter Verlust · 3.6 Binomialverteilung. 🔴 **Was offen bleibt:** Die Arbeit weicht damit in der **Nummerierung vom offiziellen Gliederungsblatt ab**, das die Lehrkraft kennt (inhaltlich dieselben sechs Unterkapitel, andere Folge). Das Blatt liegt nur als **Foto** in `Claude Files\\01 Schule\\W-Seminararbeit\\` – Marcel muss **selbst nachsehen** und entscheiden, ob die neue Folge so bleibt. **Vor dem Inhaltsverzeichnis klären**, weil Querverweise und Fußnoten darauf aufbauen."
-          },
-          {
-            "icon": "📎",
-            "title": "W-Seminar: `Dok1.docx` hat keinen Anhang",
-            "details": "Sobald im Text auf den Anhang verwiesen wird, muss die zwölfzeilige SCHUFA-Kriterientabelle dort stehen. Aktuell verweist noch keine Stelle darauf – also kein Fehler, aber eine Folgepflicht, die mit Kapitel 3 wächst."
-          },
-          {
             "icon": "💻",
             "title": "Informatik: Schulaufgabe am 16.11. ist die Kompensation für die 3 Punkte (Vorbereitung ab 11.11.)",
             "details": ""
-          },
-          {
-            "icon": "🗓️",
-            "title": "Vormittags-W-Seminar-Blöcke im Zweiwochenplan überprüfen",
-            "details": "die Abendblöcke halten, die Vormittagsblöcke reißen (drei Datenpunkte)"
           },
           {
             "icon": "🩹",
@@ -4426,16 +5603,6 @@
           {
             "icon": "💌",
             "title": "Karte an Oma schreiben und nachschicken",
-            "details": ""
-          },
-          {
-            "icon": "💻",
-            "title": "Word nach den Formalia-Vorgaben einrichten",
-            "details": ""
-          },
-          {
-            "icon": "📖",
-            "title": "W-Seminar: EL = PD × LGD × EAD in Kapitel 3 einbauen",
             "details": ""
           },
           {
@@ -4457,25 +5624,20 @@
             "icon": "🗓️",
             "title": "Morgenroutine überdenken – es gibt jetzt einen echten Datenpunkt",
             "details": "Am **Mo 26.10.**, dem ersten Tag des neuen Systems, ist Marcel um **07:00 statt 06:00** aufgestanden, und die Routine zerfiel sauber in zwei Hälften: ✅ **Wasser, Zähneputzen, Duschen** (passiert im Bad ohnehin) · ❌ **Dehnen und Nachrichten EN+DE** (brauchen eine bewusste Entscheidung und Zeit). ➡️ **Zwei Fragen daraus:** (1) Gehören Dehnen und Nachrichten überhaupt in den Morgen, oder besser woanders hin? (2) Die Aufstehzeit folgt der **Bettzeit**, nicht dem Wecker – am Wecker zu drehen bringt nichts, solange die Nächte bis 01:3x gehen. ⏳ **Noch einen zweiten Datenpunkt abwarten**, bevor etwas geändert wird – eine einzelne kurze Nacht ist kein Muster."
-          },
-          {
-            "icon": "🗓️",
-            "title": "Zweiwochenplan bis zur W-Seminar-Rohfassung durchgehen und bestätigen",
-            "details": "läuft noch bis **01.11.**, von Marcel aber nie ausdrücklich abgenickt."
           }
         ]
       }
     },
     "today": {
-      "capturedAt": "2026-11-02T18:00:33.091Z",
+      "capturedAt": "2026-11-09T22:06:08.248Z",
       "data": {
-        "path": "05 Daily Notes/2026-11-02.md",
+        "path": "05 Daily Notes/2026-11-09.md",
         "exists": true,
-        "content": "# 2026-11-02 (Montag) – 🦷 OP-Tag\n\n> [!danger] 🦷 Weisheitszahn-OP, 10:45–ca. 12:00, Dr. Amelie Parvany, Jahnstraße 5, 85567 Grafing\n> Erster Tag der **Herbstferien** (02.–06.11.). Danach: **Theorieprüfung Do 05.11., 08:45** · **Abgabe W-Seminararbeit Di 10.11.**\n\n## 🦷 Die OP\n\n| | |\n|---|---|\n| Termin | **10:45**, Endzeit war geschätzt (ca. 12:00) |\n| Zustand abends (18:56, Marcels Angabe) | **„ziemlich fertig\"** – Schmerzen/Schwellung, nur Minimalprogramm |\n| Sport | ⛔ einige Tage kein Fußball/Tennis (ärztliche Vorgabe, siehe Gesundheit.md) |\n| Autofahren | ❓ **In der Praxis nicht besprochen** – weder erlaubt noch verboten. ⛔ Nicht geraten. |\n\n❓ **Noch nicht festgehalten:** Betäubungsart, Anzahl entfernter Zähne, verordnete Schmerzmittel, Nachsorge-/Kontrolltermin. ⛔ Nichts davon geraten.\n\n> [!warning] 🚗 Autofahren wurde in der Praxis NICHT besprochen – offener Punkt, kein „passt schon\"\n> Am **Fr 06.11.** steht eine **Fahrstunde** an. Ob Marcel 4 Tage nach der OP und ggf. unter Schmerzmitteln fahren darf, hat niemand bestätigt.\n> ➡️ **Bei der Praxis anrufen** (oder im Aufklärungsbogen nachsehen) und **gleich mitfragen**, ob die verordneten Schmerzmittel die Fahrtüchtigkeit einschränken. Erst danach entscheiden, ob die Fahrstunde steht – eine Doppelstunde kostet **178 € selbst**.\n\n## ✅ Was trotzdem passiert ist\n\n- 🚗 **Fahrschul-App gemacht** – Marcels Angabe um 18:56: *„hab schon Fahrschule gemacht\"*.\n  ✅ **Mehr als 1 Stunde** – Soll (1 h täglich bis 05.11.) **übererfüllt**. ❓ Exakte Minutenzahl nicht genannt.\n  ℹ️ Für heute stand **kein** App-Block im Kalender – wegen der OP bewusst nicht geplant. Er hat es von sich aus gemacht, am Tag der OP. 👍\n\n## ⏸️ Was heute bewusst NICHT passiert\n\n- 📝 **W-Seminararbeit** – kein Block geplant, keiner stattgefunden. Richtig so: OP-Tag.\n- 🔴 **Seitenbudget-Entscheidung** (offen seit 26.10.) – weiter offen. Abgabe **Di 10.11.**\n\n## 🗓️ Kalender morgen (Di 03.11.) – unverändert, von Marcel bestätigt\n\n| Zeit | Termin |\n|---|---|\n| 15:00–16:00 | 🚗 Fahrschul-App (2 Tage vor der Prüfung) |\n| **16:30–18:00** | 📝 **W-Seminar: 3.2 Absatz C (NUR C)** – **8. Anlauf** |\n| 22:00–22:30 | 📕 Lesen 30 Min → Bett 22:30 (Mi 06:00 Aufstehen) |\n\nℹ️ Fußballtraining Di 19:00 ist abgesagt (Sportverbot nach der OP).\n\n## ❓ Offen (nicht geraten)\n\n1. **Exakte Fahrschul-App-Dauer heute** – „mehr als 1 h\", Minutenzahl fehlt.\n2. **Aufstehzeit Sa 31.10.** – steht noch als `?` im [[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md|Habit-Log]].\n3. **Habits heute** – Abend-Check noch nicht gelaufen (Fenster ab 21:00).\n4. Alle OP-Details oben unter „Die OP\", vor allem **Autofahren**.\n\n## Nächster Schritt (bei Rückkehr)\n\n> [!tip] Diese Notiz ist so geschrieben, dass sie ohne den Chatverlauf verständlich ist.\n\n1. 🌙 **Abend-Check 02.11.** ab 21:00 – mit Rücksicht auf den OP-Tag. Dabei die **exakte Fahrschul-App-Dauer** (heute >1 h) und die **Aufstehzeit Sa 31.10.** nachtragen.\n2. 📝 **Di 03.11., 16:30–18:00: Absatz C, 8. Anlauf.** Rechnung ist fertig und gegengeprüft (**x = 1,34 %**, liegt unter 1,65 %) – es fehlt **nur der Text**: 85–95 Wörter, **Fußnote 19**, Schreibweise `P_B(A)`. ⚠️ Claude sagt nichts vor, liefert Gerüst und Leitfragen – **Marcel schreibt selbst**, Claude prüft danach. Geht es nicht: **ehrlich melden und auf Mi 04.11. legen**, nicht stillschweigend verfallen lassen.\n3. 🔴 **Seitenbudget-Entscheidung** endlich treffen – 8 Tage bis zur Abgabe.\n4. 🦷 **Praxis anrufen: Autofahren + Schmerzmittel** – wurde beim Termin nicht besprochen, betrifft die **Fahrstunde Fr 06.11.** Dabei restliche OP-Details nachtragen."
+        "content": "# Montag, 09.11.2026\n\n**Ein Tag vor der Abgabe.** Der Tag stand komplett im Zeichen der W-Seminararbeit: erst die Pflichtkorrekturen, dann der vollständige Fußnoten-Durchgang am Original. Die Arbeit soll heute gebunden werden.\n\n## ✅ Fußnoten-Durchgang – alle 45 am Original geprüft\n\nDafür wurden heute geladen und seitengenau aufgeschlagen: **Commerzbank-Geschäftsbericht 2025** (6,3 MB), alle drei **SCHUFA**-Seiten, **Weber** (25.04.2008), **Böhmler** (19.03.2009), **Zeitler** (23.02.2009), die **Weidmann**-Rede (22.05.2017), **Basel III** (Monatsbericht 1/2018), die **Bonitäts-Bedingungen**, **Konzentrationsrisiken** und die **BaFin**-IRB-Seite.\n\n**Ergebnis:**\n- **„Vgl.\"-Prüfung sauber.** 36 Fußnoten mit, 9 ohne – und die 9 ohne (FN3, 7, 16, 22, 23, 29, 33, 40, 42) sind genau die mit wörtlichem Zitat. Kein fehlendes, kein falsches „Vgl.\". Dreifach mit verschiedenen Methoden gegengeprüft.\n- **7 rote Punkte** bleiben offen, zusammen etwa 15 Minuten. Sie stehen mit kopierbereiten Fußnoten in [[02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026).md]].\n- Nur zwei Quellen konnte ich heute nicht selbst öffnen: **Art. 178 CRR** (EUR-Lex blockt automatisierte Abrufe) und der **Commerzbank-Eintrag in der BaFin-Liste** (separate Datei). Beide beruhen weiter auf Marcels eigener Prüfung vom 20.10.\n\n## 🔴 Mein Fehler, offengelegt\n\nIch hatte Marcel am Mittag gesagt, die **Kompetenzstufen in 3.4** (100.000 €, Vorstand) seien von keiner Quelle gedeckt und müssten raus – rund 70 Wörter plus Folgesatz im Fazit. **Das war falsch.** Die Stelle steht im Commerzbank-Geschäftsbericht auf gedr. **S. 249, rechte Spalte**, die in der früheren Auswertung nicht erfasst war:\n\n> „…sind die Kreditkompetenzen einzelner Mitarbeiterinnen und Mitarbeiter wie auch die Kompetenzen der Komitees (Vorstand, Kreditkomitee, Subkreditkomitees) unter anderem nach Engagementgrößen sowie Ratingklassen gestaffelt.\"\n\nDer Absatz bleibt. Die Falschanweisung ist in [[00 Kontext/Erinnerungen.md]] durchgestrichen und korrigiert, damit sie keine spätere Session mehr zum Löschen verleitet.\n\n## 📐 Entscheidung: Mathe-Fußnoten fallen weg\n\nMarcel hat erfahren, dass die Formeln zum Grundwissen gehören, und die Fußnoten zu **bedingter Wahrscheinlichkeit, Erwartungswert und Binomialverteilung** gestrichen. Damit ist auch der letzte Platzhalter (Fn 15) weg und der **Lambacher Schweizer aus dem Literaturverzeichnis** entfernt.\n\nAmtlich abgesichert, falls im Prüfungsgespräch gefragt wird:\n- **Pfadregeln:** LehrplanPLUS Bayern, Gymnasium, **Jgst. 10, Lernbereich M10 2** – „machen anhand von Beispielen die Pfadregeln plausibel und berechnen mithilfe dieser Regeln Wahrscheinlichkeiten.\"\n- **Bedingte Wahrscheinlichkeit, Erwartungswert, Binomialverteilung:** stehen in der offiziellen **ISB-Merkhilfe**, liegen im Abitur also auf dem Tisch.\n- **Satz von der totalen Wahrscheinlichkeit:** steht **nicht** in der Merkhilfe und **nicht** im LehrplanPLUS – er ist die Kombination aus Pfad- und Summenregel. Marcel hat entschieden, ihn trotzdem ohne Fußnote zu lassen, weil beide Bausteine Pflichtstoff ab Klasse 10 sind.\n\nEine vorgeschlagene Quelle (welt-der-bwl.de) wurde geprüft und **abgelehnt**: kommerzielle Lernplattform der Janedu UG, Autor Dipl.-Kfm., keine eigenen Quellenangaben, werbefinanziert.\n\n## 📥 Neu im Upload-Ordner, eingeordnet\n\nBeides liegt jetzt in `Claude Files\\01 Schule\\W-Seminararbeit\\`:\n- **`1.2 WHG_Titelblattvorlage W-Seminar - Arbeit_2026.docx`** und **`1.3 Offizielle Schlusserklärung_der_Seminararbeit.docx`** (aus `download.zip`, das Archiv liegt in `_Quelldateien/`)\n- **`KI-Nutzungstabelle - Spaltenvorgabe der Schule (Foto).jpg`** – das Vier-Spalten-Schema, das die KI-Tabelle haben muss\n\n⚠️ **Für die Schlusserklärung gilt die Schulvorlage, nicht die allgemeine ISB-Vorlage.**\n\n## 🏁 Abends: Die Arbeit ist gebunden – Schlussdurchsicht der gedruckten Fassung\n\nMarcel ist um 20:5x zurückgekommen: **zwei Exemplare gebunden, Titelblatt ist eingebunden.** Seine Vorgabe: *„Das ist jetzt endgültig. Mehr kommt nicht, mehr wird nicht passieren.\"* Es ging nur noch um eine Einschätzung, nicht um Korrekturen.\n\n**Beurteilt wurde die gedruckte Fassung** `Claude Files\\01 Schule\\W-Seminararbeit\\W-Seminar.pdf` (26 Seiten, gespeichert 18:38) – **nicht** `Dok1.docx` (18:43). ⚠️ Die docx enthält zwei Mini-Änderungen an der KI-Tabelle, die in den gebundenen Exemplaren **nicht** stehen (Zeile 2 „& Erklärungen unverständlicher Inhalte\", verschobene Hinweis-Zelle). **Falls je eine Datei nachgereicht wird: das PDF ist die abgegebene Fassung.**\n\n**Nachgerechnet, alle vier Ergebnisse stimmen:** `P_B1(A)` ≈ 1,34 % ✅ · `P_A(B₄)` ≈ 7,18 % ✅ · `E(X)` = 8,25 ✅ · `P(X ≥ 10)` = 0,314037 → circa 31,40 % ✅ · `P(X ≥ 20)` = 0,000324 → circa 0,03 % ✅\n**Umfang:** Textteil Kap. 1–6 = **4.469 Wörter**, 18 Seiten, **45 Fußnoten** in korrekter Reihenfolge, 11 Titel im Literaturverzeichnis, kein Platzhalter mehr (Fn 15 ist aufgelöst).\n\n**Stärken, die die Arbeit tragen:** ausschließlich Primärquellen (CRR im Original, Commerzbank-Geschäftsbericht seitengenau, BaFin-IRB-Liste, vier Bundesbank-Reden, SCHUFA direkt – kein Aggregator) · die Rückwärtsrechnung in 3.2, die eine von der SCHUFA **nicht veröffentlichte** Zahl rekonstruiert und anschließend auf Plausibilität prüft · ein über 18 Seiten durchgehender roter Faden · Kapitel 4 hängt an der Unabhängigkeitsannahme aus 3.6, ist also nicht angeklebt · die begriffliche Trennung SCHUFA-Zahlungsstörung ≠ Ausfall nach Art. 178 CRR, dreimal selbst benannt.\n\n**Was in der gedruckten Fassung offen geblieben ist** (nicht mehr änderbar, nur zur Vorbereitung):\n- 🔴 **Im Inhaltsverzeichnis fehlt die Zeile „3.4 Risikoklassen\"** – es springt von 3.3 (S. 10) auf 3.5 (S. 12). **Alle Seitenzahlen sind korrekt**, am PDF geprüft; es ist genau eine fehlende Zeile. Formfehler, fällt aber auf, weil 3.4 im Text steht.\n- 🟡 **3.6:** „wird P(X ≥ 10) berechnet\", darunter steht die Formel für P(X = k). Ergebnis richtig, Rechenweg `P(X ≥ 10) = 1 − P(X ≤ 9)` fehlt. **Im Prüfungsgespräch mündlich auflösbar.**\n- 🟡 Kapitel 5 ist mit einem Absatz der dünnste Teil – Folge der Reihenfolge-Entscheidung vom 26.10., bewusst in Kauf genommen.\n- Kleinigkeiten: „die selbe\" (4.2) · Behelfspfeil `->` bei `E(X) = n · p` · neun gerade Anführungszeichen in Fußnoten · Anhang ohne eigene Quellenzeile (SCHUFA-Fundstelle steht als Fußnote im Text).\n- Offen gebliebene Punkte aus der Montagsliste („knapp 11,85 %\", „bestätigt\" in 3.2, 90-Tage-Schwelle, Volumen→Anzahl in 2.1): **Präzisierungen, keine notentragenden Fehler.** Marcels Gewichtung war richtig.\n\n## 🤖 KI-Tabelle – drei Sätze für das Prüfungsgespräch\n\nDie gedruckte Tabelle hat **fünf Zeilen** (Gliederungsprüfung · Quellenrecherche · Strukturentscheidung · Gegenprüfung aller Kapitel · Grammatikprüfung). Sie ist nicht falsch, aber zwei Dinge sollte Marcel **von sich aus** ansprechen:\n1. **Die Schreibanleitungen fehlen als Zeile** – mengenmäßig der größte Einsatz (Leitfragen, Inhaltsvorgaben, Wortbudgets, „was muss dieser Satz leisten\"). Ironie: Das ist genau die Zeile, die am besten belegt, dass die Sätze von ihm sind.\n2. **„keine Formulierungen geliefert\" (Zeile 2) ist einen Hauch zu absolut.** Die Fußnoten-Fundstellenangaben wurden kopierbereit vorformuliert. ➡️ **Auf die Frage „stand KI-geschriebener Text in der Arbeit?\" lautet die richtige Antwort nicht „nein\", sondern: „Fußnotenangaben in der Zitierform – inhaltlich von mir an der Originalquelle geprüft.\"**\n3. Zeile 5 „Prüfung der Grammatik\" deckt die sprachliche Glättung mit ab. Hier steht er **besser da als die Erlaubnis** – die Lehrkraft hätte mehr zugelassen, als er genutzt hat.\n\n## ✅ Habits – Montag, 09.11.\n\n| Habit | |\n|---|---|\n| Aufstehzeit | ❓ nicht durchgegeben |\n| Schlaf | ❓ nicht durchgegeben |\n| Morgenroutine | **1/5** – nur Duschen |\n| Lesen 30 Min | ✗ ausgefallen (sechster Tag in Folge) |\n| W-Seminar | **✓✓ FERTIG – gebunden** |\n| Fahrschul-App | – entfällt seit 06.11. |\n| Schwimmen / Training / Kraft | – nicht fällig (Mi+Sa / Di+Do / ab 16.11.) |\n| 10-Finger / Englisch | – ausgesetzt bis 10.11. |\n\n**Tag:** „in Ordnung, aber sehr stressig, auf dem letzten Drücker – hat geklappt, bin zufrieden.\" **Plantreue: teilweise.** Binden und der Termin zum Fädenziehen lagen quer, beides untergebracht.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n\n🔴 **Heute Abend noch, per Hand, in BEIDEN gebundenen Exemplaren:** Schlusserklärung auf S. 25 ausfüllen – **zweites Kästchen ankreuzen** („KI-gestützte Werkzeuge gemäß den seminarspezifischen Vorgaben verwendet\"), **Ort und Datum**, **Vor- und Zuname**, **Unterschrift**. Beide Kästchen sind im Druck leer. Das ist der einzige Punkt, an dem die Abgabe formal noch hängen könnte.\n\n**Morgen, Di 10.11.: Abgabe.** Damit endet die höchste Priorität, die seit dem 08.10. im Vault stand.\n\n**Was danach ansteht** – nicht aus dem Gedächtnis beantworten, bei der nächsten „was steht an\"-Frage sauber durchgehen:\n1. **Prüfungsgespräch** – Vorbereitung aus [[02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch.md]], plus die drei Sätze zur KI-Tabelle oben.\n2. **Klausurenphase ab Mo 16.11.** (Informatik), 9 Klausuren bis Mitte Dezember → [[02 Projekte/Abitur.md]]\n3. **Habits ab 10.11. wieder vollständig:** 10-Finger und Englisch werden wieder abgefragt, **Kraft startet 16.11. (Details noch offen – festlegen)**\n4. **KI Business (Etsy)** war bis nach dem 10.11. pausiert → entpausieren und neu terminieren\n5. **Führerschein:** Praxis weiter, an Fahrstunden-Tagen abends die Art abfragen\n\n## 🔴 Mein zweiter Fehler heute – offengelegt\n\nBeim Eintragen der neuen Erinnerung habe ich `00 Kontext/Erinnerungen.md` **auf 0 Bytes gesetzt.** Ursache: `awk '...' datei.md > datei.md` – die Shell leert die Zieldatei, **bevor** das Programm startet; mein `awk` hatte einen Syntaxfehler, und der anschließende `cp` zur „Sicherung\" hat dann nur noch die leere Datei kopiert. **Das ist derselbe Regelverstoß wie am 06.11. beim Arbeitsblatt 3.5** („vor dem Löschen oder Überschreiben fragen\").\n\n✅ **Vollständig wiederhergestellt**, 160 Zeilen, verifiziert gegen die Fassung, die ich 20 Minuten vorher gelesen hatte – erste und letzte Zeile identisch. Weg: **Obsidians Core-Plugin „Dateiwiederherstellung\"** hält 45 Snapshots dieser Datei in einer IndexedDB; der Snapshot von 15:31 war unbeschädigt. ⚠️ Der Moment der Zerstörung liegt dort selbst als Snapshot mit `len=0` – beim Zurückholen muss man die leeren Fassungen herausfiltern, sonst stellt man den Schaden wieder her.\n\n➡️ **Das Verfahren ist jetzt dokumentiert**, damit es beim nächsten Unfall in zwei Minuten statt in zwanzig geht: [[04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben.md]]\n🧱 **Lehre für mich:** Niemals `cmd datei > datei`. Erst `cp datei /tmp/x.bak`, dann aus der Kopie lesen. Bei langen Einfügungen Text in eine Datei schreiben und mit `head`/`cat`/`tail` zusammensetzen – keine Escape-Fallen in awk-Strings.\n\n## 🧾 Session-Ende 09.11.2026, 21:3x – was aufgeräumt wurde\n\n- **[[00 Kontext/Erinnerungen.md]] von 96 KB auf 57 KB gestrafft.** **39 Einträge** nach [[00 Kontext/Erinnerungen - Archiv.md]] verschoben – alle W-Seminar-Text-, Fußnoten-, Formalia- und Kürzungspunkte. Sie bezogen sich auf Fassungen, die es nicht mehr gibt. Jeder mit `<!-- AUSSORTIERT 09.11.2026 -->` und Grund. ⚠️ **Nichts gelöscht.**\n- **Zwei neue Einträge** stehen oben unter `## Aktiv`: die Schlusserklärung als `[HEUTE]`, und ein Sammelpunkt für das **Planungsgespräch nach der Abgabe** (sieben Dinge, die ab dem 10.11. gleichzeitig anfallen).\n- **[[02 Projekte/W-Seminararbeit/W-Seminararbeit.md]]:** `## Status` auf **🏁 ABGESCHLOSSEN** umgeschrieben, mit Endstand, der abgegebenen Datei und den fünf Punkten fürs Prüfungsgespräch. Der alte Status vom 07.11. steht als Verlauf darunter. **Frontmatter bleibt `aktiv`, weil das Prüfungsgespräch noch offen ist.**\n- **Kalibrierungs-Log** in [[03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten.md]]: Eintrag für Tag 15 nachgetragen.\n- **Kalender geprüft, 10.–17.11.:** Nach heute liegt **kein W-Seminar-Block mehr** im Kalender – es war nichts Gegenstandsloses zu löschen. ✅ Abgabe Di 10.11., 07:00 steht drin. 🔴 **Gefunden: Für die Schulaufgabe Informatik am Mo 16.11. existiert kein einziger Lernblock.** Steht als dringendster Punkt im neuen Sammeleintrag.\n\n> [!important] 🎯 Einstieg für den nächsten Chat (ohne diesen Verlauf verständlich)\n> **Die W-Seminararbeit ist fertig, gebunden und wird Di 10.11. um 07:00 abgegeben. Nicht mehr nach Text, Kapiteln, Fußnoten oder Formalia fragen – das Projekt ist bis auf das Prüfungsgespräch durch.**\n> 1. **Zuerst:** Hat Marcel die **Schlusserklärung** auf S. 25 in beiden Exemplaren ausgefüllt und unterschrieben? (Kästchen zwei, Ort, Datum, Name, Unterschrift.)\n> 2. **Danach das Planungsgespräch** aus dem `[HEUTE]`-Sammeleintrag in [[00 Kontext/Erinnerungen.md]] – **Priorität 1: Lernblöcke für die Schulaufgabe Informatik am 16.11.**, dann Kraft ab 16.11., die ausgesetzten Habits, die Blockstruktur mit mehr Pausen, KI Business entpausieren, neuer Zweiwochenplan.\n> 3. **Prüfungsgespräch:** Termin ist unbekannt und hat keinen Kalendereintrag – in der Schule erfragen."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-02T18:00:33.185Z",
+      "capturedAt": "2026-11-09T22:06:08.282Z",
       "data": {
         "files": [
           "00 Kontext/",
