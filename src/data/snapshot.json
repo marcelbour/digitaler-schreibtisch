@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-11T19:03:26.762Z",
+  "generatedAt": "2026-11-11T19:11:13.654Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-11T19:03:24.960Z",
+      "capturedAt": "2026-11-11T19:11:12.714Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-11T19:03:26.481Z",
+      "capturedAt": "2026-11-11T19:11:13.404Z",
       "data": {
         "nodes": [
           {
@@ -874,10 +874,6 @@
         ],
         "edges": [
           {
-            "source": "00 Kontext/Branding",
-            "target": "07 Anhänge"
-          },
-          {
             "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
           },
@@ -1118,6 +1114,10 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "00 Kontext/Branding",
+            "target": "07 Anhänge"
+          },
+          {
             "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
@@ -1290,26 +1290,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "02 Projekte/Führerschein",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "02 Projekte/Führerschein",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "02 Projekte/Führerschein",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "02 Projekte/Führerschein",
-            "target": "05 Daily Notes/2026-11-05"
-          },
-          {
-            "source": "02 Projekte/Führerschein",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
           },
@@ -1342,6 +1322,26 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
           },
           {
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "05 Daily Notes/2026-11-05"
+          },
+          {
+            "source": "02 Projekte/Führerschein",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
@@ -1363,10 +1363,6 @@
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
@@ -1650,6 +1646,10 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
             "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
             "target": "05 Daily Notes/2026-09-15"
           },
@@ -1734,6 +1734,10 @@
             "target": "05 Daily Notes/2026-10-28"
           },
           {
+            "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
             "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
             "target": "02 Projekte/Abitur"
           },
@@ -1768,10 +1772,6 @@
           {
             "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
-            "target": "05 Daily Notes/2026-10-11"
           },
           {
             "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
@@ -1934,30 +1934,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "05 Daily Notes/2026-09-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-21",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-22",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
             "source": "05 Daily Notes/2026-09-16",
             "target": "00 Kontext/Kalender-Kategorien"
           },
@@ -1974,19 +1950,35 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-22",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "05 Daily Notes/2026-09-24",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "05 Daily Notes/2026-09-24",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
             "target": "00 Kontext/Erinnerungen"
           },
           {
@@ -2614,6 +2606,10 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
+            "source": "05 Daily Notes/2026-11-03",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
             "source": "05 Daily Notes/2026-11-04",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
@@ -2678,8 +2674,36 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "05 Daily Notes/2026-11-03",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
           },
           {
             "source": "05 Daily Notes/2026-11-08",
@@ -2720,38 +2744,6 @@
           {
             "source": "05 Daily Notes/2026-11-08",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
           },
           {
             "source": "05 Daily Notes/2026-11-09",
@@ -2808,6 +2800,10 @@
           {
             "source": "05 Daily Notes/2026-11-11",
             "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-11",
+            "target": "02 Projekte/Führerschein - Budget (Daten)"
           },
           {
             "source": "07 Anhänge",
@@ -2876,12 +2872,20 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "00 Kontext/Erinnerungen"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-11T19:03:26.525Z",
+      "capturedAt": "2026-11-11T19:11:13.433Z",
       "data": {
         "tage": [
           {
@@ -4593,7 +4597,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-11T19:03:26.565Z",
+      "capturedAt": "2026-11-11T19:11:13.470Z",
       "data": {
         "halbjahre": [
           {
@@ -5429,7 +5433,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-11T19:03:26.643Z",
+      "capturedAt": "2026-11-11T19:11:13.515Z",
       "data": {
         "projects": [
           {
@@ -5478,7 +5482,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-11T19:03:26.686Z",
+      "capturedAt": "2026-11-11T19:11:13.543Z",
       "data": {
         "heute": [
           {
@@ -5697,15 +5701,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-11T19:03:26.725Z",
+      "capturedAt": "2026-11-11T19:11:13.607Z",
       "data": {
         "path": "05 Daily Notes/2026-11-11.md",
         "exists": true,
-        "content": "# Mittwoch, 11.11.2026\n\n**Erholungstag nach der Abgabe.** Marcel hat sich heute freigenommen, war nicht in der Schule, und hat von **04:00 bis 12:30 geschlafen** – 8,5 Stunden. Grund: Dienstagabend nach dem Training in den Club, **gefeiert wurde die Abgabe der W-Seminararbeit**.\n\n➡️ Nach 33 Tagen höchster Priorität (08.10.–10.11.) ist das eine bewusste Pause, kein Disziplinproblem. **Nicht als Habit-Versagen werten.**\n\n## ✅ Abend-Check Dienstag, 10.11. – nachgeholt am 11.11. um 12:4x\n\nDer Check vom Dienstagabend ist ausgefallen (Training, danach Club). Hier nachgeholt.\n\n| Habit | |\n|---|---|\n| 🕕 Aufstehzeit | **07:00** – Soll Di war 06:30, also **30 Min später** |\n| 😴 Schlaf (Nacht Mo→Di) | **circa 6 h** – Soll 7,5 h, also **1,5 h zu wenig**. Rückgerechnet: Bettzeit circa **01:00** statt 23:00. |\n| 🌅 Morgenroutine | **1/4 – nur Zähneputzen** (Wasser ✗, Dehnen ✗, Nachrichten ✗). Duschen Di nicht fällig. |\n| 📕 Lesen 30 Min | **✗ ausgefallen – siebter Tag in Folge** |\n| ⚽ Training (Di) | **✓ war da** – aber *„echt super schlecht gespielt, aber es ist schon passiert. Morgen hoffentlich besser.\"* |\n| 📝 W-Seminararbeit | **🏁 ABGEGEBEN, 07:00** |\n| 🚗 Fahrschul-App | – entfällt seit 06.11. |\n| 🏊 Schwimmen | – nicht fällig (nur Mi+Sa) |\n| 💪 Kraft | – erst ab 16.11. |\n| ⌨️ 10-Finger / 🇬🇧 Englisch | – am 10.11. noch ausgesetzt |\n\n**Tag:** „gut\". **Plantreue: gar nicht** – nach der Abgabe ausdrücklich in Ordnung, der Plan war an diesem Tag kein Maßstab.\n\n### ⚽ Das schlechte Training hat drei nachweisbare Gründe – keinen davon muss Marcel sich vorwerfen\n\nMarcel: *„echt super schlecht gespielt, aber es ist schon passiert. Morgen hoffentlich besser.\"* Was an diesem Dienstag zusammenkam, steht belegt in den Notizen:\n\n1. 🦷 **Es war der erste volle Sporttag nach der Weisheitszahn-OP vom 02.11.** – acht Tage Pause, Sport erst seit dem Fädenziehen am Mo 09.11. wieder frei.\n2. 🏃 **Doppelbelastung am selben Tag:** Sport-Leistungskurs Praxis 11:40–13:10 **und** Training 19:00. Das war so angekündigt und auch so gelaufen.\n3. 😴 **Nur circa 6 Stunden Schlaf** in der Nacht davor, bei Soll 7,5 h – und das nach dem Abgabestress.\n\n➡️ **Erste Einheit nach acht Tagen Pause, doppelte Tagesbelastung, Schlafdefizit.** Unter diesen drei Bedingungen ist eine schwache Leistung die Erwartung, nicht die Ausnahme.\n🩹 **Dazu kommt der Knöchel:** Das Umknicken vom 11.10. steht noch als offener Punkt in den Erinnerungen, der Außenrist war beim Wiedereinstieg am 27.10. noch nicht sauber.\n📌 **Für Do 12.11.:** zweites Training in drei Tagen, diesmal ohne Schul-Sport davor – **das ist die aussagekräftigere Einheit.** Wenn es dort wieder nicht läuft, lohnt ein Blick auf den Knöchel.\n\n### 🔎 Was dieser Dienstag für das Habit-System bedeutet\n\nDer Habit-Log vom 09.11. hatte festgehalten: *„Beim Abend-Check am 11.11. als Erstes prüfen, ob Morgenroutine und Lesen ohne den Abgabedruck zurückkommen – erst dann ist zu beurteilen, ob es Priorisierung war oder ein Systemproblem.\"*\n\n⚠️ **Diese Prüfung ist am Dienstag NICHT aussagekräftig geworden.** Der 10.11. war der Abgabetag selbst plus Feiern – also noch unter Sonderbedingungen. **Morgenroutine 1/4 und Lesen ✗ sind hier kein Befund.**\n➡️ **Die eigentliche Prüfung verschiebt sich auf Do 12.11. und Fr 13.11.** – die ersten beiden normalen Schultage ohne Abgabedruck. Dann ist zu beurteilen, ob es Priorisierung war oder System.\n\n## 🗓️ Heute umgeplant – zwei Entscheidungen von Marcel\n\n**1. 🏊 Schwimmen fällt heute aus.** Erster Termin der neuen Mi+Sa-Serie, wegen der Clubnacht gestrichen. ✅ **Nur die Instanz vom 11.11. gelöscht**, die Serie läuft weiter (nächster Termin Sa 14.11.).\n\n**2. 🎓 Mathe-Lernblock von 20:15 auf 18:00–19:30 vorgezogen.** Möglich geworden, weil das Schwimmen wegfällt und damit die 60-Minuten-Sportregel entfällt. ➡️ **Damit ist der Abend danach frei und Marcel kommt vor dem harten Donnerstag früher ins Bett.**\n\n**3. 🚗 Die Fahrstunde am Freitag bleibt, wo sie ist.** Marcel auf die direkte Frage: **nicht anrufen.** Am Fr 13.11. läuft also Autobahn 08:00–09:30 und direkt danach ab 09:50 der Mathetest – 20 Minuten dazwischen. ⚠️ **Bewusst in Kauf genommen, kein Versehen** – beide Bedenken lagen ihm vor. ⛔ Nicht erneut vorschlagen. 📌 Falls der Test schlecht läuft, gehört dieser Tagesablauf in der Testanalyse zu den Ursachenkandidaten.\n\n## 🔴 Der kritische offene Punkt\n\n> [!danger] Der Mathetest ist übermorgen – das Thema ist seit zwei Tagen unbekannt\n> Marcel hat am 10.11. bestätigt, er **kenne Stoff und Stunde** – hat beides aber **nie durchgegeben**, weder am 10.11. noch bis jetzt.\n> ⚠️ **Heute ist er nicht in der Schule**, und mittwochs hat er ohnehin kein Mathe (Französisch, Bio, Informatik).\n> ⏱️ **Zeitlage:** Der Lernblock liegt heute 18:00–19:30. **Do 12.11. ist voll** (Schule, Fahrstunde 13:30, Training 19:00, Teambesprechung 21:30), **Fr 13.11. ist der Test.**\n> ➡️ **Ohne Thema keine Abfrage.** Das ist die einzige Information, die heute noch fehlt.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n\n1. 🔴 **Mathe-Thema durchgeben** → dann sofort `/lernen Mathe` für den Block um 18:00.\n2. 🔢 **Zahlen für Dienstag nachtragen:** Aufstehzeit, Schlaf (Nacht Mo→Di), und wie das Training war.\n3. 📕 **Lesen** – heute wäre der achte Ausfalltag in Folge. Der Kalendereintrag 22:30 steht, der Konflikt mit dem Abendblock besteht seit dem 10.11. nicht mehr.\n4. 🎧 **Herta-Müller-Hörbuch** – 30 Minuten reinhören reicht, um zu wissen, ob es funktioniert. Danach kann Claude die Deutungsfolien bauen.\n5. 🎨 **Design A oder B** für das Referat entscheiden.\n6. 💻 **Informatik-Schulaufgabe Mo 16.11.** – noch kein Lernblock, und ab Montag läuft die Klausurenphase (9 Klausuren bis Mitte Dezember).\n7. 🎤 **Prüfungsgespräch W-Seminar** – Termin in der Schule erfragen.\n\n## 🚗 Nachtrag – Fahrstunde Donnerstag abgesagt\n\nMuzi hat Marcel geschrieben: **die Fahrstunde am Do 12.11., 13:30–15:00 (2× Autobahn) fällt aus.** Gemeldet am 11.11. nachmittags.\n\n**Sofort erledigt:**\n- ✅ Termin **gelöscht** (Regel: was nicht stattfindet, wird gelöscht, nicht kommentiert)\n- ✅ Beschreibung von `🚗 Fahrstunde 7` am Fr 13.11. **korrigiert** – dort stand „Sonderfahrten 3 und 4 von 4. Damit sind Überland und Autobahn vollständig\". **Das stimmt jetzt nicht mehr.**\n- ✅ Erinnerungseintrag umgeschrieben: statt „nur noch 3 Nachtfahrten\" sind es jetzt **5 offene Sonderfahrten** (2× Autobahn + 3× Nacht).\n\n⚠️ **Konsequenz für den Führerschein:** Ohne vollständige Sonderfahrten keine Praxisprüfung. Vor der Klausurenphase ab Mo 16.11. bleibt nur noch das Wochenende. ➡️ **Am Fr 13.11. im Auto mit Muzi beides klären: Ersatztermin für die Autobahn-Doppelstunde UND die 3 Nachtfahrten.**\n\n❓ **Nicht bekannt und nicht geraten:** ob Muzi schon einen Ersatztermin genannt hat.\n\n✅ **Die gute Seite:** Der Donnerstagnachmittag ist jetzt frei. Nach Kunst (Ende 13:10) liegt bis zum Training um 19:00 nichts mehr – **damit gibt es doch noch ein zweites Lernfenster für den Mathetest**, das gestern noch nicht existierte.\n\n**Entscheidungen dazu (11.11., 19:2x):**\n- ❌ **Muzi hat KEINEN Ersatztermin genannt** – nur abgesagt. Der Punkt bleibt als `[HEUTE]` offen: **am Fr 13.11. im Auto beides ansprechen** (Ersatz für die Autobahn-Doppelstunde + die 3 Nachtfahrten).\n- ✅ **Zweiter Mathe-Block angelegt: Do 12.11., 15:00–16:30** `🎓 Mathe lernen – zweite Einheit (Test morgen)`. Schule endet 13:10, also 1h50 Pause davor; danach 2,5 h bis zum Training um 19:00. ➡️ **Damit zwei Lerneinheiten statt einer** – heute 18:00–19:30 und morgen nachmittags.\n\n## 🕐 Neue Vault-Regel ab 11.11.2026 – Uhrzeit bei JEDER Nachricht prüfen\n\n**Von Marcel bestellt**, nachdem ich den Mathe-Block habe auslaufen lassen: *„Kannst du dir bitte als Regel festlegen, dass du immer bei der Frage die Uhrzeit mit abfragst, bei jedem? Das ist wichtig, dass du immer weißt, wie viel Uhr es ist und welches Datum es ist.\"*\n\n**Was passiert ist:** Um **12:33** war „in gut fünf Stunden\" zum Block um 18:00 korrekt. Marcel hat **erst um 19:26 geantwortet** – und ich habe die Angabe **wiederholt, ohne die Zeit neu zu prüfen.** In dem Moment lief der Block gerade aus. **Gerissen, ohne Erinnerung, zwei Tage vor dem Test.**\n\n**Die Ursache ist strukturell, nicht Schusseligkeit:** Zwischen zwei Nachrichten können Stunden liegen. Jede aus dem Verlauf übernommene Zeitangabe ist deshalb potenziell falsch.\n\n➡️ **Eingetragen in [[CLAUDE.md]], Abschnitt „Planung und Kommunikation\", als erster Punkt.**\n\n## ❌ Mathe-Block Mi 18:00–19:30 ist gerissen\n\nNicht gelaufen. Thema war nicht bekannt, Erinnerung kam nicht. ⚠️ **Marcel hat NICHT entschieden, heute Abend nachzuholen** – seine Antwort: *„Schau ich einfach, je nachdem wie ich mich fühle.\"* ⛔ **Deshalb bewusst KEIN Ersatzblock im Kalender** – das wäre gegen seine Aussage.\n\n**Damit hängt die Testvorbereitung an einem einzigen Block: Do 12.11., 15:00–16:30.** Der Test ist Fr 13.11., 09:50.\n\n---\n\n## 🧾 Session-Ende Mi 11.11.2026, 19:3x\n\nMarcel macht für das Mathe-Thema **einen neuen Chat** auf. Dieser hier ist abgeschlossen.\n\n### Was heute gespeichert wurde\n\n| Datei | Was |\n|---|---|\n| **[[CLAUDE.md]]** | 🕐 **Neue Regel: bei JEDER Nachricht `date` prüfen** – mit Belegfall |\n| **[[00 Kontext/Erinnerungen.md]]** | Mathetest auf aktuellen Stand · Fahrstunden-Entscheidung Freitag · **5 offene Sonderfahrten statt 3** |\n| **[[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md]]** | Abend-Check Di 10.11. komplett, inkl. Zahlen und Trainings-Einordnung |\n| **Kalender** | Schwimmen Mi gelöscht · Mathe-Block verschoben · Fahrstunde Do gelöscht · Fahrstunde Fr korrigiert · **neuer Block Do 15:00–16:30** |\n\n### Kalenderänderungen heute – alle drei Konsistenzprüfungen gemacht\n\n1. ✅ **Kalender ↔ Erinnerungen:** Die Fahrstunden-Absage am Do hat den Eintrag „nur noch 3 Nachtfahrten offen\" falsch gemacht – **im selben Zug auf 5 offene Sonderfahrten korrigiert.** Der Muzi-Anruf-Punkt wurde auf Marcels Entscheidung („nicht anrufen\") umgeschrieben statt gelöscht.\n2. ✅ **Plan ↔ Kalender:** Der [[02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md|Zweiwochenplan]] ist seit dem 01.11. abgelaufen und nennt nichts Aktuelles mehr. **Ein neuer Plan steht bereits als Punkt im Sammeleintrag** – hier nichts zu korrigieren.\n3. ✅ **Ausgefallener Block:** Der gerissene Mathe-Block wurde **nicht** stillschweigend verschoben. Marcel wollte keinen festen Ersatz für heute Abend – das ist so dokumentiert, nicht übergangen.\n\n---\n\n## ➡️ EINSTIEG FÜR DEN NÄCHSTEN CHAT\n\n> [!important] 🎯 Ohne diesen Verlauf verständlich – Stand Mi 11.11.2026, 19:3x\n> **Marcel kommt mit dem Thema für den Mathetest.** Das ist die einzige fehlende Information.\n\n### 🔴 Was sofort zu tun ist, wenn das Thema kommt\n\n1. **`/lernen Mathe` mit dem genannten Stoff** – Abfrage in der Frageform bauen, die der Test verwendet.\n2. **Die Abfrage muss am Do 12.11. um 15:00 fertig bereitliegen** – das ist der einzige verbliebene Lernblock.\n3. 🧠 **Modell: Opus** – laut Vault-Regel für Mathe.\n\n### ⏱️ Die Zeitlage, hart\n\n| | |\n|---|---|\n| ❌ Mi 11.11., 18:00–19:30 | Lernblock **gerissen** (Claude-Fehler, siehe unten) |\n| ✅ **Do 12.11., 15:00–16:30** | `🎓 Mathe lernen – zweite Einheit` – **der einzige verbliebene Block** |\n| 🎓 **Fr 13.11., 09:50–11:20** | **TEST** (Stunde unbestätigt, nicht raten) |\n\n⚠️ **Die gesamte Vorbereitung hängt an 90 Minuten am Tag vor dem Test.** Entsprechend fokussiert abfragen – kein Breitband, sondern das Prüfungsrelevante.\n\n### 🚗 Freitagmorgen, damit es niemanden überrascht\n\n**08:00–09:30 Fahrstunde (2× Autobahn), ab 09:50 der Test.** 20 Minuten dazwischen. ⛔ **Von Marcel am 11.11. bewusst so entschieden – nicht erneut vorschlagen, zu verschieben.**\n📌 **Im Auto mit Muzi zu klären:** Ersatztermin für die abgesagte Autobahn-Doppelstunde **und** die 3 Nachtfahrten = **5 offene Sonderfahrten**, und ab Mo 16.11. läuft die Klausurenphase.\n\n### 📋 Danach in der Reihenfolge offen\n\n1. 💻 **Informatik-Schulaufgabe Mo 16.11.** – noch kein einziger Lernblock. Ab Montag 9 Klausuren bis Mitte Dezember.\n2. 🎧 **Herta-Müller-Hörbuch** (Spotify, 3,05 h) – 30 Min reinhören, dann baut Claude die Referatsfolien. Vortrag Woche vom 07.12., Di 08.12. oder Do 10.12.\n3. 🎨 **Design A oder B** für das Referat entscheiden.\n4. 🎤 **Prüfungsgespräch W-Seminar** – Termin in der Schule erfragen, kein Kalendereintrag.\n5. 📋 **Planungsgespräch „Zeit nach dem W-Seminar\"** – Kraft ab 16.11., ausgesetzte Habits, neuer Zweiwochenplan, Etsy entpausieren.\n\n### 🕐 Die neue Regel von heute – bitte wirklich befolgen\n\n**Bei JEDER Nachricht `date` ausführen, nicht nur bei Zeitfragen.** Zwischen zwei Nachrichten können Stunden liegen. Genau daran ist heute der Lernblock gestorben: Die Angabe „in gut fünf Stunden\" war um 12:33 richtig und wurde um 19:26 unverändert wiederholt – in dem Moment lief der Block gerade aus."
+        "content": "# Mittwoch, 11.11.2026\n\n**Erholungstag nach der Abgabe.** Marcel hat sich heute freigenommen, war nicht in der Schule, und hat von **04:00 bis 12:30 geschlafen** – 8,5 Stunden. Grund: Dienstagabend nach dem Training in den Club, **gefeiert wurde die Abgabe der W-Seminararbeit**.\n\n➡️ Nach 33 Tagen höchster Priorität (08.10.–10.11.) ist das eine bewusste Pause, kein Disziplinproblem. **Nicht als Habit-Versagen werten.**\n\n## ✅ Abend-Check Dienstag, 10.11. – nachgeholt am 11.11. um 12:4x\n\nDer Check vom Dienstagabend ist ausgefallen (Training, danach Club). Hier nachgeholt.\n\n| Habit | |\n|---|---|\n| 🕕 Aufstehzeit | **07:00** – Soll Di war 06:30, also **30 Min später** |\n| 😴 Schlaf (Nacht Mo→Di) | **circa 6 h** – Soll 7,5 h, also **1,5 h zu wenig**. Rückgerechnet: Bettzeit circa **01:00** statt 23:00. |\n| 🌅 Morgenroutine | **1/4 – nur Zähneputzen** (Wasser ✗, Dehnen ✗, Nachrichten ✗). Duschen Di nicht fällig. |\n| 📕 Lesen 30 Min | **✗ ausgefallen – siebter Tag in Folge** |\n| ⚽ Training (Di) | **✓ war da** – aber *„echt super schlecht gespielt, aber es ist schon passiert. Morgen hoffentlich besser.\"* |\n| 📝 W-Seminararbeit | **🏁 ABGEGEBEN, 07:00** |\n| 🚗 Fahrschul-App | – entfällt seit 06.11. |\n| 🏊 Schwimmen | – nicht fällig (nur Mi+Sa) |\n| 💪 Kraft | – erst ab 16.11. |\n| ⌨️ 10-Finger / 🇬🇧 Englisch | – am 10.11. noch ausgesetzt |\n\n**Tag:** „gut\". **Plantreue: gar nicht** – nach der Abgabe ausdrücklich in Ordnung, der Plan war an diesem Tag kein Maßstab.\n\n### ⚽ Das schlechte Training hat drei nachweisbare Gründe – keinen davon muss Marcel sich vorwerfen\n\nMarcel: *„echt super schlecht gespielt, aber es ist schon passiert. Morgen hoffentlich besser.\"* Was an diesem Dienstag zusammenkam, steht belegt in den Notizen:\n\n1. 🦷 **Es war der erste volle Sporttag nach der Weisheitszahn-OP vom 02.11.** – acht Tage Pause, Sport erst seit dem Fädenziehen am Mo 09.11. wieder frei.\n2. 🏃 **Doppelbelastung am selben Tag:** Sport-Leistungskurs Praxis 11:40–13:10 **und** Training 19:00. Das war so angekündigt und auch so gelaufen.\n3. 😴 **Nur circa 6 Stunden Schlaf** in der Nacht davor, bei Soll 7,5 h – und das nach dem Abgabestress.\n\n➡️ **Erste Einheit nach acht Tagen Pause, doppelte Tagesbelastung, Schlafdefizit.** Unter diesen drei Bedingungen ist eine schwache Leistung die Erwartung, nicht die Ausnahme.\n🩹 **Dazu kommt der Knöchel:** Das Umknicken vom 11.10. steht noch als offener Punkt in den Erinnerungen, der Außenrist war beim Wiedereinstieg am 27.10. noch nicht sauber.\n📌 **Für Do 12.11.:** zweites Training in drei Tagen, diesmal ohne Schul-Sport davor – **das ist die aussagekräftigere Einheit.** Wenn es dort wieder nicht läuft, lohnt ein Blick auf den Knöchel.\n\n### 🔎 Was dieser Dienstag für das Habit-System bedeutet\n\nDer Habit-Log vom 09.11. hatte festgehalten: *„Beim Abend-Check am 11.11. als Erstes prüfen, ob Morgenroutine und Lesen ohne den Abgabedruck zurückkommen – erst dann ist zu beurteilen, ob es Priorisierung war oder ein Systemproblem.\"*\n\n⚠️ **Diese Prüfung ist am Dienstag NICHT aussagekräftig geworden.** Der 10.11. war der Abgabetag selbst plus Feiern – also noch unter Sonderbedingungen. **Morgenroutine 1/4 und Lesen ✗ sind hier kein Befund.**\n➡️ **Die eigentliche Prüfung verschiebt sich auf Do 12.11. und Fr 13.11.** – die ersten beiden normalen Schultage ohne Abgabedruck. Dann ist zu beurteilen, ob es Priorisierung war oder System.\n\n## 🗓️ Heute umgeplant – zwei Entscheidungen von Marcel\n\n**1. 🏊 Schwimmen fällt heute aus.** Erster Termin der neuen Mi+Sa-Serie, wegen der Clubnacht gestrichen. ✅ **Nur die Instanz vom 11.11. gelöscht**, die Serie läuft weiter (nächster Termin Sa 14.11.).\n\n**2. 🎓 Mathe-Lernblock von 20:15 auf 18:00–19:30 vorgezogen.** Möglich geworden, weil das Schwimmen wegfällt und damit die 60-Minuten-Sportregel entfällt. ➡️ **Damit ist der Abend danach frei und Marcel kommt vor dem harten Donnerstag früher ins Bett.**\n\n**3. 🚗 Die Fahrstunde am Freitag bleibt, wo sie ist.** Marcel auf die direkte Frage: **nicht anrufen.** Am Fr 13.11. läuft also Autobahn 08:00–09:30 und direkt danach ab 09:50 der Mathetest – 20 Minuten dazwischen. ⚠️ **Bewusst in Kauf genommen, kein Versehen** – beide Bedenken lagen ihm vor. ⛔ Nicht erneut vorschlagen. 📌 Falls der Test schlecht läuft, gehört dieser Tagesablauf in der Testanalyse zu den Ursachenkandidaten.\n\n## 🔴 Der kritische offene Punkt\n\n> [!danger] Der Mathetest ist übermorgen – das Thema ist seit zwei Tagen unbekannt\n> Marcel hat am 10.11. bestätigt, er **kenne Stoff und Stunde** – hat beides aber **nie durchgegeben**, weder am 10.11. noch bis jetzt.\n> ⚠️ **Heute ist er nicht in der Schule**, und mittwochs hat er ohnehin kein Mathe (Französisch, Bio, Informatik).\n> ⏱️ **Zeitlage:** Der Lernblock liegt heute 18:00–19:30. **Do 12.11. ist voll** (Schule, Fahrstunde 13:30, Training 19:00, Teambesprechung 21:30), **Fr 13.11. ist der Test.**\n> ➡️ **Ohne Thema keine Abfrage.** Das ist die einzige Information, die heute noch fehlt.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n\n1. 🔴 **Mathe-Thema durchgeben** → dann sofort `/lernen Mathe` für den Block um 18:00.\n2. 🔢 **Zahlen für Dienstag nachtragen:** Aufstehzeit, Schlaf (Nacht Mo→Di), und wie das Training war.\n3. 📕 **Lesen** – heute wäre der achte Ausfalltag in Folge. Der Kalendereintrag 22:30 steht, der Konflikt mit dem Abendblock besteht seit dem 10.11. nicht mehr.\n4. 🎧 **Herta-Müller-Hörbuch** – 30 Minuten reinhören reicht, um zu wissen, ob es funktioniert. Danach kann Claude die Deutungsfolien bauen.\n5. 🎨 **Design A oder B** für das Referat entscheiden.\n6. 💻 **Informatik-Schulaufgabe Mo 16.11.** – noch kein Lernblock, und ab Montag läuft die Klausurenphase (9 Klausuren bis Mitte Dezember).\n7. 🎤 **Prüfungsgespräch W-Seminar** – Termin in der Schule erfragen.\n\n## 🚗 Nachtrag – Fahrstunde Donnerstag abgesagt\n\nMuzi hat Marcel geschrieben: **die Fahrstunde am Do 12.11., 13:30–15:00 (2× Autobahn) fällt aus.** Gemeldet am 11.11. nachmittags.\n\n**Sofort erledigt:**\n- ✅ Termin **gelöscht** (Regel: was nicht stattfindet, wird gelöscht, nicht kommentiert)\n- ✅ Beschreibung von `🚗 Fahrstunde 7` am Fr 13.11. **korrigiert** – dort stand „Sonderfahrten 3 und 4 von 4. Damit sind Überland und Autobahn vollständig\". **Das stimmt jetzt nicht mehr.**\n- ✅ Erinnerungseintrag umgeschrieben: statt „nur noch 3 Nachtfahrten\" sind es jetzt **5 offene Sonderfahrten** (2× Autobahn + 3× Nacht).\n\n⚠️ **Konsequenz für den Führerschein:** Ohne vollständige Sonderfahrten keine Praxisprüfung. Vor der Klausurenphase ab Mo 16.11. bleibt nur noch das Wochenende. ➡️ **Am Fr 13.11. im Auto mit Muzi beides klären: Ersatztermin für die Autobahn-Doppelstunde UND die 3 Nachtfahrten.**\n\n❓ **Nicht bekannt und nicht geraten:** ob Muzi schon einen Ersatztermin genannt hat.\n\n✅ **Die gute Seite:** Der Donnerstagnachmittag ist jetzt frei. Nach Kunst (Ende 13:10) liegt bis zum Training um 19:00 nichts mehr – **damit gibt es doch noch ein zweites Lernfenster für den Mathetest**, das gestern noch nicht existierte.\n\n**Entscheidungen dazu (11.11., 19:2x):**\n- ❌ **Muzi hat KEINEN Ersatztermin genannt** – nur abgesagt. Der Punkt bleibt als `[HEUTE]` offen: **am Fr 13.11. im Auto beides ansprechen** (Ersatz für die Autobahn-Doppelstunde + die 3 Nachtfahrten).\n- ✅ **Zweiter Mathe-Block angelegt: Do 12.11., 15:00–16:30** `🎓 Mathe lernen – zweite Einheit (Test morgen)`. Schule endet 13:10, also 1h50 Pause davor; danach 2,5 h bis zum Training um 19:00. ➡️ **Damit zwei Lerneinheiten statt einer** – heute 18:00–19:30 und morgen nachmittags.\n\n## 🕐 Neue Vault-Regel ab 11.11.2026 – Uhrzeit bei JEDER Nachricht prüfen\n\n**Von Marcel bestellt**, nachdem ich den Mathe-Block habe auslaufen lassen: *„Kannst du dir bitte als Regel festlegen, dass du immer bei der Frage die Uhrzeit mit abfragst, bei jedem? Das ist wichtig, dass du immer weißt, wie viel Uhr es ist und welches Datum es ist.\"*\n\n**Was passiert ist:** Um **12:33** war „in gut fünf Stunden\" zum Block um 18:00 korrekt. Marcel hat **erst um 19:26 geantwortet** – und ich habe die Angabe **wiederholt, ohne die Zeit neu zu prüfen.** In dem Moment lief der Block gerade aus. **Gerissen, ohne Erinnerung, zwei Tage vor dem Test.**\n\n**Die Ursache ist strukturell, nicht Schusseligkeit:** Zwischen zwei Nachrichten können Stunden liegen. Jede aus dem Verlauf übernommene Zeitangabe ist deshalb potenziell falsch.\n\n➡️ **Eingetragen in [[CLAUDE.md]], Abschnitt „Planung und Kommunikation\", als erster Punkt.**\n\n## ❌ Mathe-Block Mi 18:00–19:30 ist gerissen\n\nNicht gelaufen. Thema war nicht bekannt, Erinnerung kam nicht. ⚠️ **Marcel hat NICHT entschieden, heute Abend nachzuholen** – seine Antwort: *„Schau ich einfach, je nachdem wie ich mich fühle.\"* ⛔ **Deshalb bewusst KEIN Ersatzblock im Kalender** – das wäre gegen seine Aussage.\n\n**Damit hängt die Testvorbereitung an einem einzigen Block: Do 12.11., 15:00–16:30.** Der Test ist Fr 13.11., 09:50.\n\n---\n\n## 🧾 Session-Ende Mi 11.11.2026, 19:3x\n\nMarcel macht für das Mathe-Thema **einen neuen Chat** auf. Dieser hier ist abgeschlossen.\n\n### Was heute gespeichert wurde\n\n| Datei | Was |\n|---|---|\n| **[[CLAUDE.md]]** | 🕐 **Neue Regel: bei JEDER Nachricht `date` prüfen** – mit Belegfall |\n| **[[00 Kontext/Erinnerungen.md]]** | Mathetest auf aktuellen Stand · Fahrstunden-Entscheidung Freitag · **5 offene Sonderfahrten statt 3** |\n| **[[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md]]** | Abend-Check Di 10.11. komplett, inkl. Zahlen und Trainings-Einordnung |\n| **Kalender** | Schwimmen Mi gelöscht · Mathe-Block verschoben · Fahrstunde Do gelöscht · Fahrstunde Fr korrigiert · **neuer Block Do 15:00–16:30** |\n\n### Kalenderänderungen heute – alle drei Konsistenzprüfungen gemacht\n\n1. ✅ **Kalender ↔ Erinnerungen:** Die Fahrstunden-Absage am Do hat den Eintrag „nur noch 3 Nachtfahrten offen\" falsch gemacht – **im selben Zug auf 5 offene Sonderfahrten korrigiert.** Der Muzi-Anruf-Punkt wurde auf Marcels Entscheidung („nicht anrufen\") umgeschrieben statt gelöscht.\n2. ✅ **Plan ↔ Kalender:** Der [[02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md|Zweiwochenplan]] ist seit dem 01.11. abgelaufen und nennt nichts Aktuelles mehr. **Ein neuer Plan steht bereits als Punkt im Sammeleintrag** – hier nichts zu korrigieren.\n3. ✅ **Ausgefallener Block:** Der gerissene Mathe-Block wurde **nicht** stillschweigend verschoben. Marcel wollte keinen festen Ersatz für heute Abend – das ist so dokumentiert, nicht übergangen.\n\n---\n\n## ➡️ EINSTIEG FÜR DEN NÄCHSTEN CHAT\n\n> [!important] 🎯 Ohne diesen Verlauf verständlich – Stand Mi 11.11.2026, 19:3x\n> **Marcel kommt mit dem Thema für den Mathetest.** Das ist die einzige fehlende Information.\n\n### 🔴 Was sofort zu tun ist, wenn das Thema kommt\n\n1. **`/lernen Mathe` mit dem genannten Stoff** – Abfrage in der Frageform bauen, die der Test verwendet.\n2. **Die Abfrage muss am Do 12.11. um 15:00 fertig bereitliegen** – das ist der einzige verbliebene Lernblock.\n3. 🧠 **Modell: Opus** – laut Vault-Regel für Mathe.\n\n### ⏱️ Die Zeitlage, hart\n\n| | |\n|---|---|\n| ❌ Mi 11.11., 18:00–19:30 | Lernblock **gerissen** (Claude-Fehler, siehe unten) |\n| ✅ **Do 12.11., 15:00–16:30** | `🎓 Mathe lernen – zweite Einheit` – **der einzige verbliebene Block** |\n| 🎓 **Fr 13.11., 09:50–11:20** | **TEST** (Stunde unbestätigt, nicht raten) |\n\n⚠️ **Die gesamte Vorbereitung hängt an 90 Minuten am Tag vor dem Test.** Entsprechend fokussiert abfragen – kein Breitband, sondern das Prüfungsrelevante.\n\n### 🚗 Freitagmorgen, damit es niemanden überrascht\n\n**08:00–09:30 Fahrstunde (2× Autobahn), ab 09:50 der Test.** 20 Minuten dazwischen. ⛔ **Von Marcel am 11.11. bewusst so entschieden – nicht erneut vorschlagen, zu verschieben.**\n📌 **Im Auto mit Muzi zu klären:** Ersatztermin für die abgesagte Autobahn-Doppelstunde **und** die 3 Nachtfahrten = **5 offene Sonderfahrten**, und ab Mo 16.11. läuft die Klausurenphase.\n\n### 📋 Danach in der Reihenfolge offen\n\n1. 💻 **Informatik-Schulaufgabe Mo 16.11.** – noch kein einziger Lernblock. Ab Montag 9 Klausuren bis Mitte Dezember.\n2. 🎧 **Herta-Müller-Hörbuch** (Spotify, 3,05 h) – 30 Min reinhören, dann baut Claude die Referatsfolien. Vortrag Woche vom 07.12., Di 08.12. oder Do 10.12.\n3. 🎨 **Design A oder B** für das Referat entscheiden.\n4. 🎤 **Prüfungsgespräch W-Seminar** – Termin in der Schule erfragen, kein Kalendereintrag.\n5. 📋 **Planungsgespräch „Zeit nach dem W-Seminar\"** – Kraft ab 16.11., ausgesetzte Habits, neuer Zweiwochenplan, Etsy entpausieren.\n\n### 🕐 Die neue Regel von heute – bitte wirklich befolgen\n\n**Bei JEDER Nachricht `date` ausführen, nicht nur bei Zeitfragen.** Zwischen zwei Nachrichten können Stunden liegen. Genau daran ist heute der Lernblock gestorben: Die Angabe „in gut fünf Stunden\" war um 12:33 richtig und wurde um 19:26 unverändert wiederholt – in dem Moment lief der Block gerade aus.\n\n---\n\n## 🔴 19:4x – Dashboard war veraltet, von Marcel beanstandet\n\nMarcel: *„Kannst du bitte auch im Dashboard immer die Sachen updaten, wenn ich dir was zum Beispiel zu den Fahrstunden sage? Es kann nicht sein, dass da noch ganz veraltete Sachen drinstehen. Feier ich gar nicht, sowas.\"*\n\n**Er hat recht, und es war schlimmer als gedacht – zwei verpasste Updates hatten sich überlagert:**\n\n| Fahrstunde | Stand in der Datendatei | Tatsächlich |\n|---|---|---|\n| **nr 5**, 06.11., 2× Überland | `geplant` | **Von Marcel am 04.11. selbst abgesagt** (4 Tage nach der OP). Stand **eine Woche lang falsch.** |\n| **nr 6**, 12.11., 2× Autobahn | `geplant` | **Heute von Muzi abgesagt** – war in Kalender und Erinnerungen nachgezogen, **nur nicht in der Datendatei.** |\n\n⚠️ **Folge:** Das Widget hat zu wenige offene Sonderfahrten angezeigt. Und ich habe Marcel heute selbst die **falsche Zahl „5\"** genannt – richtig sind **9 offen, davon 7 ohne Termin**.\n\n**Korrigiert:**\n- ✅ [[02 Projekte/Führerschein - Budget (Daten).md]] – beide auf `abgesagt`, irreführende Hinweise bei nr 5 und nr 7 richtiggestellt\n- ✅ `npm run snapshot` → 8/8 Routen, committet und gepusht (Commit `1a45936`), Vercel deployt neu\n- ✅ Erinnerungseintrag mit korrekter Tabelle: **12 Pflicht · 3 gefahren · 9 offen · 7 ohne Termin**\n- ✅ [[CLAUDE.md]]: Dashboard-Regel **verschärft** – Auslöser ist jede Information von Marcel, nicht nur ein Kalendereintrag. Dazu die Pflichtprüfung: **Einträge mit vergangenem Datum, die noch auf `geplant` stehen**, sind die stillen Karteileichen.\n\n**Kontrollwerte nach dem Snapshot:** bezahlt 1.643,82 € · Minimum gesamt 3.237,12 € · Eigenanteil 837,12 € · Sonderfahrten offen **9**\n\n---\n\n## ✅ Abend-Check Mittwoch, 11.11.2026 – um 19:5x\n\n| Habit | |\n|---|---|\n| 🕕 Aufstehzeit | **12:30** – Soll Mi 06:00, also **6,5 h später**. Heimkehr aus dem Club gegen 04:00. |\n| 😴 Schlaf | **8,5 h** (04:00–12:30) – über dem Soll von 7,5 h |\n| 🌅 Morgenroutine | **0/5 ✗** – nichts davon (Wasser, Dehnen, Zähneputzen, Nachrichten, Duschen) |\n| 📰 Nachrichten EN+DE | **✗** |\n| 📕 Lesen 30 Min | ❓ offen – Termin liegt 22:30, zum Zeitpunkt des Checks noch nicht fällig. **Wäre der achte Ausfalltag in Folge.** |\n| 🏊 Schwimmen (Mi) | **✗ bewusst gestrichen** wegen der Clubnacht – Instanz gelöscht, Serie läuft Sa weiter |\n| 🎓 Mathe-Lernblock | **✗ gerissen** (18:00–19:30) – Ursache war ein Claude-Fehler, siehe oben |\n| ⌨️ 10-Finger / 🇬🇧 Englisch | **✗** – ab heute wieder fällig, beide ohne Kalenderslot |\n| 💪 Kraft | – erst ab 16.11. |\n| ⚽ Training | – nicht fällig (Di+Do) |\n\n**Tag in Marcels Worten:** *„hab heute nur gezockt. musste nach all dem stress wieder sein.\"*\n\n### 🔎 Einordnung – zwei Dinge, die auseinandergehalten gehören\n\n**1. Der Erholungstag selbst ist nicht das Problem.** 33 Tage Abgabedruck, die Nacht davor im Club, 12:30 aufgestanden – dass an so einem Tag null Habits laufen, ist die Erwartung. Marcel hat ihn sich bewusst genommen und das auch so benannt.\n\n**2. Die Prüfung aus dem Habit-Log ist damit ZUM ZWEITEN MAL nicht aussagekräftig geworden.** Der Eintrag vom 09.11. wollte am 11.11. sehen, ob Morgenroutine und Lesen ohne Abgabedruck zurückkommen. Der 10.11. war Abgabetag plus Feiern, der 11.11. ist Erholungstag. **Beide Tage sagen nichts über das System aus.**\n➡️ **Die Prüfung verschiebt sich erneut – jetzt auf Do 12.11. und Fr 13.11.** Das sind die ersten echten Schultage ohne Sonderbedingungen. ⚠️ **Falls dort wieder nichts läuft, ist es kein Sondereffekt mehr, sondern ein Befund.**\n\n### ⚠️ Was der Tag konkret gekostet hat\n\n| | |\n|---|---|\n| Lernblöcke für Mathe **geplant** | 2 (Mi 18:00, Do 15:00) |\n| davon **gelaufen** | **0** |\n| **verbleibend** | **1 – Do 12.11., 15:00–16:30** |\n| Test | **Fr 13.11., 09:50** |\n\n➡️ **Die gesamte Testvorbereitung liegt jetzt in 90 Minuten am Donnerstagnachmittag.** Dazu kommt, dass das Thema weiterhin unbekannt ist.\n🔴 **Reißt auch der Do-Block, geht Marcel ungelernt in den Test.** Das ist keine Mahnung, sondern der Stand.\n\n### 🛏️ Bettzeit heute\n\nSoll wäre 23:00 (Do-Aufstehen 06:30). Bei 12:30 Aufstehzeit sind das nur 10,5 h wach – **realistisch nicht erreichbar.** Donnerstag ist voll bis 22:30 (Teambesprechung), Freitag muss Marcel vor 07:00 raus (Fahrstunde 08:00). ⚠️ **Die Nacht Do→Fr ist die kritische, nicht diese hier.**"
       }
     },
     "vault": {
-      "capturedAt": "2026-11-11T19:03:26.762Z",
+      "capturedAt": "2026-11-11T19:11:13.653Z",
       "data": {
         "files": [
           "00 Kontext/",
