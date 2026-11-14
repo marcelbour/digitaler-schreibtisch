@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-11T21:53:34.377Z",
+  "generatedAt": "2026-11-14T13:53:28.589Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-11T21:53:31.712Z",
+      "capturedAt": "2026-11-14T13:53:26.546Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -25,7 +25,7 @@
             "betrag": 38.3
           }
         ],
-        "sonderfahrtenOffen": 9,
+        "sonderfahrtenOffen": 7,
         "sonderfahrtenKosten": 1068,
         "uebungsstundenGefahren": 3,
         "uebungsstundenGeplant": 0,
@@ -97,7 +97,7 @@
           {
             "art": "Überland",
             "pflicht": 5,
-            "gefahren": 3
+            "gefahren": 5
           },
           {
             "art": "Autobahn",
@@ -170,12 +170,12 @@
             "nr": 7,
             "datum": "2026-11-13",
             "dauer_min": 90,
-            "status": "geplant",
+            "status": "gefahren",
             "inhalt": [
-              "Autobahn",
-              "Autobahn"
+              "Überland",
+              "Überland"
             ],
-            "hinweis": "Von Marcel am 29.10.2026 gemeldet, 08:00-09:30. Schule beginnt freitags erst 09:50 - an dem Tag ist der Mathetest. KORREKTUR 11.11.2026: Hier stand 'Danach fehlen nur noch die 3 Nachtfahrten'. Das ist falsch, seit die Termine am 06.11. und 12.11. abgesagt wurden. Nach dieser Stunde fehlen noch 2 Ueberland, 2 Autobahn und 3 Nacht."
+            "hinweis": "13.11.2026 von Marcel gemeldet: geplant war 2x Autobahn, tatsaechlich 2x Ueberland gefahren. Ueberland damit komplett (5 von 5), Autobahn weiterhin 0 von 4. Zuvor: Von Marcel am 29.10.2026 gemeldet, 08:00-09:30. Schule beginnt freitags erst 09:50 - an dem Tag ist der Mathetest. KORREKTUR 11.11.2026: Hier stand 'Danach fehlen nur noch die 3 Nachtfahrten'. Das ist falsch, seit die Termine am 06.11. und 12.11. abgesagt wurden. Nach dieser Stunde fehlen noch 2 Ueberland, 2 Autobahn und 3 Nacht."
           }
         ],
         "nichtBezifferbar": [
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-11T21:53:33.584Z",
+      "capturedAt": "2026-11-14T13:53:28.302Z",
       "data": {
         "nodes": [
           {
@@ -274,6 +274,11 @@
           {
             "id": "02 Projekte/KI Business (Etsy Shop)",
             "label": "KI Business (Etsy Shop)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/TikTok KI-Videos",
+            "label": "TikTok KI-Videos",
             "folder": "02 Projekte"
           },
           {
@@ -872,6 +877,21 @@
             "folder": "05 Daily Notes"
           },
           {
+            "id": "05 Daily Notes/2026-11-12",
+            "label": "2026-11-12",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-13",
+            "label": "2026-11-13",
+            "folder": "05 Daily Notes"
+          },
+          {
+            "id": "05 Daily Notes/2026-11-14",
+            "label": "2026-11-14",
+            "folder": "05 Daily Notes"
+          },
+          {
             "id": "07 Anhänge",
             "label": "07 Anhänge",
             "folder": "(root)"
@@ -888,8 +908,160 @@
             "target": "07 Anhänge"
           },
           {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-11-06"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-31"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-21"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-19"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "05 Daily Notes/2026-10-20"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen - Archiv",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
             "source": "00 Kontext/Erinnerungen",
-            "target": "00 Kontext/Erinnerungen - Archiv"
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/TikTok KI-Videos"
           },
           {
             "source": "00 Kontext/Erinnerungen",
@@ -974,150 +1146,6 @@
           {
             "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "05 Daily Notes/2026-11-06"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "05 Daily Notes/2026-10-31"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "05 Daily Notes/2026-10-18"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "05 Daily Notes/2026-10-21"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "05 Daily Notes/2026-10-19"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "05 Daily Notes/2026-10-20"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "00 Kontext/Kalender-Kategorien",
@@ -1280,8 +1308,16 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "00 Kontext/Angebot"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "02 Projekte/Abitur"
           },
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
@@ -1294,10 +1330,6 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "02 Projekte/KI Business (Etsy Shop)",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
@@ -1334,10 +1366,6 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
@@ -1378,10 +1406,6 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)",
@@ -1504,104 +1528,12 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "05 Daily Notes/2026-10-18"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "05 Daily Notes/2026-10-19"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "05 Daily Notes/2026-10-21"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "05 Daily Notes/2026-10-24"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "05 Daily Notes/2026-10-14"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "05 Daily Notes/2026-11-05"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
@@ -1712,16 +1644,136 @@
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
-            "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
-            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.1 (Subprime-Kredite)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-19"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-21"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-24"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-10-14"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "05 Daily Notes/2026-11-05"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-12"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
+            "target": "05 Daily Notes/2026-10-28"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung",
             "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
-            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
@@ -1738,30 +1790,6 @@
           {
             "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-12"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
-            "target": "05 Daily Notes/2026-10-28"
           },
           {
             "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
@@ -1876,6 +1904,10 @@
             "target": "02 Projekte/Abitur"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
             "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -1914,6 +1946,34 @@
           {
             "source": "05 Daily Notes/2026-09-14",
             "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "01 Inbox/Brain Dump"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "05 Daily Notes/2026-09-16",
@@ -1984,34 +2044,6 @@
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "01 Inbox/Brain Dump"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-15",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
             "source": "05 Daily Notes/2026-10-05",
             "target": "07 Anhänge"
           },
@@ -2080,38 +2112,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "05 Daily Notes/2026-10-08"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
             "source": "05 Daily Notes/2026-10-08",
             "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
           },
@@ -2144,28 +2144,40 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-10",
-            "target": "05 Daily Notes/2026-10-11"
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Kalender-Kategorien"
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "05 Daily Notes/2026-10-08"
           },
           {
-            "source": "05 Daily Notes/2026-10-11",
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
             "target": "CLAUDE"
           },
           {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Branding"
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Kalender-Kategorien"
           },
           {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "07 Anhänge"
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-10",
+            "target": "05 Daily Notes/2026-10-11"
           },
           {
             "source": "05 Daily Notes/2026-10-12",
@@ -2276,8 +2288,32 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "05 Daily Notes/2026-10-19"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "05 Daily Notes/2026-10-20"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "05 Daily Notes/2026-10-20",
@@ -2298,30 +2334,6 @@
           {
             "source": "05 Daily Notes/2026-10-20",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "05 Daily Notes/2026-10-21",
@@ -2366,6 +2378,22 @@
           {
             "source": "05 Daily Notes/2026-10-22",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-23",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "05 Daily Notes/2026-10-24",
@@ -2446,22 +2474,6 @@
           {
             "source": "05 Daily Notes/2026-10-26",
             "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-23",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "05 Daily Notes/2026-10-27",
@@ -2620,7 +2632,7 @@
             "target": "00 Kontext/Erinnerungen - Archiv"
           },
           {
-            "source": "05 Daily Notes/2026-11-02",
+            "source": "05 Daily Notes/2026-11-03",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
@@ -2654,10 +2666,6 @@
           {
             "source": "05 Daily Notes/2026-11-04",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-03",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-11-05",
@@ -2764,6 +2772,26 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
             "source": "05 Daily Notes/2026-11-10",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2810,6 +2838,42 @@
           {
             "source": "05 Daily Notes/2026-11-11",
             "target": "04 Ressourcen/Schule/Deutsch/Kafka - Biografie mit Bezug auf Die Verwandlung"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-13",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-13",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-14",
+            "target": "02 Projekte/TikTok KI-Videos"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-14",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "07 Anhänge",
@@ -2880,144 +2944,36 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Kalender-Kategorien"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
+            "source": "05 Daily Notes/2026-10-11",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Branding"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-02",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-11T21:53:33.780Z",
+      "capturedAt": "2026-11-14T13:53:28.348Z",
       "data": {
         "tage": [
-          {
-            "datum": "2026-10-29",
-            "wochentag": "Do",
-            "werte": {
-              "auf": {
-                "status": "ok",
-                "roh": "~10:00 ⚠️",
-                "zahl": 10
-              },
-              "schlaf": {
-                "status": "unbekannt",
-                "roh": "?",
-                "zahl": null
-              },
-              "morgen": {
-                "status": "fehlt",
-                "roh": "**0/4**",
-                "zahl": 0
-              },
-              "app": {
-                "status": "ok",
-                "roh": "✓ (nach Mitternacht)",
-                "zahl": null
-              },
-              "zehnfinger": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "englisch": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "lesen": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "schwimmen": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "training": {
-                "status": "ok",
-                "roh": "✓",
-                "zahl": null
-              },
-              "wsem": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              }
-            }
-          },
-          {
-            "datum": "2026-10-30",
-            "wochentag": "Fr",
-            "werte": {
-              "auf": {
-                "status": "ok",
-                "roh": "~08:30 ⚠️",
-                "zahl": 8
-              },
-              "schlaf": {
-                "status": "ok",
-                "roh": "**7,5**",
-                "zahl": 7.5
-              },
-              "morgen": {
-                "status": "ok",
-                "roh": "**2/5** (Zähne + Duschen)",
-                "zahl": 2
-              },
-              "app": {
-                "status": "ok",
-                "roh": "**60** ✓",
-                "zahl": 60
-              },
-              "zehnfinger": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "englisch": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "lesen": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "schwimmen": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "training": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "wsem": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              }
-            }
-          },
           {
             "datum": "2026-10-31",
             "wochentag": "Sa",
@@ -3689,6 +3645,118 @@
                 "zahl": null
               }
             }
+          },
+          {
+            "datum": "2026-11-12",
+            "wochentag": "Do",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "**07:15** (Soll 06:30, +45 Min)",
+                "zahl": 7
+              },
+              "schlaf": {
+                "status": "fehlt",
+                "roh": "**ca. 6,0** ⚠️ (eingeschlafen 01:00–01:30, geschätzt)",
+                "zahl": 6
+              },
+              "morgen": {
+                "status": "ok",
+                "roh": "**2/4** (Wasser, Zähne; keine Dehnung, keine News)",
+                "zahl": 2
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "ok",
+                "roh": "**✓** (war da, „etwas besser als zuletzt, aber nicht gut\")",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-13",
+            "wochentag": "Fr",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "**07:40** (Soll 07:00, +40 Min)",
+                "zahl": 7
+              },
+              "schlaf": {
+                "status": "fehlt",
+                "roh": "**ca. 6,5** (Marcel am 14.11. korrigiert, vorher fälschlich „unter 6\")",
+                "zahl": 6.5
+              },
+              "morgen": {
+                "status": "ok",
+                "roh": "**2/5** (Wasser, Zähne; kein Dehnen, keine News, kein Duschen)",
+                "zahl": 2
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              }
+            }
           }
         ],
         "habits": [
@@ -3704,16 +3772,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "~10:00 ⚠️",
-                "zahl": 10
-              },
-              {
-                "status": "ok",
-                "roh": "~08:30 ⚠️",
-                "zahl": 8
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -3773,6 +3831,16 @@
                 "status": "ok",
                 "roh": "**12:30** ⚠️",
                 "zahl": 12
+              },
+              {
+                "status": "ok",
+                "roh": "**07:15** (Soll 06:30, +45 Min)",
+                "zahl": 7
+              },
+              {
+                "status": "ok",
+                "roh": "**07:40** (Soll 07:00, +40 Min)",
+                "zahl": 7
               }
             ],
             "erledigt": 7,
@@ -3780,7 +3848,7 @@
             "quote": 1,
             "streak": 7,
             "ausfallStreak": 0,
-            "schnitt": 9.5,
+            "schnitt": 8.833333333333334,
             "trend": "gleich"
           },
           {
@@ -3795,16 +3863,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "unbekannt",
-                "roh": "?",
-                "zahl": null
-              },
-              {
-                "status": "ok",
-                "roh": "**7,5**",
-                "zahl": 7.5
-              },
               {
                 "status": "fehlt",
                 "roh": "**6,0**",
@@ -3864,14 +3922,24 @@
                 "status": "ok",
                 "roh": "**8,5**",
                 "zahl": 8.5
+              },
+              {
+                "status": "fehlt",
+                "roh": "**ca. 6,0** ⚠️ (eingeschlafen 01:00–01:30, geschätzt)",
+                "zahl": 6
+              },
+              {
+                "status": "fehlt",
+                "roh": "**ca. 6,5** (Marcel am 14.11. korrigiert, vorher fälschlich „unter 6\")",
+                "zahl": 6.5
               }
             ],
-            "erledigt": 3,
-            "faellig": 8,
-            "quote": 0.375,
-            "streak": 1,
-            "ausfallStreak": 0,
-            "schnitt": 6.6875,
+            "erledigt": 2,
+            "faellig": 9,
+            "quote": 0.2222222222222222,
+            "streak": 0,
+            "ausfallStreak": 2,
+            "schnitt": 6.5,
             "trend": "besser"
           },
           {
@@ -3886,16 +3954,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "**0/4**",
-                "zahl": 0
-              },
-              {
-                "status": "ok",
-                "roh": "**2/5** (Zähne + Duschen)",
-                "zahl": 2
-              },
               {
                 "status": "fehlt",
                 "roh": "**0/5** ✗",
@@ -3955,14 +4013,24 @@
                 "status": "fehlt",
                 "roh": "**0/5** ✗",
                 "zahl": 0
+              },
+              {
+                "status": "ok",
+                "roh": "**2/4** (Wasser, Zähne; keine Dehnung, keine News)",
+                "zahl": 2
+              },
+              {
+                "status": "ok",
+                "roh": "**2/5** (Wasser, Zähne; kein Dehnen, keine News, kein Duschen)",
+                "zahl": 2
               }
             ],
-            "erledigt": 4,
+            "erledigt": 5,
             "faellig": 11,
-            "quote": 0.36363636363636365,
-            "streak": 0,
-            "ausfallStreak": 1,
-            "schnitt": 0.4444444444444444,
+            "quote": 0.45454545454545453,
+            "streak": 2,
+            "ausfallStreak": 0,
+            "schnitt": 0.6666666666666666,
             "trend": "besser"
           },
           {
@@ -3977,16 +4045,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "✓ (nach Mitternacht)",
-                "zahl": null
-              },
-              {
-                "status": "ok",
-                "roh": "**60** ✓",
-                "zahl": 60
-              },
               {
                 "status": "ok",
                 "roh": "**✗**",
@@ -4046,14 +4104,24 @@
                 "status": "ok",
                 "roh": "– (entfällt)",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
               }
             ],
             "erledigt": 13,
             "faellig": 14,
             "quote": 0.9285714285714286,
-            "streak": 5,
+            "streak": 7,
             "ausfallStreak": 0,
-            "schnitt": 71.01833333333333,
+            "schnitt": 73.22200000000001,
             "trend": "gleich"
           },
           {
@@ -4124,8 +4192,8 @@
                 "zahl": null
               },
               {
-                "status": "nichtFaellig",
-                "roh": "–",
+                "status": "ok",
+                "roh": "**✗**",
                 "zahl": null
               },
               {
@@ -4139,10 +4207,10 @@
                 "zahl": null
               }
             ],
-            "erledigt": 1,
-            "faellig": 1,
+            "erledigt": 2,
+            "faellig": 2,
             "quote": 1,
-            "streak": 1,
+            "streak": 2,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": null
@@ -4215,8 +4283,8 @@
                 "zahl": null
               },
               {
-                "status": "nichtFaellig",
-                "roh": "–",
+                "status": "ok",
+                "roh": "**✗**",
                 "zahl": null
               },
               {
@@ -4230,10 +4298,10 @@
                 "zahl": null
               }
             ],
-            "erledigt": 1,
-            "faellig": 1,
+            "erledigt": 2,
+            "faellig": 2,
             "quote": 1,
-            "streak": 1,
+            "streak": 2,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": null
@@ -4251,16 +4319,6 @@
             },
             "verlauf": [
               {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
@@ -4319,12 +4377,22 @@
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
               }
             ],
-            "erledigt": 7,
+            "erledigt": 9,
             "faellig": 10,
-            "quote": 0.7,
-            "streak": 6,
+            "quote": 0.9,
+            "streak": 8,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": "besser"
@@ -4344,16 +4412,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
               {
                 "status": "ok",
                 "roh": "✓ **1 km / 22 Min**",
@@ -4413,6 +4471,16 @@
                 "status": "ok",
                 "roh": "**✗** (gestrichen)",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 4,
@@ -4438,16 +4506,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "✓",
-                "zahl": null
-              },
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
               {
                 "status": "nichtFaellig",
                 "roh": "–",
@@ -4507,6 +4565,16 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✓** (war da, „etwas besser als zuletzt, aber nicht gut\")",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 4,
@@ -4529,16 +4597,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
               {
                 "status": "fehlt",
                 "roh": "✗",
@@ -4598,24 +4656,34 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 7,
-            "faellig": 12,
-            "quote": 0.5833333333333334,
+            "faellig": 10,
+            "quote": 0.7,
             "streak": 7,
             "ausfallStreak": 0,
             "schnitt": 7,
             "trend": "besser"
           }
         ],
-        "tageGesamt": 17,
-        "letzterEintrag": "2026-11-11",
-        "tageSeitLetztem": 0
+        "tageGesamt": 19,
+        "letzterEintrag": "2026-11-13",
+        "tageSeitLetztem": 1
       }
     },
     "noten": {
-      "capturedAt": "2026-11-11T21:53:33.932Z",
+      "capturedAt": "2026-11-14T13:53:28.401Z",
       "data": {
         "halbjahre": [
           {
@@ -5451,7 +5519,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-11T21:53:34.091Z",
+      "capturedAt": "2026-11-14T13:53:28.465Z",
       "data": {
         "projects": [
           {
@@ -5464,7 +5532,7 @@
           {
             "name": "KI Business (Etsy Shop)",
             "path": "02 Projekte/KI Business (Etsy Shop).md",
-            "status": "pausiert",
+            "status": "aktiv",
             "nextStep": "**Erstes Produkt bauen: Budget-Planer, Englisch, PDF (US Letter + A4)** – Start jetzt Sa 10.10.2026, 14:00 (am 06.10. vom Do 08.10. verschoben, weil Marcel der W-Seminararbeit Vorrang gibt – harte Deadline 10.11., noch keine Zeile geschrieben; Kalendereintrag ist ein Platzhalter und darf innerhalb des Wochenendes wandern). Detaillierter Ablauf siehe Abschnitt \"Produkt-Fahrplan\" unten",
             "priority": 3
           },
@@ -5490,6 +5558,13 @@
             "priority": null
           },
           {
+            "name": "TikTok KI-Videos",
+            "path": "02 Projekte/TikTok KI-Videos.md",
+            "status": "pausiert",
+            "nextStep": "Welche Nische, welches Format?",
+            "priority": null
+          },
+          {
             "name": "Zweiwochenplan (15.10.-01.11.2026)",
             "path": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md",
             "status": "abgeschlossen",
@@ -5500,28 +5575,13 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-11T21:53:34.181Z",
+      "capturedAt": "2026-11-14T13:53:28.512Z",
       "data": {
         "heute": [
           {
-            "icon": "🎓",
-            "title": "MATHETEST AM FREITAG, 13.11.2026 – von Marcel am 09.11., 22:2x gemeldet und ausdrücklich zur Priorität erklärt",
-            "details": "Seine Worte: *„Mathe ist jetzt erstmal Priorität bitte.\"* ➡️ **Mathe geht damit VOR Informatik.** Die Schulaufgabe Informatik am 16.11. bleibt offen (*„Informatik müssen wir noch schauen, wie wir das hinbekommen\"*) – sie wird nach dem Mathe-Plan eingepasst, nicht davor. 📅 Im Kalender liegt der Test als Ganztages-Markierung `🎓 Mathetest (klein)` am 13.11. ❓ **Zwei Dinge fehlen noch und sind morgen als Erstes zu fragen: (1) Welcher Stoff / welches Thema?** Ohne das ist keine Lernsession möglich – `/lernen Mathe` braucht die Frageform und den Stoff. **(2) In welcher Stunde?** Mathe liegt freitags **09:50–11:20**; die Uhrzeit ist unbestätigt und steht so in der Terminbeschreibung. ⛔ **Nicht raten.** 🗓️ **Freie Lernfenster bis Freitag, am Kalender geprüft:** Di 10.11. nach dem Training (ab ca. 21:00, eng) · **Mi 11.11. nach dem Schwimmen – ab ca. 20:00 das beste Fenster** · **Do 12.11. ist voll** (Fahrstunde 13:30, Training 19:00, Teambesprechung 21:30) · Do-Vormittag entfällt, Schule bis 13:10. ➡️ **Realistisch sind Mi 11.11. abends und Di 10.11. abends.** Beim Legen gilt: 1,5 h Pause nach der Schule, 60 Min nach Sport, und Vormittagsblöcke gegen die **tatsächliche** Aufstehzeit aus dem Habit-Log. 🔴 **UPDATE 10.11.2026, 00:2x: Es steht noch KEIN Lernblock im Kalender.** Marcel hat am 10.11. nachts entschieden, erst nach dem Schultag zu terminieren, weil Stoff und Stunde fehlen. ➡️ **Damit hängt alles an einer Frage am Dienstag in der Schule. Kommt die Antwort, sofort Mi 11.11., 20:00–21:30 eintragen** – Di 10.11. abends fällt weg (Training bis 21:00, danach nur noch Puffer bis zur Bettzeit)."
-          },
-          {
-            "icon": "🚗",
-            "title": "ENTSCHIEDEN am 11.11.2026: Die Fahrstunde am Testtag bleibt, wo sie ist",
-            "details": "Marcel auf die direkte Frage: **nicht anrufen, so lassen.** ➡️ **Am Fr 13.11. läuft also: `🚗 Fahrstunde 7 (Muzi) – 2× Autobahn` 08:00–09:30, danach Mathe 09:50–11:20 mit dem Test.** Zwischen beidem liegen **20 Minuten**. ⚠️ **Bewusst in Kauf genommenes Risiko, kein Versehen** – die beiden Bedenken (20 Min Weg nie geprüft · 90 Min Autobahn direkt vor einem Test kosten Konzentration) waren ihm vorgelegt. ⛔ **Nicht erneut vorschlagen, nicht nachfragen.** 📌 **Für die Testanalyse danach relevant:** Falls der Test schlecht läuft, ist dieser Tagesablauf ein zu prüfender Ursachenkandidat – dann unter „Flüchtigkeit\" bzw. äußere Umstände mitbewerten, nicht nur den Stoff."
-          },
-          {
             "icon": "🗓️",
             "title": "MORGEN NACH DER ABGABE: die Zeit nach dem W-Seminar einmal komplett neu planen – das ist der wichtigste Termin der Woche",
-            "details": "Angelegt am 09.11.2026 beim Session-Ende. Mit der Abgabe am 10.11. fallen **sieben** Dinge gleichzeitig an, die alle an einem Kalendereintrag hängen und ohne ihn nicht existieren: **(1) 🎓 Die Klausurenphase beginnt Mo 16.11. mit der Schulaufgabe Informatik – im Kalender steht die Prüfung, aber KEIN EINZIGER Lernblock dafür.** Das ist die dringendste Lücke, es sind nur sechs Tage. **(2) 💪 Kraft-Block ab 16.11.** (Mo/Mi/Fr festgelegt, Details offen – siehe eigenen Eintrag). **(3) ⌨️ 10-Finger-System, Englisch, Klavier und französische Nachrichten** waren bis 10.11. ausgesetzt und werden ab 11.11. wieder abgefragt – brauchen Slots. **(4) ⏸️ Blockstruktur mit mehr echten Pausen** – von Marcel am 07.11. ausdrücklich bestellt, war bewusst bis nach dem 10.11. geparkt. **(5) 🛒 KI Business (Etsy) war bis nach dem 10.11. pausiert** – entpausieren und terminieren. **(6) 🗓️ Der Zweiwochenplan deckt 15.10.–01.11. ab und ist seit acht Tagen abgelaufen** – ein neuer Plan für die Klausurenphase fehlt. **(7) 📕 Lesen ist sechs Tage in Folge ausgefallen** – ab 10.11. steht kein Abendblock mehr dagegen, der Kalendereintrag sollte jetzt tragen. ⚠️ **Nicht einzeln abarbeiten, sondern in einem Planungsgespräch** – sonst entsteht wieder eine Taktung ohne Pausen. ⏰ Vormittagsblöcke gegen die **tatsächlichen** Aufstehzeiten aus dem Habit-Log legen, nicht gegen das Soll."
-          },
-          {
-            "icon": "🚗",
-            "title": "Die 2 Pflicht-Überlandfahrten und die 3 Nachtfahrten haben KEINEN Termin mehr – zusammen 5 von 12 Sonderfahrten",
-            "details": "Am **04.11.** hat Marcel die Fahrstunde vom **Fr 06.11. (08:00–09:30, 2× Überland)** selbst abgesagt – *„mir geht's da nicht gut genug\"*, 4 Tage nach der OP, unter Schmerzmitteln. ✅ Die Absage ist richtig, der Termin ist im Kalender **gelöscht**. 🔴 **Damit sind die Überlandfahrten wieder offen**, und die 3 Nachtfahrten waren es schon. ⚠️ **Ohne Sonderfahrten keine Praxisprüfung**, und ab **Mo 16.11.** läuft die Klausurenphase (9 Klausuren bis Mitte Dezember). ➡️ **Bei Muzi anrufen, sobald sich Marcel fit fühlt – realistisch ab der Woche 09.–13.11.**, und gleich alle fünf auf einmal legen. 💰 Erinnerung: Jede zusätzliche Doppelstunde kostet **178 € selbst**. ❓ **Ungeklärt: ob für die kurzfristige Absage eine Gebühr anfällt** – beim Anruf mitfragen, nicht annehmen."
+            "details": "Angelegt am 09.11.2026 beim Session-Ende. Mit der Abgabe am 10.11. fallen **sieben** Dinge gleichzeitig an, die alle an einem Kalendereintrag hängen und ohne ihn nicht existieren: **(1) 🎓 Die Klausurenphase beginnt Mo 16.11. mit der Schulaufgabe Informatik – im Kalender steht die Prüfung, aber KEIN EINZIGER Lernblock dafür.** Das ist die dringendste Lücke, es sind nur sechs Tage. **(2) 💪 Kraft-Block ab 16.11.** (Mo/Mi/Fr festgelegt, Details offen – siehe eigenen Eintrag). **(3) ⌨️ 10-Finger-System, Englisch, Klavier und französische Nachrichten** waren bis 10.11. ausgesetzt und werden ab 11.11. wieder abgefragt – brauchen Slots. **(4) ⏸️ Blockstruktur mit mehr echten Pausen** – von Marcel am 07.11. ausdrücklich bestellt, war bewusst bis nach dem 10.11. geparkt. **(5) 🛒 KI Business (Etsy) war bis nach dem 10.11. pausiert** – ✅ **am 13.11. entpausiert** (Marcel: „gleich richtig loslegen“), **Termine fehlen noch**. **(6) 🗓️ Der Zweiwochenplan deckt 15.10.–01.11. ab und ist seit acht Tagen abgelaufen** – ein neuer Plan für die Klausurenphase fehlt. **(7) 📕 Lesen ist sechs Tage in Folge ausgefallen** – ab 10.11. steht kein Abendblock mehr dagegen, der Kalendereintrag sollte jetzt tragen. ⚠️ **Nicht einzeln abarbeiten, sondern in einem Planungsgespräch** – sonst entsteht wieder eine Taktung ohne Pausen. ⏰ Vormittagsblöcke gegen die **tatsächlichen** Aufstehzeiten aus dem Habit-Log legen, nicht gegen das Soll."
           },
           {
             "icon": "🦷",
@@ -5551,7 +5611,7 @@
           {
             "icon": "🚗",
             "title": "Bei Muzi SIEBEN Sonderfahrten ohne Termin nachbuchen – das ist der kritischste Führerschein-Punkt",
-            "details": "🔴 **Zweimal korrigiert am 11.11.2026.** Muzi hat die **Fahrstunde am Do 12.11., 13:30–15:00 (2× Autobahn) abgesagt**, kein Ersatztermin genannt. Termin gelöscht."
+            "details": "✅ **UPDATE 13.11.2026: Am Fr 13.11. wurden 2× Überland statt Autobahn gefahren, damit ist Überland mit 5/5 komplett. Die Zahl SIEBEN stimmt weiterhin, es fehlen jetzt 4× Autobahn und 3× Nacht. Im Kalender steht KEIN einziger Fahrschultermin mehr (geprüft am 13.11., 17:1x).** 🔴 **Zweimal korrigiert am 11.11.2026.** Muzi hat die **Fahrstunde am Do 12.11., 13:30–15:00 (2× Autobahn) abgesagt**, kein Ersatztermin genannt. Termin gelöscht."
           },
           {
             "icon": "📕",
@@ -5575,6 +5635,21 @@
           }
         ],
         "woche": [
+          {
+            "icon": "🛍️",
+            "title": "Etsy (seit 14.11.):",
+            "details": "(1) **Impressum im Shop Manager ändern:** W-IdNr. `DE465403346` eintragen, Steuernummer rausnehmen (am 14.11. so entschieden). (2) **Entwurf v1 vom Budget-Planer anschauen und Feedback geben**, PDFs liegen in `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
+          },
+          {
+            "icon": "🎬",
+            "title": "TikTok KI-Videos (neu seit 14.11.2026, pausiert bis Etsy läuft):",
+            "details": "Nische, Stimme (`peter_yearsley`) und Werkzeuge stehen, **Gesamtplan in 4 Phasen steht seit 14.11. nachmittags** (aus 4 YouTube-Tutorials). Offen in dieser Reihenfolge: (0) **Creator-Rewards-Bedingungen** (Follower, Views, Mindestlänge, Deutschland?) und **KI-Kennzeichnung** an der offiziellen TikTok-Seite prüfen, (1) Stimm-Tempo Probe A (157) oder B (143) wählen, (2) von 2–3 Accounts je 3 stärkste + 3 schwächste Videos **mit Viewzahl im Dateinamen** nach `Claude Files\\02 KI Business\\TikTok\\Beispielvideos\\` legen, (3) danach Skill + erstes Testvideo. ⚠️ **Noch kein Kalendertermin** – beim nächsten TikTok-Chat einen festen Slot legen. Details: [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „Gesamtplan TikTok\""
+          },
+          {
+            "icon": "🎓",
+            "title": "Stand 13.11.2026, 10:5x (Marcel gemeldet):",
+            "details": "Er war heute **nicht in der Schule** (schlecht geschlafen, Arzt: normal nach OP, **Atteste ausgestellt**). ➡️ **Der Mathetest vom Fr 13.11. (09:50) ist damit verpasst – ob er nachgeschrieben wird, ist offen** (*„bei der Lehrerin immer unterschiedlich\"*), Marcel meldet sich. ⛔ Nicht raten, nicht nachhaken. 📝 **Di 17.11.: Ethik-Test** – Marcel schickt den Stoff früh (Vorschlag: bis So 15.11.). 🗓️ **Mo 16.11. Informatik-Schulaufgabe: leer abgeben, kein Lernblock** (Halbjahr wird gestrichen). 🛌 Rhythmus ab nächster Woche zurück auf Soll-Aufstehzeiten. ✅ Fahrstunde 7 (Fr 13.11., 08:00) gefahren: 2× Überland statt Autobahn – Überland damit 5/5 komplett, offen: 4 Autobahn + 3 Nacht."
+          },
           {
             "icon": "🟡",
             "title": "Schlusserklärung: im abgegebenen Exemplar erledigt, im zweiten nicht",
@@ -5602,8 +5677,8 @@
           },
           {
             "icon": "🎤",
-            "title": "Prüfungsgespräch W-Seminar: Termin fehlt – und es gibt keinen Kalendereintrag mehr dafür",
-            "details": "Am 29.10.2026 wurde die Mathe-Seminar-Serie auf Marcels Anweisung **vollständig gelöscht** (*„Ich sage dann, wann das Prüfungsgespräch ist etc.\"*). 🔴 **Das Prüfungsgespräch ist Teil der W-Seminar-Note** und damit der Abiturwertung – ohne Termin im Kalender erinnert nichts daran. ➡️ **Sobald Marcel den Termin kennt: sofort eintragen** (Kalender + [[02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch.md]]). 💡 Spätestens bei der Abgabe am 10.11. bei der Lehrkraft nachfragen."
+            "title": "Prüfungsgespräch W-Seminar: Di 01.12.2026",
+            "details": "(von Marcel am 12.11. gemeldet, **ungefähr 13:30–14:00**, nicht sicher). Steht im Kalender 13:30–14:30, Erinnerung 7 Tage, 4 Tage und 2 h vorher. 🔴 Teil der W-Seminar-Note. Vorbereitung: [[02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch.md]]. ➡️ Uhrzeit erfragen und nachtragen."
           },
           {
             "icon": "💻",
@@ -5719,15 +5794,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-11T21:53:34.260Z",
+      "capturedAt": "2026-11-14T13:53:28.550Z",
       "data": {
-        "path": "05 Daily Notes/2026-11-11.md",
+        "path": "05 Daily Notes/2026-11-14.md",
         "exists": true,
-        "content": "# Mittwoch, 11.11.2026\n\n**Erholungstag nach der Abgabe.** Marcel hat sich heute freigenommen, war nicht in der Schule, und hat von **04:00 bis 12:30 geschlafen** – 8,5 Stunden. Grund: Dienstagabend nach dem Training in den Club, **gefeiert wurde die Abgabe der W-Seminararbeit**.\n\n➡️ Nach 33 Tagen höchster Priorität (08.10.–10.11.) ist das eine bewusste Pause, kein Disziplinproblem. **Nicht als Habit-Versagen werten.**\n\n## ✅ Abend-Check Dienstag, 10.11. – nachgeholt am 11.11. um 12:4x\n\nDer Check vom Dienstagabend ist ausgefallen (Training, danach Club). Hier nachgeholt.\n\n| Habit | |\n|---|---|\n| 🕕 Aufstehzeit | **07:00** – Soll Di war 06:30, also **30 Min später** |\n| 😴 Schlaf (Nacht Mo→Di) | **circa 6 h** – Soll 7,5 h, also **1,5 h zu wenig**. Rückgerechnet: Bettzeit circa **01:00** statt 23:00. |\n| 🌅 Morgenroutine | **1/4 – nur Zähneputzen** (Wasser ✗, Dehnen ✗, Nachrichten ✗). Duschen Di nicht fällig. |\n| 📕 Lesen 30 Min | **✗ ausgefallen – siebter Tag in Folge** |\n| ⚽ Training (Di) | **✓ war da** – aber *„echt super schlecht gespielt, aber es ist schon passiert. Morgen hoffentlich besser.\"* |\n| 📝 W-Seminararbeit | **🏁 ABGEGEBEN, 07:00** |\n| 🚗 Fahrschul-App | – entfällt seit 06.11. |\n| 🏊 Schwimmen | – nicht fällig (nur Mi+Sa) |\n| 💪 Kraft | – erst ab 16.11. |\n| ⌨️ 10-Finger / 🇬🇧 Englisch | – am 10.11. noch ausgesetzt |\n\n**Tag:** „gut\". **Plantreue: gar nicht** – nach der Abgabe ausdrücklich in Ordnung, der Plan war an diesem Tag kein Maßstab.\n\n### ⚽ Das schlechte Training hat drei nachweisbare Gründe – keinen davon muss Marcel sich vorwerfen\n\nMarcel: *„echt super schlecht gespielt, aber es ist schon passiert. Morgen hoffentlich besser.\"* Was an diesem Dienstag zusammenkam, steht belegt in den Notizen:\n\n1. 🦷 **Es war der erste volle Sporttag nach der Weisheitszahn-OP vom 02.11.** – acht Tage Pause, Sport erst seit dem Fädenziehen am Mo 09.11. wieder frei.\n2. 🏃 **Doppelbelastung am selben Tag:** Sport-Leistungskurs Praxis 11:40–13:10 **und** Training 19:00. Das war so angekündigt und auch so gelaufen.\n3. 😴 **Nur circa 6 Stunden Schlaf** in der Nacht davor, bei Soll 7,5 h – und das nach dem Abgabestress.\n\n➡️ **Erste Einheit nach acht Tagen Pause, doppelte Tagesbelastung, Schlafdefizit.** Unter diesen drei Bedingungen ist eine schwache Leistung die Erwartung, nicht die Ausnahme.\n🩹 **Dazu kommt der Knöchel:** Das Umknicken vom 11.10. steht noch als offener Punkt in den Erinnerungen, der Außenrist war beim Wiedereinstieg am 27.10. noch nicht sauber.\n📌 **Für Do 12.11.:** zweites Training in drei Tagen, diesmal ohne Schul-Sport davor – **das ist die aussagekräftigere Einheit.** Wenn es dort wieder nicht läuft, lohnt ein Blick auf den Knöchel.\n\n### 🔎 Was dieser Dienstag für das Habit-System bedeutet\n\nDer Habit-Log vom 09.11. hatte festgehalten: *„Beim Abend-Check am 11.11. als Erstes prüfen, ob Morgenroutine und Lesen ohne den Abgabedruck zurückkommen – erst dann ist zu beurteilen, ob es Priorisierung war oder ein Systemproblem.\"*\n\n⚠️ **Diese Prüfung ist am Dienstag NICHT aussagekräftig geworden.** Der 10.11. war der Abgabetag selbst plus Feiern – also noch unter Sonderbedingungen. **Morgenroutine 1/4 und Lesen ✗ sind hier kein Befund.**\n➡️ **Die eigentliche Prüfung verschiebt sich auf Do 12.11. und Fr 13.11.** – die ersten beiden normalen Schultage ohne Abgabedruck. Dann ist zu beurteilen, ob es Priorisierung war oder System.\n\n## 🗓️ Heute umgeplant – zwei Entscheidungen von Marcel\n\n**1. 🏊 Schwimmen fällt heute aus.** Erster Termin der neuen Mi+Sa-Serie, wegen der Clubnacht gestrichen. ✅ **Nur die Instanz vom 11.11. gelöscht**, die Serie läuft weiter (nächster Termin Sa 14.11.).\n\n**2. 🎓 Mathe-Lernblock von 20:15 auf 18:00–19:30 vorgezogen.** Möglich geworden, weil das Schwimmen wegfällt und damit die 60-Minuten-Sportregel entfällt. ➡️ **Damit ist der Abend danach frei und Marcel kommt vor dem harten Donnerstag früher ins Bett.**\n\n**3. 🚗 Die Fahrstunde am Freitag bleibt, wo sie ist.** Marcel auf die direkte Frage: **nicht anrufen.** Am Fr 13.11. läuft also Autobahn 08:00–09:30 und direkt danach ab 09:50 der Mathetest – 20 Minuten dazwischen. ⚠️ **Bewusst in Kauf genommen, kein Versehen** – beide Bedenken lagen ihm vor. ⛔ Nicht erneut vorschlagen. 📌 Falls der Test schlecht läuft, gehört dieser Tagesablauf in der Testanalyse zu den Ursachenkandidaten.\n\n## 🔴 Der kritische offene Punkt\n\n> [!danger] Der Mathetest ist übermorgen – das Thema ist seit zwei Tagen unbekannt\n> Marcel hat am 10.11. bestätigt, er **kenne Stoff und Stunde** – hat beides aber **nie durchgegeben**, weder am 10.11. noch bis jetzt.\n> ⚠️ **Heute ist er nicht in der Schule**, und mittwochs hat er ohnehin kein Mathe (Französisch, Bio, Informatik).\n> ⏱️ **Zeitlage:** Der Lernblock liegt heute 18:00–19:30. **Do 12.11. ist voll** (Schule, Fahrstunde 13:30, Training 19:00, Teambesprechung 21:30), **Fr 13.11. ist der Test.**\n> ➡️ **Ohne Thema keine Abfrage.** Das ist die einzige Information, die heute noch fehlt.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n\n1. 🔴 **Mathe-Thema durchgeben** → dann sofort `/lernen Mathe` für den Block um 18:00.\n2. 🔢 **Zahlen für Dienstag nachtragen:** Aufstehzeit, Schlaf (Nacht Mo→Di), und wie das Training war.\n3. 📕 **Lesen** – heute wäre der achte Ausfalltag in Folge. Der Kalendereintrag 22:30 steht, der Konflikt mit dem Abendblock besteht seit dem 10.11. nicht mehr.\n4. 🎧 **Herta-Müller-Hörbuch** – 30 Minuten reinhören reicht, um zu wissen, ob es funktioniert. Danach kann Claude die Deutungsfolien bauen.\n5. 🎨 **Design A oder B** für das Referat entscheiden.\n6. 💻 **Informatik-Schulaufgabe Mo 16.11.** – noch kein Lernblock, und ab Montag läuft die Klausurenphase (9 Klausuren bis Mitte Dezember).\n7. 🎤 **Prüfungsgespräch W-Seminar** – Termin in der Schule erfragen.\n\n## 🚗 Nachtrag – Fahrstunde Donnerstag abgesagt\n\nMuzi hat Marcel geschrieben: **die Fahrstunde am Do 12.11., 13:30–15:00 (2× Autobahn) fällt aus.** Gemeldet am 11.11. nachmittags.\n\n**Sofort erledigt:**\n- ✅ Termin **gelöscht** (Regel: was nicht stattfindet, wird gelöscht, nicht kommentiert)\n- ✅ Beschreibung von `🚗 Fahrstunde 7` am Fr 13.11. **korrigiert** – dort stand „Sonderfahrten 3 und 4 von 4. Damit sind Überland und Autobahn vollständig\". **Das stimmt jetzt nicht mehr.**\n- ✅ Erinnerungseintrag umgeschrieben: statt „nur noch 3 Nachtfahrten\" sind es jetzt **5 offene Sonderfahrten** (2× Autobahn + 3× Nacht).\n\n⚠️ **Konsequenz für den Führerschein:** Ohne vollständige Sonderfahrten keine Praxisprüfung. Vor der Klausurenphase ab Mo 16.11. bleibt nur noch das Wochenende. ➡️ **Am Fr 13.11. im Auto mit Muzi beides klären: Ersatztermin für die Autobahn-Doppelstunde UND die 3 Nachtfahrten.**\n\n❓ **Nicht bekannt und nicht geraten:** ob Muzi schon einen Ersatztermin genannt hat.\n\n✅ **Die gute Seite:** Der Donnerstagnachmittag ist jetzt frei. Nach Kunst (Ende 13:10) liegt bis zum Training um 19:00 nichts mehr – **damit gibt es doch noch ein zweites Lernfenster für den Mathetest**, das gestern noch nicht existierte.\n\n**Entscheidungen dazu (11.11., 19:2x):**\n- ❌ **Muzi hat KEINEN Ersatztermin genannt** – nur abgesagt. Der Punkt bleibt als `[HEUTE]` offen: **am Fr 13.11. im Auto beides ansprechen** (Ersatz für die Autobahn-Doppelstunde + die 3 Nachtfahrten).\n- ✅ **Zweiter Mathe-Block angelegt: Do 12.11., 15:00–16:30** `🎓 Mathe lernen – zweite Einheit (Test morgen)`. Schule endet 13:10, also 1h50 Pause davor; danach 2,5 h bis zum Training um 19:00. ➡️ **Damit zwei Lerneinheiten statt einer** – heute 18:00–19:30 und morgen nachmittags.\n\n## 🕐 Neue Vault-Regel ab 11.11.2026 – Uhrzeit bei JEDER Nachricht prüfen\n\n**Von Marcel bestellt**, nachdem ich den Mathe-Block habe auslaufen lassen: *„Kannst du dir bitte als Regel festlegen, dass du immer bei der Frage die Uhrzeit mit abfragst, bei jedem? Das ist wichtig, dass du immer weißt, wie viel Uhr es ist und welches Datum es ist.\"*\n\n**Was passiert ist:** Um **12:33** war „in gut fünf Stunden\" zum Block um 18:00 korrekt. Marcel hat **erst um 19:26 geantwortet** – und ich habe die Angabe **wiederholt, ohne die Zeit neu zu prüfen.** In dem Moment lief der Block gerade aus. **Gerissen, ohne Erinnerung, zwei Tage vor dem Test.**\n\n**Die Ursache ist strukturell, nicht Schusseligkeit:** Zwischen zwei Nachrichten können Stunden liegen. Jede aus dem Verlauf übernommene Zeitangabe ist deshalb potenziell falsch.\n\n➡️ **Eingetragen in [[CLAUDE.md]], Abschnitt „Planung und Kommunikation\", als erster Punkt.**\n\n## ❌ Mathe-Block Mi 18:00–19:30 ist gerissen\n\nNicht gelaufen. Thema war nicht bekannt, Erinnerung kam nicht. ⚠️ **Marcel hat NICHT entschieden, heute Abend nachzuholen** – seine Antwort: *„Schau ich einfach, je nachdem wie ich mich fühle.\"* ⛔ **Deshalb bewusst KEIN Ersatzblock im Kalender** – das wäre gegen seine Aussage.\n\n**Damit hängt die Testvorbereitung an einem einzigen Block: Do 12.11., 15:00–16:30.** Der Test ist Fr 13.11., 09:50.\n\n---\n\n## 🧾 Session-Ende Mi 11.11.2026, 19:3x\n\nMarcel macht für das Mathe-Thema **einen neuen Chat** auf. Dieser hier ist abgeschlossen.\n\n### Was heute gespeichert wurde\n\n| Datei | Was |\n|---|---|\n| **[[CLAUDE.md]]** | 🕐 **Neue Regel: bei JEDER Nachricht `date` prüfen** – mit Belegfall |\n| **[[00 Kontext/Erinnerungen.md]]** | Mathetest auf aktuellen Stand · Fahrstunden-Entscheidung Freitag · **5 offene Sonderfahrten statt 3** |\n| **[[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md]]** | Abend-Check Di 10.11. komplett, inkl. Zahlen und Trainings-Einordnung |\n| **Kalender** | Schwimmen Mi gelöscht · Mathe-Block verschoben · Fahrstunde Do gelöscht · Fahrstunde Fr korrigiert · **neuer Block Do 15:00–16:30** |\n\n### Kalenderänderungen heute – alle drei Konsistenzprüfungen gemacht\n\n1. ✅ **Kalender ↔ Erinnerungen:** Die Fahrstunden-Absage am Do hat den Eintrag „nur noch 3 Nachtfahrten offen\" falsch gemacht – **im selben Zug auf 5 offene Sonderfahrten korrigiert.** Der Muzi-Anruf-Punkt wurde auf Marcels Entscheidung („nicht anrufen\") umgeschrieben statt gelöscht.\n2. ✅ **Plan ↔ Kalender:** Der [[02 Projekte/Zweiwochenplan (15.10.-01.11.2026).md|Zweiwochenplan]] ist seit dem 01.11. abgelaufen und nennt nichts Aktuelles mehr. **Ein neuer Plan steht bereits als Punkt im Sammeleintrag** – hier nichts zu korrigieren.\n3. ✅ **Ausgefallener Block:** Der gerissene Mathe-Block wurde **nicht** stillschweigend verschoben. Marcel wollte keinen festen Ersatz für heute Abend – das ist so dokumentiert, nicht übergangen.\n\n---\n\n## ➡️ EINSTIEG FÜR DEN NÄCHSTEN CHAT\n\n> [!important] 🎯 Ohne diesen Verlauf verständlich – Stand Mi 11.11.2026, 19:3x\n> **Marcel kommt mit dem Thema für den Mathetest.** Das ist die einzige fehlende Information.\n\n### 🔴 Was sofort zu tun ist, wenn das Thema kommt\n\n1. **`/lernen Mathe` mit dem genannten Stoff** – Abfrage in der Frageform bauen, die der Test verwendet.\n2. **Die Abfrage muss am Do 12.11. um 15:00 fertig bereitliegen** – das ist der einzige verbliebene Lernblock.\n3. 🧠 **Modell: Opus** – laut Vault-Regel für Mathe.\n\n### ⏱️ Die Zeitlage, hart\n\n| | |\n|---|---|\n| ❌ Mi 11.11., 18:00–19:30 | Lernblock **gerissen** (Claude-Fehler, siehe unten) |\n| ✅ **Do 12.11., 15:00–16:30** | `🎓 Mathe lernen – zweite Einheit` – **der einzige verbliebene Block** |\n| 🎓 **Fr 13.11., 09:50–11:20** | **TEST** (Stunde unbestätigt, nicht raten) |\n\n⚠️ **Die gesamte Vorbereitung hängt an 90 Minuten am Tag vor dem Test.** Entsprechend fokussiert abfragen – kein Breitband, sondern das Prüfungsrelevante.\n\n### 🚗 Freitagmorgen, damit es niemanden überrascht\n\n**08:00–09:30 Fahrstunde (2× Autobahn), ab 09:50 der Test.** 20 Minuten dazwischen. ⛔ **Von Marcel am 11.11. bewusst so entschieden – nicht erneut vorschlagen, zu verschieben.**\n📌 **Im Auto mit Muzi zu klären:** Ersatztermin für die abgesagte Autobahn-Doppelstunde **und** die 3 Nachtfahrten = **5 offene Sonderfahrten**, und ab Mo 16.11. läuft die Klausurenphase.\n\n### 📋 Danach in der Reihenfolge offen\n\n1. 💻 **Informatik-Schulaufgabe Mo 16.11.** – noch kein einziger Lernblock. Ab Montag 9 Klausuren bis Mitte Dezember.\n2. 🎧 **Herta-Müller-Hörbuch** (Spotify, 3,05 h) – 30 Min reinhören, dann baut Claude die Referatsfolien. Vortrag Woche vom 07.12., Di 08.12. oder Do 10.12.\n3. 🎨 **Design A oder B** für das Referat entscheiden.\n4. 🎤 **Prüfungsgespräch W-Seminar** – Termin in der Schule erfragen, kein Kalendereintrag.\n5. 📋 **Planungsgespräch „Zeit nach dem W-Seminar\"** – Kraft ab 16.11., ausgesetzte Habits, neuer Zweiwochenplan, Etsy entpausieren.\n\n### 🕐 Die neue Regel von heute – bitte wirklich befolgen\n\n**Bei JEDER Nachricht `date` ausführen, nicht nur bei Zeitfragen.** Zwischen zwei Nachrichten können Stunden liegen. Genau daran ist heute der Lernblock gestorben: Die Angabe „in gut fünf Stunden\" war um 12:33 richtig und wurde um 19:26 unverändert wiederholt – in dem Moment lief der Block gerade aus.\n\n---\n\n## 🔴 19:4x – Dashboard war veraltet, von Marcel beanstandet\n\nMarcel: *„Kannst du bitte auch im Dashboard immer die Sachen updaten, wenn ich dir was zum Beispiel zu den Fahrstunden sage? Es kann nicht sein, dass da noch ganz veraltete Sachen drinstehen. Feier ich gar nicht, sowas.\"*\n\n**Er hat recht, und es war schlimmer als gedacht – zwei verpasste Updates hatten sich überlagert:**\n\n| Fahrstunde | Stand in der Datendatei | Tatsächlich |\n|---|---|---|\n| **nr 5**, 06.11., 2× Überland | `geplant` | **Von Marcel am 04.11. selbst abgesagt** (4 Tage nach der OP). Stand **eine Woche lang falsch.** |\n| **nr 6**, 12.11., 2× Autobahn | `geplant` | **Heute von Muzi abgesagt** – war in Kalender und Erinnerungen nachgezogen, **nur nicht in der Datendatei.** |\n\n⚠️ **Folge:** Das Widget hat zu wenige offene Sonderfahrten angezeigt. Und ich habe Marcel heute selbst die **falsche Zahl „5\"** genannt – richtig sind **9 offen, davon 7 ohne Termin**.\n\n**Korrigiert:**\n- ✅ [[02 Projekte/Führerschein - Budget (Daten).md]] – beide auf `abgesagt`, irreführende Hinweise bei nr 5 und nr 7 richtiggestellt\n- ✅ `npm run snapshot` → 8/8 Routen, committet und gepusht (Commit `1a45936`), Vercel deployt neu\n- ✅ Erinnerungseintrag mit korrekter Tabelle: **12 Pflicht · 3 gefahren · 9 offen · 7 ohne Termin**\n- ✅ [[CLAUDE.md]]: Dashboard-Regel **verschärft** – Auslöser ist jede Information von Marcel, nicht nur ein Kalendereintrag. Dazu die Pflichtprüfung: **Einträge mit vergangenem Datum, die noch auf `geplant` stehen**, sind die stillen Karteileichen.\n\n**Kontrollwerte nach dem Snapshot:** bezahlt 1.643,82 € · Minimum gesamt 3.237,12 € · Eigenanteil 837,12 € · Sonderfahrten offen **9**\n\n---\n\n## ✅ Abend-Check Mittwoch, 11.11.2026 – um 19:5x\n\n| Habit | |\n|---|---|\n| 🕕 Aufstehzeit | **12:30** – Soll Mi 06:00, also **6,5 h später**. Heimkehr aus dem Club gegen 04:00. |\n| 😴 Schlaf | **8,5 h** (04:00–12:30) – über dem Soll von 7,5 h |\n| 🌅 Morgenroutine | **0/5 ✗** – nichts davon (Wasser, Dehnen, Zähneputzen, Nachrichten, Duschen) |\n| 📰 Nachrichten EN+DE | **✗** |\n| 📕 Lesen 30 Min | ❓ offen – Termin liegt 22:30, zum Zeitpunkt des Checks noch nicht fällig. **Wäre der achte Ausfalltag in Folge.** |\n| 🏊 Schwimmen (Mi) | **✗ bewusst gestrichen** wegen der Clubnacht – Instanz gelöscht, Serie läuft Sa weiter |\n| 🎓 Mathe-Lernblock | **✗ gerissen** (18:00–19:30) – Ursache war ein Claude-Fehler, siehe oben |\n| ⌨️ 10-Finger / 🇬🇧 Englisch | **✗** – ab heute wieder fällig, beide ohne Kalenderslot |\n| 💪 Kraft | – erst ab 16.11. |\n| ⚽ Training | – nicht fällig (Di+Do) |\n\n**Tag in Marcels Worten:** *„hab heute nur gezockt. musste nach all dem stress wieder sein.\"*\n\n### 🔎 Einordnung – zwei Dinge, die auseinandergehalten gehören\n\n**1. Der Erholungstag selbst ist nicht das Problem.** 33 Tage Abgabedruck, die Nacht davor im Club, 12:30 aufgestanden – dass an so einem Tag null Habits laufen, ist die Erwartung. Marcel hat ihn sich bewusst genommen und das auch so benannt.\n\n**2. Die Prüfung aus dem Habit-Log ist damit ZUM ZWEITEN MAL nicht aussagekräftig geworden.** Der Eintrag vom 09.11. wollte am 11.11. sehen, ob Morgenroutine und Lesen ohne Abgabedruck zurückkommen. Der 10.11. war Abgabetag plus Feiern, der 11.11. ist Erholungstag. **Beide Tage sagen nichts über das System aus.**\n➡️ **Die Prüfung verschiebt sich erneut – jetzt auf Do 12.11. und Fr 13.11.** Das sind die ersten echten Schultage ohne Sonderbedingungen. ⚠️ **Falls dort wieder nichts läuft, ist es kein Sondereffekt mehr, sondern ein Befund.**\n\n### ⚠️ Was der Tag konkret gekostet hat\n\n| | |\n|---|---|\n| Lernblöcke für Mathe **geplant** | 2 (Mi 18:00, Do 15:00) |\n| davon **gelaufen** | **0** |\n| **verbleibend** | **1 – Do 12.11., 15:00–16:30** |\n| Test | **Fr 13.11., 09:50** |\n\n➡️ **Die gesamte Testvorbereitung liegt jetzt in 90 Minuten am Donnerstagnachmittag.** Dazu kommt, dass das Thema weiterhin unbekannt ist.\n🔴 **Reißt auch der Do-Block, geht Marcel ungelernt in den Test.** Das ist keine Mahnung, sondern der Stand.\n\n### 🛏️ Bettzeit heute\n\nSoll wäre 23:00 (Do-Aufstehen 06:30). Bei 12:30 Aufstehzeit sind das nur 10,5 h wach – **realistisch nicht erreichbar.** Donnerstag ist voll bis 22:30 (Teambesprechung), Freitag muss Marcel vor 07:00 raus (Fahrstunde 08:00). ⚠️ **Die Nacht Do→Fr ist die kritische, nicht diese hier.**\n\n---\n\n## 🔄 Korrektur 20:1x – die Systemprüfung startet erst Mo 16.11., nicht Do/Fr\n\nMarcel: *„Ich würde eher ab nächster Woche dann wieder ernst draufschauen, aber morgen und übermorgen kannst du mich natürlich trotzdem fragen.\"*\n\n⚠️ **Damit ist meine Einordnung von vorhin überholt.** Ich hatte Do 12.11. und Fr 13.11. zu den „ersten echten Schultagen\" erklärt und angekündigt, ein Nulltag dort wäre „ein Befund\". **Das war meine Annahme, nicht Marcels Vorgabe.**\n\n**Was jetzt gilt:**\n\n| | |\n|---|---|\n| **Do 12.11. + Fr 13.11.** | Abend-Check läuft **normal weiter** – Marcel will gefragt werden. ⛔ **Aber: keine Bewertung, keine Systemkritik, kein „Befund\".** Übergangstage. |\n| **Ab Mo 16.11.** | **Wieder voller Anspruch.** Erst ab hier sind Nulltage aussagekräftig. |\n\n✅ **Das passt zusammen:** Am Mo 16.11. startet ohnehin der **Kraft-Block** (Mo/Mi/Fr, Details noch offen) und die **Klausurenphase** (Informatik-Schulaufgabe, 9 Klausuren bis Mitte Dezember). Der Neustart fällt also mit dem Beginn der harten Phase zusammen.\n\n➡️ **Für Do und Fr heißt das:** fragen, eintragen, **nicht kommentieren.**\n\n---\n\n## 🧾 Session-Ende Mi 11.11.2026, 20:2x\n\n### Was heute gespeichert wurde\n\n| Datei | Was |\n|---|---|\n| **[[CLAUDE.md]]** | 🕐 Neue Regel: bei **jeder** Nachricht `date` prüfen · 🔗 Dashboard-Regel **verschärft** |\n| **[[00 Kontext/Erinnerungen.md]]** | Mathetest auf Stand · Fahrstunde Fr als bewusste Entscheidung · **7 Sonderfahrten ohne Termin** (statt falsch gezählter 5) |\n| **[[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md]]** | Abend-Check Di 10.11. **und** Mi 11.11. |\n| **[[02 Projekte/Führerschein - Budget (Daten).md]]** | Zwei Fahrstunden von `geplant` auf `abgesagt` korrigiert |\n| **Dashboard** | 2× `npm run snapshot` + Push (`1a45936`, `963ee9f`) – Vercel deployt |\n| **Kalender** | 6 Änderungen, alle Konsistenzprüfungen gemacht |\n\n### Zwei Fehler von mir, beide offengelegt\n\n1. **🕐 Zeitangabe nicht geprüft** → der Mathe-Block um 18:00 lief unbemerkt aus. Daraus ist die neue `date`-Regel entstanden.\n2. **🔗 Dashboard nicht mitgezogen** → von Marcel beanstandet. Dabei kam heraus, dass auch eine Absage vom **04.11. eine Woche lang** falsch im Widget stand. Regel verschärft.\n\n---\n\n## ➡️ EINSTIEG FÜR DEN NÄCHSTEN CHAT\n\n> [!important] 🎯 Ohne diesen Verlauf verständlich – Stand Mi 11.11.2026, 20:2x\n\n### 🔴 Das Dringendste\n\n**Marcel bringt das Thema für den Mathetest.** → sofort **`/lernen Mathe`**, Abfrage bauen. 🧠 **Modell: Opus** (Vault-Regel für Mathe).\n\n| | |\n|---|---|\n| ✅ **Do 12.11., 15:00–16:30** | `🎓 Mathe lernen – zweite Einheit` – **der einzige verbliebene Block** |\n| 🎓 **Fr 13.11., 09:50–11:20** | **TEST** (Stunde unbestätigt – nicht raten) |\n\n⚠️ Beide Blöcke am Mi sind gefallen. **Die ganze Vorbereitung liegt in 90 Minuten.** Entsprechend fokussiert abfragen.\n\n### 🚗 Freitagmorgen\n\n**08:00–09:30 Fahrstunde (2× Autobahn), ab 09:50 der Test**, 20 Minuten dazwischen. ⛔ **Von Marcel bewusst so entschieden – nicht erneut vorschlagen zu verschieben.**\n📌 **Im Auto mit Muzi klären: ALLE SIEBEN Sonderfahrten ohne Termin** (2 Überland, 2 Autobahn, 3 Nacht) – nicht nur die Nachtfahrten. Ab Mo 16.11. ist die Klausurenphase.\n\n### 📋 Danach offen\n\n1. 💻 **Informatik-Schulaufgabe Mo 16.11.** – kein einziger Lernblock. **Dringendster Punkt nach dem Mathetest.**\n2. 💪 **Kraft-Block ab Mo 16.11.** – Mo/Mi/Fr beschlossen, Uhrzeiten und Inhalt fehlen.\n3. 🎧 **Herta-Müller-Hörbuch** (Spotify, 3,05 h) – 30 Min reinhören, dann baut Claude die Referatsfolien. Vortrag Di 08.12. oder Do 10.12.\n4. 🎨 **Design A oder B** fürs Referat.\n5. 🎤 **Prüfungsgespräch W-Seminar** – Termin erfragen, kein Kalendereintrag.\n6. 📋 **Planungsgespräch „Zeit nach dem W-Seminar\"** + neuer Zweiwochenplan (der alte lief am 01.11. aus).\n\n### ⚠️ Zwei Dinge, die der nächste Chat wissen muss\n\n- **🕐 Bei JEDER Nachricht `date` ausführen.** Zwischen zwei Nachrichten können Stunden liegen – genau daran ist heute ein Lernblock gestorben.\n- **🔗 Jede Info zu Fahrstunden, Noten oder Habits löst die Datendatei + `npm run snapshot` + Push aus.** Kalender und Erinnerungen allein reichen nicht.\n- **📅 Habits bis Fr 13.11.: fragen, eintragen, NICHT bewerten.** Voller Anspruch erst ab Mo 16.11.\n\n---\n\n## 🌙 Abschluss Mi 11.11.2026, 22:5x – Lesen nachgetragen, Deutsch-HA erledigt\n\n### Die offene Habit-Frage ist beantwortet\n\n| Habit | |\n|---|---|\n| 📕 Lesen 30 Min | **✗ ausgefallen** – damit **achter Ausfalltag in Folge** (seit 04.11.) |\n| 📊 Plantreue heute | **gar nicht** – entspricht dem bewussten Erholungstag |\n\n⚠️ **Lesen ist der einzige Habit, der auch ohne Sonderbedingungen nicht mehr anspringt.** Morgenroutine und Schwimmen hatten am 10./11.11. echte Gründe (Abgabe, Club, Erholungstag) – beim Lesen reicht die Reihe inzwischen **acht Tage** zurück und deckt auch normale Tage ab. 📌 **Das ist der Punkt, auf den ab Mo 16.11. zuerst zu schauen ist**, wenn der volle Anspruch wieder greift. ⛔ Heute ausdrücklich **nicht** bewertet – Übergangstag nach Marcels Entscheidung von 20:1x.\n\n### ✅ Deutsch-Hausaufgabe für Do 12.11. ist fertig und verschickt\n\nMarcel hat abends doch noch gearbeitet – der Tag war also nicht nur Erholung.\n\n| Teil | Stand |\n|---|---|\n| 📋 Arbeitsblatt „Gibs auf!\" (Bildebene/Sachebene) | ✅ im Original-Raster ausgefüllt, als PDF gemailt |\n| ✍️ Fließtext Kafka-Lebenslauf ↔ *Die Verwandlung* | ✅ Kurzfassung ca. 125 Wörter, als PDF gemailt |\n\n**Quelle der Biografie:** www.franzkafka.de/leben/chronik (Screenshots lagen im Upload-Ordner).\n⚠️ **Inhaltlicher Merkpunkt fürs Unterrichtsgespräch:** Kafkas **Tuberkulose wurde erst nach dem Lungenblutsturz am 10.08.1917 diagnostiziert** – fünf Jahre **nach** der Entstehung der *Verwandlung* (Dez. 1912). Sie taugt **nicht** als Erklärung für Gregors Verfall, nur als spätere Parallele.\n📁 Abgelegt in `Claude Files/01 Schule/Deutsch/Kafka Die Verwandlung/`, Notizen in [[04 Ressourcen/Schule/Deutsch/Kafka - Gibs auf (Parabel-Analyse).md]] und [[04 Ressourcen/Schule/Deutsch/Kafka - Biografie mit Bezug auf Die Verwandlung.md]].\n\n### 🆕 Zwei neue Vault-Regeln, beide von Marcel bestellt\n\n1. **📧 Fertige Hausaufgaben gehen unaufgefordert als PDF-Anhang an die eigene Mail**, Betreff nach dem Muster `<Fach> HA <Abgabedatum> – <Thema>`.\n2. **📋 Ein Arbeitsblatt wird im eigenen Raster ausgefüllt, nicht als Fließtext nacherzählt.** Marcel: *„wenn du ein Arbeitsblatt ausfüllen sollst, dann fülle es bitte auch entsprechend aus.\"*\n\n🛠️ Dafür liegen jetzt zwei wiederverwendbare Skripte in `Claude Files/05 Sonstiges/Programme/`: **`mkpdf.ps1`** (Fließtext-PDF) und **`mktable.ps1`** (Tabellen-Arbeitsblätter, Querformat). Beide erzeugen ~8 KB statt der 270 KB eines Word-Exports.\n⚠️ **Outlook-COM funktioniert auf diesem Rechner nicht** (`CreateItem` → RPC-Fehler) – Versand läuft über das Gmail-Tool.\n\n### 🎓 Dritter Mathe-Block angelegt\n\nMarcel wollte einen Zusatzblock am Donnerstag. **Abends war nichts frei** (Training 19:00–21:00, Teambesprechung 21:30–22:30, Bett 23:15 wegen Fahrstunde Fr 08:00).\n➡️ Angelegt: **`🎓 Mathe lernen – dritte Einheit`, Do 12.11., 17:00–18:15.** 30 Min Pause nach der zweiten Einheit (endet 16:30), 45 Min Vorlauf bis zum Training.\n\n**Damit stehen für den Test am Fr 09:50 insgesamt 2h45 Vorbereitung:** Do 15:00–16:30 und Do 17:00–18:15.\n\n## ➡️ EINSTIEG FÜR DEN NÄCHSTEN CHAT (Stand 22:5x)\n\n### 🔴 Das Dringendste: Das Mathe-Thema fehlt immer noch\nSeit dem 09.11. offen, dreimal vertagt. **Ohne Thema ist keine Lernsession möglich**, und die beiden Blöcke am Donnerstag laufen ins Leere.\n➡️ **Erste Frage im nächsten Kontakt: „Welcher Stoff kommt im Mathetest am Freitag?\"** Sobald die Antwort da ist, sofort `/lernen Mathe` und die Abfrage fertig bauen, damit sie Do um 15:00 bereitliegt.\n❓ Die Stunde ist weiterhin unbestätigt – Mathe liegt freitags 09:50–11:20. ⛔ Nicht raten.\n\n### 🚗 Freitag\nFahrstunde 7 (Muzi), 08:00–09:30, 2× Autobahn – **20 Minuten vor dem Mathetest**. Von Marcel am 11.11. bewusst so entschieden, ⛔ nicht erneut vorschlagen.\n➡️ **Im Auto mit Muzi alle SIEBEN terminlosen Sonderfahrten auf einmal legen** (2 Überland, 2 Autobahn, 3 Nacht).\n\n### 📋 Danach offen\nInformatik-Schulaufgabe Mo 16.11. – **kein einziger Lernblock im Kalender** · Planungsgespräch „Zeit nach dem W-Seminar\" (7 Punkte) · Kraft-Block ab 16.11., Details ungeklärt · Prüfungsgespräch W-Seminar ohne Termin."
+        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- **Etsy-Session (ab 14:48):** ✅ 5 Seiten bestätigt · ✅ Preis 4,99 $ · ✅ Impressum: W-IdNr. rein, Steuernummer raus (**Marcel trägt es im Shop Manager ein**) · ✅ Stil clean & minimal · ✅ **Entwurf v1 als PDF (Letter + A4)** in `Claude Files\\02 KI Business\\Etsy Produkt 1 - Budget Planer\\`. ➡️ Als Nächstes: Marcel schaut den Entwurf an und gibt Feedback (Korrekturrunde 1), danach Schriften auf freie Lizenz umstellen. Details: [[02 Projekte/KI Business (Etsy Shop).md]]\n- **17:15–19:15 Deutsch** (Schulaufgabe Do 19.11.)\n- **TikTok (später, eigener Chat):** (1) Probe A oder B festlegen, (2) Marcel sammelt von 2–3 Accounts je 3 stärkste + 3 schwächste Videos **mit Viewzahl im Dateinamen** → `Claude Files\\02 KI Business\\TikTok\\Beispielvideos\\`, (3) Skill `/tiktok-video` + erstes Testvideo mit HyperFrames. ➡️ **Reihenfolge jetzt im Gesamtplan** (Projektdatei, ganz unten), Phase 0 zuerst.\n- Ethik-Stoff für den Test Di 17.11. bis So 15.11. schicken."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-11T21:53:34.376Z",
+      "capturedAt": "2026-11-14T13:53:28.588Z",
       "data": {
         "files": [
           "00 Kontext/",
