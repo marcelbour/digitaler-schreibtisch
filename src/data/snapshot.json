@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T15:15:15.102Z",
+  "generatedAt": "2026-11-14T15:43:43.456Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-14T15:15:13.185Z",
+      "capturedAt": "2026-11-14T15:43:40.538Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-14T15:15:14.787Z",
+      "capturedAt": "2026-11-14T15:43:43.086Z",
       "data": {
         "nodes": [
           {
@@ -909,6 +909,10 @@
         ],
         "edges": [
           {
+            "source": "00 Kontext/Branding",
+            "target": "07 Anhänge"
+          },
+          {
             "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
           },
@@ -1229,16 +1233,32 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "00 Kontext/Branding",
-            "target": "07 Anhänge"
-          },
-          {
             "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
             "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
           },
           {
             "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "02 Projekte/Abitur",
+            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
             "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
@@ -1299,26 +1319,6 @@
           {
             "source": "02 Projekte/Führerschein",
             "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "02 Projekte/Abitur",
-            "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
           },
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
@@ -1453,14 +1453,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
             "target": "05 Daily Notes/2026-10-18"
           },
@@ -1487,6 +1479,14 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
@@ -1649,10 +1649,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
           },
           {
-            "source": "03 Bereiche/Finanzen/Finanzen",
-            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
-          },
-          {
             "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -1679,6 +1675,10 @@
           {
             "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "03 Bereiche/Finanzen/Finanzen",
+            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
           },
           {
             "source": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
@@ -1721,6 +1721,10 @@
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
           },
           {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
             "source": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
@@ -1751,10 +1755,6 @@
           {
             "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
@@ -2025,270 +2025,6 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-09-22",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-29",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-29",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-29",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "00 Kontext/ICP"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "05 Daily Notes/2026-10-06"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "05 Daily Notes/2026-10-08"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-10",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-13",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Branding"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
             "source": "05 Daily Notes/2026-10-16",
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
@@ -2367,6 +2103,26 @@
           {
             "source": "05 Daily Notes/2026-10-20",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "05 Daily Notes/2026-10-22",
@@ -2601,24 +2357,8 @@
             "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+            "source": "05 Daily Notes/2026-10-30",
+            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
           },
           {
             "source": "05 Daily Notes/2026-10-31",
@@ -2733,10 +2473,6 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "05 Daily Notes/2026-10-30",
-            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
-          },
-          {
             "source": "05 Daily Notes/2026-11-07",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
           },
@@ -2849,34 +2585,6 @@
             "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
           },
           {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-13",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-13",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
             "source": "05 Daily Notes/2026-11-11",
             "target": "CLAUDE"
           },
@@ -2905,16 +2613,44 @@
             "target": "04 Ressourcen/Schule/Deutsch/Kafka - Biografie mit Bezug auf Die Verwandlung"
           },
           {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-13",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-13",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
             "source": "05 Daily Notes/2026-11-14",
             "target": "02 Projekte/TikTok KI-Videos"
           },
           {
             "source": "05 Daily Notes/2026-11-14",
-            "target": "02 Projekte/Etsy Listing - Budget Planer"
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "05 Daily Notes/2026-11-14",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
+            "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
           {
             "source": "07 Anhänge",
@@ -2923,6 +2659,266 @@
           {
             "source": "07 Anhänge",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "00 Kontext/ICP"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "05 Daily Notes/2026-10-08"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-10",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Branding"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-13",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "CLAUDE",
@@ -2983,12 +2979,16 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-22",
+            "target": "00 Kontext/Erinnerungen"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-14T15:15:14.851Z",
+      "capturedAt": "2026-11-14T15:43:43.162Z",
       "data": {
         "tage": [
           {
@@ -4700,7 +4700,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-14T15:15:14.905Z",
+      "capturedAt": "2026-11-14T15:43:43.218Z",
       "data": {
         "halbjahre": [
           {
@@ -5536,7 +5536,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-14T15:15:14.972Z",
+      "capturedAt": "2026-11-14T15:43:43.305Z",
       "data": {
         "projects": [
           {
@@ -5599,7 +5599,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-14T15:15:15.019Z",
+      "capturedAt": "2026-11-14T15:43:43.360Z",
       "data": {
         "heute": [
           {
@@ -5662,12 +5662,12 @@
           {
             "icon": "🛍️",
             "title": "Etsy (seit 14.11.):",
-            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. 🎉 **Listing B „Budget Planner“ live seit 14.11., 16:07.** ✅ Listing A ebenfalls live (2 Listings). Offen: (1) **nächstes Produkt planen** (Ziel laut Strategie ~20 Listings in 90 Tagen, Klausurenphase beachten), (2) ob echte Canva-Szenen noch nötig sind, entscheidet Marcel. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
+            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. 🎉 **Listing B „Budget Planner“ live seit 14.11., 16:07.** ✅ Listing A ebenfalls live (2 Listings). Offen: (1) **nächstes Produkt planen** (Ziel laut Strategie ~20 Listings in 90 Tagen, Klausurenphase beachten), (2) 📸 **Marcel schickt Beispielbilder für die Mockups** (Vorbilder, wie die Szenen aussehen sollen) → danach Szenen in `mockup.js` nachbauen, (3) ob echte Canva-Szenen noch nötig sind, entscheidet Marcel. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
           },
           {
             "icon": "🎬",
             "title": "TikTok KI-Videos (neu seit 14.11.2026, pausiert bis Etsy läuft):",
-            "details": "Nische, Stimme (`peter_yearsley`) und Werkzeuge stehen, **Gesamtplan in 4 Phasen steht seit 14.11. nachmittags** (aus 4 YouTube-Tutorials). Offen in dieser Reihenfolge: (0) **Creator-Rewards-Bedingungen** (Follower, Views, Mindestlänge, Deutschland?) und **KI-Kennzeichnung** an der offiziellen TikTok-Seite prüfen, (1) Stimm-Tempo Probe A (157) oder B (143) wählen, (2) von 2–3 Accounts je 3 stärkste + 3 schwächste Videos **mit Viewzahl im Dateinamen** nach `Claude Files\\02 KI Business\\TikTok\\Beispielvideos\\` legen, (3) danach Skill + erstes Testvideo. ⚠️ **Noch kein Kalendertermin** – beim nächsten TikTok-Chat einen festen Slot legen. Details: [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „Gesamtplan TikTok\""
+            "details": "✅ **Phase 0 + 1 erledigt am 14.11.** (Creator Rewards ≥ 1 Min/10.000 Follower, KI-Label immer setzen, Gewerbe-Ummeldung 40 € erst vor erster Einnahme · Regelwerk aus 16 Vorbildvideos steht). Tempo **147 W/Min** entschieden, **Kyutai verworfen** (zu robotisch), Wechsel auf **Qwen3-TTS**. 🎧 **Als Nächstes: Stimme wählen** – 4 Casting-Proben in `Claude Files\\02 KI Business\\TikTok\\Hörproben\\Casting\\` anhören (Marcel wollte heute Abend oder beim nächsten Mal), Nummer nennen oder Richtung beschreiben („wie 4, nur jünger\"). Danach: gewählte Stimme per Qwen-Base klonen → Phase 2 (Skill + erstes Testvideo). ⚠️ **Noch kein Kalendertermin** – beim nächsten TikTok-Chat einen festen Slot legen. Details: [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „Gesamtplan TikTok\""
           },
           {
             "icon": "🎓",
@@ -5818,15 +5818,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-14T15:15:15.064Z",
+      "capturedAt": "2026-11-14T15:43:43.411Z",
       "data": {
         "path": "05 Daily Notes/2026-11-14.md",
         "exists": true,
-        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames). Offen: Probe A oder B.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- **Etsy-Session (ab 14:48):** ✅ 5 Seiten bestätigt · ✅ Preis 4,99 $ · ✅ Impressum: Status auf Trader, Impressum zweisprachig **live seit 15:22** (es gab vorher keins) · ✅ Stil clean & minimal · ✅ **Entwurf v1 als PDF (Letter + A4)** in `Claude Files\\02 KI Business\\Etsy Produkt 1 - Budget Planer\\`. ➡️ Als Nächstes: Marcel schaut den Entwurf an und gibt Feedback (Korrekturrunde 1), **15:31: Schriften (OFL), Variante „Budget Planner“, 2×6 Listing-Bilder und Listing-Texte fertig** → [[02 Projekte/Etsy Listing - Budget Planer.md]]. Marcel beurteilt das Ergebnis. Details: [[02 Projekte/KI Business (Etsy Shop).md]]\n- 🎉 **16:07: Erstes Etsy-Listing LIVE** – „Budget Planner“, 4,99 €, digital. Vorher: Status auf Trader, Impressum zweisprachig, 2 gezeichnete Mockup-Szenen. ✅ Kurz danach auch Listing A „My First Budget Planner“ live → **2 Listings im Shop.**\n- **17:15–19:15 Deutsch** (Schulaufgabe Do 19.11.)\n- **TikTok (später, eigener Chat):** (1) Probe A oder B festlegen, (2) Marcel sammelt von 2–3 Accounts je 3 stärkste + 3 schwächste Videos **mit Viewzahl im Dateinamen** → `Claude Files\\02 KI Business\\TikTok\\Beispielvideos\\`, (3) Skill `/tiktok-video` + erstes Testvideo mit HyperFrames. ➡️ **Reihenfolge jetzt im Gesamtplan** (Projektdatei, ganz unten), Phase 0 zuerst.\n- Ethik-Stoff für den Test Di 17.11. bis So 15.11. schicken."
+        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames).\n\n### 🎙️ TikTok-Stimme (15:07–16:38)\n- **Tempo entschieden: 147 W/Min.** Betonung bei Kyutai „zu platt\" – **gemessen bestätigt** (Satz-zu-Satz-Sprung 1,6 Halbtöne vs. ~4,5 bei den Vorbildern). Temperatur/größeres Modell helfen kaum, Marcel: „klingt robotisch\" → **Kyutai verworfen.**\n- **Qwen3-TTS installiert** (`C:\\Users\\marce\\qwen3tts\\`), läuft ohne NVIDIA-Karte, aber langsam (~20–25 Min Rechenzeit pro 90-s-Video). Test A (eine Anweisung) „nicht schlecht, Stimme noch nicht optimal\", Test B (pro Satz) „kompletter Quatsch\" (Sprecher wechselt). Test C/D mit fester Stimme „Ryan\" noch nicht angehört.\n- Marcel stört die **Klangfarbe**, Ziel „wie die Vorbilder\" → **Stimmen-Casting** mit 4 Beschreibungen erzeugt. **Noch nicht angehört** – Marcel braucht Pause.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n### 🛍️ Etsy-Session (14:48–16:40) – SHOP LIVE\n- Entschieden: 5 Seiten, Preis **4,99 €** (Shop läuft in Euro), Stil clean & minimal, zwei Titel-Varianten als eigene Listings.\n- Etsy-Status von „Private individual“ auf **Trader** umgestellt (§ 14 BGB), **Impressum zweisprachig live** (W-IdNr. `DE465403346-00001`, Kleinunternehmer-Hinweis). Vorher gab es gar keins.\n- Gebaut: PDFs (US Letter + A4) mit freien Schriften (Lora, Source Sans 3), je 6 Listing-Grafiken + 2 gezeichnete Mockup-Szenen, Titel/13 Tags/Beschreibung/Cart Summary. Bei „How was it made“ **„with AI“** gewählt.\n- 🎉 **16:07 Listing „Budget Planner“ live, kurz danach „My First Budget Planner“** → 2 Listings. Shop: https://www.etsy.com/shop/MyLedgerLane (in der Etsy-Suche noch nicht auffindbar, direkter Link geht).\n- Neue Vault-Regel: Texte zum Eintragen immer **kopierbar direkt im Chat** (CLAUDE.md).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- **Etsy (heute Abend oder später, neuer Chat):** 📸 Marcel schickt **Beispielbilder für Mockup-Szenen** → Szenen in `_Quelldateienmockup.js` danach nachbauen. Danach nächstes Produkt planen, Etsy-Blöcke gegen den Klausurenplan legen. Details: [[02 Projekte/KI Business (Etsy Shop).md]], Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]\n- **17:15–19:15 Deutsch** (Schulaufgabe Do 19.11.)\n- **TikTok (heute Abend oder nächstes Mal, eigener Chat):** Phase 0 + 1 ✅. 🎧 **Marcel hört die 4 Casting-Stimmen** in `Claude Files\\02 KI Business\\TikTok\\Hörproben\\Casting\\` (Stimme 1 tief-ruhig · 2 jung-direkt · 3 dunkel-spannend · 4 warm-klar, alle 147 W/Min) und nennt eine Nummer oder eine Richtung („wie 4, nur jünger\"). Optional auch `Qwen-Test C/D` (feste Stimme Ryan). **Dann:** gewählte Probe als Vorlage fürs Qwen-**Base**-Modell (Stimme klonen, damit sie in jedem Video gleich bleibt) → Phase 2. Offenes Aussprache-Problem: „wachst\" wird oft zu „warst/wirst\". Alles in [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „KI-Stimme\". ✅ Startbedingung „erstes Etsy-Produkt online\" ist seit 16:07 erfüllt.\n- Ethik-Stoff für den Test Di 17.11. bis So 15.11. schicken."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-14T15:15:15.101Z",
+      "capturedAt": "2026-11-14T15:43:43.456Z",
       "data": {
         "files": [
           "00 Kontext/",
