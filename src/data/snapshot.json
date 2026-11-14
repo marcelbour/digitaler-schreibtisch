@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T14:23:20.301Z",
+  "generatedAt": "2026-11-14T14:31:51.230Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-14T14:23:18.776Z",
+      "capturedAt": "2026-11-14T14:31:49.063Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-14T14:23:19.800Z",
+      "capturedAt": "2026-11-14T14:31:50.972Z",
       "data": {
         "nodes": [
           {
@@ -259,6 +259,11 @@
           {
             "id": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
             "label": "Digitaler Schreibtisch (Dashboard)",
+            "folder": "02 Projekte"
+          },
+          {
+            "id": "02 Projekte/Etsy Listing - Budget Planer",
+            "label": "Etsy Listing - Budget Planer",
             "folder": "02 Projekte"
           },
           {
@@ -904,6 +909,10 @@
         ],
         "edges": [
           {
+            "source": "00 Kontext/Branding",
+            "target": "07 Anhänge"
+          },
+          {
             "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
           },
@@ -1049,6 +1058,10 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Etsy Listing - Budget Planer"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
@@ -1152,8 +1165,48 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "00 Kontext/Branding",
-            "target": "07 Anhänge"
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "05 Daily Notes/2026-10-17"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
           },
           {
             "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
@@ -1240,6 +1293,10 @@
             "target": "CLAUDE"
           },
           {
+            "source": "02 Projekte/Etsy Listing - Budget Planer",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
             "source": "02 Projekte/Führerschein - Budget (Daten)",
             "target": "02 Projekte/Führerschein"
           },
@@ -1264,50 +1321,6 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "05 Daily Notes/2026-10-17"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
-          },
-          {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "00 Kontext/Angebot"
           },
@@ -1326,6 +1339,10 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
@@ -1404,10 +1421,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
@@ -1472,8 +1485,16 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
           },
           {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
@@ -1712,12 +1733,8 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
-            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
-            "target": "05 Daily Notes/2026-11-09"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
@@ -1828,18 +1845,6 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
-          },
-          {
             "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
             "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
           },
@@ -1940,6 +1945,10 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "05 Daily Notes/2026-09-14",
             "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
           },
@@ -2010,6 +2019,14 @@
           {
             "source": "05 Daily Notes/2026-09-22",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "target": "05 Daily Notes/2026-11-09"
           },
           {
             "source": "05 Daily Notes/2026-09-24",
@@ -2893,6 +2910,10 @@
           },
           {
             "source": "05 Daily Notes/2026-11-14",
+            "target": "02 Projekte/Etsy Listing - Budget Planer"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-14",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
@@ -2962,16 +2983,12 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
-            "target": "00 Kontext/Erinnerungen"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-14T14:23:19.898Z",
+      "capturedAt": "2026-11-14T14:31:51.010Z",
       "data": {
         "tage": [
           {
@@ -4683,7 +4700,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-14T14:23:19.978Z",
+      "capturedAt": "2026-11-14T14:31:51.043Z",
       "data": {
         "halbjahre": [
           {
@@ -5519,7 +5536,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-14T14:23:20.074Z",
+      "capturedAt": "2026-11-14T14:31:51.101Z",
       "data": {
         "projects": [
           {
@@ -5551,6 +5568,13 @@
             "priority": 5
           },
           {
+            "name": "Etsy Listing - Budget Planer",
+            "path": "02 Projekte/Etsy Listing - Budget Planer.md",
+            "status": "aktiv",
+            "nextStep": null,
+            "priority": null
+          },
+          {
             "name": "Führerschein - Budget (Daten)",
             "path": "02 Projekte/Führerschein - Budget (Daten).md",
             "status": "aktiv",
@@ -5575,7 +5599,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-14T14:23:20.148Z",
+      "capturedAt": "2026-11-14T14:31:51.155Z",
       "data": {
         "heute": [
           {
@@ -5638,7 +5662,7 @@
           {
             "icon": "🛍️",
             "title": "Etsy (seit 14.11.):",
-            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. Offen: (1) **Schriften auf freie Lizenz umstellen**, (2) **Listing-Texte** (SEO-Titel, 13 Tags, Beschreibung mit KI-Hinweis), (3) Mockups in Canva (Marcel), danach Variante „Budget Planer“ als eigenes Listing. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
+            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). Offen: (1) **Marcel beurteilt Bilder + Texte**, (2) Shop-Währung klären (Preis 4,99), (3) **Mockups in Canva** (Marcel), (4) beide Listings hochladen. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
           },
           {
             "icon": "🎬",
@@ -5794,15 +5818,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-14T14:23:20.227Z",
+      "capturedAt": "2026-11-14T14:31:51.196Z",
       "data": {
         "path": "05 Daily Notes/2026-11-14.md",
         "exists": true,
-        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames). Offen: Probe A oder B.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- **Etsy-Session (ab 14:48):** ✅ 5 Seiten bestätigt · ✅ Preis 4,99 $ · ✅ Impressum: Status auf Trader, Impressum zweisprachig **live seit 15:22** (es gab vorher keins) · ✅ Stil clean & minimal · ✅ **Entwurf v1 als PDF (Letter + A4)** in `Claude Files\\02 KI Business\\Etsy Produkt 1 - Budget Planer\\`. ➡️ Als Nächstes: Marcel schaut den Entwurf an und gibt Feedback (Korrekturrunde 1), danach Schriften auf freie Lizenz umstellen. Details: [[02 Projekte/KI Business (Etsy Shop).md]]\n- **17:15–19:15 Deutsch** (Schulaufgabe Do 19.11.)\n- **TikTok (später, eigener Chat):** (1) Probe A oder B festlegen, (2) Marcel sammelt von 2–3 Accounts je 3 stärkste + 3 schwächste Videos **mit Viewzahl im Dateinamen** → `Claude Files\\02 KI Business\\TikTok\\Beispielvideos\\`, (3) Skill `/tiktok-video` + erstes Testvideo mit HyperFrames. ➡️ **Reihenfolge jetzt im Gesamtplan** (Projektdatei, ganz unten), Phase 0 zuerst.\n- Ethik-Stoff für den Test Di 17.11. bis So 15.11. schicken."
+        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames). Offen: Probe A oder B.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- **Etsy-Session (ab 14:48):** ✅ 5 Seiten bestätigt · ✅ Preis 4,99 $ · ✅ Impressum: Status auf Trader, Impressum zweisprachig **live seit 15:22** (es gab vorher keins) · ✅ Stil clean & minimal · ✅ **Entwurf v1 als PDF (Letter + A4)** in `Claude Files\\02 KI Business\\Etsy Produkt 1 - Budget Planer\\`. ➡️ Als Nächstes: Marcel schaut den Entwurf an und gibt Feedback (Korrekturrunde 1), **15:31: Schriften (OFL), Variante „Budget Planner“, 2×6 Listing-Bilder und Listing-Texte fertig** → [[02 Projekte/Etsy Listing - Budget Planer.md]]. Marcel beurteilt das Ergebnis. Details: [[02 Projekte/KI Business (Etsy Shop).md]]\n- **17:15–19:15 Deutsch** (Schulaufgabe Do 19.11.)\n- **TikTok (später, eigener Chat):** (1) Probe A oder B festlegen, (2) Marcel sammelt von 2–3 Accounts je 3 stärkste + 3 schwächste Videos **mit Viewzahl im Dateinamen** → `Claude Files\\02 KI Business\\TikTok\\Beispielvideos\\`, (3) Skill `/tiktok-video` + erstes Testvideo mit HyperFrames. ➡️ **Reihenfolge jetzt im Gesamtplan** (Projektdatei, ganz unten), Phase 0 zuerst.\n- Ethik-Stoff für den Test Di 17.11. bis So 15.11. schicken."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-14T14:23:20.301Z",
+      "capturedAt": "2026-11-14T14:31:51.230Z",
       "data": {
         "files": [
           "00 Kontext/",
