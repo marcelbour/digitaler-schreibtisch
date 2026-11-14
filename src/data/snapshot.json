@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T14:31:51.230Z",
+  "generatedAt": "2026-11-14T14:36:35.072Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-14T14:31:49.063Z",
+      "capturedAt": "2026-11-14T14:36:33.322Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-14T14:31:50.972Z",
+      "capturedAt": "2026-11-14T14:36:34.740Z",
       "data": {
         "nodes": [
           {
@@ -1297,10 +1297,6 @@
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
-            "source": "02 Projekte/Führerschein - Budget (Daten)",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
             "source": "02 Projekte/Führerschein",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
@@ -1339,6 +1335,10 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "02 Projekte/Führerschein - Budget (Daten)",
+            "target": "02 Projekte/Führerschein"
           },
           {
             "source": "02 Projekte/TikTok KI-Videos",
@@ -1421,6 +1421,10 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
@@ -1477,14 +1481,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
@@ -1495,6 +1491,14 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
@@ -1733,8 +1737,12 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
+            "target": "05 Daily Notes/2026-11-09"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
@@ -1845,10 +1853,6 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
           },
           {
-            "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
             "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
             "target": "05 Daily Notes/2026-09-22"
           },
@@ -1899,6 +1903,10 @@
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
           },
           {
             "source": "04 Ressourcen/Schule/Noten (Daten)",
@@ -2019,14 +2027,6 @@
           {
             "source": "05 Daily Notes/2026-09-22",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
-            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
-            "target": "05 Daily Notes/2026-11-09"
           },
           {
             "source": "05 Daily Notes/2026-09-24",
@@ -2233,10 +2233,6 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "05 Daily Notes/2026-10-13",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
             "source": "05 Daily Notes/2026-10-14",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
@@ -2267,6 +2263,10 @@
           {
             "source": "05 Daily Notes/2026-10-14",
             "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-13",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-10-15",
@@ -2349,26 +2349,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-20",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
             "source": "05 Daily Notes/2026-10-21",
             "target": "02 Projekte/Führerschein"
           },
@@ -2387,6 +2367,26 @@
           {
             "source": "05 Daily Notes/2026-10-21",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
             "source": "05 Daily Notes/2026-10-22",
@@ -2585,42 +2585,6 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
           },
           {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Führerschein - Budget (Daten)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
-          },
-          {
             "source": "05 Daily Notes/2026-10-30",
             "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
           },
@@ -2665,11 +2629,43 @@
             "target": "00 Kontext/Erinnerungen - Archiv"
           },
           {
-            "source": "05 Daily Notes/2026-11-02",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "CLAUDE"
           },
           {
-            "source": "05 Daily Notes/2026-11-03",
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Führerschein - Budget (Daten)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-02",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
@@ -2877,6 +2873,10 @@
             "target": "04 Ressourcen/Schule/Deutsch/Kafka - Biografie mit Bezug auf Die Verwandlung"
           },
           {
+            "source": "05 Daily Notes/2026-11-03",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
             "source": "05 Daily Notes/2026-11-12",
             "target": "02 Projekte/Abitur"
           },
@@ -2988,7 +2988,7 @@
       }
     },
     "habits": {
-      "capturedAt": "2026-11-14T14:31:51.010Z",
+      "capturedAt": "2026-11-14T14:36:34.811Z",
       "data": {
         "tage": [
           {
@@ -4700,7 +4700,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-14T14:31:51.043Z",
+      "capturedAt": "2026-11-14T14:36:34.861Z",
       "data": {
         "halbjahre": [
           {
@@ -5536,7 +5536,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-14T14:31:51.101Z",
+      "capturedAt": "2026-11-14T14:36:34.935Z",
       "data": {
         "projects": [
           {
@@ -5599,7 +5599,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-14T14:31:51.155Z",
+      "capturedAt": "2026-11-14T14:36:34.982Z",
       "data": {
         "heute": [
           {
@@ -5662,7 +5662,7 @@
           {
             "icon": "🛍️",
             "title": "Etsy (seit 14.11.):",
-            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). Offen: (1) **Marcel beurteilt Bilder + Texte**, (2) Shop-Währung klären (Preis 4,99), (3) **Mockups in Canva** (Marcel), (4) beide Listings hochladen. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
+            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. Offen: (1) Shop-Währung klären (Preis 4,99), (2) **Mockups in Canva** (Marcel), (3) beide Listings hochladen. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
           },
           {
             "icon": "🎬",
@@ -5818,7 +5818,7 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-14T14:31:51.196Z",
+      "capturedAt": "2026-11-14T14:36:35.026Z",
       "data": {
         "path": "05 Daily Notes/2026-11-14.md",
         "exists": true,
@@ -5826,7 +5826,7 @@
       }
     },
     "vault": {
-      "capturedAt": "2026-11-14T14:31:51.230Z",
+      "capturedAt": "2026-11-14T14:36:35.071Z",
       "data": {
         "files": [
           "00 Kontext/",
