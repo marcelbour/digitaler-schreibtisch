@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T15:43:43.456Z",
+  "generatedAt": "2026-11-14T21:28:25.464Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-14T15:43:40.538Z",
+      "capturedAt": "2026-11-14T21:28:20.201Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-14T15:43:43.086Z",
+      "capturedAt": "2026-11-14T21:28:25.032Z",
       "data": {
         "nodes": [
           {
@@ -494,6 +494,11 @@
           {
             "id": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen",
             "label": "Claude Modelle und Denkstufen",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer",
+            "label": "Etsy Konkurrenzanalyse Budget Planer",
             "folder": "04 Ressourcen"
           },
           {
@@ -1297,6 +1302,10 @@
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
+            "source": "02 Projekte/Etsy Listing - Budget Planer",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer"
+          },
+          {
             "source": "02 Projekte/Führerschein - Budget (Daten)",
             "target": "02 Projekte/Führerschein"
           },
@@ -1338,6 +1347,10 @@
           },
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer"
+          },
+          {
+            "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
           },
           {
@@ -1365,6 +1378,10 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Gliederungs-Revision (25.10.2026)"
           },
@@ -1375,10 +1392,6 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
@@ -1725,16 +1738,16 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
-            "source": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
             "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
             "target": "CLAUDE"
           },
           {
             "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
             "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
@@ -1829,18 +1842,6 @@
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
           {
-            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
-            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
-          },
-          {
             "source": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)",
             "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
           },
@@ -1853,8 +1854,16 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
           },
           {
-            "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
           },
           {
             "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
@@ -1875,6 +1884,10 @@
           {
             "source": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
           },
           {
             "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
@@ -2005,6 +2018,14 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-21",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "05 Daily Notes/2026-09-17",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2017,12 +2038,268 @@
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
-            "source": "05 Daily Notes/2026-09-21",
+            "source": "05 Daily Notes/2026-09-22",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "00 Kontext/ICP"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-29",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "05 Daily Notes/2026-09-21",
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-08",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "05 Daily Notes/2026-10-08"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-10",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Branding"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-13",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-14",
+            "target": "02 Projekte/Abitur"
           },
           {
             "source": "05 Daily Notes/2026-10-16",
@@ -2277,6 +2554,42 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Führerschein - Budget (Daten)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-29",
+            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
+          },
+          {
             "source": "05 Daily Notes/2026-10-28",
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
@@ -2319,42 +2632,6 @@
           {
             "source": "05 Daily Notes/2026-10-28",
             "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Führerschein - Budget (Daten)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-29",
-            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
           },
           {
             "source": "05 Daily Notes/2026-10-30",
@@ -2407,38 +2684,6 @@
           {
             "source": "05 Daily Notes/2026-11-03",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-04",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-11-05",
@@ -2545,6 +2790,38 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-04",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "05 Daily Notes/2026-11-09",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
@@ -2585,6 +2862,26 @@
             "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
           },
           {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-12",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
             "source": "05 Daily Notes/2026-11-11",
             "target": "CLAUDE"
           },
@@ -2613,26 +2910,6 @@
             "target": "04 Ressourcen/Schule/Deutsch/Kafka - Biografie mit Bezug auf Die Verwandlung"
           },
           {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-12",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
             "source": "05 Daily Notes/2026-11-13",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
@@ -2646,7 +2923,7 @@
           },
           {
             "source": "05 Daily Notes/2026-11-14",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer"
           },
           {
             "source": "05 Daily Notes/2026-11-14",
@@ -2659,266 +2936,6 @@
           {
             "source": "07 Anhänge",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-29",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-29",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-29",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "00 Kontext/ICP"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "05 Daily Notes/2026-10-06"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-08",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "05 Daily Notes/2026-10-08"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-10",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Branding"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-13",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-14",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "CLAUDE",
@@ -2979,74 +2996,14 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-22",
-            "target": "00 Kontext/Erinnerungen"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-14T15:43:43.162Z",
+      "capturedAt": "2026-11-14T21:28:25.131Z",
       "data": {
         "tage": [
-          {
-            "datum": "2026-10-31",
-            "wochentag": "Sa",
-            "werte": {
-              "auf": {
-                "status": "unbekannt",
-                "roh": "?",
-                "zahl": null
-              },
-              "schlaf": {
-                "status": "fehlt",
-                "roh": "**6,0**",
-                "zahl": 6
-              },
-              "morgen": {
-                "status": "fehlt",
-                "roh": "**0/5** ✗",
-                "zahl": 0
-              },
-              "app": {
-                "status": "ok",
-                "roh": "**✗**",
-                "zahl": null
-              },
-              "zehnfinger": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "englisch": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "lesen": {
-                "status": "ok",
-                "roh": "**✗**",
-                "zahl": null
-              },
-              "schwimmen": {
-                "status": "ok",
-                "roh": "✓ **1 km / 22 Min**",
-                "zahl": 1
-              },
-              "training": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "wsem": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              }
-            }
-          },
           {
             "datum": "2026-11-01",
             "wochentag": "So",
@@ -3774,6 +3731,62 @@
                 "zahl": null
               }
             }
+          },
+          {
+            "datum": "2026-11-14",
+            "wochentag": "Sa",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "**11:00** (Soll 09:00, +2 h)",
+                "zahl": 11
+              },
+              "schlaf": {
+                "status": "ok",
+                "roh": "**ca. 9,25** (eingeschlafen ca. 01:45)",
+                "zahl": 9.25
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "**0/4** ✗ (kein Wasser, kein Dehnen, keine Zähne morgens, keine News EN/DE)",
+                "zahl": 0
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**?** (Marcel meldet sich noch)",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              }
+            }
           }
         ],
         "habits": [
@@ -3789,11 +3802,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "unbekannt",
-                "roh": "?",
-                "zahl": null
-              },
               {
                 "status": "ok",
                 "roh": "**10:20** ⚠️",
@@ -3858,14 +3866,19 @@
                 "status": "ok",
                 "roh": "**07:40** (Soll 07:00, +40 Min)",
                 "zahl": 7
+              },
+              {
+                "status": "ok",
+                "roh": "**11:00** (Soll 09:00, +2 h)",
+                "zahl": 11
               }
             ],
-            "erledigt": 7,
-            "faellig": 7,
+            "erledigt": 8,
+            "faellig": 8,
             "quote": 1,
-            "streak": 7,
+            "streak": 8,
             "ausfallStreak": 0,
-            "schnitt": 8.833333333333334,
+            "schnitt": 9.142857142857142,
             "trend": "gleich"
           },
           {
@@ -3880,11 +3893,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "**6,0**",
-                "zahl": 6
-              },
               {
                 "status": "fehlt",
                 "roh": "**~6,0** ⚠️",
@@ -3949,14 +3957,19 @@
                 "status": "fehlt",
                 "roh": "**ca. 6,5** (Marcel am 14.11. korrigiert, vorher fälschlich „unter 6\")",
                 "zahl": 6.5
+              },
+              {
+                "status": "ok",
+                "roh": "**ca. 9,25** (eingeschlafen ca. 01:45)",
+                "zahl": 9.25
               }
             ],
-            "erledigt": 2,
+            "erledigt": 3,
             "faellig": 9,
-            "quote": 0.2222222222222222,
-            "streak": 0,
-            "ausfallStreak": 2,
-            "schnitt": 6.5,
+            "quote": 0.3333333333333333,
+            "streak": 1,
+            "ausfallStreak": 0,
+            "schnitt": 6.861111111111111,
             "trend": "besser"
           },
           {
@@ -3971,11 +3984,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "**0/5** ✗",
-                "zahl": 0
-              },
               {
                 "status": "fehlt",
                 "roh": "✗",
@@ -4040,13 +4048,18 @@
                 "status": "ok",
                 "roh": "**2/5** (Wasser, Zähne; kein Dehnen, keine News, kein Duschen)",
                 "zahl": 2
+              },
+              {
+                "status": "fehlt",
+                "roh": "**0/4** ✗ (kein Wasser, kein Dehnen, keine Zähne morgens, keine News EN/DE)",
+                "zahl": 0
               }
             ],
             "erledigt": 5,
             "faellig": 11,
             "quote": 0.45454545454545453,
-            "streak": 2,
-            "ausfallStreak": 0,
+            "streak": 0,
+            "ausfallStreak": 1,
             "schnitt": 0.6666666666666666,
             "trend": "besser"
           },
@@ -4062,11 +4075,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "**✗**",
-                "zahl": null
-              },
               {
                 "status": "ok",
                 "roh": "**~180** ✓✓",
@@ -4131,12 +4139,17 @@
                 "status": "ok",
                 "roh": "– (entfällt)",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
               }
             ],
             "erledigt": 13,
             "faellig": 14,
             "quote": 0.9285714285714286,
-            "streak": 7,
+            "streak": 8,
             "ausfallStreak": 0,
             "schnitt": 73.22200000000001,
             "trend": "gleich"
@@ -4204,11 +4217,6 @@
                 "zahl": null
               },
               {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
@@ -4216,6 +4224,11 @@
               {
                 "status": "nichtFaellig",
                 "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
                 "zahl": null
               },
               {
@@ -4224,10 +4237,10 @@
                 "zahl": null
               }
             ],
-            "erledigt": 2,
-            "faellig": 2,
+            "erledigt": 3,
+            "faellig": 3,
             "quote": 1,
-            "streak": 2,
+            "streak": 3,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": null
@@ -4295,11 +4308,6 @@
                 "zahl": null
               },
               {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
@@ -4307,6 +4315,11 @@
               {
                 "status": "nichtFaellig",
                 "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
                 "zahl": null
               },
               {
@@ -4315,10 +4328,10 @@
                 "zahl": null
               }
             ],
-            "erledigt": 2,
-            "faellig": 2,
+            "erledigt": 3,
+            "faellig": 3,
             "quote": 1,
-            "streak": 2,
+            "streak": 3,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": null
@@ -4335,11 +4348,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "**✗**",
-                "zahl": null
-              },
               {
                 "status": "fehlt",
                 "roh": "✗",
@@ -4404,12 +4412,17 @@
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**?** (Marcel meldet sich noch)",
+                "zahl": null
               }
             ],
             "erledigt": 9,
             "faellig": 10,
             "quote": 0.9,
-            "streak": 8,
+            "streak": 9,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": "besser"
@@ -4429,11 +4442,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "✓ **1 km / 22 Min**",
-                "zahl": 1
-              },
               {
                 "status": "nichtFaellig",
                 "roh": "–",
@@ -4498,6 +4506,11 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
               }
             ],
             "erledigt": 4,
@@ -4505,7 +4518,7 @@
             "quote": 1,
             "streak": 4,
             "ausfallStreak": 0,
-            "schnitt": 1,
+            "schnitt": null,
             "trend": "gleich"
           },
           {
@@ -4523,11 +4536,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
               {
                 "status": "nichtFaellig",
                 "roh": "–",
@@ -4592,6 +4600,11 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 4,
@@ -4614,11 +4627,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
               {
                 "status": "fehlt",
                 "roh": "✗",
@@ -4683,24 +4691,29 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 7,
-            "faellig": 10,
-            "quote": 0.7,
+            "faellig": 9,
+            "quote": 0.7777777777777778,
             "streak": 7,
             "ausfallStreak": 0,
             "schnitt": 7,
             "trend": "besser"
           }
         ],
-        "tageGesamt": 19,
-        "letzterEintrag": "2026-11-13",
-        "tageSeitLetztem": 1
+        "tageGesamt": 20,
+        "letzterEintrag": "2026-11-14",
+        "tageSeitLetztem": 0
       }
     },
     "noten": {
-      "capturedAt": "2026-11-14T15:43:43.218Z",
+      "capturedAt": "2026-11-14T21:28:25.215Z",
       "data": {
         "halbjahre": [
           {
@@ -5536,7 +5549,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-14T15:43:43.305Z",
+      "capturedAt": "2026-11-14T21:28:25.322Z",
       "data": {
         "projects": [
           {
@@ -5550,7 +5563,7 @@
             "name": "KI Business (Etsy Shop)",
             "path": "02 Projekte/KI Business (Etsy Shop).md",
             "status": "aktiv",
-            "nextStep": null,
+            "nextStep": "🖼️ Listing-Bilder v2 hochladen (Marcel, Shop Manager) – Details: [[02 Projekte/Etsy Listing - Budget Planer.md]]",
             "priority": 3
           },
           {
@@ -5599,7 +5612,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-14T15:43:43.360Z",
+      "capturedAt": "2026-11-14T21:28:25.380Z",
       "data": {
         "heute": [
           {
@@ -5662,7 +5675,7 @@
           {
             "icon": "🛍️",
             "title": "Etsy (seit 14.11.):",
-            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. 🎉 **Listing B „Budget Planner“ live seit 14.11., 16:07.** ✅ Listing A ebenfalls live (2 Listings). Offen: (1) **nächstes Produkt planen** (Ziel laut Strategie ~20 Listings in 90 Tagen, Klausurenphase beachten), (2) 📸 **Marcel schickt Beispielbilder für die Mockups** (Vorbilder, wie die Szenen aussehen sollen) → danach Szenen in `mockup.js` nachbauen, (3) ob echte Canva-Szenen noch nötig sind, entscheidet Marcel. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
+            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. 🎉 **Listing B „Budget Planner“ live seit 14.11., 16:07.** ✅ Listing A ebenfalls live (2 Listings). Offen: (0) 🖼️ **Listing-Bilder v2 hochladen** (beide Listings, Ordner `Listing-Bilder v2`, Reihenfolge in der Listing-Datei, 05 fällt weg), (0b) ✅ **Entschieden 14.11., 22:16:** **ausfüllbares PDF mit Autosumme** für beide Listings + **zweites Produkt Spar-Challenge** (Belege: Konkurrenzanalyse, Abschnitt 8) – ⚠️ noch kein Termin, Klausurenplan prüfen, (1) **nächstes Produkt planen** (Ziel laut Strategie ~20 Listings in 90 Tagen, Klausurenphase beachten), (2) 📸 **Marcel schickt Beispielbilder für die Mockups** (Vorbilder, wie die Szenen aussehen sollen) → danach Szenen in `mockup.js` nachbauen, (3) ob echte Canva-Szenen noch nötig sind, entscheidet Marcel. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
           },
           {
             "icon": "🎬",
@@ -5818,15 +5831,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-14T15:43:43.411Z",
+      "capturedAt": "2026-11-14T21:28:25.422Z",
       "data": {
         "path": "05 Daily Notes/2026-11-14.md",
         "exists": true,
-        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames).\n\n### 🎙️ TikTok-Stimme (15:07–16:38)\n- **Tempo entschieden: 147 W/Min.** Betonung bei Kyutai „zu platt\" – **gemessen bestätigt** (Satz-zu-Satz-Sprung 1,6 Halbtöne vs. ~4,5 bei den Vorbildern). Temperatur/größeres Modell helfen kaum, Marcel: „klingt robotisch\" → **Kyutai verworfen.**\n- **Qwen3-TTS installiert** (`C:\\Users\\marce\\qwen3tts\\`), läuft ohne NVIDIA-Karte, aber langsam (~20–25 Min Rechenzeit pro 90-s-Video). Test A (eine Anweisung) „nicht schlecht, Stimme noch nicht optimal\", Test B (pro Satz) „kompletter Quatsch\" (Sprecher wechselt). Test C/D mit fester Stimme „Ryan\" noch nicht angehört.\n- Marcel stört die **Klangfarbe**, Ziel „wie die Vorbilder\" → **Stimmen-Casting** mit 4 Beschreibungen erzeugt. **Noch nicht angehört** – Marcel braucht Pause.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n### 🛍️ Etsy-Session (14:48–16:40) – SHOP LIVE\n- Entschieden: 5 Seiten, Preis **4,99 €** (Shop läuft in Euro), Stil clean & minimal, zwei Titel-Varianten als eigene Listings.\n- Etsy-Status von „Private individual“ auf **Trader** umgestellt (§ 14 BGB), **Impressum zweisprachig live** (W-IdNr. `DE465403346-00001`, Kleinunternehmer-Hinweis). Vorher gab es gar keins.\n- Gebaut: PDFs (US Letter + A4) mit freien Schriften (Lora, Source Sans 3), je 6 Listing-Grafiken + 2 gezeichnete Mockup-Szenen, Titel/13 Tags/Beschreibung/Cart Summary. Bei „How was it made“ **„with AI“** gewählt.\n- 🎉 **16:07 Listing „Budget Planner“ live, kurz danach „My First Budget Planner“** → 2 Listings. Shop: https://www.etsy.com/shop/MyLedgerLane (in der Etsy-Suche noch nicht auffindbar, direkter Link geht).\n- Neue Vault-Regel: Texte zum Eintragen immer **kopierbar direkt im Chat** (CLAUDE.md).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- **Etsy (heute Abend oder später, neuer Chat):** 📸 Marcel schickt **Beispielbilder für Mockup-Szenen** → Szenen in `_Quelldateienmockup.js` danach nachbauen. Danach nächstes Produkt planen, Etsy-Blöcke gegen den Klausurenplan legen. Details: [[02 Projekte/KI Business (Etsy Shop).md]], Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]\n- **17:15–19:15 Deutsch** (Schulaufgabe Do 19.11.)\n- **TikTok (heute Abend oder nächstes Mal, eigener Chat):** Phase 0 + 1 ✅. 🎧 **Marcel hört die 4 Casting-Stimmen** in `Claude Files\\02 KI Business\\TikTok\\Hörproben\\Casting\\` (Stimme 1 tief-ruhig · 2 jung-direkt · 3 dunkel-spannend · 4 warm-klar, alle 147 W/Min) und nennt eine Nummer oder eine Richtung („wie 4, nur jünger\"). Optional auch `Qwen-Test C/D` (feste Stimme Ryan). **Dann:** gewählte Probe als Vorlage fürs Qwen-**Base**-Modell (Stimme klonen, damit sie in jedem Video gleich bleibt) → Phase 2. Offenes Aussprache-Problem: „wachst\" wird oft zu „warst/wirst\". Alles in [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „KI-Stimme\". ✅ Startbedingung „erstes Etsy-Produkt online\" ist seit 16:07 erfüllt.\n- Ethik-Stoff für den Test Di 17.11. bis So 15.11. schicken."
+        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames).\n\n### 🎙️ TikTok-Stimme (15:07–16:38)\n- **Tempo entschieden: 147 W/Min.** Betonung bei Kyutai „zu platt\" – **gemessen bestätigt** (Satz-zu-Satz-Sprung 1,6 Halbtöne vs. ~4,5 bei den Vorbildern). Temperatur/größeres Modell helfen kaum, Marcel: „klingt robotisch\" → **Kyutai verworfen.**\n- **Qwen3-TTS installiert** (`C:\\Users\\marce\\qwen3tts\\`), läuft ohne NVIDIA-Karte, aber langsam (~20–25 Min Rechenzeit pro 90-s-Video). Test A (eine Anweisung) „nicht schlecht, Stimme noch nicht optimal\", Test B (pro Satz) „kompletter Quatsch\" (Sprecher wechselt). Test C/D mit fester Stimme „Ryan\" noch nicht angehört.\n- Marcel stört die **Klangfarbe**, Ziel „wie die Vorbilder\" → **Stimmen-Casting** mit 4 Beschreibungen erzeugt. **Noch nicht angehört** – Marcel braucht Pause.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n### 🛍️ Etsy-Session (14:48–16:40) – SHOP LIVE\n- Entschieden: 5 Seiten, Preis **4,99 €** (Shop läuft in Euro), Stil clean & minimal, zwei Titel-Varianten als eigene Listings.\n- Etsy-Status von „Private individual“ auf **Trader** umgestellt (§ 14 BGB), **Impressum zweisprachig live** (W-IdNr. `DE465403346-00001`, Kleinunternehmer-Hinweis). Vorher gab es gar keins.\n- Gebaut: PDFs (US Letter + A4) mit freien Schriften (Lora, Source Sans 3), je 6 Listing-Grafiken + 2 gezeichnete Mockup-Szenen, Titel/13 Tags/Beschreibung/Cart Summary. Bei „How was it made“ **„with AI“** gewählt.\n- 🎉 **16:07 Listing „Budget Planner“ live, kurz danach „My First Budget Planner“** → 2 Listings. Shop: https://www.etsy.com/shop/MyLedgerLane (in der Etsy-Suche noch nicht auffindbar, direkter Link geht).\n- Neue Vault-Regel: Texte zum Eintragen immer **kopierbar direkt im Chat** (CLAUDE.md).\n\n\n### 🔎 Etsy-Konkurrenzanalyse (19:25–19:55)\n- Etsy blockt direkte Abrufe (403/Captcha). Claude in Chrome im Terminal eingerichtet (`claude.cmd --chrome`, PowerShell blockt `claude.ps1`), Verbindung „Enabled\", aber Abbruch an Tab-Gruppen-Fehler. Analyse deshalb über die Websuche + offizielle Etsy-Hilfeseiten → [[04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer.md]]\n- Wichtigste Funde: Konkurrenz bietet oft **ausfüllbare PDFs** und **„Budget by Paycheck\"**. Unsere Bilder (2000 × 1500) liegen in der Höhe unter Etsys Empfehlung (mind. 2000 px). 4,99 € liegt am oberen Rand für 5 Seiten. **Noch nichts davon entschieden.**\n- **20:20–20:30: 5 YouTube-Videos zu Etsy-Printables ausgewertet** (Marcel fand die Websuche-Analyse zu dünn) → Abschnitte 7 und 8 der Analyse-Notiz. Stärkster Beleg: **ausfüllbares PDF mit Autosumme** (bestes Monatsbudget-Listing laut EverBee-Schätzung 887 Verkäufe in 7 Monaten). Außerdem: Infokarte mit Hinweis „nicht über die Etsy-App herunterladen“, ausgefülltes Beispiel zeigen, mehr Produkte im selben Stil (Spar-Challenge, Rechnungs-Tracker), A5. **Noch nichts entschieden.**\n- **22:10–22:25: Listing-Bilder v2 gebaut** (Marcels Wahl: Bilder verbessern): 2700 × 2025 px, neues Bild mit ausgefülltem Beispiel, neue Infokarte mit Download-Tipp (Etsy-App kann nicht herunterladen). Ordner `Listing-Bilder v2`, Details in [[02 Projekte/Etsy Listing - Budget Planer.md]]. ➡️ **Hochladen macht Marcel im Shop Manager**, noch offen.\n\n\n### ✅ Abend-Check (22:1x–22:30)\n| Habit | Stand |\n|---|---|\n| 🕕 Aufstehzeit | 11:00 (Soll 09:00) |\n| 😴 Schlaf | ca. 9,25 h (01:45–11:00) |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne | ✗ · ✗ · ✗ |\n| 📰 News EN · DE | ✗ · ✗ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch | ✗ · ✗ |\n| 🏊 Schwimmen (Sa) | ✗ |\n| 📕 Lesen | offen, Marcel meldet sich |\n| 🎓 Deutsch-Block 17:15–19:15 | ✗ → gelöscht, **Ersatz Di 17.11., 15:45–17:45** |\n- Tag „in Ordnung“, Plantreue „teilweise“, Pausen „passten“.\n- 🗓️ Neu im Kalender: **So 15.11., 17:30–19:00 Informatik lernen** (Klausur Mo 16.11., vorher stand kein Lernblock drin).\n- 🛍️ Etsy entschieden (22:16): Bilder v2 hochladen + **ausfüllbares PDF** + **zweites Produkt Spar-Challenge**. Noch ohne Termin.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- 📕 **Lesen vom 14.11. nachfragen**, falls Marcel es nicht selbst meldet (Minuten + Seiten oder „kein Lesen“), dann im Habit-Log das `?` ersetzen.\n- 💻 **So 15.11., 17:30–19:00: Informatik lernen** – Schulaufgabe **Mo 16.11.** (Start der Klausurenphase). Vorher Spiel der Zweiten (Treffpunkt 13:15).\n- 📚 Ethik-Stoff für den Test **Di 17.11.** bis So 15.11. schicken.\n- 🎓 **Di 17.11., 15:45–17:45: Deutsch** (Schulaufgabe Do 19.11.).\n- 🛍️ **Etsy:** Listing-Bilder v2 hochladen (Marcel, ~10 Min, Reihenfolge in [[02 Projekte/Etsy Listing - Budget Planer.md]]). Weiter offen: Beispielbilder für Mockup-Szenen schicken. Danach ausfüllbares PDF + Spar-Challenge, **Termine gegen den Klausurenplan legen**. Analyse: [[04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer.md]]\n- 🎬 **TikTok (eigener Chat):** 4 Casting-Stimmen anhören (`Claude Files\\02 KI Business\\TikTok\\Hörproben\\Casting\\`), dann Phase 2. Details: [[02 Projekte/TikTok KI-Videos.md]]"
       }
     },
     "vault": {
-      "capturedAt": "2026-11-14T15:43:43.456Z",
+      "capturedAt": "2026-11-14T21:28:25.462Z",
       "data": {
         "files": [
           "00 Kontext/",
