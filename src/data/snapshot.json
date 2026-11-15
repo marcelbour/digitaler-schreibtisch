@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-15T20:10:29.323Z",
+  "generatedAt": "2026-11-15T20:11:30.903Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-15T20:10:28.453Z",
+      "capturedAt": "2026-11-15T20:11:29.051Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-15T20:10:28.954Z",
+      "capturedAt": "2026-11-15T20:11:30.395Z",
       "data": {
         "nodes": [
           {
@@ -929,6 +929,10 @@
         ],
         "edges": [
           {
+            "source": "00 Kontext/Branding",
+            "target": "07 Anhänge"
+          },
+          {
             "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
           },
@@ -1074,6 +1078,10 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
+            "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
             "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
           {
@@ -1169,16 +1177,8 @@
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
-            "source": "00 Kontext/Branding",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "00 Kontext/Erinnerungen"
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
@@ -1249,8 +1249,20 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
+            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
+          },
+          {
+            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "02 Projekte/Abitur",
@@ -1305,6 +1317,10 @@
             "target": "CLAUDE"
           },
           {
+            "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
+            "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
+          },
+          {
             "source": "02 Projekte/Etsy Listing - Budget Planer",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
@@ -1335,14 +1351,6 @@
           {
             "source": "02 Projekte/Führerschein",
             "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
-            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
-          },
-          {
-            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
@@ -1561,14 +1569,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -1579,6 +1579,14 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
@@ -1717,12 +1725,28 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "05 Daily Notes/2026-09-15"
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
             "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "target": "05 Daily Notes/2026-09-15"
           },
           {
             "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
@@ -1741,10 +1765,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
-            "source": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
             "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
             "target": "CLAUDE"
           },
@@ -1759,6 +1779,10 @@
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
             "target": "05 Daily Notes/2026-11-09"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
@@ -1823,22 +1847,6 @@
           {
             "source": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
             "source": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller",
@@ -1973,18 +1981,6 @@
             "target": "05 Daily Notes/2026-09-23"
           },
           {
-            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
             "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2037,6 +2033,30 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
             "source": "05 Daily Notes/2026-09-21",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -2049,16 +2069,12 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-09-17",
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "05 Daily Notes/2026-09-25",
@@ -2181,38 +2197,6 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "05 Daily Notes/2026-10-08"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
             "source": "05 Daily Notes/2026-10-10",
             "target": "05 Daily Notes/2026-10-11"
           },
@@ -2255,14 +2239,6 @@
           {
             "source": "05 Daily Notes/2026-10-12",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-10-13",
@@ -2419,6 +2395,38 @@
           {
             "source": "05 Daily Notes/2026-10-21",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "05 Daily Notes/2026-10-08"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
           },
           {
             "source": "05 Daily Notes/2026-10-22",
@@ -2689,20 +2697,20 @@
             "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
           },
           {
-            "source": "05 Daily Notes/2026-11-01",
-            "target": "05 Daily Notes/2026-10-31"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-01",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
             "source": "05 Daily Notes/2026-11-02",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-11-03",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-01",
+            "target": "05 Daily Notes/2026-10-31"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-01",
+            "target": "00 Kontext/Erinnerungen - Archiv"
           },
           {
             "source": "05 Daily Notes/2026-11-04",
@@ -2841,26 +2849,6 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-11-10",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-10",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-10",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-10",
-            "target": "04 Ressourcen/PC & Technik/PowerPoint mit Claude erstellen - Werkzeugkette"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-10",
-            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
-          },
-          {
             "source": "05 Daily Notes/2026-11-09",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
@@ -2879,6 +2867,26 @@
           {
             "source": "05 Daily Notes/2026-11-09",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-10",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-10",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-10",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-10",
+            "target": "04 Ressourcen/PC & Technik/PowerPoint mit Claude erstellen - Werkzeugkette"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-10",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
           },
           {
             "source": "05 Daily Notes/2026-11-11",
@@ -2949,12 +2957,12 @@
             "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
           {
-            "source": "05 Daily Notes/2026-11-15",
-            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
+            "source": "07 Anhänge",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
           },
           {
-            "source": "05 Daily Notes/2026-11-15",
-            "target": "02 Projekte/TikTok KI-Videos"
+            "source": "07 Anhänge",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
           },
           {
             "source": "CLAUDE",
@@ -2990,6 +2998,10 @@
           },
           {
             "source": "CLAUDE",
+            "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
+          },
+          {
+            "source": "CLAUDE",
             "target": "00 Kontext/Erinnerungen - Archiv"
           },
           {
@@ -3017,18 +3029,22 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "07 Anhänge",
-            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+            "source": "05 Daily Notes/2026-11-15",
+            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
           },
           {
-            "source": "07 Anhänge",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+            "source": "05 Daily Notes/2026-11-15",
+            "target": "02 Projekte/TikTok KI-Videos"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-15",
+            "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-15T20:10:29.006Z",
+      "capturedAt": "2026-11-15T20:11:30.504Z",
       "data": {
         "tage": [
           {
@@ -4740,7 +4756,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-15T20:10:29.075Z",
+      "capturedAt": "2026-11-15T20:11:30.640Z",
       "data": {
         "halbjahre": [
           {
@@ -5576,7 +5592,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-15T20:10:29.223Z",
+      "capturedAt": "2026-11-15T20:11:30.734Z",
       "data": {
         "projects": [
           {
@@ -5639,7 +5655,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-15T20:10:29.258Z",
+      "capturedAt": "2026-11-15T20:11:30.797Z",
       "data": {
         "heute": [
           {
@@ -5709,6 +5725,11 @@
           }
         ],
         "woche": [
+          {
+            "icon": "💸",
+            "title": "Wispr Flow Pro behalten oder kündigen – bis Mo 23.11",
+            "details": "Nächste Abbuchung Di 24.11., 15,00 €. Kündigen über das Kundenportal von Wispr. Danach in [[03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten).md]] beim Abo `status: gekuendigt` setzen."
+          },
           {
             "icon": "🛍️",
             "title": "Etsy (seit 14.11.):",
@@ -5868,15 +5889,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-15T20:10:29.292Z",
+      "capturedAt": "2026-11-15T20:11:30.848Z",
       "data": {
         "path": "05 Daily Notes/2026-11-15.md",
         "exists": true,
-        "content": "# Sonntag, 15.11.2026\n\n## Was passiert ist (Stand 19:37)\n- 🎬 **TikTok – Kanal ist live (09:35–10:40):** Figurenstil festgelegt (**immer Stil 2 oder 3**), Regenvideo überarbeitet (Regen, Haus, Boden, Grafiken, Untertitel 70 px/4 Wörter). ElevenLabs auf **Starter** umgestellt (Gratis-Ton ist nie kommerziell nutzbar), Stimme neu erzeugt. Account **`cartoon.stories`** angelegt (Privatkonto), universelles Profilbild (Figur mit „?“), Bio (78 Zeichen). **Erstes Video mit KI-Label veröffentlicht** (einmal ohne Label gepostet, gelöscht, neu gepostet). Neue Ordner `Zum Hochladen` und `Video-Archiv`, **Dateiname = TikTok-Beschreibung**.\n- 🎬 **10:45–11:10, während Marcel beim Fußball war: drei Videos komplett fertig** – 5-Sekunden-Regel (84 s), Seil um die Erde (78 s), Blitz schlägt nie zweimal ein (82 s). Fakten an Rutgers, US-Wetterdienst und NASA geprüft. Neuer wiederverwendbarer Baukasten `tiktok-remotion\\src\\kit.tsx`. Neue Arbeitsregel: **„einfach machen, danach korrigieren“**, keine Rückfragen während der Produktion, beim Rendern gleich sorgfältig.\n- ⚽ Zwei Spiele (1. und 2. Mannschaft). Ergebnis/Einsatz nicht im Chat gemeldet.\n- 🔎 **18:00–18:20: TikTok-Recherche Posting-Frequenz** (12 YouTube-Tutorials, TikTok-Newsroom/Richtlinien, Buffer-Studie) → [[04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026).md]]. Vorschlag: 1 Video/Tag an 5–6 Tagen, Messphase 25 Videos. ✅ Entschieden: 6/Woche (Mo–Sa), 1 Take, Upload 17:00 – Kalenderserie bis 15.12. angelegt.\n- 💡 **19:24–19:36: TikTok – zwei neue feste Formate + Account-Frage** (alles in [[02 Projekte/TikTok KI-Videos.md]], ganz unten):\n  - **Format 4: Wahre Überlebensgeschichten** (Absturz, Schiff, Berg …). TikTok schränkt *„Moments leading up to a serious accident\"* ein (nur ab 18 / nicht im Für-dich-Feed) → Unglück nur abstrakt zeigen, Schwerpunkt aufs Überleben. Kandidaten Koepcke, Okene (beide mit offenen Abweichungen in den Quellen). **Erster Fall noch offen.**\n  - **Format 5: Daten-Videos** (Linien-Diagramm läuft Jahr für Jahr durch, keine Stimme → 0 Credits). Beispiel @deardata1 „How Do Couples Meet?\" liegt in `Referenzvideos\\Daten-Video 15.11\\`; dessen Zahlen passen nicht zur Stanford-Studie (2017: 39 % online).\n  - **Account-Entscheidung:** Die vier Zeichentrick-Formate bleiben auf `cartoon.stories`; **Daten-Videos bekommen einen zweiten Account nach der Messphase** → Auswertung **Di 15.12., 15:45–16:45** (Kalender + Erinnerungen; zuerst auf Sa 19.12. gelegt, auf Marcels Wunsch vorgezogen).\n- 🎙️ **19:54: Marcel hat die Videos durchgesehen.** Neue feste Regel: **Stimme nie verstellen** („und jetzt wird es interessant\" klang im Essens-Video und im ersten Video verstellt) → keine Audio-Tags, keine Stimmwechsel. Vorhandene Videos bleiben so, auch das 3. (stört ihn etwas, „nicht so schlimm\").\n- 💳 **ElevenLabs Creator:** grundsätzlich ja (Starter reicht bei 6/Woche nur auf Kante), aber **Entscheidung bei der Auswertung am 15.12.**, je nachdem, ob der Kanal eine Perspektive zeigt. Stand Konto 19:55: 25.933 Credits übrig, Reset 15.12., 10:12.\n\n## 🌙 Abend-Check (20:5x)\n| Habit | Stand |\n|---|---|\n| 🕕 Aufstehzeit | ca. 09:00–09:30 (Soll 09:00) |\n| 😴 Schlaf | ca. 7–7,5 h (eingeschlafen ca. 02:00) |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne | ✗ · ✗ · ✗ |\n| 📰 News EN · DE | ✗ · ✗ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch | ✗ · ✗ |\n| 📕 Lesen | ✗ (heute bewusst nicht; 14.11. ebenfalls ✗) |\n| 🚿 Duschen · 🏊 Schwimmen · ⚽ Training | ⬜ nicht fällig (Sonntag) |\n\n📊 Tag **schlecht**, Plantreue **gar nicht**. Marcel: Die Spiele haben den Tag gefressen; nach dem Spiel der Zweiten fehlte Zeit vor dem nächsten Block. Viele Blöcke nimmt er nicht ernst, weil sie ihm unwichtig erscheinen → **stärker unterscheiden, was wirklich einen Block braucht**. Details im Habit-Log (Kalibrierung 15.11.).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- 💻 **Informatik-Schulaufgabe Mo 16.11.** – Lernblock 17:30–19:00 ist **ausgefallen** (Marcel, 19:42). Ersatzfenster heute Abend angeboten (20:00–21:45 statt Geschichte); Marcel: *„Ich schaue mal, ob ich überhaupt noch einschaue.\"* → **kein Termin eingetragen**, beim Abend-Check nachfragen.\n- 🎬 **TikTok (Stand 18:58):** Rhythmus steht – **6 Videos/Woche Mo–Sa, Upload 17:00** (Kalenderserie bis 15.12., Di 17.11. ausnahmsweise 18:00). Ab Video 5 gelten **63–66 s** (~155–160 Wörter, 1 Take) und der Aufbau **„Modern Story Arc“** (Hook 0–5 s, erster Höhepunkt bis 15 s, dann alle ~15 s ein neuer) – beides in [[02 Projekte/TikTok KI-Videos.md]], Abschnitte „Ablauf pro Video“ und „Skript-Aufbau Modern Story Arc“. Recherche: [[04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026).md]].\n  - ✅ **3 fertige Videos durchgesehen (19:54), bleiben unverändert** – Mo 17:00 geht das erste raus (`Zum Hochladen`). KI-Schalter vor dem Posten, Musik leise, danach ins `Video-Archiv`.\n  - ➡️ **Bis Mi 18.11.:** Claude baut in einem **neuen Chat** Video 5–8 (Themenliste in der Projektdatei). Durchsicht **Mi 18.11., 16:00–16:30** (im Kalender) – der Vorrat reicht nur bis Mi.\n  - Neue Formate (Überleben, Daten) erst nach Video 5–8 angehen; den ersten Überlebens-Fall gemeinsam auswählen.\n  - Code: `C:\\Users\\marce\\tiktok-remotion\\src\\` (`kit.tsx` + `Fuenf.tsx`, `Seil.tsx`, `Blitz.tsx`), immer erst nach `C:\\Users\\marce\\regen-umbau\\` rendern, dann kopieren. ElevenLabs: 25.933 Credits bis Di 15.12.\n- 📚 **Ethik-Stoff für den Test Di 17.11. schicken** (war bis heute geplant).\n- 🗓️ **Planfrage besprechen (Marcel, Abend-Check):** mehr Puffer nach Spielen; weniger Blöcke, dafür nur die, die wirklich einen brauchen.\n- 🎓 Di 17.11., 15:45–17:45: Deutsch (Schulaufgabe Do 19.11.)."
+        "content": "# Sonntag, 15.11.2026\n\n## Was passiert ist (Stand 19:37)\n- 🎬 **TikTok – Kanal ist live (09:35–10:40):** Figurenstil festgelegt (**immer Stil 2 oder 3**), Regenvideo überarbeitet (Regen, Haus, Boden, Grafiken, Untertitel 70 px/4 Wörter). ElevenLabs auf **Starter** umgestellt (Gratis-Ton ist nie kommerziell nutzbar), Stimme neu erzeugt. Account **`cartoon.stories`** angelegt (Privatkonto), universelles Profilbild (Figur mit „?“), Bio (78 Zeichen). **Erstes Video mit KI-Label veröffentlicht** (einmal ohne Label gepostet, gelöscht, neu gepostet). Neue Ordner `Zum Hochladen` und `Video-Archiv`, **Dateiname = TikTok-Beschreibung**.\n- 🎬 **10:45–11:10, während Marcel beim Fußball war: drei Videos komplett fertig** – 5-Sekunden-Regel (84 s), Seil um die Erde (78 s), Blitz schlägt nie zweimal ein (82 s). Fakten an Rutgers, US-Wetterdienst und NASA geprüft. Neuer wiederverwendbarer Baukasten `tiktok-remotion\\src\\kit.tsx`. Neue Arbeitsregel: **„einfach machen, danach korrigieren“**, keine Rückfragen während der Produktion, beim Rendern gleich sorgfältig.\n- ⚽ Zwei Spiele (1. und 2. Mannschaft). Ergebnis/Einsatz nicht im Chat gemeldet.\n- 🔎 **18:00–18:20: TikTok-Recherche Posting-Frequenz** (12 YouTube-Tutorials, TikTok-Newsroom/Richtlinien, Buffer-Studie) → [[04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026).md]]. Vorschlag: 1 Video/Tag an 5–6 Tagen, Messphase 25 Videos. ✅ Entschieden: 6/Woche (Mo–Sa), 1 Take, Upload 17:00 – Kalenderserie bis 15.12. angelegt.\n- 💡 **19:24–19:36: TikTok – zwei neue feste Formate + Account-Frage** (alles in [[02 Projekte/TikTok KI-Videos.md]], ganz unten):\n  - **Format 4: Wahre Überlebensgeschichten** (Absturz, Schiff, Berg …). TikTok schränkt *„Moments leading up to a serious accident\"* ein (nur ab 18 / nicht im Für-dich-Feed) → Unglück nur abstrakt zeigen, Schwerpunkt aufs Überleben. Kandidaten Koepcke, Okene (beide mit offenen Abweichungen in den Quellen). **Erster Fall noch offen.**\n  - **Format 5: Daten-Videos** (Linien-Diagramm läuft Jahr für Jahr durch, keine Stimme → 0 Credits). Beispiel @deardata1 „How Do Couples Meet?\" liegt in `Referenzvideos\\Daten-Video 15.11\\`; dessen Zahlen passen nicht zur Stanford-Studie (2017: 39 % online).\n  - **Account-Entscheidung:** Die vier Zeichentrick-Formate bleiben auf `cartoon.stories`; **Daten-Videos bekommen einen zweiten Account nach der Messphase** → Auswertung **Di 15.12., 15:45–16:45** (Kalender + Erinnerungen; zuerst auf Sa 19.12. gelegt, auf Marcels Wunsch vorgezogen).\n- 🎙️ **19:54: Marcel hat die Videos durchgesehen.** Neue feste Regel: **Stimme nie verstellen** („und jetzt wird es interessant\" klang im Essens-Video und im ersten Video verstellt) → keine Audio-Tags, keine Stimmwechsel. Vorhandene Videos bleiben so, auch das 3. (stört ihn etwas, „nicht so schlimm\").\n- 💳 **ElevenLabs Creator:** grundsätzlich ja (Starter reicht bei 6/Woche nur auf Kante), aber **Entscheidung bei der Auswertung am 15.12.**, je nachdem, ob der Kanal eine Perspektive zeigt. Stand Konto 19:55: 25.933 Credits übrig, Reset 15.12., 10:12.\n- 💸 **21:00–21:15: Ausgaben-Überblick + Dashboard-Widget.** Alle Mails seit 01.08. nach KI-/Tool-Ausgaben durchsucht (inkl. Papierkorb): **bisher 95,85 €** (Claude Pro 3 × 21,42 · Wispr Flow 15,00 · ElevenLabs 1,12 · Etsy 15,47), **laufend ≈ 43,16 €/Monat ≈ 518 €/Jahr**. Microsoft 98,99 € (08.09.) = Xbox, privat → nicht drin. Neue Datendatei [[03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten).md]], Widget direkt unter Reihe 1 gebaut und gepusht (`7632e66`). ⚠️ **Wispr Flow wird am Di 24.11. wieder abgebucht** (15 €).\n\n## 🌙 Abend-Check (20:5x)\n| Habit | Stand |\n|---|---|\n| 🕕 Aufstehzeit | ca. 09:00–09:30 (Soll 09:00) |\n| 😴 Schlaf | ca. 7–7,5 h (eingeschlafen ca. 02:00) |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne | ✗ · ✗ · ✗ |\n| 📰 News EN · DE | ✗ · ✗ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch | ✗ · ✗ |\n| 📕 Lesen | ✗ (heute bewusst nicht; 14.11. ebenfalls ✗) |\n| 🚿 Duschen · 🏊 Schwimmen · ⚽ Training | ⬜ nicht fällig (Sonntag) |\n\n📊 Tag **schlecht**, Plantreue **gar nicht**. Marcel: Die Spiele haben den Tag gefressen; nach dem Spiel der Zweiten fehlte Zeit vor dem nächsten Block. Viele Blöcke nimmt er nicht ernst, weil sie ihm unwichtig erscheinen → **stärker unterscheiden, was wirklich einen Block braucht**. Details im Habit-Log (Kalibrierung 15.11.).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- 💻 **Informatik-Schulaufgabe Mo 16.11.** – Lernblock 17:30–19:00 ist **ausgefallen** (Marcel, 19:42). Ersatzfenster heute Abend angeboten (20:00–21:45 statt Geschichte); Marcel: *„Ich schaue mal, ob ich überhaupt noch einschaue.\"* → **kein Termin eingetragen**, beim Abend-Check nachfragen.\n- 🎬 **TikTok (Stand 18:58):** Rhythmus steht – **6 Videos/Woche Mo–Sa, Upload 17:00** (Kalenderserie bis 15.12., Di 17.11. ausnahmsweise 18:00). Ab Video 5 gelten **63–66 s** (~155–160 Wörter, 1 Take) und der Aufbau **„Modern Story Arc“** (Hook 0–5 s, erster Höhepunkt bis 15 s, dann alle ~15 s ein neuer) – beides in [[02 Projekte/TikTok KI-Videos.md]], Abschnitte „Ablauf pro Video“ und „Skript-Aufbau Modern Story Arc“. Recherche: [[04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026).md]].\n  - ✅ **3 fertige Videos durchgesehen (19:54), bleiben unverändert** – Mo 17:00 geht das erste raus (`Zum Hochladen`). KI-Schalter vor dem Posten, Musik leise, danach ins `Video-Archiv`.\n  - ➡️ **Bis Mi 18.11.:** Claude baut in einem **neuen Chat** Video 5–8 (Themenliste in der Projektdatei). Durchsicht **Mi 18.11., 16:00–16:30** (im Kalender) – der Vorrat reicht nur bis Mi.\n  - Neue Formate (Überleben, Daten) erst nach Video 5–8 angehen; den ersten Überlebens-Fall gemeinsam auswählen.\n  - Code: `C:\\Users\\marce\\tiktok-remotion\\src\\` (`kit.tsx` + `Fuenf.tsx`, `Seil.tsx`, `Blitz.tsx`), immer erst nach `C:\\Users\\marce\\regen-umbau\\` rendern, dann kopieren. ElevenLabs: 25.933 Credits bis Di 15.12.\n- 📚 **Ethik-Stoff für den Test Di 17.11. schicken** (war bis heute geplant).\n- 🗓️ **Planfrage besprechen (Marcel, Abend-Check):** mehr Puffer nach Spielen; weniger Blöcke, dafür nur die, die wirklich einen brauchen.\n- 🎓 Di 17.11., 15:45–17:45: Deutsch (Schulaufgabe Do 19.11.)."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-15T20:10:29.322Z",
+      "capturedAt": "2026-11-15T20:11:30.902Z",
       "data": {
         "files": [
           "00 Kontext/",
@@ -5892,7 +5913,7 @@
       }
     },
     "ausgaben": {
-      "capturedAt": "2026-11-15T20:10:28.424Z",
+      "capturedAt": "2026-11-15T20:11:28.992Z",
       "data": {
         "stand": "2026-11-15",
         "abos": [
