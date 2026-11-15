@@ -1,5 +1,6 @@
 const NAV = [
   { href: "#fokus", icon: "⏳", label: "Fokus" },
+  { href: "#ausgaben", icon: "💸", label: "Ausgaben" },
   { href: "#todos", icon: "✅", label: "To-Dos" },
   { href: "#kalender", icon: "📅", label: "Kalender" },
   { href: "#heute", icon: "🏠", label: "Heute" },

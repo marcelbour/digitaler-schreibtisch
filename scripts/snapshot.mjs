@@ -15,6 +15,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const KEYS = [
+  "ausgaben",
   "fahrschule",
   "graph",
   "habits",

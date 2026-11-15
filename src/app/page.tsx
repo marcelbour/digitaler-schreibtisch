@@ -9,6 +9,7 @@ import { CalendarWidget } from "@/components/CalendarWidget";
 import { FahrschuleBudget } from "@/components/FahrschuleBudget";
 import { NotenWidget } from "@/components/NotenWidget";
 import { HabitWidget } from "@/components/HabitWidget";
+import { AusgabenWidget } from "@/components/AusgabenWidget";
 import OfflineBanner from "@/components/OfflineBanner";
 
 export default function Home() {
@@ -39,6 +40,11 @@ export default function Home() {
             Bildschirmen keine halbe Lücke daneben stehen bleibt. */}
         <div id="fahrschule" className="md:col-span-2 xl:col-span-1">
           <FahrschuleBudget />
+        </div>
+        {/* Ausgaben (15.11.2026): von Marcel "weit oben" bestellt – direkt unter
+            Reihe 1, über die volle Breite, weil drei Spalten nebeneinander stehen. */}
+        <div id="ausgaben" className="md:col-span-2 xl:col-span-3">
+          <AusgabenWidget />
         </div>
         {/* Reihe 2: To-Dos über die volle Seitenbreite. "Heute" links, "Diese Woche"
             rechts – die Aufteilung macht TodoLists selbst. */}

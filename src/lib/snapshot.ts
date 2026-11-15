@@ -29,6 +29,7 @@ import snapshotFile from "@/data/snapshot.json";
  */
 
 export type SnapshotKey =
+  | "ausgaben"
   | "fahrschule"
   | "graph"
   | "habits"
@@ -39,6 +40,7 @@ export type SnapshotKey =
   | "vault";
 
 export const SNAPSHOT_KEYS: SnapshotKey[] = [
+  "ausgaben",
   "fahrschule",
   "graph",
   "habits",
