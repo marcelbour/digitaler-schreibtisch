@@ -35,7 +35,30 @@ export type Zahlung = {
   beleg?: string;
 };
 
+export type EtsyListing = { datum: string; anzahl: number; hinweis?: string };
+
+export type Etsy = {
+  preisTypisch: number;
+  listings: EtsyListing[];
+  listingsAktiv: number;
+  listingsZiel: number;
+  zielBis: string;
+  verkaeufe: number;
+  abrechnungTag: number;
+  laufzeitMonate: number;
+  /** Einstellgebühr in Euro (0,20 $ umgerechnet). */
+  listingEur: number;
+  /** Gebühren je Verkauf zum typischen Preis. */
+  transaktionEur: number;
+  zahlungEur: number;
+  gebuehrJeVerkauf: number;
+  bleibtJeVerkauf: number;
+  /** Verkäufe, bis die bisherigen Etsy-Kosten wieder drin sind. */
+  breakEvenVerkaeufe: number;
+};
+
 export type Ausgaben = {
+  etsy: Etsy | null;
   stand: string | null;
   abos: Abo[];
   zahlungen: Zahlung[];
@@ -46,7 +69,7 @@ export type Ausgaben = {
   monatlichGeschaetzt: boolean;
 };
 
-type Frontmatter = { stand?: unknown; abos?: unknown; zahlungen?: unknown };
+type Frontmatter = { stand?: unknown; abos?: unknown; zahlungen?: unknown; etsy?: unknown };
 
 function extractFrontmatter(content: string): Frontmatter {
   // readNote() hat BOM und CRLF bereits normalisiert.
@@ -158,10 +181,16 @@ export function parseAusgaben(content: string): Ausgaben {
     }
   }
 
+  const bezahltBusinessVorab = cent(
+    zahlungen.filter((z) => z.kategorie === "business").reduce((s, z) => s + z.betrag, 0),
+  );
+  const etsy = fm.etsy ? parseEtsy(fm.etsy, bezahltBusinessVorab) : null;
+
   const summe = (list: Zahlung[]) => cent(list.reduce((s, z) => s + z.betrag, 0));
   const aktiv = abos.filter((a) => a.status === "aktiv");
 
   return {
+    etsy,
     stand: fm.stand ? isoDatum(fm.stand, "stand") : null,
     abos,
     zahlungen,
@@ -170,5 +199,57 @@ export function parseAusgaben(content: string): Ausgaben {
     bezahltBusiness: summe(zahlungen.filter((z) => z.kategorie === "business")),
     monatlichLaufend: cent(aktiv.reduce((s, a) => s + a.betrag, 0)),
     monatlichGeschaetzt: aktiv.some((a) => a.geschaetzt),
+  };
+}
+
+function parseEtsy(raw: unknown, bezahltBusiness: number): Etsy {
+  if (typeof raw !== "object" || raw === null) {
+    throw new AusgabenDataError('Block "etsy" ist kein Objekt.');
+  }
+  const e = raw as Record<string, unknown>;
+  const g = (e.gebuehren ?? {}) as Record<string, unknown>;
+
+  const listings = requireArray(e.listings, "etsy.listings").map((l, i) => {
+    const row = l as Record<string, unknown>;
+    return {
+      datum: isoDatum(row.datum, `etsy.listings[${i}].datum`),
+      anzahl: requireNumber(row.anzahl, `etsy.listings[${i}].anzahl`),
+      hinweis: row.hinweis ? String(row.hinweis) : undefined,
+    } satisfies EtsyListing;
+  }).sort((a, b) => a.datum.localeCompare(b.datum));
+
+  const preis = requireNumber(e.preis_typisch, "etsy.preis_typisch");
+  const listingEur = cent(
+    requireNumber(g.listing_usd, "etsy.gebuehren.listing_usd") *
+      requireNumber(g.usd_eur, "etsy.gebuehren.usd_eur"),
+  );
+  const transaktionEur = cent(
+    (preis * requireNumber(g.transaktion_prozent, "etsy.gebuehren.transaktion_prozent")) / 100,
+  );
+  const zahlungEur = cent(
+    (preis * requireNumber(g.zahlung_prozent, "etsy.gebuehren.zahlung_prozent")) / 100 +
+      requireNumber(g.zahlung_fix_eur, "etsy.gebuehren.zahlung_fix_eur"),
+  );
+  const gebuehrJeVerkauf = cent(transaktionEur + zahlungEur);
+  const bleibtJeVerkauf = cent(preis - gebuehrJeVerkauf);
+  if (bleibtJeVerkauf <= 0) {
+    throw new AusgabenDataError("Gebühren je Verkauf sind höher als der Preis – Daten prüfen.");
+  }
+
+  return {
+    preisTypisch: preis,
+    listings,
+    listingsAktiv: listings.reduce((s, l) => s + l.anzahl, 0),
+    listingsZiel: requireNumber(e.listings_ziel, "etsy.listings_ziel"),
+    zielBis: isoDatum(e.ziel_bis, "etsy.ziel_bis"),
+    verkaeufe: requireNumber(e.verkaeufe, "etsy.verkaeufe"),
+    abrechnungTag: requireNumber(e.abrechnung_tag, "etsy.abrechnung_tag"),
+    laufzeitMonate: requireNumber(g.laufzeit_monate, "etsy.gebuehren.laufzeit_monate"),
+    listingEur,
+    transaktionEur,
+    zahlungEur,
+    gebuehrJeVerkauf,
+    bleibtJeVerkauf,
+    breakEvenVerkaeufe: Math.ceil(bezahltBusiness / bleibtJeVerkauf),
   };
 }

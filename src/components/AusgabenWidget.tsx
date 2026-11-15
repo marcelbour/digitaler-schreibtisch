@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { CARD, HEADING, iconBadge, pill, ROW } from "@/lib/ui";
-import type { Abo, Ausgaben, Zahlung } from "@/lib/ausgaben";
+import type { Abo, Ausgaben, Etsy, Zahlung } from "@/lib/ausgaben";
 
 // Ausgaben-Widget (15.11.2026, von Marcel bestellt): „wo ich die Ausgaben
 // insgesamt sehe und auch, wann die nächste Abbuchung von jeder Sache ist".
@@ -62,6 +62,62 @@ function naechsteAbbuchung(abo: Abo, heute: Date): Naechste {
   return { abo, datum, tage, belegFehlt: tage < 0 };
 }
 
+// ---- Etsy-Prognose (16.11.2026 nachbestellt) ----
+// Etsy bucht die Einstellgebühren gesammelt ab (beobachtet: 01.11. von der
+// Karte). Ein Listing, das im Monat M live geht, landet also auf der
+// Abrechnung am `abrechnungTag` im Monat M+1. Geplante Listings werden
+// gleichmäßig bis `zielBis` verteilt – das ist eine Soll-Kurve, kein Stand.
+type EtsyPosten = { datum: Date; betrag: number; anzahl: number; art: "neu" | "geplant" | "verlaengert" };
+
+function abrechnungNach(d: Date, tag: number): Date {
+  return new Date(d.getFullYear(), d.getMonth() + 1, tag);
+}
+
+function etsyPrognose(etsy: Etsy, zahlungen: Zahlung[], heute: Date, bis: Date): EtsyPosten[] {
+  const posten: EtsyPosten[] = [];
+  const letzteAbrechnung = zahlungen
+    .filter((z) => z.kategorie === "business")
+    .map((z) => parseIso(z.datum))
+    .reduce<Date | null>((m, d) => (!m || d > m ? d : m), null);
+
+  // 1) Schon live geschaltete Listings + ihre Verlängerung nach 4 Monaten.
+  for (const l of etsy.listings) {
+    const live = parseIso(l.datum);
+    for (let i = 0; ; i++) {
+      const erstellt = plusMonat(live, i * etsy.laufzeitMonate);
+      const datum = abrechnungNach(erstellt, etsy.abrechnungTag);
+      if (datum >= bis) break;
+      // Schon abgerechnet? Dann nicht noch einmal als erwartet zählen.
+      if (letzteAbrechnung && datum <= letzteAbrechnung) continue;
+      if (datum < heute) continue;
+      posten.push({ datum, betrag: l.anzahl * etsy.listingEur, anzahl: l.anzahl, art: i === 0 ? "neu" : "verlaengert" });
+    }
+  }
+
+  // 2) Noch geplante Listings bis zum Ziel, gleichmäßig nach Tagen verteilt.
+  const rest = Math.max(0, etsy.listingsZiel - etsy.listingsAktiv);
+  const zielBis = parseIso(etsy.zielBis);
+  const letztesListing = etsy.listings.length ? parseIso(etsy.listings[etsy.listings.length - 1].datum) : heute;
+  const von = letztesListing > heute ? letztesListing : heute;
+  const tageGesamt = Math.max(1, tageBis(von, zielBis));
+  if (rest > 0 && zielBis > von) {
+    let verteilt = 0;
+    for (let m = new Date(von.getFullYear(), von.getMonth(), 1); m <= zielBis; m = new Date(m.getFullYear(), m.getMonth() + 1, 1)) {
+      const monatsEnde = new Date(m.getFullYear(), m.getMonth() + 1, 1);
+      const bisHier = monatsEnde < zielBis ? monatsEnde : zielBis;
+      // Kumuliert runden, damit die Summe am Ende genau `rest` ergibt.
+      const soll = Math.round((rest * tageBis(von, bisHier)) / tageGesamt);
+      const anzahl = soll - verteilt;
+      verteilt = soll;
+      if (anzahl <= 0) continue;
+      const datum = abrechnungNach(m, etsy.abrechnungTag);
+      if (datum >= bis) continue;
+      posten.push({ datum, betrag: anzahl * etsy.listingEur, anzahl, art: "geplant" });
+    }
+  }
+  return posten.sort((a, b) => a.datum.getTime() - b.datum.getTime());
+}
+
 // ---- Monatsbalken: Vergangenes deckend, Erwartetes schraffiert ----
 type Stueck = { key: string; farbe: string; betrag: number; erwartet: boolean; label: string };
 type Monat = { key: string; label: string; stuecke: Stueck[]; summe: number; aktuell: boolean };
@@ -70,7 +126,7 @@ function monatsKey(d: Date) {
   return `${d.getFullYear()}-${d.getMonth()}`;
 }
 
-function baueMonate(data: Ausgaben, heute: Date, naechste: Naechste[]): Monat[] {
+function baueMonate(data: Ausgaben, heute: Date, naechste: Naechste[], etsyPosten: EtsyPosten[]): Monat[] {
   const erster = data.zahlungen.length ? parseIso(data.zahlungen[0].datum) : heute;
   const start = new Date(erster.getFullYear(), erster.getMonth(), 1);
   // Zwei Monate in die Zukunft, damit man sieht, wie es weitergeht.
@@ -119,6 +175,10 @@ function baueMonate(data: Ausgaben, heute: Date, naechste: Naechste[]): Monat[] 
         label: n.abo.name,
       });
     }
+  }
+
+  for (const p of etsyPosten) {
+    add(finde(p.datum), { key: "business", farbe: FARBE_BUSINESS, betrag: p.betrag, erwartet: true, label: "Etsy" });
   }
 
   // Bezahltes unten, Erwartetes obendrauf.
@@ -245,6 +305,159 @@ function Belege({ zahlungen }: { zahlungen: Zahlung[] }) {
   );
 }
 
+function EtsyZeile({ posten: alle, heute }: { posten: EtsyPosten[]; heute: Date }) {
+  // Alle Posten derselben Abrechnung zusammenfassen (live + geplant am selben Tag).
+  const posten = {
+    datum: alle[0].datum,
+    anzahl: alle.reduce((s, p) => s + p.anzahl, 0),
+    betrag: alle.reduce((s, p) => s + p.betrag, 0),
+    geplant: alle.filter((p) => p.art === "geplant").reduce((s, p) => s + p.anzahl, 0),
+  };
+  const tage = tageBis(heute, posten.datum);
+  return (
+    <div className={`${ROW} flex items-center gap-2.5`}>
+      <span className="h-8 w-1 shrink-0 rounded-full" style={{ background: FARBE_BUSINESS }} />
+      <div className="min-w-0 flex-1">
+        <div className="truncate text-sm text-zinc-100">Etsy-Abrechnung</div>
+        <div className="text-[11px] text-zinc-500">
+          {kurz(posten.datum)} · {posten.anzahl} Listings à 0,20 ${posten.geplant > 0 ? `, davon ${posten.geplant} geplant` : ""}
+        </div>
+      </div>
+      <div className="flex flex-col items-end gap-1">
+        <span className="text-sm tabular-nums text-zinc-200">≈ {euro(posten.betrag)}</span>
+        <span className={pill(tage <= 10 ? "amber" : "neutral")}>
+          {tage === 0 ? "heute" : tage === 1 ? "morgen" : `in ${tage} Tagen`}
+        </span>
+      </div>
+    </div>
+  );
+}
+
+/**
+ * Etsy-Bereich mit Prognose (Marcel am 15.11.2026: „mir fehlt das mit dem
+ * Etsy-Ding und da vielleicht auch so eine voraussichtliche Prognose dazu").
+ * Vier Fragen: Wo stehe ich? Was kommt fix noch? Was kostet ein Verkauf?
+ * Ab wann lohnt es sich?
+ */
+function EtsyBereich({
+  etsy,
+  bisher,
+  posten,
+  monatlichAbos,
+}: {
+  etsy: Etsy;
+  bisher: number;
+  posten: EtsyPosten[];
+  monatlichAbos: number;
+}) {
+  const fixBisZiel = posten.reduce((s, p) => s + p.betrag, 0);
+  const geplant = posten.filter((p) => p.art === "geplant").reduce((s, p) => s + p.anzahl, 0);
+  const listingAnteil = Math.min(100, (etsy.listingsAktiv / etsy.listingsZiel) * 100);
+  const aboVerkaeufe = Math.ceil(monatlichAbos / etsy.bleibtJeVerkauf);
+  const ziel = parseIso(etsy.zielBis);
+
+  const segmente = [
+    { label: "Transaktion 6,5 %", betrag: etsy.transaktionEur, farbe: "#fb718599" },
+    { label: "Zahlung 4 % + 0,30 €", betrag: etsy.zahlungEur, farbe: "#fb718566" },
+    { label: "bleibt dir", betrag: etsy.bleibtJeVerkauf, farbe: "#34d399" },
+  ];
+
+  return (
+    <div className="mt-4 border-t border-white/5 pt-3">
+      <div className="mb-2 flex items-center gap-2">
+        <span className="h-2.5 w-2.5 rounded-sm" style={{ background: FARBE_BUSINESS }} />
+        <span className="text-[11px] uppercase tracking-wide text-zinc-500">Etsy · MyLedgerLane – Prognose</span>
+        <span className="ml-auto text-[11px] text-zinc-600">Gebühren laut Etsy-Hilfe, ohne USt.</span>
+      </div>
+
+      <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4">
+        <div className={`${ROW} flex flex-col gap-1.5 py-2.5`}>
+          <span className="text-[11px] text-zinc-500">Bisher bezahlt</span>
+          <span className="text-xl font-semibold tabular-nums text-zinc-100">{euro(bisher)}</span>
+          <span className="text-[11px] text-zinc-500">Shop-Einrichtung 13,00 € · Gebühren 2,47 €</span>
+          <div className="mt-1">
+            <div className="flex justify-between text-[11px] text-zinc-400">
+              <span>Listings live</span>
+              <span className="tabular-nums">
+                {etsy.listingsAktiv} / {etsy.listingsZiel}
+              </span>
+            </div>
+            <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-white/5">
+              <div className="h-full rounded-full" style={{ width: `${listingAnteil}%`, background: FARBE_BUSINESS }} />
+            </div>
+          </div>
+        </div>
+
+        <div className={`${ROW} flex flex-col gap-1.5 py-2.5`}>
+          <span className="text-[11px] text-zinc-500">
+            Fix noch bis {String(ziel.getDate()).padStart(2, "0")}.{String(ziel.getMonth() + 1).padStart(2, "0")}.
+          </span>
+          <span className="text-xl font-semibold tabular-nums text-zinc-100">≈ {euro(fixBisZiel)}</span>
+          <span className="text-[11px] text-zinc-500">
+            {geplant} geplante Listings à ≈ {euro(etsy.listingEur)} (Ziel {etsy.listingsZiel} in 90 Tagen)
+          </span>
+          <div className="mt-1 flex flex-col gap-0.5">
+            {posten.slice(0, 4).map((p, i) => (
+              <div key={i} className="flex justify-between text-[11px]">
+                <span className="text-zinc-400">
+                  {kurz(p.datum)} · {p.anzahl}×{" "}
+                  {p.art === "verlaengert" ? "Verlängerung" : p.art === "neu" ? "schon live" : "geplant"}
+                </span>
+                <span className="tabular-nums text-zinc-300">≈ {euro(p.betrag)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className={`${ROW} flex flex-col gap-1.5 py-2.5`}>
+          <span className="text-[11px] text-zinc-500">Pro Verkauf à {euro(etsy.preisTypisch)}</span>
+          <span className="text-xl font-semibold tabular-nums text-emerald-400">{euro(etsy.bleibtJeVerkauf)}</span>
+          <span className="text-[11px] text-zinc-500">bleiben dir · Etsy behält ≈ {euro(etsy.gebuehrJeVerkauf)}</span>
+          <div className="mt-1 flex h-2.5 w-full overflow-hidden rounded-full">
+            {segmente.map((s) => (
+              <div
+                key={s.label}
+                style={{ width: `${(s.betrag / etsy.preisTypisch) * 100}%`, background: s.farbe }}
+                title={`${s.label}: ${euro(s.betrag)}`}
+              />
+            ))}
+          </div>
+          <div className="flex flex-col gap-0.5">
+            {segmente.map((s) => (
+              <div key={s.label} className="flex items-center gap-1.5 text-[11px]">
+                <span className="h-2 w-2 rounded-sm" style={{ background: s.farbe }} />
+                <span className="text-zinc-400">{s.label}</span>
+                <span className="ml-auto tabular-nums text-zinc-300">{euro(s.betrag)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className={`${ROW} flex flex-col gap-1.5 py-2.5`}>
+          <span className="text-[11px] text-zinc-500">Ab wann lohnt es sich?</span>
+          <span className="text-xl font-semibold tabular-nums text-zinc-100">
+            {etsy.verkaeufe} / {etsy.breakEvenVerkaeufe} Verkäufe
+          </span>
+          <span className="text-[11px] text-zinc-500">bis die bisherigen Etsy-Kosten wieder drin sind</span>
+          <div className="mt-1 flex gap-1">
+            {Array.from({ length: etsy.breakEvenVerkaeufe }, (_, i) => (
+              <span
+                key={i}
+                className="h-2.5 flex-1 rounded-sm"
+                style={{ background: i < etsy.verkaeufe ? "#34d399" : "rgba(255,255,255,0.08)" }}
+              />
+            ))}
+          </div>
+          <span className="mt-1 text-[11px] text-zinc-400">
+            Damit Etsy auch die KI-Abos trägt:{" "}
+            <span className="font-semibold text-zinc-200">≈ {aboVerkaeufe} Verkäufe/Monat</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function AusgabenWidget() {
   const [data, setData] = useState<Ausgaben | null>(null);
   const [error, setError] = useState<string | null>(null);
@@ -279,15 +492,33 @@ export function AusgabenWidget() {
       });
   }, [data, heute]);
 
-  const monate = useMemo(() => (data ? baueMonate(data, heute, naechste) : []), [data, heute, naechste]);
+  // Prognose-Horizont = Ende des Monatsbalkens (heute + 2 Monate).
+  const etsyPosten = useMemo(() => {
+    if (!data?.etsy) return [];
+    const bis = new Date(heute.getFullYear(), heute.getMonth() + 3, 1);
+    return etsyPrognose(data.etsy, data.zahlungen, heute, bis);
+  }, [data, heute]);
+
+  // Bis einschließlich der Abrechnung nach dem Listing-Ziel.
+  const etsyBisZiel = useMemo(() => {
+    if (!data?.etsy) return [];
+    const z = parseIso(data.etsy.zielBis);
+    return etsyPrognose(data.etsy, data.zahlungen, heute, new Date(z.getFullYear(), z.getMonth() + 1, 2));
+  }, [data, heute]);
+
+  const monate = useMemo(
+    () => (data ? baueMonate(data, heute, naechste, etsyPosten) : []),
+    [data, heute, naechste, etsyPosten],
+  );
 
   // Was in den nächsten 30 Tagen noch abgeht.
   const naechste30 = useMemo(() => {
     const grenze = new Date(heute.getFullYear(), heute.getMonth(), heute.getDate() + 30);
     return naechste
       .filter((n) => n.abo.status === "aktiv" && n.datum && !n.belegFehlt && n.datum <= grenze)
-      .reduce((s, n) => s + n.abo.betrag, 0);
-  }, [naechste, heute]);
+      .reduce((s, n) => s + n.abo.betrag, 0) +
+      etsyPosten.filter((p) => p.datum <= grenze).reduce((s, p) => s + p.betrag, 0);
+  }, [naechste, heute, etsyPosten]);
 
   const legende = data
     ? [
@@ -336,8 +567,14 @@ export function AusgabenWidget() {
               {naechste.map((n) => (
                 <AbbuchungZeile key={n.abo.id} n={n} />
               ))}
-              {data.monatlichGeschaetzt && (
-                <span className="text-[11px] text-zinc-500">≈ = geschätzt (Dollar-Abo, Kurs schwankt)</span>
+              {etsyPosten.length > 0 && (
+                <EtsyZeile
+                  posten={etsyPosten.filter((p) => p.datum.getTime() === etsyPosten[0].datum.getTime())}
+                  heute={heute}
+                />
+              )}
+              {(data.monatlichGeschaetzt || data.etsy) && (
+                <span className="text-[11px] text-zinc-500">≈ = geschätzt (in Dollar berechnet, Kurs schwankt)</span>
               )}
             </div>
 
@@ -362,6 +599,15 @@ export function AusgabenWidget() {
               </div>
             </div>
           </div>
+
+          {data.etsy && (
+            <EtsyBereich
+              etsy={data.etsy}
+              bisher={data.bezahltBusiness}
+              posten={etsyBisZiel}
+              monatlichAbos={data.monatlichLaufend}
+            />
+          )}
 
           <Belege zahlungen={data.zahlungen} />
         </>
