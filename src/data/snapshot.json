@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-14T21:29:01.987Z",
+  "generatedAt": "2026-11-15T19:58:39.383Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-14T21:29:00.132Z",
+      "capturedAt": "2026-11-15T19:58:37.029Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-14T21:29:01.132Z",
+      "capturedAt": "2026-11-15T19:58:38.923Z",
       "data": {
         "nodes": [
           {
@@ -509,6 +509,11 @@
           {
             "id": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce",
             "label": "KI & E-Commerce",
+            "folder": "04 Ressourcen"
+          },
+          {
+            "id": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)",
+            "label": "TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)",
             "folder": "04 Ressourcen"
           },
           {
@@ -902,6 +907,11 @@
             "folder": "05 Daily Notes"
           },
           {
+            "id": "05 Daily Notes/2026-11-15",
+            "label": "2026-11-15",
+            "folder": "05 Daily Notes"
+          },
+          {
             "id": "07 Anhänge",
             "label": "07 Anhänge",
             "folder": "(root)"
@@ -1062,6 +1072,90 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "05 Daily Notes/2026-10-17"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
+          },
+          {
+            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
+            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
+          },
+          {
+            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
+            "target": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)"
+          },
+          {
+            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
+            "target": "00 Kontext/Über mich"
+          },
+          {
+            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
             "source": "00 Kontext/Erinnerungen",
             "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
@@ -1111,10 +1205,6 @@
           },
           {
             "source": "00 Kontext/Erinnerungen",
-            "target": "00 Kontext/Vault-Durchsicht 2026-10-17"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
           },
           {
@@ -1156,62 +1246,6 @@
           {
             "source": "00 Kontext/Erinnerungen",
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "05 Daily Notes/2026-10-17"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen"
-          },
-          {
-            "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
-            "target": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen"
           },
           {
             "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
@@ -1331,6 +1365,10 @@
           },
           {
             "source": "02 Projekte/TikTok KI-Videos",
+            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
@@ -1366,28 +1404,8 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
-            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
-            "target": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)"
-          },
-          {
-            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
-            "target": "00 Kontext/Über mich"
-          },
-          {
-            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
@@ -1398,12 +1416,12 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
@@ -1430,20 +1448,28 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
@@ -1538,18 +1564,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -1592,38 +1606,6 @@
           {
             "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "03 Bereiche/Finanzen/Finanzen",
-            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
-            "target": "05 Daily Notes/2026-10-18"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "05 Daily Notes/2026-09-15"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
@@ -1722,6 +1704,50 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
           },
           {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
+            "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "03 Bereiche/Finanzen/Finanzen",
+            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
+            "target": "05 Daily Notes/2026-09-15"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
             "source": "04 Ressourcen/KI & E-Commerce/Claude Modelle und Denkstufen",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
@@ -1746,28 +1772,16 @@
             "target": "05 Daily Notes/2026-11-09"
           },
           {
+            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
             "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
             "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
-          },
-          {
-            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
@@ -2114,6 +2128,30 @@
             "target": "CLAUDE"
           },
           {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "05 Daily Notes/2026-10-06"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-07",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
             "source": "05 Daily Notes/2026-10-08",
             "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
           },
@@ -2310,32 +2348,8 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "05 Daily Notes/2026-10-20"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+            "source": "05 Daily Notes/2026-10-20",
+            "target": "05 Daily Notes/2026-10-19"
           },
           {
             "source": "05 Daily Notes/2026-10-20",
@@ -2400,6 +2414,30 @@
           {
             "source": "05 Daily Notes/2026-10-22",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "05 Daily Notes/2026-10-23",
@@ -2530,28 +2568,48 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "05 Daily Notes/2026-10-06"
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Noten (Daten)"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "02 Projekte/Führerschein"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "00 Kontext/Erinnerungen"
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
-            "source": "05 Daily Notes/2026-10-07",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "05 Daily Notes/2026-10-27"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-28",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
           },
           {
             "source": "05 Daily Notes/2026-10-29",
@@ -2778,26 +2836,6 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
             "source": "05 Daily Notes/2026-11-10",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2816,6 +2854,26 @@
           {
             "source": "05 Daily Notes/2026-11-10",
             "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "05 Daily Notes/2026-11-11",
@@ -2886,6 +2944,14 @@
             "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
           {
+            "source": "05 Daily Notes/2026-11-15",
+            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-15",
+            "target": "02 Projekte/TikTok KI-Videos"
+          },
+          {
             "source": "07 Anhänge",
             "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
           },
@@ -2952,114 +3018,14 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Noten (Daten)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "05 Daily Notes/2026-10-27"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Biologie/Neuronale Informationsverarbeitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Biologie/Prüfungsprofil Biologie"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Fehlermuster über alle Fächer (Q13)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Französisch/Prüfungsprofil Französisch"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-28",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-14T21:29:01.293Z",
+      "capturedAt": "2026-11-15T19:58:39.017Z",
       "data": {
         "tage": [
-          {
-            "datum": "2026-11-01",
-            "wochentag": "So",
-            "werte": {
-              "auf": {
-                "status": "ok",
-                "roh": "**10:20** ⚠️",
-                "zahl": 10
-              },
-              "schlaf": {
-                "status": "fehlt",
-                "roh": "**~6,0** ⚠️",
-                "zahl": 6
-              },
-              "morgen": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "app": {
-                "status": "ok",
-                "roh": "**~180** ✓✓",
-                "zahl": 180
-              },
-              "zehnfinger": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "englisch": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "lesen": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              "schwimmen": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "training": {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              "wsem": {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              }
-            }
-          },
           {
             "datum": "2026-11-02",
             "wochentag": "Mo",
@@ -3767,13 +3733,69 @@
                 "zahl": null
               },
               "lesen": {
-                "status": "ok",
-                "roh": "**?** (Marcel meldet sich noch)",
-                "zahl": null
+                "status": "fehlt",
+                "roh": "**✗** (am 15.11. nachgefragt)",
+                "zahl": 15.11
               },
               "schwimmen": {
                 "status": "ok",
                 "roh": "**✗**",
+                "zahl": null
+              },
+              "training": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              },
+              "wsem": {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
+              }
+            }
+          },
+          {
+            "datum": "2026-11-15",
+            "wochentag": "So",
+            "werte": {
+              "auf": {
+                "status": "ok",
+                "roh": "**ca. 09:00–09:30** (Soll 09:00, Marcels Schätzung)",
+                "zahl": 9
+              },
+              "schlaf": {
+                "status": "fehlt",
+                "roh": "**ca. 7–7,5** (eingeschlafen ca. 02:00)",
+                "zahl": 7
+              },
+              "morgen": {
+                "status": "fehlt",
+                "roh": "**0/4** ✗ (kein Wasser, kein Dehnen, keine Zähne morgens, keine News EN/DE)",
+                "zahl": 0
+              },
+              "app": {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
+              },
+              "zehnfinger": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "englisch": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "lesen": {
+                "status": "ok",
+                "roh": "**✗**",
+                "zahl": null
+              },
+              "schwimmen": {
+                "status": "nichtFaellig",
+                "roh": "–",
                 "zahl": null
               },
               "training": {
@@ -3802,11 +3824,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "**10:20** ⚠️",
-                "zahl": 10
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -3871,6 +3888,11 @@
                 "status": "ok",
                 "roh": "**11:00** (Soll 09:00, +2 h)",
                 "zahl": 11
+              },
+              {
+                "status": "ok",
+                "roh": "**ca. 09:00–09:30** (Soll 09:00, Marcels Schätzung)",
+                "zahl": 9
               }
             ],
             "erledigt": 8,
@@ -3878,7 +3900,7 @@
             "quote": 1,
             "streak": 8,
             "ausfallStreak": 0,
-            "schnitt": 9.142857142857142,
+            "schnitt": 9,
             "trend": "gleich"
           },
           {
@@ -3893,11 +3915,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "**~6,0** ⚠️",
-                "zahl": 6
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -3962,15 +3979,20 @@
                 "status": "ok",
                 "roh": "**ca. 9,25** (eingeschlafen ca. 01:45)",
                 "zahl": 9.25
+              },
+              {
+                "status": "fehlt",
+                "roh": "**ca. 7–7,5** (eingeschlafen ca. 02:00)",
+                "zahl": 7
               }
             ],
             "erledigt": 3,
             "faellig": 9,
             "quote": 0.3333333333333333,
-            "streak": 1,
-            "ausfallStreak": 0,
-            "schnitt": 6.861111111111111,
-            "trend": "besser"
+            "streak": 0,
+            "ausfallStreak": 1,
+            "schnitt": 6.972222222222222,
+            "trend": "gleich"
           },
           {
             "def": {
@@ -3984,11 +4006,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -4053,14 +4070,19 @@
                 "status": "fehlt",
                 "roh": "**0/4** ✗ (kein Wasser, kein Dehnen, keine Zähne morgens, keine News EN/DE)",
                 "zahl": 0
+              },
+              {
+                "status": "fehlt",
+                "roh": "**0/4** ✗ (kein Wasser, kein Dehnen, keine Zähne morgens, keine News EN/DE)",
+                "zahl": 0
               }
             ],
             "erledigt": 5,
             "faellig": 11,
             "quote": 0.45454545454545453,
             "streak": 0,
-            "ausfallStreak": 1,
-            "schnitt": 0.6666666666666666,
+            "ausfallStreak": 2,
+            "schnitt": 0.6,
             "trend": "besser"
           },
           {
@@ -4075,11 +4097,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "ok",
-                "roh": "**~180** ✓✓",
-                "zahl": 180
-              },
               {
                 "status": "ok",
                 "roh": "**>60** ✓",
@@ -4144,14 +4161,19 @@
                 "status": "ok",
                 "roh": "– (entfällt)",
                 "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "– (entfällt)",
+                "zahl": null
               }
             ],
             "erledigt": 13,
             "faellig": 14,
             "quote": 0.9285714285714286,
-            "streak": 8,
+            "streak": 9,
             "ausfallStreak": 0,
-            "schnitt": 73.22200000000001,
+            "schnitt": 46.5275,
             "trend": "gleich"
           },
           {
@@ -4212,11 +4234,6 @@
                 "zahl": null
               },
               {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
@@ -4224,6 +4241,11 @@
               {
                 "status": "nichtFaellig",
                 "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
                 "zahl": null
               },
               {
@@ -4237,10 +4259,10 @@
                 "zahl": null
               }
             ],
-            "erledigt": 3,
-            "faellig": 3,
+            "erledigt": 4,
+            "faellig": 4,
             "quote": 1,
-            "streak": 3,
+            "streak": 4,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": null
@@ -4303,11 +4325,6 @@
                 "zahl": null
               },
               {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
-              {
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
@@ -4315,6 +4332,11 @@
               {
                 "status": "nichtFaellig",
                 "roh": "–",
+                "zahl": null
+              },
+              {
+                "status": "ok",
+                "roh": "**✗**",
                 "zahl": null
               },
               {
@@ -4328,10 +4350,10 @@
                 "zahl": null
               }
             ],
-            "erledigt": 3,
-            "faellig": 3,
+            "erledigt": 4,
+            "faellig": 4,
             "quote": 1,
-            "streak": 3,
+            "streak": 4,
             "ausfallStreak": 0,
             "schnitt": null,
             "trend": null
@@ -4349,11 +4371,6 @@
             },
             "verlauf": [
               {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
-              {
                 "status": "unbekannt",
                 "roh": "?",
                 "zahl": null
@@ -4414,18 +4431,23 @@
                 "zahl": null
               },
               {
+                "status": "fehlt",
+                "roh": "**✗** (am 15.11. nachgefragt)",
+                "zahl": 15.11
+              },
+              {
                 "status": "ok",
-                "roh": "**?** (Marcel meldet sich noch)",
+                "roh": "**✗**",
                 "zahl": null
               }
             ],
             "erledigt": 9,
             "faellig": 10,
             "quote": 0.9,
-            "streak": 9,
+            "streak": 1,
             "ausfallStreak": 0,
-            "schnitt": null,
-            "trend": "besser"
+            "schnitt": 15.11,
+            "trend": "gleich"
           },
           {
             "def": {
@@ -4442,11 +4464,6 @@
               "numerisch": true
             },
             "verlauf": [
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
               {
                 "status": "nichtFaellig",
                 "roh": "–",
@@ -4511,6 +4528,11 @@
                 "status": "ok",
                 "roh": "**✗**",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 4,
@@ -4536,11 +4558,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "nichtFaellig",
-                "roh": "–",
-                "zahl": null
-              },
               {
                 "status": "nichtFaellig",
                 "roh": "–",
@@ -4605,6 +4622,11 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 4,
@@ -4627,11 +4649,6 @@
               "numerisch": false
             },
             "verlauf": [
-              {
-                "status": "fehlt",
-                "roh": "✗",
-                "zahl": null
-              },
               {
                 "status": "unbekannt",
                 "roh": "?",
@@ -4696,24 +4713,29 @@
                 "status": "nichtFaellig",
                 "roh": "–",
                 "zahl": null
+              },
+              {
+                "status": "nichtFaellig",
+                "roh": "–",
+                "zahl": null
               }
             ],
             "erledigt": 7,
-            "faellig": 9,
-            "quote": 0.7777777777777778,
+            "faellig": 8,
+            "quote": 0.875,
             "streak": 7,
             "ausfallStreak": 0,
             "schnitt": 7,
             "trend": "besser"
           }
         ],
-        "tageGesamt": 20,
-        "letzterEintrag": "2026-11-14",
+        "tageGesamt": 21,
+        "letzterEintrag": "2026-11-15",
         "tageSeitLetztem": 0
       }
     },
     "noten": {
-      "capturedAt": "2026-11-14T21:29:01.471Z",
+      "capturedAt": "2026-11-15T19:58:39.116Z",
       "data": {
         "halbjahre": [
           {
@@ -5549,7 +5571,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-14T21:29:01.653Z",
+      "capturedAt": "2026-11-15T19:58:39.246Z",
       "data": {
         "projects": [
           {
@@ -5563,7 +5585,7 @@
             "name": "KI Business (Etsy Shop)",
             "path": "02 Projekte/KI Business (Etsy Shop).md",
             "status": "aktiv",
-            "nextStep": "🖼️ Listing-Bilder v2 hochladen (Marcel, Shop Manager) – Details: [[02 Projekte/Etsy Listing - Budget Planer.md]]",
+            "nextStep": "📝 **Ausfüllbares PDF mit Autosumme** für beide Listings (entschieden 14.11., Grund: stärkster Beleg der Konkurrenzanalyse → [[04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer.md]])",
             "priority": 3
           },
           {
@@ -5597,7 +5619,7 @@
           {
             "name": "TikTok KI-Videos",
             "path": "02 Projekte/TikTok KI-Videos.md",
-            "status": "pausiert",
+            "status": "aktiv",
             "nextStep": "Welche Nische, welches Format?",
             "priority": null
           },
@@ -5612,9 +5634,19 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-14T21:29:01.760Z",
+      "capturedAt": "2026-11-15T19:58:39.296Z",
       "data": {
         "heute": [
+          {
+            "icon": "📚",
+            "title": "Ethik-Stoff für den Test Di 17.11. an Claude schicken",
+            "details": "(war bis So 15.11. geplant, stand nur in der Daily Note vom 14.11.)."
+          },
+          {
+            "icon": "🎬",
+            "title": "TikTok `cartoon.stories` (live seit 15.11.2026):",
+            "details": "✅ Account, Profilbild, Bio · ✅ ElevenLabs **Starter** (kommerziell) · ✅ Video 1 „Im Regen rennen oder gehen?“ **veröffentlicht mit KI-Label** · ✅ **3 fertige Videos durchgesehen (15.11., bleiben so):** 5-Sekunden-Regel, Seil um die Erde, Blitz – Ordner `Claude Files › 02 KI Business › TikTok › Zum Hochladen` (Dateiname = Beschreibung). Ab Mo 16.11. je eins hochladen (**KI-Schalter vor dem Posten**, Musik in der App leise dazu), dann ins `Video-Archiv`. ✅ **Rhythmus entschieden (15.11.):** 6 Videos/Woche Mo–Sa, **Upload 17:00** (Kalenderserie bis 15.12., Di 17.11. 18:00), ab Video 5 **63–66 s** + Aufbau „Modern Story Arc“ · ⚠️ **Vorrat reicht nur bis Mi 18.11.** → nächste Runde (Video 5–8) vorher von Claude bauen lassen, Durchsicht Mi 18.11. · Offen: Gewerbe-Ummeldung vor erster Einnahme. Details: [[02 Projekte/TikTok KI-Videos.md]]"
+          },
           {
             "icon": "🗓️",
             "title": "MORGEN NACH DER ABGABE: die Zeit nach dem W-Seminar einmal komplett neu planen – das ist der wichtigste Termin der Woche",
@@ -5675,12 +5707,12 @@
           {
             "icon": "🛍️",
             "title": "Etsy (seit 14.11.):",
-            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. 🎉 **Listing B „Budget Planner“ live seit 14.11., 16:07.** ✅ Listing A ebenfalls live (2 Listings). Offen: (0) 🖼️ **Listing-Bilder v2 hochladen** (beide Listings, Ordner `Listing-Bilder v2`, Reihenfolge in der Listing-Datei, 05 fällt weg), (0b) ✅ **Entschieden 14.11., 22:16:** **ausfüllbares PDF mit Autosumme** für beide Listings + **zweites Produkt Spar-Challenge** (Belege: Konkurrenzanalyse, Abschnitt 8) – ⚠️ noch kein Termin, Klausurenplan prüfen, (1) **nächstes Produkt planen** (Ziel laut Strategie ~20 Listings in 90 Tagen, Klausurenphase beachten), (2) 📸 **Marcel schickt Beispielbilder für die Mockups** (Vorbilder, wie die Szenen aussehen sollen) → danach Szenen in `mockup.js` nachbauen, (3) ob echte Canva-Szenen noch nötig sind, entscheidet Marcel. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
+            "details": "✅ Impressum live, ✅ Entwurf v1 gefällt Marcel. ✅ Schriften, Variante, Listing-Bilder und -Texte fertig (15:31). ✅ Marcel gefällt alles. 🎉 **Listing B „Budget Planner“ live seit 14.11., 16:07.** ✅ Listing A ebenfalls live (2 Listings). Offen: (0) ✅ **Listing-Bilder v2 hochgeladen (14.11., 22:40)**, beide Listings, (0b) ✅ **Entschieden 14.11., 22:16:** **ausfüllbares PDF mit Autosumme** für beide Listings + **zweites Produkt Spar-Challenge** (Belege: Konkurrenzanalyse, Abschnitt 8) – ⚠️ noch kein Termin, Klausurenplan prüfen, (1) **nächstes Produkt planen** (Ziel laut Strategie ~20 Listings in 90 Tagen, Klausurenphase beachten), (2) 📸 **Mockups fotorealistisch neu (entschieden 14.11., 22:5x):** Marcel findet die gezeichneten Szenen (Tasse, Stift, Blatt) „viel zu low quality“, sie müssen aussehen wie echt. Plan: **echte Fotos mit kommerzieller Lizenz** (Pexels/Unsplash, Lizenz je Foto prüfen) suchen, Planer-Seiten perspektivisch einsetzen, Licht/Schatten des Fotos erhalten. **Erst EIN Testbild, in einem neuen Chat.** Lokales KI-Bildmodell fällt aus (keine NVIDIA-GPU). Die alten Szenen bleiben bis dahin live (Marcels Wahl), (3) 💱 **Shop-Währung prüfen:** Notizen sagen mal 4,99 $, mal 4,99 €. Texte: [[02 Projekte/Etsy Listing - Budget Planer.md]]. PDFs: `Claude Files/02 KI Business/Etsy Produkt 1 - Budget Planer/`. Details: [[02 Projekte/KI Business (Etsy Shop).md]]"
           },
           {
-            "icon": "🎬",
-            "title": "TikTok KI-Videos (neu seit 14.11.2026, pausiert bis Etsy läuft):",
-            "details": "✅ **Phase 0 + 1 erledigt am 14.11.** (Creator Rewards ≥ 1 Min/10.000 Follower, KI-Label immer setzen, Gewerbe-Ummeldung 40 € erst vor erster Einnahme · Regelwerk aus 16 Vorbildvideos steht). Tempo **147 W/Min** entschieden, **Kyutai verworfen** (zu robotisch), Wechsel auf **Qwen3-TTS**. 🎧 **Als Nächstes: Stimme wählen** – 4 Casting-Proben in `Claude Files\\02 KI Business\\TikTok\\Hörproben\\Casting\\` anhören (Marcel wollte heute Abend oder beim nächsten Mal), Nummer nennen oder Richtung beschreiben („wie 4, nur jünger\"). Danach: gewählte Stimme per Qwen-Base klonen → Phase 2 (Skill + erstes Testvideo). ⚠️ **Noch kein Kalendertermin** – beim nächsten TikTok-Chat einen festen Slot legen. Details: [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „Gesamtplan TikTok\""
+            "icon": "🗓️",
+            "title": "Kalender ausmisten + Spieltags-Puffer besprechen",
+            "details": "(Marcel, Abend-Check 15.11.): Viele Blöcke nimmt er nicht ernst, weil sie ihm unwichtig erscheinen → nur noch Blöcke für Dinge, die wirklich einen brauchen. Nach Spielen reichen 60 Min Puffer nicht. Gemeinsam entscheiden, nicht eigenmächtig umbauen. Details: Habit-Log, Kalibrierung 15.11."
           },
           {
             "icon": "🎓",
@@ -5831,15 +5863,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-14T21:29:01.880Z",
+      "capturedAt": "2026-11-15T19:58:39.343Z",
       "data": {
-        "path": "05 Daily Notes/2026-11-14.md",
+        "path": "05 Daily Notes/2026-11-15.md",
         "exists": true,
-        "content": "# Samstag, 14.11.2026\n\n## Was passiert ist (Stand 14:00)\n\n### 🎬 TikTok KI-Videos – neues Projekt (Chat 11:18–13:38)\n- **Entscheidung:** TikTok läuft **im Vault**, als eigenes Projekt, inhaltlich **unabhängig von Etsy**. Eigener Chat pro Thema → [[02 Projekte/TikTok KI-Videos.md]] angelegt (Status pausiert, Etsy geht vor).\n- **Nische (aus 9 Beispielvideos):** animierte 2D-Storys „Was wäre wenn / Überlebensregeln / Dilemma\" in der Du-Form, Erzählstimme + Wort-für-Wort-Untertitel, Anzeige oben, Cliffhanger. **Sprache: Deutsch.**\n- **Werkzeuge installiert:** FFmpeg, whisper.cpp (Transkription), uv + Python 3.12, Kyutai Pocket TTS. HyperFrames als Video-Baukasten vorgesehen (noch nicht installiert).\n- **Stimme:** juergen verworfen („Märchenonkel\"), Favorit **Stimme 6 = `peter_yearsley`** (CC0). Zieltempo **~157 Wörter/Min** (gemessen an den Vorbildern), Aussprache „wach-st\". **Offen: Probe A (157) oder B (143)?**\n- **YouTube-Video „KI-TikTok-Videos mit Claude Code\"** ausgewertet: bestätigt unseren Weg. Wichtigster Tipp: **Gewinner- gegen Verlierer-Videos vergleichen.** Werbeanteil und Rosinenpickerei markiert.\n- **13:40–14:00: YouTube-Analyse jetzt möglich** (yt-dlp + whisper getestet). **3 weitere Tutorial-Videos ausgewertet** (BerkanViral, Mr omi, Grow With Kaz) → **Gesamtplan TikTok in 4 Phasen** in der Projektdatei. Neu: *messen statt meinen*, feste Skript-Formel (Paradox → Steigerung → Wendepunkt → Auflösung → Twist), Creator-Rewards-Bedingungen offiziell prüfen. Alle vier Videos verkaufen etwas.\n\n### 🎬 TikTok Phase 0 erledigt (14:00–14:10)\n- Ergebnis in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 0\": Creator Rewards = **Video ≥ 1 Min**, 10.000 Follower, 100.000 Views/30 Tage, kein Business-Account. KI-Label: Pflicht bei realistischen Inhalten → Empfehlung **immer setzen**. Steuer: Gewerbe deckt TikTok **nicht** ab → **Ummeldung (40 €) vor der ersten Einnahme**.\n- Offen: Deutschland/Alter 18 in der App gegenprüfen (Creator-Academy-Seite nicht auslesbar).\n\n### 🎬 TikTok Phase 1 erledigt (14:35–15:02)\n- Marcel hat 16 Vorbild-Videos hochgeladen (3 Accounts, gut/schlecht). Ausgewertet → **Regelwerk** in [[02 Projekte/TikTok KI-Videos.md]] unter „Ergebnis Phase 1\". Kern: **Tempo, Länge und Schnitte unterscheiden gut/schlecht NICHT – der erste Satz tut es** (allein verständlich + Rätsel, an *dich* gerichtet). **Kein Teil 2**, keine Werbung, kein Kommentar-Betteln.\n- Nächster TikTok-Schritt: Phase 2 (Skill `/tiktok-video`, Figurenstil, HyperFrames).\n\n### 🎙️ TikTok-Stimme (15:07–16:38)\n- **Tempo entschieden: 147 W/Min.** Betonung bei Kyutai „zu platt\" – **gemessen bestätigt** (Satz-zu-Satz-Sprung 1,6 Halbtöne vs. ~4,5 bei den Vorbildern). Temperatur/größeres Modell helfen kaum, Marcel: „klingt robotisch\" → **Kyutai verworfen.**\n- **Qwen3-TTS installiert** (`C:\\Users\\marce\\qwen3tts\\`), läuft ohne NVIDIA-Karte, aber langsam (~20–25 Min Rechenzeit pro 90-s-Video). Test A (eine Anweisung) „nicht schlecht, Stimme noch nicht optimal\", Test B (pro Satz) „kompletter Quatsch\" (Sprecher wechselt). Test C/D mit fester Stimme „Ryan\" noch nicht angehört.\n- Marcel stört die **Klangfarbe**, Ziel „wie die Vorbilder\" → **Stimmen-Casting** mit 4 Beschreibungen erzeugt. **Noch nicht angehört** – Marcel braucht Pause.\n\n### 🗓️ Kalender\n- Deutsch-Block zweimal verschoben: 11:00 → 11:30 → **17:15–19:15** (Marcel entscheidet spontan, ob er dabei bleibt).\n\n### 🛍️ Etsy-Session (14:48–16:40) – SHOP LIVE\n- Entschieden: 5 Seiten, Preis **4,99 €** (Shop läuft in Euro), Stil clean & minimal, zwei Titel-Varianten als eigene Listings.\n- Etsy-Status von „Private individual“ auf **Trader** umgestellt (§ 14 BGB), **Impressum zweisprachig live** (W-IdNr. `DE465403346-00001`, Kleinunternehmer-Hinweis). Vorher gab es gar keins.\n- Gebaut: PDFs (US Letter + A4) mit freien Schriften (Lora, Source Sans 3), je 6 Listing-Grafiken + 2 gezeichnete Mockup-Szenen, Titel/13 Tags/Beschreibung/Cart Summary. Bei „How was it made“ **„with AI“** gewählt.\n- 🎉 **16:07 Listing „Budget Planner“ live, kurz danach „My First Budget Planner“** → 2 Listings. Shop: https://www.etsy.com/shop/MyLedgerLane (in der Etsy-Suche noch nicht auffindbar, direkter Link geht).\n- Neue Vault-Regel: Texte zum Eintragen immer **kopierbar direkt im Chat** (CLAUDE.md).\n\n\n### 🔎 Etsy-Konkurrenzanalyse (19:25–19:55)\n- Etsy blockt direkte Abrufe (403/Captcha). Claude in Chrome im Terminal eingerichtet (`claude.cmd --chrome`, PowerShell blockt `claude.ps1`), Verbindung „Enabled\", aber Abbruch an Tab-Gruppen-Fehler. Analyse deshalb über die Websuche + offizielle Etsy-Hilfeseiten → [[04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer.md]]\n- Wichtigste Funde: Konkurrenz bietet oft **ausfüllbare PDFs** und **„Budget by Paycheck\"**. Unsere Bilder (2000 × 1500) liegen in der Höhe unter Etsys Empfehlung (mind. 2000 px). 4,99 € liegt am oberen Rand für 5 Seiten. **Noch nichts davon entschieden.**\n- **20:20–20:30: 5 YouTube-Videos zu Etsy-Printables ausgewertet** (Marcel fand die Websuche-Analyse zu dünn) → Abschnitte 7 und 8 der Analyse-Notiz. Stärkster Beleg: **ausfüllbares PDF mit Autosumme** (bestes Monatsbudget-Listing laut EverBee-Schätzung 887 Verkäufe in 7 Monaten). Außerdem: Infokarte mit Hinweis „nicht über die Etsy-App herunterladen“, ausgefülltes Beispiel zeigen, mehr Produkte im selben Stil (Spar-Challenge, Rechnungs-Tracker), A5. **Noch nichts entschieden.**\n- **22:10–22:25: Listing-Bilder v2 gebaut** (Marcels Wahl: Bilder verbessern): 2700 × 2025 px, neues Bild mit ausgefülltem Beispiel, neue Infokarte mit Download-Tipp (Etsy-App kann nicht herunterladen). Ordner `Listing-Bilder v2`, Details in [[02 Projekte/Etsy Listing - Budget Planer.md]]. ➡️ **Hochladen macht Marcel im Shop Manager**, noch offen.\n\n\n### ✅ Abend-Check (22:1x–22:30)\n| Habit | Stand |\n|---|---|\n| 🕕 Aufstehzeit | 11:00 (Soll 09:00) |\n| 😴 Schlaf | ca. 9,25 h (01:45–11:00) |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne | ✗ · ✗ · ✗ |\n| 📰 News EN · DE | ✗ · ✗ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch | ✗ · ✗ |\n| 🏊 Schwimmen (Sa) | ✗ |\n| 📕 Lesen | offen, Marcel meldet sich |\n| 🎓 Deutsch-Block 17:15–19:15 | ✗ → gelöscht, **Ersatz Di 17.11., 15:45–17:45** |\n- Tag „in Ordnung“, Plantreue „teilweise“, Pausen „passten“.\n- 🗓️ Neu im Kalender: **So 15.11., 17:30–19:00 Informatik lernen** (Klausur Mo 16.11., vorher stand kein Lernblock drin).\n- 🛍️ Etsy entschieden (22:16): Bilder v2 hochladen + **ausfüllbares PDF** + **zweites Produkt Spar-Challenge**. Noch ohne Termin.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- 📕 **Lesen vom 14.11. nachfragen**, falls Marcel es nicht selbst meldet (Minuten + Seiten oder „kein Lesen“), dann im Habit-Log das `?` ersetzen.\n- 💻 **So 15.11., 17:30–19:00: Informatik lernen** – Schulaufgabe **Mo 16.11.** (Start der Klausurenphase). Vorher Spiel der Zweiten (Treffpunkt 13:15).\n- 📚 Ethik-Stoff für den Test **Di 17.11.** bis So 15.11. schicken.\n- 🎓 **Di 17.11., 15:45–17:45: Deutsch** (Schulaufgabe Do 19.11.).\n- 🛍️ **Etsy:** Listing-Bilder v2 hochladen (Marcel, ~10 Min, Reihenfolge in [[02 Projekte/Etsy Listing - Budget Planer.md]]). Weiter offen: Beispielbilder für Mockup-Szenen schicken. Danach ausfüllbares PDF + Spar-Challenge, **Termine gegen den Klausurenplan legen**. Analyse: [[04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer.md]]\n- 🎬 **TikTok (eigener Chat):** 4 Casting-Stimmen anhören (`Claude Files\\02 KI Business\\TikTok\\Hörproben\\Casting\\`), dann Phase 2. Details: [[02 Projekte/TikTok KI-Videos.md]]"
+        "content": "# Sonntag, 15.11.2026\n\n## Was passiert ist (Stand 19:37)\n- 🎬 **TikTok – Kanal ist live (09:35–10:40):** Figurenstil festgelegt (**immer Stil 2 oder 3**), Regenvideo überarbeitet (Regen, Haus, Boden, Grafiken, Untertitel 70 px/4 Wörter). ElevenLabs auf **Starter** umgestellt (Gratis-Ton ist nie kommerziell nutzbar), Stimme neu erzeugt. Account **`cartoon.stories`** angelegt (Privatkonto), universelles Profilbild (Figur mit „?“), Bio (78 Zeichen). **Erstes Video mit KI-Label veröffentlicht** (einmal ohne Label gepostet, gelöscht, neu gepostet). Neue Ordner `Zum Hochladen` und `Video-Archiv`, **Dateiname = TikTok-Beschreibung**.\n- 🎬 **10:45–11:10, während Marcel beim Fußball war: drei Videos komplett fertig** – 5-Sekunden-Regel (84 s), Seil um die Erde (78 s), Blitz schlägt nie zweimal ein (82 s). Fakten an Rutgers, US-Wetterdienst und NASA geprüft. Neuer wiederverwendbarer Baukasten `tiktok-remotion\\src\\kit.tsx`. Neue Arbeitsregel: **„einfach machen, danach korrigieren“**, keine Rückfragen während der Produktion, beim Rendern gleich sorgfältig.\n- ⚽ Zwei Spiele (1. und 2. Mannschaft). Ergebnis/Einsatz nicht im Chat gemeldet.\n- 🔎 **18:00–18:20: TikTok-Recherche Posting-Frequenz** (12 YouTube-Tutorials, TikTok-Newsroom/Richtlinien, Buffer-Studie) → [[04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026).md]]. Vorschlag: 1 Video/Tag an 5–6 Tagen, Messphase 25 Videos. ✅ Entschieden: 6/Woche (Mo–Sa), 1 Take, Upload 17:00 – Kalenderserie bis 15.12. angelegt.\n- 💡 **19:24–19:36: TikTok – zwei neue feste Formate + Account-Frage** (alles in [[02 Projekte/TikTok KI-Videos.md]], ganz unten):\n  - **Format 4: Wahre Überlebensgeschichten** (Absturz, Schiff, Berg …). TikTok schränkt *„Moments leading up to a serious accident\"* ein (nur ab 18 / nicht im Für-dich-Feed) → Unglück nur abstrakt zeigen, Schwerpunkt aufs Überleben. Kandidaten Koepcke, Okene (beide mit offenen Abweichungen in den Quellen). **Erster Fall noch offen.**\n  - **Format 5: Daten-Videos** (Linien-Diagramm läuft Jahr für Jahr durch, keine Stimme → 0 Credits). Beispiel @deardata1 „How Do Couples Meet?\" liegt in `Referenzvideos\\Daten-Video 15.11\\`; dessen Zahlen passen nicht zur Stanford-Studie (2017: 39 % online).\n  - **Account-Entscheidung:** Die vier Zeichentrick-Formate bleiben auf `cartoon.stories`; **Daten-Videos bekommen einen zweiten Account nach der Messphase** → Auswertung **Di 15.12., 15:45–16:45** (Kalender + Erinnerungen; zuerst auf Sa 19.12. gelegt, auf Marcels Wunsch vorgezogen).\n- 🎙️ **19:54: Marcel hat die Videos durchgesehen.** Neue feste Regel: **Stimme nie verstellen** („und jetzt wird es interessant\" klang im Essens-Video und im ersten Video verstellt) → keine Audio-Tags, keine Stimmwechsel. Vorhandene Videos bleiben so, auch das 3. (stört ihn etwas, „nicht so schlimm\").\n- 💳 **ElevenLabs Creator:** grundsätzlich ja (Starter reicht bei 6/Woche nur auf Kante), aber **Entscheidung bei der Auswertung am 15.12.**, je nachdem, ob der Kanal eine Perspektive zeigt. Stand Konto 19:55: 25.933 Credits übrig, Reset 15.12., 10:12.\n\n## 🌙 Abend-Check (20:5x)\n| Habit | Stand |\n|---|---|\n| 🕕 Aufstehzeit | ca. 09:00–09:30 (Soll 09:00) |\n| 😴 Schlaf | ca. 7–7,5 h (eingeschlafen ca. 02:00) |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne | ✗ · ✗ · ✗ |\n| 📰 News EN · DE | ✗ · ✗ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch | ✗ · ✗ |\n| 📕 Lesen | ✗ (heute bewusst nicht; 14.11. ebenfalls ✗) |\n| 🚿 Duschen · 🏊 Schwimmen · ⚽ Training | ⬜ nicht fällig (Sonntag) |\n\n📊 Tag **schlecht**, Plantreue **gar nicht**. Marcel: Die Spiele haben den Tag gefressen; nach dem Spiel der Zweiten fehlte Zeit vor dem nächsten Block. Viele Blöcke nimmt er nicht ernst, weil sie ihm unwichtig erscheinen → **stärker unterscheiden, was wirklich einen Block braucht**. Details im Habit-Log (Kalibrierung 15.11.).\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- 💻 **Informatik-Schulaufgabe Mo 16.11.** – Lernblock 17:30–19:00 ist **ausgefallen** (Marcel, 19:42). Ersatzfenster heute Abend angeboten (20:00–21:45 statt Geschichte); Marcel: *„Ich schaue mal, ob ich überhaupt noch einschaue.\"* → **kein Termin eingetragen**, beim Abend-Check nachfragen.\n- 🎬 **TikTok (Stand 18:58):** Rhythmus steht – **6 Videos/Woche Mo–Sa, Upload 17:00** (Kalenderserie bis 15.12., Di 17.11. ausnahmsweise 18:00). Ab Video 5 gelten **63–66 s** (~155–160 Wörter, 1 Take) und der Aufbau **„Modern Story Arc“** (Hook 0–5 s, erster Höhepunkt bis 15 s, dann alle ~15 s ein neuer) – beides in [[02 Projekte/TikTok KI-Videos.md]], Abschnitte „Ablauf pro Video“ und „Skript-Aufbau Modern Story Arc“. Recherche: [[04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026).md]].\n  - ✅ **3 fertige Videos durchgesehen (19:54), bleiben unverändert** – Mo 17:00 geht das erste raus (`Zum Hochladen`). KI-Schalter vor dem Posten, Musik leise, danach ins `Video-Archiv`.\n  - ➡️ **Bis Mi 18.11.:** Claude baut in einem **neuen Chat** Video 5–8 (Themenliste in der Projektdatei). Durchsicht **Mi 18.11., 16:00–16:30** (im Kalender) – der Vorrat reicht nur bis Mi.\n  - Neue Formate (Überleben, Daten) erst nach Video 5–8 angehen; den ersten Überlebens-Fall gemeinsam auswählen.\n  - Code: `C:\\Users\\marce\\tiktok-remotion\\src\\` (`kit.tsx` + `Fuenf.tsx`, `Seil.tsx`, `Blitz.tsx`), immer erst nach `C:\\Users\\marce\\regen-umbau\\` rendern, dann kopieren. ElevenLabs: 25.933 Credits bis Di 15.12.\n- 📚 **Ethik-Stoff für den Test Di 17.11. schicken** (war bis heute geplant).\n- 🗓️ **Planfrage besprechen (Marcel, Abend-Check):** mehr Puffer nach Spielen; weniger Blöcke, dafür nur die, die wirklich einen brauchen.\n- 🎓 Di 17.11., 15:45–17:45: Deutsch (Schulaufgabe Do 19.11.)."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-14T21:29:01.987Z",
+      "capturedAt": "2026-11-15T19:58:39.383Z",
       "data": {
         "files": [
           "00 Kontext/",
