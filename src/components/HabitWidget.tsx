@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import type React from "react";
 import { CARD, HEADING, iconBadge, ROW } from "@/lib/ui";
 import type { HabitStand, HabitAuswertung, Wert } from "@/lib/habits";
 
@@ -12,6 +13,20 @@ function quoteFarbe(q: number | null): string {
   if (q >= 0.4) return "#fbbf24"; // amber-400
   if (q > 0) return "#fb923c"; // orange-400
   return "#fb7185"; // rose-400
+}
+
+/**
+ * Zellstil (16.11.2026 auf Marcels Wunsch): Nicht fällig = grau UND
+ * durchgestrichen, damit es nie mit einem Ausfall verwechselt wird.
+ * Nicht erfasst = nur ein Rahmen, keine Füllung.
+ */
+const STRICH = "linear-gradient(to top right, transparent calc(50% - 0.75px), rgba(255,255,255,0.32) 50%, transparent calc(50% + 0.75px))";
+function zellStil(w: Wert): React.CSSProperties {
+  if (w.status === "nichtFaellig")
+    return { background: `${STRICH}, rgba(255,255,255,0.07)` };
+  if (w.status === "unbekannt")
+    return { backgroundColor: "transparent", boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.18)" };
+  return { backgroundColor: zellFarbe(w) };
 }
 
 function zellFarbe(w: Wert): string {
@@ -74,7 +89,7 @@ function HabitZeile({ h, tage }: { h: HabitAuswertung; tage: HabitStand["tage"] 
           <div
             key={tage[i]?.datum ?? i}
             className="h-4 min-w-[10px] max-w-[34px] flex-1 rounded-[3px]"
-            style={{ backgroundColor: zellFarbe(w) }}
+            style={zellStil(w)}
             title={`${tage[i]?.wochentag ?? ""} ${tage[i]?.datum ?? ""} · ${def.label}: ${
               w.roh && w.roh !== "✓" && w.roh !== "✗" && w.roh !== "–" && w.roh !== "?"
                 ? w.roh
@@ -260,16 +275,16 @@ export function HabitWidget() {
             erledigt ·{" "}
             <span className="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style={{ backgroundColor: "#fb7185" }} />
             ausgefallen ·{" "}
-            <span className="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style={{ backgroundColor: "rgba(255,255,255,0.13)" }} />
+            <span className="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style={{ boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.25)" }} />
             nicht erfasst ·{" "}
-            <span className="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style={{ backgroundColor: "rgba(255,255,255,0.06)" }} />
+            <span className="mr-1 inline-block h-2 w-2 rounded-sm align-middle" style={{ background: `${STRICH}, rgba(255,255,255,0.07)` }} />
             nicht fällig.{" "}
             <strong className="text-zinc-500">Die Spalte „Schnitt“</strong> zeigt bei
-            Fahrschul-App, Lesen und Schlaf den <strong>Durchschnittswert</strong> gegen
-            das Ziel (grün = Ziel erreicht), sonst den Anteil erledigter Tage.{" "}
+            Lesen und Schlaf den <strong>Durchschnittswert</strong> gegen das Ziel
+            (grün = Ziel erreicht), sonst den Anteil erledigter Tage. Aufstehen ist nur
+            grün, wenn die Soll-Zeit des Wochentags eingehalten ist, Schlaf nur ab 7,5 h.{" "}
             <span className="text-amber-500/80">
-              Grau heißt nicht „nicht gemacht“, sondern „nie abgefragt“ — nicht als
-              Ausfall lesen.
+              Leerer Rahmen heißt „nie abgefragt“ — nicht als Ausfall lesen.
             </span>
           </p>
         </div>

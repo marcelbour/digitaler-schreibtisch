@@ -5,8 +5,8 @@
 // kannst, ob ich Fortschritt mache, ob ich eher schlechter werde." Ein ✓ sagt
 // das nicht, eine Minutenzahl schon.
 //
-// Spalten: Datum | Tag | Auf | Schlaf | Morgen | App | 10F | Engl | Lesen |
-//          Schwimmen | Training | W-Sem
+// Spalten: Datum | Tag | Auf | Schlaf | Wasser | Dehnen | Zähne | News | Duschen | App | 10F | Engl | Lesen |
+//          Schwimmen | Training | W-Sem   (App + W-Sem nur noch Archiv, seit 16.11.)
 //
 // Zeichen (aus der Legende der Datei):
 //   ✓  erledigt          ✗  war fällig, ausgefallen
@@ -49,6 +49,10 @@ export type HabitDef = {
   tage: string[];
   /** Zahl oder nur ja/nein? */
   numerisch: boolean;
+  /** Erst ab diesem Datum fällig (YYYY-MM-DD); davor immer "nicht fällig". */
+  faelligAb?: string;
+  /** Aufstehen: Soll-Uhrzeit je Wochentag als Dezimalstunden. */
+  sollJeTag?: Record<string, number>;
 };
 
 export type HabitAuswertung = {
@@ -90,6 +94,10 @@ export type HabitStand = {
  * Quelle: "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten.md",
  * Abschnitt „DAS NEUE SYSTEM" (von Marcel am 26.10.2026 selbst diktiert).
  */
+// Umbau 16.11.2026 auf Marcels Wunsch: Morgenroutine in ihre fünf Punkte
+// aufgeteilt, Fahrschul-App und W-Seminar raus (beide erledigt). Aufstehen ist
+// nur grün, wenn das Soll des Wochentags eingehalten ist; Schlaf nur ab 7,5 h.
+// 10-Finger, Englisch und Lesen sind erst ab 16.11. fällig.
 export const HABITS: HabitDef[] = [
   {
     key: "auf",
@@ -100,6 +108,15 @@ export const HABITS: HabitDef[] = [
     einheit: "",
     tage: [],
     numerisch: false,
+    sollJeTag: {
+      Mo: 6,
+      Di: 6.5,
+      Mi: 6,
+      Do: 6.5,
+      Fr: 7,
+      Sa: 9,
+      So: 9
+    }
   },
   {
     key: "schlaf",
@@ -109,27 +126,61 @@ export const HABITS: HabitDef[] = [
     ziel: 7.5,
     einheit: "h",
     tage: [],
-    numerisch: true,
+    numerisch: true
   },
   {
-    key: "morgen",
-    spalte: "Morgen",
-    label: "Morgenroutine",
-    icon: "🌅",
+    key: "wasser",
+    spalte: "Wasser",
+    label: "Wasser",
+    icon: "💧",
     ziel: null,
     einheit: "",
     tage: [],
-    numerisch: false,
+    numerisch: false
   },
   {
-    key: "app",
-    spalte: "App",
-    label: "Fahrschul-App",
-    icon: "🚗",
-    ziel: 60,
-    einheit: "Min",
+    key: "dehnen",
+    spalte: "Dehnen",
+    label: "Dehnen",
+    icon: "🧘",
+    ziel: null,
+    einheit: "",
     tage: [],
-    numerisch: true,
+    numerisch: false
+  },
+  {
+    key: "zaehne",
+    spalte: "Zähne",
+    label: "Zähne",
+    icon: "🪥",
+    ziel: null,
+    einheit: "",
+    tage: [],
+    numerisch: false
+  },
+  {
+    key: "news",
+    spalte: "News",
+    label: "Nachrichten",
+    icon: "📰",
+    ziel: null,
+    einheit: "",
+    tage: [],
+    numerisch: false
+  },
+  {
+    key: "duschen",
+    spalte: "Duschen",
+    label: "Duschen",
+    icon: "🚿",
+    ziel: null,
+    einheit: "",
+    tage: [
+      "Mo",
+      "Mi",
+      "Fr"
+    ],
+    numerisch: false
   },
   {
     key: "zehnfinger",
@@ -140,6 +191,7 @@ export const HABITS: HabitDef[] = [
     einheit: "",
     tage: [],
     numerisch: false,
+    faelligAb: "2026-11-16"
   },
   {
     key: "englisch",
@@ -150,6 +202,7 @@ export const HABITS: HabitDef[] = [
     einheit: "",
     tage: [],
     numerisch: false,
+    faelligAb: "2026-11-16"
   },
   {
     key: "lesen",
@@ -160,6 +213,7 @@ export const HABITS: HabitDef[] = [
     einheit: "Min",
     tage: [],
     numerisch: true,
+    faelligAb: "2026-11-16"
   },
   {
     key: "schwimmen",
@@ -168,8 +222,11 @@ export const HABITS: HabitDef[] = [
     icon: "🏊",
     ziel: null,
     einheit: "m",
-    tage: ["Mi", "Sa"],
-    numerisch: true,
+    tage: [
+      "Mi",
+      "Sa"
+    ],
+    numerisch: true
   },
   {
     key: "training",
@@ -178,19 +235,12 @@ export const HABITS: HabitDef[] = [
     icon: "⚽",
     ziel: null,
     einheit: "",
-    tage: ["Di", "Do"],
-    numerisch: false,
-  },
-  {
-    key: "wsem",
-    spalte: "W-Sem",
-    label: "W-Seminar",
-    icon: "📝",
-    ziel: null,
-    einheit: "",
-    tage: [],
-    numerisch: false,
-  },
+    tage: [
+      "Di",
+      "Do"
+    ],
+    numerisch: false
+  }
 ];
 
 /** Erste Zahl aus einem Text ziehen – "1200 m Brust" → 1200, "45" → 45. */
@@ -209,7 +259,28 @@ function uhrzeitAlsZahl(text: string): number | null {
 }
 
 function zelleLesen(roh: string, def: HabitDef): Wert {
-  const t = roh.trim();
+  // ⚠️ Fix 16.11.2026: Zellen wie "**✗**", "– (entfällt)" oder "✓ (war da …)"
+  // fielen vorher durch alle exakten Vergleiche und wurden als "erledigt"
+  // gewertet – dadurch war im Widget fast alles grün. Jetzt zählt das erste
+  // Zeichen, Fettdruck wird vorher entfernt.
+  const t = roh.replace(/\*\*/g, "").replace(/^[~≈]\s*|^ca\.\s*/i, "").trim();
+  const erstes = t.charAt(0);
+  if (erstes === "?") return { status: "unbekannt", roh: t, zahl: null };
+  if ("–-—".includes(erstes) && !/^-\d/.test(t))
+    return { status: "nichtFaellig", roh: t, zahl: null };
+  if ("✗✘".includes(erstes) || /^x\b/i.test(t))
+    return { status: "fehlt", roh: t, zahl: null };
+  if ("✓✔".includes(erstes) && !/^[✓✔]\s*\d/.test(t))
+    return { status: "ok", roh: t, zahl: null };
+
+  // Aufstehen: erste Uhrzeit gegen das Soll – später als Soll = rot.
+  if (def.sollJeTag) {
+    const m = t.match(/(\d{1,2}):(\d{2})/);
+    if (!m) return { status: "unbekannt", roh: t, zahl: null };
+    const zahl = Number(m[1]) + Number(m[2]) / 60;
+    return { status: "ok", roh: t, zahl }; // Soll-Vergleich in parseHabitStand (braucht den Wochentag)
+  }
+  // Schlaf "<6" ist sicher unter Ziel, ">8" sicher drüber – erste Zahl reicht.
 
   if (t === "" || t === "?") return { status: "unbekannt", roh: t, zahl: null };
   if (t === "–" || t === "-" || t === "—")
@@ -321,10 +392,19 @@ export function parseHabitStand(content: string, heute = new Date()): HabitStand
     if (!/^\d{4}-\d{2}-\d{2}$/.test(datum)) continue; // Fußnoten o.ä. überspringen
 
     const d = new Date(`${datum}T12:00:00`);
+    const wt = WOCHENTAGE[d.getDay()];
     const werte: Record<string, Wert> = {};
     for (const def of HABITS) {
       const i = spaltenIdx.get(def.spalte) as number;
-      werte[def.key] = zelleLesen(row[i] ?? "", def);
+      let w = zelleLesen(row[i] ?? "", def);
+      // Nicht fällig schlägt alles: falscher Wochentag oder vor dem Startdatum.
+      if ((def.tage.length && !def.tage.includes(wt)) || (def.faelligAb && datum < def.faelligAb)) {
+        w = { status: "nichtFaellig", roh: w.roh, zahl: null };
+      } else if (def.sollJeTag && w.zahl !== null) {
+        const soll = def.sollJeTag[wt];
+        w = { ...w, status: w.zahl <= soll + 1e-9 ? "ok" : "fehlt" };
+      }
+      werte[def.key] = w;
     }
     tage.push({
       datum,
