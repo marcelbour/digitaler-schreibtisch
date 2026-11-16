@@ -21,6 +21,9 @@ export type Zahlung = {
   zahler: string;
   datum: string | null;
   hinweis?: string;
+  // Anteil der Zahlung, der Fahrstunden begleicht, die in sonderfahrtenKosten/
+  // uebungKosten ohnehin mitgerechnet sind (Gegenbuchung, seit 16.11.2026).
+  deckt_fahrstunden: number;
 };
 
 export type OffenerPosten = { posten: string; betrag: number };
@@ -148,6 +151,7 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
       zahler: String(row.zahler ?? "unbekannt"),
       datum: row.datum ? String(row.datum).slice(0, 10) : null,
       hinweis: row.hinweis ? String(row.hinweis) : undefined,
+      deckt_fahrstunden: Number(row.deckt_fahrstunden ?? 0) || 0,
     } satisfies Zahlung;
   });
 
@@ -198,6 +202,9 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
     zahlungen.filter((z) => z.zahler === "Marcel").reduce((s, z) => s + z.betrag, 0),
   );
   const bezahltAusBudget = cent(bezahlt - bezahltVonMarcel);
+  const fahrstundenBezahlt = cent(
+    zahlungen.reduce((s, z) => s + z.deckt_fahrstunden, 0),
+  );
   const budgetRest = cent(Math.max(0, budgetGesamt - bezahltAusBudget));
 
   const offenFixSumme = cent(offenFix.reduce((s, o) => s + o.betrag, 0));
@@ -246,7 +253,7 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
   const uebungKosten = cent((uebungsstunden - gutscheinGenutzt) * preisFahrstunde);
 
   const gesamtMinimum = cent(
-    bezahlt + offenFixSumme + sonderfahrtenKosten + uebungKosten,
+    bezahlt + offenFixSumme + sonderfahrtenKosten + uebungKosten - fahrstundenBezahlt,
   );
   const eigenanteil = cent(Math.max(0, gesamtMinimum - budgetGesamt));
 
@@ -254,7 +261,12 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
   // Reihenfolge ist bewusst so, dass Segment 1 + 2 exakt budget_gesamt ergeben.
   // Dadurch liegt der Marker immer genau auf der Grenze zu Segment 3:
   // links davon Elterngeld, rechts davon Marcels Geld.
-  const elternOffen = cent(Math.max(0, Math.min(budgetGesamt, gesamtMinimum) - bezahltAusBudget));
+  // Ausnahme (16.11.2026): Hat Marcel mehr gezahlt als seinen Anteil über dem
+  // Budget, schrumpft der offene Elternteil um den Überschuss – sonst wäre die
+  // Segmentsumme größer als gesamtMinimum und der Balken liefe über.
+  const elternOffen = cent(
+    Math.max(0, Math.min(budgetGesamt, gesamtMinimum - bezahltVonMarcel) - bezahltAusBudget),
+  );
   const duOffen = cent(Math.max(0, gesamtMinimum - budgetGesamt - bezahltVonMarcel));
 
   const basis = gesamtMinimum > 0 ? gesamtMinimum : 1;
