@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-16T14:33:11.090Z",
+  "generatedAt": "2026-11-16T14:35:43.598Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-16T14:33:09.283Z",
+      "capturedAt": "2026-11-16T14:35:42.339Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -188,7 +188,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-16T14:33:10.886Z",
+      "capturedAt": "2026-11-16T14:35:43.472Z",
       "data": {
         "nodes": [
           {
@@ -917,6 +917,11 @@
             "folder": "05 Daily Notes"
           },
           {
+            "id": "05 Daily Notes/2026-11-16",
+            "label": "2026-11-16",
+            "folder": "05 Daily Notes"
+          },
+          {
             "id": "07 Anhänge",
             "label": "07 Anhänge",
             "folder": "(root)"
@@ -928,6 +933,98 @@
           }
         ],
         "edges": [
+          {
+            "source": "00 Kontext/Branding",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/TikTok KI-Videos"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "05 Daily Notes/2026-11-09"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "00 Kontext/Vault-Durchsicht 2026-10-17"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "05 Daily Notes/2026-10-14"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "00 Kontext/Erinnerungen",
+            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "00 Kontext/Kalender-Kategorien",
+            "target": "00 Kontext/Erinnerungen"
+          },
           {
             "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "02 Projekte/Etsy Listing - Budget Planer"
@@ -1026,10 +1123,6 @@
           },
           {
             "source": "00 Kontext/Erinnerungen - Archiv",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen - Archiv",
             "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
           },
           {
@@ -1097,96 +1190,8 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/TikTok KI-Videos"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "05 Daily Notes/2026-11-09"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "00 Kontext/Vault-Durchsicht 2026-10-17"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "04 Ressourcen/Schule/Deutsch/Referat Q13 - Herta Müller"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "05 Daily Notes/2026-10-14"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "00 Kontext/Erinnerungen",
-            "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
-          },
-          {
             "source": "00 Kontext/ICP",
             "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "00 Kontext/Kalender-Kategorien",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "00 Kontext/Branding",
-            "target": "07 Anhänge"
           },
           {
             "source": "00 Kontext/Vault-Durchsicht 2026-10-17",
@@ -1255,38 +1260,6 @@
           {
             "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "00 Kontext/ICP"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
-            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
-          },
-          {
-            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "02 Projekte/Abitur",
@@ -1445,20 +1418,24 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
+            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)",
@@ -1493,6 +1470,10 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
           },
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
@@ -1509,16 +1490,16 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)",
@@ -1617,38 +1598,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "05 Daily Notes/2026-10-25"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
           },
@@ -1679,6 +1628,10 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit",
@@ -1745,10 +1698,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
           },
           {
-            "source": "03 Bereiche/Finanzen/Finanzen",
-            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
-          },
-          {
             "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
           },
@@ -1757,16 +1706,40 @@
             "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
           {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "05 Daily Notes/2026-10-25"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "03 Bereiche/Finanzen/Finanzen",
+            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
+          },
+          {
             "source": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
             "target": "05 Daily Notes/2026-10-18"
-          },
-          {
-            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "05 Daily Notes/2026-09-15"
-          },
-          {
-            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
@@ -1782,7 +1755,15 @@
           },
           {
             "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
             "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
+            "target": "05 Daily Notes/2026-09-15"
           },
           {
             "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
@@ -1813,20 +1794,20 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
-            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
-          },
-          {
             "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
             "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
             "target": "05 Daily Notes/2026-11-09"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)",
+            "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
           },
           {
             "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
@@ -1957,20 +1938,8 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "05 Daily Notes/2026-09-25"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "02 Projekte/Abitur"
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
           },
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
@@ -1987,6 +1956,18 @@
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-25"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "02 Projekte/Abitur"
           },
           {
             "source": "04 Ressourcen/Schule/Noten (Daten)",
@@ -2017,10 +1998,6 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
-            "source": "04 Ressourcen/Schule/Notenschlüssel Oberstufe",
-            "target": "05 Daily Notes/2026-09-23"
-          },
-          {
             "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
@@ -2035,6 +2012,10 @@
           {
             "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenschlüssel Oberstufe",
+            "target": "05 Daily Notes/2026-09-23"
           },
           {
             "source": "05 Daily Notes/2026-09-14",
@@ -2137,6 +2118,50 @@
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "00 Kontext/ICP"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-06",
+            "target": "CLAUDE"
+          },
+          {
             "source": "05 Daily Notes/2026-10-07",
             "target": "05 Daily Notes/2026-10-06"
           },
@@ -2191,26 +2216,6 @@
           {
             "source": "05 Daily Notes/2026-10-08",
             "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "04 Ressourcen/Schule/Französisch/Französisch - Bildbeschreibung & Karikaturanalyse (Vokabeln)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-06",
-            "target": "CLAUDE"
           },
           {
             "source": "05 Daily Notes/2026-10-09",
@@ -2349,34 +2354,6 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "05 Daily Notes/2026-10-20"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-19",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
             "source": "05 Daily Notes/2026-10-17",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
@@ -2405,48 +2382,32 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/Führerschein"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "03 Bereiche/Finanzen/Housekeeping-Rechnungen (Airbnb)"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "CLAUDE"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "05 Daily Notes/2026-10-20"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-19",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
-            "source": "05 Daily Notes/2026-10-22",
-            "target": "05 Daily Notes/2026-10-21"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-22",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-22",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-22",
-            "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-22",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-22",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+            "source": "05 Daily Notes/2026-10-19",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "05 Daily Notes/2026-10-20",
@@ -2469,6 +2430,26 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
             "source": "05 Daily Notes/2026-10-23",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2483,34 +2464,6 @@
           {
             "source": "05 Daily Notes/2026-10-23",
             "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-24",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-10-25",
@@ -2553,6 +2506,34 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.2 (Bedingte Wahrscheinlichkeit)"
           },
           {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-24",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "05 Daily Notes/2026-10-26",
             "target": "CLAUDE"
           },
@@ -2563,6 +2544,30 @@
           {
             "source": "05 Daily Notes/2026-10-26",
             "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "05 Daily Notes/2026-10-21"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "04 Ressourcen/PC & Technik/Gmail - Inbox aufräumen (Filter & Label)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-22",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-10-27",
@@ -2761,6 +2766,18 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
             "source": "05 Daily Notes/2026-11-06",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
           },
@@ -2779,18 +2796,6 @@
           {
             "source": "05 Daily Notes/2026-11-06",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
             "source": "05 Daily Notes/2026-11-07",
@@ -2863,6 +2868,26 @@
           {
             "source": "05 Daily Notes/2026-11-08",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "05 Daily Notes/2026-11-10",
@@ -2941,24 +2966,16 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+            "source": "05 Daily Notes/2026-11-14",
+            "target": "02 Projekte/TikTok KI-Videos"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/Abitur"
+            "source": "05 Daily Notes/2026-11-14",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "00 Kontext/Erinnerungen - Archiv"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "source": "05 Daily Notes/2026-11-14",
+            "target": "02 Projekte/Etsy Listing - Budget Planer"
           },
           {
             "source": "05 Daily Notes/2026-11-15",
@@ -2973,16 +2990,12 @@
             "target": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)"
           },
           {
-            "source": "05 Daily Notes/2026-11-14",
-            "target": "02 Projekte/TikTok KI-Videos"
+            "source": "05 Daily Notes/2026-11-16",
+            "target": "00 Kontext/Erinnerungen - Archiv"
           },
           {
-            "source": "05 Daily Notes/2026-11-14",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Konkurrenzanalyse Budget Planer"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-14",
-            "target": "02 Projekte/Etsy Listing - Budget Planer"
+            "source": "05 Daily Notes/2026-11-16",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "07 Anhänge",
@@ -3060,7 +3073,7 @@
       }
     },
     "habits": {
-      "capturedAt": "2026-11-16T14:33:10.924Z",
+      "capturedAt": "2026-11-16T14:35:43.498Z",
       "data": {
         "tage": [
           {
@@ -5110,7 +5123,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-16T14:33:10.953Z",
+      "capturedAt": "2026-11-16T14:35:43.514Z",
       "data": {
         "halbjahre": [
           {
@@ -5946,7 +5959,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-16T14:33:11.000Z",
+      "capturedAt": "2026-11-16T14:35:43.542Z",
       "data": {
         "projects": [
           {
@@ -6009,7 +6022,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-16T14:33:11.027Z",
+      "capturedAt": "2026-11-16T14:35:43.558Z",
       "data": {
         "heute": [
           {
@@ -6034,6 +6047,11 @@
           }
         ],
         "woche": [
+          {
+            "icon": "🕕",
+            "title": "Neue Aufstehzeiten an Claude geben",
+            "details": "(Marcel am 16.11. angekündigt) – danach Soll im Dashboard (`sollJeTag` in `src/lib/habits.ts`), Habit-Log-Legende und `/abend` anpassen. Bis dahin gilt Mo/Mi 06:00 · Di/Do 06:30 · Fr 07:00 · Sa/So 09:00."
+          },
           {
             "icon": "💸",
             "title": "Wispr Flow Pro behalten oder kündigen – bis Mo 23.11",
@@ -6133,15 +6151,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-16T14:33:11.049Z",
+      "capturedAt": "2026-11-16T14:35:43.574Z",
       "data": {
         "path": "05 Daily Notes/2026-11-16.md",
-        "exists": false,
-        "content": null
+        "exists": true,
+        "content": "# Montag, 16.11.2026\n\n## Was passiert ist (Stand 15:35)\n- 🧹 **To-dos ausgemistet (15:20–15:30):** Marcel ist die Dashboard-To-dos durchgegangen. **27 Einträge raus** (erledigt, hinfällig, veraltet), alle oben in [[00 Kontext/Erinnerungen - Archiv.md]]. Der Etsy-Eintrag ist auf die 4 offenen Punkte gekürzt. „Kalender ausmisten + Spieltags-Puffer\" bleibt bewusst drin. Stand jetzt: **4 Heute + 19 Woche**.\n- 🖥️ **Dashboard neu geordnet:** oben Fahrschul-Budget + Schneller Gedanke, dann Ausgaben, Noten, Habits; Mitte Projekte + To-dos; unten Kalender, Countdown, Heute. **To-dos zugeklappt** (Gruppen und Einträge einzeln aufklappbar). **Graph und Vault-Übersicht entfernt.**\n- 🔁 **Habit-Widget umgebaut:** Parser-Fehler behoben (fett geschriebene `✗` und `– (entfällt)` galten als erledigt → fast alles war grün). **Morgenroutine aufgeteilt** in Wasser · Dehnen · Zähne · Nachrichten · Duschen (eigene Spalten im [[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md|Habit-Log]]). **App + W-Seminar raus.** Aufstehen grün nur bei eingehaltener Soll-Zeit, Schlaf nur ab 7,5 h. Nicht fällig = grau durchgestrichen. **10-Finger, Englisch, Lesen ab heute fällig**, alles davor auf `–` nachgetragen. `/abend` angepasst.\n- Commits: a1a22c3, 75d9181, 02a47b7.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- 🕕 **Marcel schickt neue Aufstehzeiten** → Soll in `src/lib/habits.ts` (`sollJeTag`) + Habit-Log-Legende + `/abend` anpassen.\n- 🚗 **Di 17.11.: Marcel ruft Muzi an** wegen der 7 Sonderfahrten ohne Termin → danach `Führerschein - Budget (Daten).md` mitziehen.\n- 💪 **Kraft-Block ausplanen** (sollte ab heute starten, Mo/Mi/Fr, Uhrzeit und Inhalt offen).\n- 📚 Ethik-Test morgen (Di 17.11.).\n- 🌙 Heute Abend: Abend-Check – erste Zeile mit dem neuen Spaltenschema (Wasser/Dehnen/Zähne/News/Duschen einzeln, 10-Finger/Englisch/Lesen fällig)."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-16T14:33:11.090Z",
+      "capturedAt": "2026-11-16T14:35:43.598Z",
       "data": {
         "files": [
           "00 Kontext/",
@@ -6157,7 +6175,7 @@
       }
     },
     "ausgaben": {
-      "capturedAt": "2026-11-16T14:33:09.247Z",
+      "capturedAt": "2026-11-16T14:35:42.311Z",
       "data": {
         "etsy": {
           "preisTypisch": 4.99,
