@@ -317,7 +317,6 @@ function Fahrstunden({ data }: { data: Budget }) {
                   ? f.inhalt.join(" + ")
                   : "offen"}
             </span>
-            {f.hinweis && <span className="ml-auto shrink-0">🦷</span>}
           </div>
         ))}
       </div>
