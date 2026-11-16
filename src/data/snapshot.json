@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-16T19:33:31.216Z",
+  "generatedAt": "2026-11-16T21:23:19.403Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-16T19:33:29.404Z",
+      "capturedAt": "2026-11-16T21:23:16.395Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -21,6 +21,9 @@
             "betrag": 38.3
           }
         ],
+        "fahrstundenBezahlt": 712,
+        "elternOffen": 911,
+        "duOffen": 49.3,
         "sonderfahrtenOffen": 7,
         "sonderfahrtenKosten": 1068,
         "uebungsstundenGefahren": 3,
@@ -236,6 +239,9 @@
               "betrag": 38.3
             }
           ],
+          "fahrstundenBezahlt": 712,
+          "elternOffen": 782.3,
+          "duOffen": 0,
           "sonderfahrtenOffen": 7,
           "sonderfahrtenKosten": 1068,
           "uebungsstundenGefahren": 3,
@@ -437,7 +443,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-16T19:33:30.974Z",
+      "capturedAt": "2026-11-16T21:23:19.051Z",
       "data": {
         "nodes": [
           {
@@ -1198,6 +1204,10 @@
         ],
         "edges": [
           {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
             "source": "00 Kontext/Branding",
             "target": "07 Anhänge"
           },
@@ -1450,6 +1460,10 @@
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
             "source": "00 Kontext/Kalender-Kategorien",
             "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
           },
@@ -1524,10 +1538,6 @@
           {
             "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
@@ -1630,22 +1640,6 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
-          },
-          {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "04 Ressourcen/KI & E-Commerce/Shorts, Reels, Snapchat - Monetarisierung (Recherche 16.11.2026)"
-          },
-          {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "00 Kontext/Angebot"
           },
@@ -1668,6 +1662,22 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "04 Ressourcen/KI & E-Commerce/Shorts, Reels, Snapchat - Monetarisierung (Recherche 16.11.2026)"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
@@ -1698,16 +1708,12 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.3 (Folgen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)",
@@ -1998,16 +2004,16 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
-            "source": "03 Bereiche/Finanzen/Finanzen",
-            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
-          },
-          {
             "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
           },
           {
             "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
             "target": "02 Projekte/Etsy Listing - Budget Planer"
+          },
+          {
+            "source": "03 Bereiche/Finanzen/Finanzen",
+            "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
           },
           {
             "source": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log",
@@ -2210,32 +2216,8 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "05 Daily Notes/2026-09-25"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "02 Projekte/Abitur"
+            "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
+            "target": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral"
           },
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
@@ -2254,6 +2236,30 @@
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
           },
           {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "05 Daily Notes/2026-09-25"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Mathe/Flächeninhalt und bestimmtes Integral",
+            "target": "02 Projekte/Abitur"
+          },
+          {
             "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -2268,10 +2274,6 @@
           {
             "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Notenschlüssel Oberstufe",
-            "target": "05 Daily Notes/2026-09-23"
           },
           {
             "source": "04 Ressourcen/Schule/Wirtschaft/Prüfungsprofil Wirtschaft und Recht",
@@ -2292,6 +2294,10 @@
           {
             "source": "05 Daily Notes/2026-09-14",
             "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Notenschlüssel Oberstufe",
+            "target": "05 Daily Notes/2026-09-23"
           },
           {
             "source": "05 Daily Notes/2026-09-15",
@@ -2359,14 +2365,6 @@
           },
           {
             "source": "05 Daily Notes/2026-09-22",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
-            "target": "05 Daily Notes/2026-09-24"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-25",
             "target": "00 Kontext/Erinnerungen"
           },
           {
@@ -2522,6 +2520,14 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
           },
           {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "05 Daily Notes/2026-09-24"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-25",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
             "source": "05 Daily Notes/2026-10-10",
             "target": "05 Daily Notes/2026-10-11"
           },
@@ -2544,46 +2550,6 @@
           {
             "source": "05 Daily Notes/2026-10-11",
             "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-10-12",
@@ -2642,6 +2608,26 @@
             "target": "02 Projekte/Abitur"
           },
           {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
             "source": "05 Daily Notes/2026-10-16",
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
@@ -2672,26 +2658,6 @@
           {
             "source": "05 Daily Notes/2026-10-17",
             "target": "05 Daily Notes/2026-10-18"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "05 Daily Notes/2026-10-19",
@@ -3078,18 +3044,6 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
             "source": "05 Daily Notes/2026-11-06",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
           },
@@ -3108,6 +3062,18 @@
           {
             "source": "05 Daily Notes/2026-11-06",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
           },
           {
             "source": "05 Daily Notes/2026-11-07",
@@ -3140,6 +3106,46 @@
           {
             "source": "05 Daily Notes/2026-11-07",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-11-09",
@@ -3290,12 +3296,12 @@
             "target": "04 Ressourcen/Schule/Sport/Biomechanik - Prinzip der Anfangskraft"
           },
           {
-            "source": "07 Anhänge",
-            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+            "source": "05 Daily Notes/2026-11-16",
+            "target": "04 Ressourcen/Schule/Ethik/Ethik - Was ist Recht (Lernzettel Ex 17.11.2026)"
           },
           {
-            "source": "07 Anhänge",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+            "source": "05 Daily Notes/2026-11-16",
+            "target": "02 Projekte/Führerschein"
           },
           {
             "source": "CLAUDE",
@@ -3360,12 +3366,20 @@
           {
             "source": "CLAUDE",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "07 Anhänge",
+            "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
+          },
+          {
+            "source": "07 Anhänge",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
           }
         ]
       }
     },
     "habits": {
-      "capturedAt": "2026-11-16T19:33:31.013Z",
+      "capturedAt": "2026-11-16T21:23:19.125Z",
       "data": {
         "tage": [
           {
@@ -5415,7 +5429,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-16T19:33:31.048Z",
+      "capturedAt": "2026-11-16T21:23:19.166Z",
       "data": {
         "halbjahre": [
           {
@@ -6258,7 +6272,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-16T19:33:31.105Z",
+      "capturedAt": "2026-11-16T21:23:19.237Z",
       "data": {
         "projects": [
           {
@@ -6321,7 +6335,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-16T19:33:31.132Z",
+      "capturedAt": "2026-11-16T21:23:19.277Z",
       "data": {
         "heute": [
           {
@@ -6369,7 +6383,7 @@
           {
             "icon": "🎓",
             "title": "Stand 13.11.2026, 10:5x (Marcel gemeldet):",
-            "details": "Er war heute **nicht in der Schule** (schlecht geschlafen, Arzt: normal nach OP, **Atteste ausgestellt**). ➡️ **Der Mathetest vom Fr 13.11. (09:50) ist damit verpasst – ob er nachgeschrieben wird, ist offen** (*„bei der Lehrerin immer unterschiedlich\"*), Marcel meldet sich. ⛔ Nicht raten, nicht nachhaken. 📝 **Di 17.11.: Ethik-Test** – Marcel schickt den Stoff früh (Vorschlag: bis So 15.11.). ✅ **Mo 16.11. Informatik-Schulaufgabe leer abgegeben** (0 P., in Noten + Datendatei eingetragen). ❓ **Marcel am 16.11.: „Freitag schreibe ich Mathe\"** – im Kalender steht am Fr 20.11. nur die normale Mathestunde, laut [[02 Projekte/Abitur.md]] ist die Schulaufgabe am 30.11. **Offen: Nachschreibtermin für den 13.11. oder verschobene Schulaufgabe?** Bei Antwort Kalender + Abitur.md nachziehen. 🛌 Rhythmus ab nächster Woche zurück auf Soll-Aufstehzeiten. ✅ Fahrstunde 7 (Fr 13.11., 08:00) gefahren: 2× Überland statt Autobahn – Überland damit 5/5 komplett, offen: 4 Autobahn + 3 Nacht."
+            "details": "Er war heute **nicht in der Schule** (schlecht geschlafen, Arzt: normal nach OP, **Atteste ausgestellt**). ➡️ **Der Mathetest vom Fr 13.11. (09:50) ist damit verpasst – ob er nachgeschrieben wird, ist offen** (*„bei der Lehrerin immer unterschiedlich\"*), Marcel meldet sich. ⛔ Nicht raten, nicht nachhaken. 📝 **Di 17.11.: Ethik-Test** – ✅ Stoff kam am 16.11. (Lernzettel Gabriel), am Abend gelernt, 07:15 Kurzabfrage. ➡️ Nach Rückgabe: Ergebnis in Noten-Datei + Datendatei, dann `/testanalyse Ethik`. ✅ **Mo 16.11. Informatik-Schulaufgabe leer abgegeben** (0 P., in Noten + Datendatei eingetragen). ❓ **Marcel am 16.11.: „Freitag schreibe ich Mathe\"** – im Kalender steht am Fr 20.11. nur die normale Mathestunde, laut [[02 Projekte/Abitur.md]] ist die Schulaufgabe am 30.11. **Offen: Nachschreibtermin für den 13.11. oder verschobene Schulaufgabe?** Bei Antwort Kalender + Abitur.md nachziehen. 🛌 Rhythmus ab nächster Woche zurück auf Soll-Aufstehzeiten. ✅ Fahrstunde 7 (Fr 13.11., 08:00) gefahren: 2× Überland statt Autobahn – Überland damit 5/5 komplett, offen: 4 Autobahn + 3 Nacht."
           },
           {
             "icon": "🎤",
@@ -6455,15 +6469,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-16T19:33:31.174Z",
+      "capturedAt": "2026-11-16T21:23:19.339Z",
       "data": {
         "path": "05 Daily Notes/2026-11-16.md",
         "exists": true,
-        "content": "# Montag, 16.11.2026\n\n## Was passiert ist (Stand 15:35)\n- 🧹 **To-dos ausgemistet (15:20–15:30):** Marcel ist die Dashboard-To-dos durchgegangen. **27 Einträge raus** (erledigt, hinfällig, veraltet), alle oben in [[00 Kontext/Erinnerungen - Archiv.md]]. Der Etsy-Eintrag ist auf die 4 offenen Punkte gekürzt. „Kalender ausmisten + Spieltags-Puffer\" bleibt bewusst drin. Stand jetzt: **4 Heute + 19 Woche**.\n- 🖥️ **Dashboard neu geordnet:** oben Fahrschul-Budget + Schneller Gedanke, dann Ausgaben, Noten, Habits; Mitte Projekte + To-dos; unten Kalender, Countdown, Heute. **To-dos zugeklappt** (Gruppen und Einträge einzeln aufklappbar). **Graph und Vault-Übersicht entfernt.**\n- 🔁 **Habit-Widget umgebaut:** Parser-Fehler behoben (fett geschriebene `✗` und `– (entfällt)` galten als erledigt → fast alles war grün). **Morgenroutine aufgeteilt** in Wasser · Dehnen · Zähne · Nachrichten · Duschen (eigene Spalten im [[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md|Habit-Log]]). **App + W-Seminar raus.** Aufstehen grün nur bei eingehaltener Soll-Zeit, Schlaf nur ab 7,5 h. Nicht fällig = grau durchgestrichen. **10-Finger, Englisch, Lesen ab heute fällig**, alles davor auf `–` nachgetragen. `/abend` angepasst.\n- Commits: a1a22c3, 75d9181, 02a47b7.\n- 📱 **Recherche YouTube Shorts / Instagram Reels / Snapchat (15:43–15:53):** Kann man mit denselben TikTok-Videos dort Geld verdienen? Geld pro Aufruf nur bei YouTube (ab 02/2027 für neue Kanäle 1.000 Abos + 20 Mio. Aufrufe/90 Tage). Instagram zahlt in DE nicht pro Aufruf, Snapchat erst ab 50k Follower. → [[04 Ressourcen/KI & E-Commerce/Shorts, Reels, Snapchat - Monetarisierung (Recherche 16.11.2026).md]]. ✅ **Entschieden: vorerst nur TikTok.** Die Frage kommt zum Auswertungstermin Di 15.12., 15:45 (im Kalender und in den Erinnerungen ergänzt).\n- 💱 **Etsy-Währung (16:33):** Marcel hat nachgesehen, der Shop steht auf **Euro** (4,99 €). Empfehlung: bei € bleiben, sonst 2,5 % Umrechnungsgebühr. To-do-Punkt (4) gestrichen.\n- 📸 **Etsy Foto-Mockups (16:39–16:44), ohne ElevenLabs:** echte Unsplash-Fotos + Planer-Seiten perspektivisch eingesetzt → 3 je Listing (Klemmbrett · Schreibtisch dunkel · iPad) im Ordner `Mockups Foto`. Lizenz je Foto geprüft. Hochladen macht Marcel.\n- 🎓 **Informatik-Schulaufgabe (heute) leer abgegeben** – wie am 13.11. entschieden, Halbjahr wird gestrichen. **0 Punkte** in [[04 Ressourcen/Schule/Noten & Leistungsnachweise Q13.md]] + [[04 Ressourcen/Schule/Noten (Daten).md]], Snapshot gepusht (`ee45f0e`).\n- 🔊 **17:14–17:27 TikTok-Soundeffekte:** alle drei Upload-Videos mit Sounds neu gerendert (Donner/Knall beim Blitz, Stempel bei FALSCH/MYTHOS, Pops, Uhr-Ticken, Ding beim Kommentar-Aufruf). Donner & Co. selbst erzeugt, Rest von remotion.media; Meme-Sounds bewusst nicht genutzt. Alte Fassungen in `_Quelldateien/Ohne Soundeffekte`. Details: [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „Soundeffekte\".\n- 📈 **17:50 TikTok:** 5-Sekunden-Regel hochgeladen (~70 Aufrufe in den ersten Minuten). Seil (Di) und Blitz (Mi) **in TikTok für 17:00 geplant** → beide Upload-Termine im Kalender gelöscht, alle drei Videos im Video-Archiv.\n## ➡️ Nächster Schritt (bei Rückkehr) – Stand 15:35, abgelöst (siehe unten)\n- 🏃 **Di 17.11. Sport:** Lernkarte „Prinzip der Anfangskraft“ mitnehmen (PDF in der Mail, ggf. vorher ausdrucken).\n- 🕕 **Marcel schickt neue Aufstehzeiten** → Soll in `src/lib/habits.ts` (`sollJeTag`) + Habit-Log-Legende + `/abend` anpassen.\n- ✅ 🚗 **Sonderfahrten terminiert (16.11., 16:0x):** Mo 23.11. 16:00 + Fr 27.11. 08:00 je 2× Autobahn, Di 01.12. 16:30–18:45 3× Nacht. Kalender, Erinnerungen, Datendatei und Führerschein.md nachgezogen.\n- 💪 **Kraft-Block ausplanen** (sollte ab heute starten, Mo/Mi/Fr, Uhrzeit und Inhalt offen).\n- ✅ 🎬 **TikTok-Upload erledigt (17:50):** 5-Sekunden-Regel live, Seil (Di) und Blitz (Mi) in TikTok für 17:00 geplant, alle mit Soundeffekten. ➡️ **Morgen (Di 17.11.) besprechen: Video 5–8** – in einem neuen Chat bauen lassen, Durchsicht Mi 18.11., 16:00–16:30. Ab Do 19.11. sind keine Videos mehr da. Vorausplanen in TikTok ist ab jetzt Standard, die Kalenderserie bleibt als Erinnerung.\n- 📚 **Prüfungswoche:** Di 17.11. Ethik-Ex (09:50) · Do 19.11. Deutsch-Schulaufgabe (Lernblock Di 15:45–17:45 steht) · Fr 20.11. Mathe laut Marcel – ❓ **klären: Nachschreibtermin oder verschobene Schulaufgabe?** (Kalender zeigt nur die normale Stunde, Abitur.md sagt 30.11.)\n- 🌙 Heute Abend: Abend-Check – erste Zeile mit dem neuen Spaltenschema (Wasser/Dehnen/Zähne/News/Duschen einzeln, 10-Finger/Englisch/Lesen fällig).\n\n- ✅ 🏃 **Sport-Lernkarte „Prinzip der Anfangskraft“ (19:55–20:20) fertig:** Querformat, eine Seite, mit Abb. 28/29 aus dem Buch, Buchfarbe Lila. PDF in `Claude Files/01 Schule/Sport/` und per Mail (zweite Mail = gültige Fassung, die erste ist überholt). Inhalt + wortgetreue Buchübertragung: [[04 Ressourcen/Schule/Sport/Biomechanik - Prinzip der Anfangskraft]]. HTML-Vorlage für weitere Lernkarten im Unterordner `_Quelldateien`.\n- 📊 **18:15–19:00 Metricool + TikTok-Widget:** Metricool verbunden (Konto heißt tatsächlich `@ai_cartoon_shorts_`, `cartoon.stories` war vergeben). Daten um 18:24 noch leer (Sync läuft). **TikTok-Widget gebaut** (offizielle TikTok-Schnittstelle, lädt alle 2 Min neu), Commit `455b9a7`. Autostart des Dashboards existierte schon. Account wurde am 15.11. **über Google** angelegt (kein Passwort).\n- ⏸️ **20:00 Freischaltung verschoben auf Sa 21.11., 11:30** – das erste Entwicklerkonto war gelöscht und blockiert die Mail. Neuer Versuch mit `marcel.bour187+tiktok@gmail.com`.\n\n## 🌙 Abend-Check (20:22)\n| Habit | Ist |\n|---|---|\n| 🕕 Aufstehen | 06:30 (Soll 06:00) |\n| 😴 Schlaf | ca. 7 h |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne · 🚿 Duschen | ✅ ✅ ✅ ✅ |\n| 📰 Nachrichten | DE ✅ · EN ❌ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch · 📕 Lesen | ⏳ noch offen |\n| 🏊 Schwimmen · ⚽ Training | ⬜ nicht fällig |\n\nTag **gut** · Plantreue **teilweise** · Pausen passen.\n\n## ➡️ Nächster Schritt (bei Rückkehr) – Stand 20:22\n- ⏳ **10-Finger, Englisch, Lesen von heute nachfragen** und im Habit-Log (Zeile 2026-11-16, jetzt `?`) eintragen.\n- 📚 Di 17.11. Ethik-Ex 09:50 · Lernblock Deutsch 15:45–17:45 · 17:00 Seil-Video geht automatisch live.\n- 🎬 Di: Video 5–8 besprechen (neuer Chat). 📊 Metricool-Zahlen nach 17:00 abrufen (dann 3 Videos online).\n- 🕕 Neue Aufstehzeiten von Marcel → Soll anpassen. ❓ Fr 20.11. Mathe klären.\n- 📊 Sa 21.11., 11:30: TikTok-Entwicklerkonto + Widget freischalten."
+        "content": "# Montag, 16.11.2026\n\n## Was passiert ist (Stand 15:35)\n- 🧹 **To-dos ausgemistet (15:20–15:30):** Marcel ist die Dashboard-To-dos durchgegangen. **27 Einträge raus** (erledigt, hinfällig, veraltet), alle oben in [[00 Kontext/Erinnerungen - Archiv.md]]. Der Etsy-Eintrag ist auf die 4 offenen Punkte gekürzt. „Kalender ausmisten + Spieltags-Puffer\" bleibt bewusst drin. Stand jetzt: **4 Heute + 19 Woche**.\n- 🖥️ **Dashboard neu geordnet:** oben Fahrschul-Budget + Schneller Gedanke, dann Ausgaben, Noten, Habits; Mitte Projekte + To-dos; unten Kalender, Countdown, Heute. **To-dos zugeklappt** (Gruppen und Einträge einzeln aufklappbar). **Graph und Vault-Übersicht entfernt.**\n- 🔁 **Habit-Widget umgebaut:** Parser-Fehler behoben (fett geschriebene `✗` und `– (entfällt)` galten als erledigt → fast alles war grün). **Morgenroutine aufgeteilt** in Wasser · Dehnen · Zähne · Nachrichten · Duschen (eigene Spalten im [[03 Bereiche/Routinen & Gewohnheiten/Habit-Log.md|Habit-Log]]). **App + W-Seminar raus.** Aufstehen grün nur bei eingehaltener Soll-Zeit, Schlaf nur ab 7,5 h. Nicht fällig = grau durchgestrichen. **10-Finger, Englisch, Lesen ab heute fällig**, alles davor auf `–` nachgetragen. `/abend` angepasst.\n- Commits: a1a22c3, 75d9181, 02a47b7.\n- 📱 **Recherche YouTube Shorts / Instagram Reels / Snapchat (15:43–15:53):** Kann man mit denselben TikTok-Videos dort Geld verdienen? Geld pro Aufruf nur bei YouTube (ab 02/2027 für neue Kanäle 1.000 Abos + 20 Mio. Aufrufe/90 Tage). Instagram zahlt in DE nicht pro Aufruf, Snapchat erst ab 50k Follower. → [[04 Ressourcen/KI & E-Commerce/Shorts, Reels, Snapchat - Monetarisierung (Recherche 16.11.2026).md]]. ✅ **Entschieden: vorerst nur TikTok.** Die Frage kommt zum Auswertungstermin Di 15.12., 15:45 (im Kalender und in den Erinnerungen ergänzt).\n- 💱 **Etsy-Währung (16:33):** Marcel hat nachgesehen, der Shop steht auf **Euro** (4,99 €). Empfehlung: bei € bleiben, sonst 2,5 % Umrechnungsgebühr. To-do-Punkt (4) gestrichen.\n- 📸 **Etsy Foto-Mockups (16:39–16:44), ohne ElevenLabs:** echte Unsplash-Fotos + Planer-Seiten perspektivisch eingesetzt → 3 je Listing (Klemmbrett · Schreibtisch dunkel · iPad) im Ordner `Mockups Foto`. Lizenz je Foto geprüft. Hochladen macht Marcel.\n- 🎓 **Informatik-Schulaufgabe (heute) leer abgegeben** – wie am 13.11. entschieden, Halbjahr wird gestrichen. **0 Punkte** in [[04 Ressourcen/Schule/Noten & Leistungsnachweise Q13.md]] + [[04 Ressourcen/Schule/Noten (Daten).md]], Snapshot gepusht (`ee45f0e`).\n- 🔊 **17:14–17:27 TikTok-Soundeffekte:** alle drei Upload-Videos mit Sounds neu gerendert (Donner/Knall beim Blitz, Stempel bei FALSCH/MYTHOS, Pops, Uhr-Ticken, Ding beim Kommentar-Aufruf). Donner & Co. selbst erzeugt, Rest von remotion.media; Meme-Sounds bewusst nicht genutzt. Alte Fassungen in `_Quelldateien/Ohne Soundeffekte`. Details: [[02 Projekte/TikTok KI-Videos.md]], Abschnitt „Soundeffekte\".\n- 📈 **17:50 TikTok:** 5-Sekunden-Regel hochgeladen (~70 Aufrufe in den ersten Minuten). Seil (Di) und Blitz (Mi) **in TikTok für 17:00 geplant** → beide Upload-Termine im Kalender gelöscht, alle drei Videos im Video-Archiv.\n## ➡️ Nächster Schritt (bei Rückkehr) – Stand 15:35, abgelöst (siehe unten)\n- 🏃 **Di 17.11. Sport:** Lernkarte „Prinzip der Anfangskraft“ mitnehmen (PDF in der Mail, ggf. vorher ausdrucken).\n- 🕕 **Marcel schickt neue Aufstehzeiten** → Soll in `src/lib/habits.ts` (`sollJeTag`) + Habit-Log-Legende + `/abend` anpassen.\n- ✅ 🚗 **Sonderfahrten terminiert (16.11., 16:0x):** Mo 23.11. 16:00 + Fr 27.11. 08:00 je 2× Autobahn, Di 01.12. 16:30–18:45 3× Nacht. Kalender, Erinnerungen, Datendatei und Führerschein.md nachgezogen.\n- 💪 **Kraft-Block ausplanen** (sollte ab heute starten, Mo/Mi/Fr, Uhrzeit und Inhalt offen).\n- ✅ 🎬 **TikTok-Upload erledigt (17:50):** 5-Sekunden-Regel live, Seil (Di) und Blitz (Mi) in TikTok für 17:00 geplant, alle mit Soundeffekten. ➡️ **Morgen (Di 17.11.) besprechen: Video 5–8** – in einem neuen Chat bauen lassen, Durchsicht Mi 18.11., 16:00–16:30. Ab Do 19.11. sind keine Videos mehr da. Vorausplanen in TikTok ist ab jetzt Standard, die Kalenderserie bleibt als Erinnerung.\n- 📚 **Prüfungswoche:** Di 17.11. Ethik-Ex (09:50) · Do 19.11. Deutsch-Schulaufgabe (Lernblock Di 15:45–17:45 steht) · Fr 20.11. Mathe laut Marcel – ❓ **klären: Nachschreibtermin oder verschobene Schulaufgabe?** (Kalender zeigt nur die normale Stunde, Abitur.md sagt 30.11.)\n- 🌙 Heute Abend: Abend-Check – erste Zeile mit dem neuen Spaltenschema (Wasser/Dehnen/Zähne/News/Duschen einzeln, 10-Finger/Englisch/Lesen fällig).\n\n- ✅ 🏃 **Sport-Lernkarte „Prinzip der Anfangskraft“ (19:55–20:20) fertig:** Querformat, eine Seite, mit Abb. 28/29 aus dem Buch, Buchfarbe Lila. PDF in `Claude Files/01 Schule/Sport/` und per Mail (zweite Mail = gültige Fassung, die erste ist überholt). Inhalt + wortgetreue Buchübertragung: [[04 Ressourcen/Schule/Sport/Biomechanik - Prinzip der Anfangskraft]]. HTML-Vorlage für weitere Lernkarten im Unterordner `_Quelldateien`.\n- 📊 **18:15–19:00 Metricool + TikTok-Widget:** Metricool verbunden (Konto heißt tatsächlich `@ai_cartoon_shorts_`, `cartoon.stories` war vergeben). Daten um 18:24 noch leer (Sync läuft). **TikTok-Widget gebaut** (offizielle TikTok-Schnittstelle, lädt alle 2 Min neu), Commit `455b9a7`. Autostart des Dashboards existierte schon. Account wurde am 15.11. **über Google** angelegt (kein Passwort).\n- ⏸️ **20:00 Freischaltung verschoben auf Sa 21.11., 11:30** – das erste Entwicklerkonto war gelöscht und blockiert die Mail. Neuer Versuch mit `marcel.bour187+tiktok@gmail.com`.\n\n## 🌙 Abend-Check (20:22)\n| Habit | Ist |\n|---|---|\n| 🕕 Aufstehen | 06:30 (Soll 06:00) |\n| 😴 Schlaf | ca. 7 h |\n| 🚰 Wasser · 🧘 Dehnen · 🦷 Zähne · 🚿 Duschen | ✅ ✅ ✅ ✅ |\n| 📰 Nachrichten | DE ✅ · EN ❌ |\n| ⌨️ 10-Finger · 🇬🇧 Englisch · 📕 Lesen | ⏳ noch offen |\n| 🏊 Schwimmen · ⚽ Training | ⬜ nicht fällig |\n\nTag **gut** · Plantreue **teilweise** · Pausen passen.\n\n## 📖 Ethik-Lernsession (18:11–22:15, mit Pausen)\n- Lernzettel von Gabriel (PDF) → [[04 Ressourcen/Schule/Ethik/Ethik - Was ist Recht (Lernzettel Ex 17.11.2026)]]. Abgefragt: Recht/Moral, Wesel, Naturrecht, Positivismus, Diktatur-Frage, Radbruch. Nicht geschafft: Dreier/Paulson, Kreidekreis.\n- 📄 Kurzfassung auf 1 Seite erstellt (`Claude Files/01 Schule/Ethik/Ethik - Was ist Recht - Kurzfassung 1 Seite.pdf`) und per Mail an Marcel geschickt (22:18).\n- Lücken stehen in der Notiz. 🔴 Antigone = kosmologisch · Austin ≠ Hoerster · Diktatur: Ebenen trennen. Muster: **Teilfragen werden weggelassen**.\n\n## 🚗 Fahrschulgeld (20:23–22:15)\n- Offene APEX-Rechnung nachgerechnet: 8 gefahrene Fahrstunden (712 €) + Vorstellung Theorie (99 €) = **811 €**. Marcel hat sie **am 15.11. von seinem eigenen Konto überwiesen**. Keine Ausfallgebühr für den 06.11., Gutschein (178 €) noch **nicht** verrechnet.\n- Eingetragen in [[02 Projekte/Führerschein.md]] und der Datendatei. Widget: Gegenbuchung `deckt_fahrstunden` (gegen Doppelzählung), **Häkchen „Gutschein einrechnen“** (Standard aus → 3.415,12 € gesamt, Anteil 1.015,12 €), Zahn-Symbol entfernt. Snapshot + Push erledigt.\n\n## ➡️ Nächster Schritt (bei Rückkehr) – Stand 22:19\n- ⚡ **07:15–07:35 Ethik-Kurzabfrage**: rote Lücken → Dreier/Paulson → Kreidekreis.\n- ⏳ **10-Finger, Englisch, Lesen von heute nachfragen** und im Habit-Log (Zeile 2026-11-16, jetzt `?`) eintragen.\n- 📚 Di 17.11. Ethik-Ex 09:50 · Lernblock Deutsch 15:45–17:45 · 17:00 Seil-Video geht automatisch live.\n- 🎬 Di: Video 5–8 besprechen (neuer Chat). 📊 Metricool-Zahlen nach 17:00 abrufen (dann 3 Videos online).\n- 🕕 Neue Aufstehzeiten von Marcel → Soll anpassen. ❓ Fr 20.11. Mathe klären.\n- 📊 Sa 21.11., 11:30: TikTok-Entwicklerkonto + Widget freischalten.\n- 🚗 Nächste APEX-Rechnung: prüfen, ob der Gutschein (178 €) abgezogen ist."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-16T19:33:31.216Z",
+      "capturedAt": "2026-11-16T21:23:19.403Z",
       "data": {
         "files": [
           "00 Kontext/",
@@ -6479,7 +6493,7 @@
       }
     },
     "ausgaben": {
-      "capturedAt": "2026-11-16T19:33:29.378Z",
+      "capturedAt": "2026-11-16T21:23:16.300Z",
       "data": {
         "etsy": {
           "preisTypisch": 4.99,

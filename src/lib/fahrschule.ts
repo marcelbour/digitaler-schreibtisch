@@ -61,6 +61,12 @@ export type FahrschuleBudget = {
   budgetRest: number;
   offenFixSumme: number;
   offenFix: OffenerPosten[];
+  /** Summe aller `deckt_fahrstunden` – schon bezahlte Fahrstunden in Euro. */
+  fahrstundenBezahlt: number;
+  /** Eltern-Anteil am offenen Rest (Balkensegment „Eltern offen"). */
+  elternOffen: number;
+  /** Marcels Anteil am offenen Rest (Balkensegment „du offen"). */
+  duOffen: number;
   sonderfahrtenOffen: number;
   sonderfahrtenKosten: number;
   uebungsstundenGefahren: number;
@@ -330,6 +336,9 @@ export function parseFahrschuleBudget(
     budgetRest,
     offenFixSumme,
     offenFix,
+    fahrstundenBezahlt,
+    elternOffen,
+    duOffen,
     sonderfahrtenOffen,
     sonderfahrtenKosten,
     uebungsstundenGefahren,

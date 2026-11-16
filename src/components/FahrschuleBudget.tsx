@@ -13,6 +13,10 @@ function euro(n: number) {
   return EUR.format(n);
 }
 
+function cent(n: number) {
+  return Math.round(n * 100) / 100;
+}
+
 function tag(iso: string) {
   // "2026-10-23" -> "23.10."
   const [, m, d] = iso.split("-");
@@ -92,43 +96,118 @@ function Legende({ data }: { data: Budget }) {
   );
 }
 
+type Zeile = { label: string; betrag: number; hinweis?: string; gruen?: boolean };
+
+function ZeilenListe({ zeilen }: { zeilen: Zeile[] }) {
+  return (
+    <div className="flex flex-col gap-1">
+      {zeilen.map((z, i) => (
+        <div key={`${z.label}-${i}`} className="flex items-baseline gap-2 text-[11px]">
+          <span className={z.gruen ? "text-emerald-400" : "text-zinc-400"}>
+            {z.label}
+            {z.hinweis && (
+              <span className={z.gruen ? "text-emerald-400/70" : "text-zinc-600"}>
+                {" "}
+                · {z.hinweis}
+              </span>
+            )}
+          </span>
+          <span
+            className={`ml-auto shrink-0 tabular-nums ${
+              z.gruen ? "text-emerald-400" : z.betrag < 0 ? "text-zinc-400" : "text-zinc-300"
+            }`}
+          >
+            {z.betrag < 0 ? `−${euro(-z.betrag)}` : euro(z.betrag)}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function Zwischensumme({ label, betrag }: { label: string; betrag: number }) {
+  return (
+    <div className="mt-1 flex items-baseline gap-2 border-t border-white/5 pt-1 text-[11px]">
+      <span className="font-medium text-zinc-300">{label}</span>
+      <span className="ml-auto font-medium tabular-nums text-zinc-200">{euro(betrag)}</span>
+    </div>
+  );
+}
+
+function wer(zahler: string) {
+  return zahler === "Marcel" ? "du" : zahler;
+}
+
 /**
- * Aufklappbarer Rechenweg zur Gesamtsumme.
+ * Aufklappbarer Rechenweg zur Gesamtsumme – jeder einzelne Betrag.
  *
  * Marcel am 27.10.2026: „Ist dieser Gutschein jetzt schon in den Gesamt
- * eingeplant oder nicht? Ich verstehe es nicht ganz." – Der Gutschein WAR
- * schon abgezogen, aber das stand nirgends. Eine grüne Pille mit „−178 €"
- * neben einer Summe ist mehrdeutig: sie kann „ist abgezogen" oder „kommt
- * noch runter" heißen. Deshalb hier die Summe Zeile für Zeile.
+ * eingeplant oder nicht?" → Summe Zeile für Zeile.
+ * Marcel am 16.11.2026: „noch detaillierter … dass da jeder einzelne Betrag
+ * drinsteht, der noch zu zahlen ist und der schon gezahlt wurde."
+ * Dabei aufgefallen: Die alte Fassung zeigte die Gegenbuchung für die schon
+ * bezahlten Fahrstunden (deckt_fahrstunden, −712 €) nicht – die Zeilen ergaben
+ * die Summe also gar nicht. Jetzt: (1) jede Zahlung einzeln, (2) jeder offene
+ * Posten einzeln, (3) bezahlt + offen = gesamt, mit Selbstprüfung.
  */
 function Rechenweg({ data }: { data: Budget }) {
   const [offen, setOffen] = useState(false);
+  const p = data.preisFahrstunde;
 
-  const zeilen: { label: string; betrag: number; hinweis?: string }[] = [
-    { label: "schon bezahlt", betrag: data.bezahlt },
-    ...(data.offenFixSumme > 0
-      ? [{ label: "offene Festposten", betrag: data.offenFixSumme }]
-      : []),
-    ...(data.sonderfahrtenKosten > 0
-      ? [
-          {
-            label: "Pflicht-Sonderfahrten",
-            betrag: data.sonderfahrtenKosten,
-            hinweis: `${data.sonderfahrtenOffen} offen`,
-          },
-        ]
-      : []),
-    {
-      label: "Übungsstunden",
-      betrag: data.uebungKosten,
-      hinweis:
-        data.gutscheinWert > 0
-          ? `${data.uebungsstunden} − ${Math.round(data.gutscheinWert / data.preisFahrstunde)} gratis = ${
-              data.uebungsstunden - Math.round(data.gutscheinWert / data.preisFahrstunde)
-            } × ${euro(data.preisFahrstunde)}`
-          : `${data.uebungsstunden} × ${euro(data.preisFahrstunde)}`,
-    },
-  ];
+  // (1) Schon bezahlt – jede Zahlung aus der Datendatei.
+  const bezahltZeilen: Zeile[] = data.zahlungen.map((z) => ({
+    label: z.posten,
+    betrag: z.betrag,
+    hinweis: `${wer(z.zahler)}${z.datum ? `, ${tag(z.datum)}` : ", Datum unbekannt"}`,
+  }));
+
+  // (2) Noch zu zahlen.
+  const offenZeilen: Zeile[] = data.offenFix.map((o) => ({
+    label: o.posten,
+    betrag: o.betrag,
+  }));
+  // Noch nicht gefahrene Pflicht-Sonderfahrten, je Art.
+  for (const f of data.sonderfahrten) {
+    const rest = Math.max(0, f.pflicht - f.gefahren);
+    if (rest > 0) {
+      offenZeilen.push({
+        label: `${f.art}-Fahrten, noch nicht gefahren`,
+        betrag: cent(rest * p),
+        hinweis: `${rest} × ${euro(p)}`,
+      });
+    }
+  }
+  // Schon gefahren, aber noch nicht abgerechnet (negativ = vorausbezahlt).
+  const gefahrenStunden =
+    data.sonderfahrten.reduce((s, f) => s + Math.min(f.gefahren, f.pflicht), 0) +
+    data.uebungsstundenGefahren;
+  const nichtAbgerechnet = cent(gefahrenStunden * p - data.fahrstundenBezahlt);
+  if (nichtAbgerechnet > 0) {
+    offenZeilen.push({
+      label: "Gefahren, aber noch nicht abgerechnet",
+      betrag: nichtAbgerechnet,
+      hinweis: `${Math.round(nichtAbgerechnet / p)} × ${euro(p)}`,
+    });
+  } else if (nichtAbgerechnet < 0) {
+    offenZeilen.push({ label: "Fahrstunden vorausbezahlt", betrag: nichtAbgerechnet });
+  }
+  if (data.uebungsstundenGeplant > 0) {
+    offenZeilen.push({
+      label: "Übungsstunden, geschätzt",
+      betrag: cent(data.uebungsstundenGeplant * p),
+      hinweis: `${data.uebungsstundenGeplant} × ${euro(p)}`,
+    });
+  }
+  if (data.gutscheinWert > 0) {
+    offenZeilen.push({
+      label: "🎁 Gutschein (noch nicht verrechnet)",
+      betrag: -data.gutscheinWert,
+      hinweis: `${Math.round(data.gutscheinWert / p)} Gratisstunden`,
+      gruen: true,
+    });
+  }
+  const offenSumme = cent(offenZeilen.reduce((s, z) => s + z.betrag, 0));
+  const stimmt = Math.abs(cent(data.bezahlt + offenSumme) - data.gesamtMinimum) < 0.01;
 
   return (
     <div className="mt-2 border-t border-white/5 pt-2">
@@ -139,85 +218,72 @@ function Rechenweg({ data }: { data: Budget }) {
         <span className="text-[9px]">{offen ? "▾" : "▸"}</span>
         <span>Wie kommt die Summe zustande?</span>
         {data.gutscheinWert > 0 && !offen && (
-          <span className="ml-auto text-emerald-400/80">
-            Gutschein ist bereits abgezogen
-          </span>
+          <span className="ml-auto text-emerald-400/80">Gutschein ist abgezogen</span>
         )}
         {data.gutscheinWert === 0 && data.gutscheinMoeglich > 0 && !offen && (
-          <span className="ml-auto text-zinc-500">
-            Gutschein nicht eingerechnet
-          </span>
+          <span className="ml-auto text-zinc-500">Gutschein nicht eingerechnet</span>
         )}
       </button>
 
       {offen && (
-        <div className="mt-2 flex flex-col gap-1">
-          {zeilen.map((z) => (
-            <div key={z.label} className="flex items-baseline gap-2 text-[11px]">
-              <span className="text-zinc-400">{z.label}</span>
-              {z.hinweis && (
-                <span className="text-zinc-600">({z.hinweis})</span>
-              )}
-              <span className="ml-auto tabular-nums text-zinc-300">
-                {euro(z.betrag)}
-              </span>
-            </div>
-          ))}
-
-          {data.gutscheinWert > 0 && (
-            <div className="flex items-baseline gap-2 text-[11px]">
-              <span className="text-emerald-400">
-                🎁 davon geschenkt ({data.gutscheinFahrstunden} Gratisstunden)
-              </span>
-              <span className="ml-auto tabular-nums text-emerald-400">
-                −{euro(data.gutscheinWert)}
-              </span>
-            </div>
-          )}
-
-          <div className="mt-1 flex items-baseline gap-2 border-t border-white/10 pt-1.5 text-xs">
-            <span className="font-medium text-zinc-300">
-              Voraussichtlich gesamt
-            </span>
-            <span className="ml-auto font-semibold tabular-nums text-zinc-50">
-              {euro(data.gesamtMinimum)}
-            </span>
+        <div className="mt-2 flex flex-col gap-3">
+          <div>
+            <p className="mb-1 text-[10px] font-medium uppercase tracking-wide text-emerald-400/80">
+              ✅ Schon bezahlt
+            </p>
+            <ZeilenListe zeilen={bezahltZeilen} />
+            <Zwischensumme label="Summe bezahlt" betrag={data.bezahlt} />
+            <p className="mt-0.5 text-[10px] text-zinc-600">
+              davon Eltern {euro(data.bezahltAusBudget)} · du {euro(data.bezahltVonMarcel)}
+            </p>
           </div>
 
-          <p className="mt-1.5 text-[10px] leading-relaxed text-zinc-600">
+          <div>
+            <p className="mb-1 text-[10px] font-medium uppercase tracking-wide text-amber-400/80">
+              ⏳ Noch zu zahlen
+            </p>
+            <ZeilenListe zeilen={offenZeilen} />
+            <Zwischensumme label="Summe offen" betrag={offenSumme} />
+            <p className="mt-0.5 text-[10px] text-zinc-600">
+              davon Eltern {euro(data.elternOffen)} (Rest vom Budget) · du {euro(data.duOffen)}
+            </p>
+          </div>
+
+          <div className="border-t border-white/10 pt-1.5">
+            <div className="flex items-baseline gap-2 text-[11px] text-zinc-500">
+              <span>bezahlt + offen</span>
+              <span className="ml-auto tabular-nums">
+                {euro(data.bezahlt)} + {euro(offenSumme)}
+              </span>
+            </div>
+            <div className="flex items-baseline gap-2 text-xs">
+              <span className="font-medium text-zinc-300">= Voraussichtlich gesamt</span>
+              <span className="ml-auto font-semibold tabular-nums text-zinc-50">
+                {euro(data.gesamtMinimum)}
+              </span>
+            </div>
+            {!stimmt && (
+              <p className="mt-1 text-[10px] text-rose-400">
+                ⚠️ Die Einzelposten ergeben {euro(cent(data.bezahlt + offenSumme))} statt{" "}
+                {euro(data.gesamtMinimum)} – Datendatei prüfen.
+              </p>
+            )}
+          </div>
+
+          <p className="text-[10px] leading-relaxed text-zinc-600">
             {data.gutscheinWert > 0 && (
-              <>
-                <strong className="text-emerald-400/90">
-                  Der Gutschein ist in dieser Summe schon drin.
-                </strong>{" "}
-                Ohne ihn wären es {euro(data.gesamtMinimum + data.gutscheinWert)}{" "}
-                — die {euro(data.gutscheinWert)} sind also gespart, nicht offen.{" "}
-              </>
+              <>Ohne Gutschein wären es {euro(data.gesamtMinimum + data.gutscheinWert)}. </>
             )}
             {data.gutscheinWert === 0 && data.gutscheinMoeglich > 0 && (
               <>
-                <strong className="text-zinc-400">
-                  Der Gutschein ist hier nicht abgezogen.
-                </strong>{" "}
-                Mit ihm wären es {euro(data.gesamtMinimum - data.gutscheinMoeglich)}.{" "}
+                Der Gutschein ist <strong className="text-zinc-400">nicht</strong> abgezogen –
+                mit ihm wären es {euro(data.gesamtMinimum - data.gutscheinMoeglich)}.{" "}
               </>
             )}
-            {data.uebungsstundenGeplant > 0 ? (
-              <>
-                Die Übungsstunden sind eine <strong>Schätzung</strong> (
-                {data.uebungsstundenGefahren} gefahren +{" "}
-                {data.uebungsstundenGeplant} geplant).
-              </>
-            ) : (
-              <>
-                Eingerechnet sind nur die{" "}
-                <strong>{data.uebungsstundenGefahren} tatsächlich gefahrenen</strong>{" "}
-                Übungsstunden — die Summe ist damit eine{" "}
-                <strong>Untergrenze</strong> und steigt mit jeder weiteren.
-              </>
-            )}{" "}
-            Jede zusätzliche Doppelstunde kostet{" "}
-            {euro(data.preisFahrstunde * 2)}.
+            {data.uebungsstundenGeplant > 0
+              ? "Die Übungsstunden sind teilweise geschätzt. "
+              : "Weitere Übungsstunden sind nicht eingerechnet – die Summe ist eine Untergrenze. "}
+            Jede zusätzliche Doppelstunde kostet {euro(p * 2)}.
           </p>
         </div>
       )}
