@@ -1,16 +1,14 @@
 const NAV = [
-  { href: "#fokus", icon: "⏳", label: "Fokus" },
-  { href: "#ausgaben", icon: "💸", label: "Ausgaben" },
-  { href: "#todos", icon: "✅", label: "To-Dos" },
-  { href: "#kalender", icon: "📅", label: "Kalender" },
-  { href: "#heute", icon: "🏠", label: "Heute" },
-  { href: "#noten", icon: "📊", label: "Noten" },
   { href: "#fahrschule", icon: "🚗", label: "Fahrschule" },
+  { href: "#capture", icon: "✍️", label: "Schneller Gedanke" },
+  { href: "#ausgaben", icon: "💸", label: "Ausgaben" },
+  { href: "#noten", icon: "📊", label: "Noten" },
   { href: "#habits", icon: "🔁", label: "Habits" },
   { href: "#projekte", icon: "🗂️", label: "Projekte" },
-  { href: "#capture", icon: "✍️", label: "Schneller Gedanke" },
-  { href: "#vault", icon: "📁", label: "Vault" },
-  { href: "#graph", icon: "🕸️", label: "Graph" },
+  { href: "#todos", icon: "✅", label: "To-Dos" },
+  { href: "#kalender", icon: "📅", label: "Kalender" },
+  { href: "#fokus", icon: "⏳", label: "Countdown" },
+  { href: "#heute", icon: "🏠", label: "Heute" },
 ];
 
 export function Sidebar() {

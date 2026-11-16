@@ -68,25 +68,43 @@ function ReminderRow({ reminder }: { reminder: Reminder }) {
   );
 }
 
+/**
+ * Eine Gruppe ("Heute / dringend", "Diese Woche") – standardmäßig ZUGEKLAPPT.
+ *
+ * Von Marcel am 16.11.2026 bestellt: Die To-Dos nahmen viel zu viel Platz ein.
+ * Jetzt sieht man nur die Gruppe mit ihrer Anzahl; ein Klick klappt die Liste auf,
+ * jeder Eintrag darin lässt sich wie bisher einzeln aufklappen.
+ */
 function TodoColumn({ title, items }: { title: string; items: Reminder[] }) {
+  const [open, setOpen] = useState(false);
   return (
-    <div className="min-w-0 flex-1">
-      <div className="mb-1.5 flex items-center gap-2">
-        <h3 className="text-xs font-semibold uppercase tracking-wide text-zinc-500">
-          {title}
-        </h3>
-        {items.length > 0 && (
-          <span className={pill(title.startsWith("Heute") ? "amber" : "neutral")}>
-            {items.length}
-          </span>
-        )}
-      </div>
-      {items.length === 0 && <p className="text-sm text-zinc-500">Nichts offen.</p>}
-      <ul className="flex flex-col gap-1.5">
-        {items.map((item) => (
-          <ReminderRow key={item.title} reminder={item} />
-        ))}
-      </ul>
+    <div className="min-w-0">
+      <button
+        type="button"
+        onClick={() => setOpen((v) => !v)}
+        aria-expanded={open}
+        className={`${ROW} ${ROW_HOVER} flex w-full items-center gap-2 text-left transition-colors`}
+      >
+        <svg
+          aria-hidden
+          viewBox="0 0 20 20"
+          className={`h-4 w-4 shrink-0 text-zinc-500 transition-transform duration-200 ${open ? "rotate-90" : ""}`}
+        >
+          <path d="M7.5 5l5 5-5 5" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+        <span className="flex-1 text-sm font-medium text-zinc-200">{title}</span>
+        <span className={pill(title.startsWith("Heute") ? "amber" : "neutral")}>{items.length}</span>
+      </button>
+      {open && (
+        <div className="mt-1.5 pl-2">
+          {items.length === 0 && <p className="text-sm text-zinc-500">Nichts offen.</p>}
+          <ul className="flex flex-col gap-1.5">
+            {items.map((item) => (
+              <ReminderRow key={item.title} reminder={item} />
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }
@@ -113,11 +131,9 @@ export function TodoLists() {
       </div>
       {error && <p className="text-sm text-rose-400">{error}</p>}
       {!data && !error && <p className="text-sm text-zinc-500">Lädt…</p>}
-      {/* Zwei Spalten (24.10.2026): Die Karte spannt jetzt die volle Seitenbreite, damit
-          bleiben pro Spalte ~600px statt der ~170px von vorher – da passt jede
-          Überschrift in eine Zeile. Unter md wird gestapelt, sonst wird es wieder eng. */}
+      {/* Gestapelt und zugeklappt (16.11.2026) – siehe TodoColumn. */}
       {data && (
-        <div className="grid grid-cols-1 gap-x-6 gap-y-5 md:grid-cols-2">
+        <div className="flex flex-col gap-2">
           <TodoColumn title="Heute / dringend" items={data.heute} />
           <TodoColumn title="Diese Woche" items={data.woche} />
         </div>
