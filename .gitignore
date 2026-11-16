@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# TikTok-Tokens (rotierender Refresh-Token, siehe src/lib/tiktok.ts)
+.tiktok-tokens.json

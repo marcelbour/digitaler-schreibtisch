@@ -22,6 +22,7 @@ const KEYS = [
   "noten",
   "projects",
   "reminders",
+  "tiktok",
   "today",
   "vault",
 ];

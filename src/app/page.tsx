@@ -8,6 +8,7 @@ import { FahrschuleBudget } from "@/components/FahrschuleBudget";
 import { NotenWidget } from "@/components/NotenWidget";
 import { HabitWidget } from "@/components/HabitWidget";
 import { AusgabenWidget } from "@/components/AusgabenWidget";
+import { TikTokWidget } from "@/components/TikTokWidget";
 import OfflineBanner from "@/components/OfflineBanner";
 
 export default function Home() {
@@ -33,6 +34,10 @@ export default function Home() {
         </div>
         <div id="capture">
           <QuickCapture />
+        </div>
+        {/* TikTok (16.11.2026): Live-Zahlen, lädt alle 2 Minuten neu. */}
+        <div id="tiktok" className="md:col-span-2 xl:col-span-3">
+          <TikTokWidget />
         </div>
         <div id="ausgaben" className="md:col-span-2 xl:col-span-3">
           <AusgabenWidget />

@@ -21,6 +21,16 @@ export default function PrivacyPage() {
             persönliche Notizsammlung (Obsidian-Vault über Microsoft OneDrive)
             des Nutzers zu, um Termine und Notizen im Dashboard anzuzeigen.
           </p>
+          <p className="text-zinc-300">
+            Über die TikTok Display API werden lesend die öffentlichen
+            Kennzahlen des eigenen TikTok-Kontos des Nutzers abgerufen
+            (Profilname, Follower-, Like- und Videoanzahl sowie Aufrufe,
+            Likes, Kommentare und Shares je Video), um sie im Dashboard
+            anzuzeigen. Es werden keine Inhalte veröffentlicht oder verändert.
+            Die Zugangsdaten werden ausschließlich lokal auf dem Rechner des
+            Nutzers gespeichert und können jederzeit in den TikTok-Einstellungen
+            widerrufen werden.
+          </p>
         </section>
 
         <section className="space-y-2">

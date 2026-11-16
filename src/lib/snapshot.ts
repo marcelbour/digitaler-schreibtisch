@@ -36,6 +36,7 @@ export type SnapshotKey =
   | "noten"
   | "projects"
   | "reminders"
+  | "tiktok"
   | "today"
   | "vault";
 
@@ -47,6 +48,7 @@ export const SNAPSHOT_KEYS: SnapshotKey[] = [
   "noten",
   "projects",
   "reminders",
+  "tiktok",
   "today",
   "vault",
 ];
