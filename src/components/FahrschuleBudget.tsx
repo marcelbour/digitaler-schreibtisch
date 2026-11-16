@@ -123,8 +123,8 @@ function Rechenweg({ data }: { data: Budget }) {
       betrag: data.uebungKosten,
       hinweis:
         data.gutscheinWert > 0
-          ? `${data.uebungsstunden} − ${data.gutscheinFahrstunden} gratis = ${
-              data.uebungsstunden - data.gutscheinFahrstunden
+          ? `${data.uebungsstunden} − ${Math.round(data.gutscheinWert / data.preisFahrstunde)} gratis = ${
+              data.uebungsstunden - Math.round(data.gutscheinWert / data.preisFahrstunde)
             } × ${euro(data.preisFahrstunde)}`
           : `${data.uebungsstunden} × ${euro(data.preisFahrstunde)}`,
     },
@@ -141,6 +141,11 @@ function Rechenweg({ data }: { data: Budget }) {
         {data.gutscheinWert > 0 && !offen && (
           <span className="ml-auto text-emerald-400/80">
             Gutschein ist bereits abgezogen
+          </span>
+        )}
+        {data.gutscheinWert === 0 && data.gutscheinMoeglich > 0 && !offen && (
+          <span className="ml-auto text-zinc-500">
+            Gutschein nicht eingerechnet
           </span>
         )}
       </button>
@@ -187,6 +192,14 @@ function Rechenweg({ data }: { data: Budget }) {
                 </strong>{" "}
                 Ohne ihn wären es {euro(data.gesamtMinimum + data.gutscheinWert)}{" "}
                 — die {euro(data.gutscheinWert)} sind also gespart, nicht offen.{" "}
+              </>
+            )}
+            {data.gutscheinWert === 0 && data.gutscheinMoeglich > 0 && (
+              <>
+                <strong className="text-zinc-400">
+                  Der Gutschein ist hier nicht abgezogen.
+                </strong>{" "}
+                Mit ihm wären es {euro(data.gesamtMinimum - data.gutscheinMoeglich)}.{" "}
               </>
             )}
             {data.uebungsstundenGeplant > 0 ? (
@@ -312,9 +325,30 @@ function Fahrstunden({ data }: { data: Budget }) {
   );
 }
 
+// Marcel am 16.11.2026: Gutschein per Häkchen ein-/ausrechnen. Die Wahl bleibt
+// im Browser gespeichert; ohne gespeicherte Wahl gilt `gutschein_einrechnen`
+// aus der Datendatei.
+const GUTSCHEIN_KEY = "fahrschule-gutschein-einrechnen";
+
 export function FahrschuleBudget() {
-  const [data, setData] = useState<Budget | null>(null);
+  const [roh, setData] = useState<Budget | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [mitGutschein, setMitGutschein] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    const v = localStorage.getItem(GUTSCHEIN_KEY);
+    if (v === "1" || v === "0") setMitGutschein(v === "1");
+  }, []);
+
+  const data =
+    roh && mitGutschein !== null && mitGutschein !== roh.gutscheinEinrechnen
+      ? (roh.alternativ ?? roh)
+      : roh;
+
+  function toggleGutschein(an: boolean) {
+    setMitGutschein(an);
+    localStorage.setItem(GUTSCHEIN_KEY, an ? "1" : "0");
+  }
 
   useEffect(() => {
     fetch("/api/fahrschule")
@@ -369,14 +403,22 @@ export function FahrschuleBudget() {
           </div>
 
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-zinc-500">
-            {data.gutscheinWert > 0 && (
-              <span
-                className={`${pill("green")} tabular-nums`}
-                title={`${data.gutscheinFahrstunden} Fahrstunden geschenkt. Die ${euro(data.gutscheinWert)} sind in der Gesamtsumme bereits abgezogen.`}
+            {data.gutscheinMoeglich > 0 && (
+              <label
+                className="flex cursor-pointer select-none items-center gap-1.5"
+                title="Häkchen an: Die Gratisstunden werden von der Gesamtsumme abgezogen. Häkchen aus: Gerechnet wird, als müsstest du sie voll zahlen."
               >
-                🎁 {data.gutscheinFahrstunden} gratis · −{euro(data.gutscheinWert)}{" "}
-                <span className="opacity-70">schon abgezogen</span>
-              </span>
+                <input
+                  type="checkbox"
+                  className="h-3.5 w-3.5 accent-emerald-400"
+                  checked={data.gutscheinEinrechnen}
+                  onChange={(e) => toggleGutschein(e.target.checked)}
+                />
+                <span className={data.gutscheinEinrechnen ? "text-emerald-400" : ""}>
+                  🎁 Gutschein einrechnen ({data.gutscheinFahrstunden} Gratisstunden · −
+                  {euro(data.gutscheinMoeglich)})
+                </span>
+              </label>
             )}
           </div>
 

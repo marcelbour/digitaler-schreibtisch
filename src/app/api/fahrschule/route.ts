@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { readNote, errorToResponseInit } from "@/lib/obsidian";
 import { snapshotResponse } from "@/lib/snapshot";
-import { parseFahrschuleBudget, FahrschuleDataError } from "@/lib/fahrschule";
+import { parseFahrschuleBudgetMitAlternative, FahrschuleDataError } from "@/lib/fahrschule";
 
 const PATH = "02 Projekte/Führerschein - Budget (Daten).md";
 
@@ -16,7 +16,7 @@ export async function GET() {
         { status: 404 },
       );
     }
-    return NextResponse.json(parseFahrschuleBudget(content));
+    return NextResponse.json(parseFahrschuleBudgetMitAlternative(content));
   } catch (err) {
     if (err instanceof FahrschuleDataError) {
       return NextResponse.json(

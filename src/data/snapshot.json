@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-16T19:27:40.530Z",
+  "generatedAt": "2026-11-16T19:33:31.216Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-16T19:27:37.704Z",
+      "capturedAt": "2026-11-16T19:33:29.404Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -27,25 +27,27 @@
         "uebungsstundenGeplant": 0,
         "uebungsstunden": 3,
         "gutscheinFahrstunden": 2,
-        "gutscheinWert": 178,
-        "uebungKosten": 89,
-        "gesamtMinimum": 3237.12,
-        "eigenanteil": 837.12,
-        "markerAnteil": 74.1399762752076,
+        "gutscheinWert": 0,
+        "gutscheinMoeglich": 178,
+        "gutscheinEinrechnen": false,
+        "uebungKosten": 267,
+        "gesamtMinimum": 3415.12,
+        "eigenanteil": 1015.12,
+        "markerAnteil": 70.2757150554007,
         "segmente": [
           {
             "key": "eltern_bezahlt",
             "label": "Eltern bezahlt",
             "betrag": 1489,
-            "anteil": 45.99767694741004,
+            "anteil": 43.60022488228818,
             "bezahlt": true,
             "wer": "eltern"
           },
           {
             "key": "eltern_offen",
             "label": "Eltern offen",
-            "betrag": 782.3,
-            "anteil": 24.166543100039544,
+            "betrag": 911,
+            "anteil": 26.675490173112514,
             "bezahlt": false,
             "wer": "eltern"
           },
@@ -53,15 +55,15 @@
             "key": "du_bezahlt",
             "label": "du bezahlt",
             "betrag": 965.82,
-            "anteil": 29.835779952550418,
+            "anteil": 28.280704631169623,
             "bezahlt": true,
             "wer": "marcel"
           },
           {
             "key": "du_offen",
             "label": "du offen",
-            "betrag": 0,
-            "anteil": 0,
+            "betrag": 49.3,
+            "anteil": 1.4435803134296892,
             "bezahlt": false,
             "wer": "marcel"
           }
@@ -215,11 +217,227 @@
           "Antrags- und Verwaltungsgebühren",
           "Lehrmittel / Lernmaterial / App",
           "Biometrisches Passbild"
-        ]
+        ],
+        "alternativ": {
+          "budgetGesamt": 2400,
+          "preisFahrstunde": 89,
+          "bezahlt": 2454.82,
+          "bezahltAusBudget": 1489,
+          "bezahltVonMarcel": 965.82,
+          "budgetRest": 911,
+          "offenFixSumme": 337.3,
+          "offenFix": [
+            {
+              "posten": "Vorstellung zur Praxisprüfung",
+              "betrag": 299
+            },
+            {
+              "posten": "Fahrerlaubnisbehörde (mit Probezeit)",
+              "betrag": 38.3
+            }
+          ],
+          "sonderfahrtenOffen": 7,
+          "sonderfahrtenKosten": 1068,
+          "uebungsstundenGefahren": 3,
+          "uebungsstundenGeplant": 0,
+          "uebungsstunden": 3,
+          "gutscheinFahrstunden": 2,
+          "gutscheinWert": 178,
+          "gutscheinMoeglich": 178,
+          "gutscheinEinrechnen": true,
+          "uebungKosten": 89,
+          "gesamtMinimum": 3237.12,
+          "eigenanteil": 837.12,
+          "markerAnteil": 74.1399762752076,
+          "segmente": [
+            {
+              "key": "eltern_bezahlt",
+              "label": "Eltern bezahlt",
+              "betrag": 1489,
+              "anteil": 45.99767694741004,
+              "bezahlt": true,
+              "wer": "eltern"
+            },
+            {
+              "key": "eltern_offen",
+              "label": "Eltern offen",
+              "betrag": 782.3,
+              "anteil": 24.166543100039544,
+              "bezahlt": false,
+              "wer": "eltern"
+            },
+            {
+              "key": "du_bezahlt",
+              "label": "du bezahlt",
+              "betrag": 965.82,
+              "anteil": 29.835779952550418,
+              "bezahlt": true,
+              "wer": "marcel"
+            },
+            {
+              "key": "du_offen",
+              "label": "du offen",
+              "betrag": 0,
+              "anteil": 0,
+              "bezahlt": false,
+              "wer": "marcel"
+            }
+          ],
+          "zahlungen": [
+            {
+              "posten": "Theorieblock (Grundbetrag)",
+              "betrag": 549,
+              "zahler": "Mutter",
+              "datum": null,
+              "hinweis": "Laut §5 fällig bei Vertragsabschluss (15.07.2026). Genaues Zahldatum unbekannt.",
+              "deckt_fahrstunden": 0
+            },
+            {
+              "posten": "10 Schaltstunden + Schaltkompetenz (Testfahrt B197)",
+              "betrag": 940,
+              "zahler": "Mutter",
+              "datum": null,
+              "hinweis": "Bereits gefahren. 10 × 89,00 + 50,00 = 940,00. Genaues Zahldatum unbekannt.",
+              "deckt_fahrstunden": 0
+            },
+            {
+              "posten": "TÜV-Kostenvorschuss (Theorie + Praxis)",
+              "betrag": 154.82,
+              "zahler": "Marcel",
+              "datum": "2026-10-21",
+              "hinweis": "Trägt Marcel selbst, läuft nicht über das Elternbudget.",
+              "deckt_fahrstunden": 0
+            },
+            {
+              "posten": "Fahrschulrechnung APEX: 8 Fahrstunden + Vorstellung Theorieprüfung",
+              "betrag": 811,
+              "zahler": "Marcel",
+              "datum": "2026-11-15",
+              "hinweis": "Von Marcels eigenem Konto überwiesen, gemeldet am 16.11.2026. 8 × 89,00 (23.10., 28.10., 29.10., 13.11. = 3 Übung + 5 Überland) = 712,00 + Vorstellung Theorie 99,00 = 811,00. Der Gutschein (2 Übungsstunden) ist darin NOCH NICHT verrechnet und steht bei APEX noch als Guthaben aus. Keine Ausfallgebühr für den 06.11. enthalten. deckt_fahrstunden ist eine Gegenbuchung, weil diese Stunden in sonderfahrten/uebung bereits mitgezählt werden.",
+              "deckt_fahrstunden": 712
+            }
+          ],
+          "sonderfahrten": [
+            {
+              "art": "Überland",
+              "pflicht": 5,
+              "gefahren": 5
+            },
+            {
+              "art": "Autobahn",
+              "pflicht": 4,
+              "gefahren": 0
+            },
+            {
+              "art": "Nacht",
+              "pflicht": 3,
+              "gefahren": 0
+            }
+          ],
+          "fahrstunden": [
+            {
+              "nr": 1,
+              "datum": "2026-10-23",
+              "dauer_min": 90,
+              "status": "gefahren",
+              "inhalt": [
+                "Übung",
+                "Übung"
+              ],
+              "hinweis": "Korrigiert am 29.10.2026 von Marcel: Das war seine ERSTE Automatik-Fahrt und reine Uebung, keine Ueberlandfahrt. Vorher stand hier 1 Uebung + 1 Ueberland."
+            },
+            {
+              "nr": 2,
+              "datum": "2026-10-28",
+              "dauer_min": 90,
+              "status": "gefahren",
+              "inhalt": [
+                "Übung",
+                "Überland"
+              ]
+            },
+            {
+              "nr": 3,
+              "datum": "2026-10-29",
+              "dauer_min": 90,
+              "status": "gefahren",
+              "inhalt": [
+                "Überland",
+                "Überland"
+              ]
+            },
+            {
+              "nr": 4,
+              "datum": "2026-10-30",
+              "dauer_min": 90,
+              "status": "abgesagt",
+              "inhalt": [],
+              "hinweis": "Von Marcel am 28.10. abgesagt. Rechtzeitig, also keine Ausfallgebühr. Muss nachgebucht werden."
+            },
+            {
+              "nr": 5,
+              "datum": "2026-11-06",
+              "dauer_min": 90,
+              "status": "abgesagt",
+              "inhalt": [],
+              "hinweis": "NACHGETRAGEN 11.11.2026 - stand bis dahin faelschlich auf geplant. Marcel hat den Termin am 04.11. SELBST abgesagt: 'mir geht's da nicht gut genug', 4 Tage nach der Weisheitszahn-OP und unter Schmerzmitteln. Rechtzeitig abgesagt. Die 2 Pflicht-Ueberlandfahrten sind damit wieder OFFEN und haben keinen Termin."
+            },
+            {
+              "nr": 6,
+              "datum": "2026-11-12",
+              "dauer_min": 90,
+              "status": "abgesagt",
+              "inhalt": [],
+              "hinweis": "Von MUZI abgesagt, Marcel am 11.11.2026 gemeldet. War 13:30-15:00, 2x Autobahn. Kein Ersatztermin genannt. Muss nachgebucht werden."
+            },
+            {
+              "nr": 7,
+              "datum": "2026-11-13",
+              "dauer_min": 90,
+              "status": "gefahren",
+              "inhalt": [
+                "Überland",
+                "Überland"
+              ],
+              "hinweis": "13.11.2026 von Marcel gemeldet: geplant war 2x Autobahn, tatsaechlich 2x Ueberland gefahren. Ueberland damit komplett (5 von 5), Autobahn weiterhin 0 von 4. Zuvor: Von Marcel am 29.10.2026 gemeldet, 08:00-09:30. Schule beginnt freitags erst 09:50 - an dem Tag ist der Mathetest. KORREKTUR 11.11.2026: Hier stand 'Danach fehlen nur noch die 3 Nachtfahrten'. Das ist falsch, seit die Termine am 06.11. und 12.11. abgesagt wurden. Nach dieser Stunde fehlen noch 2 Ueberland, 2 Autobahn und 3 Nacht."
+            },
+            {
+              "nr": 8,
+              "datum": "2026-11-23",
+              "dauer_min": 90,
+              "status": "geplant",
+              "inhalt": [],
+              "hinweis": "Von Marcel am 16.11.2026 gemeldet, 16:00-17:30."
+            },
+            {
+              "nr": 9,
+              "datum": "2026-11-27",
+              "dauer_min": 90,
+              "status": "geplant",
+              "inhalt": [],
+              "hinweis": "Von Marcel am 16.11.2026 gemeldet, 08:00-09:30. Schule ab 09:50."
+            },
+            {
+              "nr": 10,
+              "datum": "2026-12-01",
+              "dauer_min": 135,
+              "status": "geplant",
+              "inhalt": [],
+              "hinweis": "Von Marcel am 16.11.2026 gemeldet, 16:30-18:45. Alle 3 Nachtfahrten am Stueck (135 Min = 3 x 45)."
+            }
+          ],
+          "nichtBezifferbar": [
+            "Sehtest",
+            "Erste-Hilfe-Kurs",
+            "Antrags- und Verwaltungsgebühren",
+            "Lehrmittel / Lernmaterial / App",
+            "Biometrisches Passbild"
+          ]
+        }
       }
     },
     "graph": {
-      "capturedAt": "2026-11-16T19:27:39.820Z",
+      "capturedAt": "2026-11-16T19:33:30.974Z",
       "data": {
         "nodes": [
           {
@@ -1232,10 +1450,6 @@
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
           },
           {
-            "source": "00 Kontext/ICP",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
             "source": "00 Kontext/Kalender-Kategorien",
             "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
           },
@@ -1310,6 +1524,10 @@
           {
             "source": "00 Kontext/Vault-Regeln - Belege und Hintergrund",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "00 Kontext/ICP",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
@@ -1412,6 +1630,22 @@
             "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "04 Ressourcen/KI & E-Commerce/Shorts, Reels, Snapchat - Monetarisierung (Recherche 16.11.2026)"
+          },
+          {
+            "source": "02 Projekte/TikTok KI-Videos",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "00 Kontext/Angebot"
           },
@@ -1434,10 +1668,6 @@
           {
             "source": "02 Projekte/KI Business (Etsy Shop)",
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
@@ -1466,18 +1696,6 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
-          },
-          {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "04 Ressourcen/KI & E-Commerce/Shorts, Reels, Snapchat - Monetarisierung (Recherche 16.11.2026)"
-          },
-          {
-            "source": "02 Projekte/TikTok KI-Videos",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)",
@@ -1604,18 +1822,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -1638,6 +1844,18 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
@@ -2008,6 +2226,18 @@
             "target": "02 Projekte/Abitur"
           },
           {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
+          },
+          {
+            "source": "04 Ressourcen/Schule/Noten (Daten)",
+            "target": "02 Projekte/Abitur"
+          },
+          {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
             "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
           },
@@ -2022,18 +2252,6 @@
           {
             "source": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13",
             "target": "04 Ressourcen/Schule/Notenschlüssel Oberstufe"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)"
-          },
-          {
-            "source": "04 Ressourcen/Schule/Noten (Daten)",
-            "target": "02 Projekte/Abitur"
           },
           {
             "source": "04 Ressourcen/Schule/Notenbogen Q12 (Halbjahresleistungen 12-1 und 12-2)",
@@ -2144,19 +2362,19 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-24",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
             "source": "05 Daily Notes/2026-09-25",
             "target": "05 Daily Notes/2026-09-24"
           },
           {
             "source": "05 Daily Notes/2026-09-25",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-24",
             "target": "00 Kontext/Erinnerungen"
           },
           {
@@ -2170,6 +2388,30 @@
           {
             "source": "05 Daily Notes/2026-09-29",
             "target": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "00 Kontext/ICP"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-05",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
           },
           {
             "source": "05 Daily Notes/2026-10-06",
@@ -2216,30 +2458,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "00 Kontext/ICP"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/KI Business (Etsy Shop)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-05",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
             "source": "05 Daily Notes/2026-10-08",
             "target": "04 Ressourcen/PC & Technik/Obsidian Autostart (Windows)"
           },
@@ -2272,50 +2490,6 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-10",
-            "target": "05 Daily Notes/2026-10-11"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Kalender-Kategorien"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "00 Kontext/Branding"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-11",
-            "target": "07 Anhänge"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "02 Projekte/Abitur"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-12",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
             "source": "05 Daily Notes/2026-10-09",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2346,6 +2520,90 @@
           {
             "source": "05 Daily Notes/2026-10-09",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-10",
+            "target": "05 Daily Notes/2026-10-11"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Kalender-Kategorien"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "00 Kontext/Branding"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-11",
+            "target": "07 Anhänge"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-08",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "04 Ressourcen/Schule/Deutsch/Mario und der Zauberer - Lektüretest-Fragen"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-12",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "05 Daily Notes/2026-10-13",
@@ -2384,26 +2642,6 @@
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-15",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
-          },
-          {
             "source": "05 Daily Notes/2026-10-16",
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
@@ -2434,6 +2672,26 @@
           {
             "source": "05 Daily Notes/2026-10-17",
             "target": "05 Daily Notes/2026-10-18"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "CLAUDE"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-15",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
             "source": "05 Daily Notes/2026-10-19",
@@ -2482,6 +2740,26 @@
           {
             "source": "05 Daily Notes/2026-10-20",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "05 Daily Notes/2026-10-22",
@@ -2550,26 +2828,6 @@
           {
             "source": "05 Daily Notes/2026-10-24",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "05 Daily Notes/2026-10-25",
@@ -2736,6 +2994,10 @@
             "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
           },
           {
+            "source": "05 Daily Notes/2026-10-30",
+            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+          },
+          {
             "source": "05 Daily Notes/2026-10-31",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
@@ -2776,11 +3038,11 @@
             "target": "00 Kontext/Erinnerungen - Archiv"
           },
           {
-            "source": "05 Daily Notes/2026-10-30",
-            "target": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl"
+            "source": "05 Daily Notes/2026-11-02",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
-            "source": "05 Daily Notes/2026-11-02",
+            "source": "05 Daily Notes/2026-11-03",
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
@@ -2826,10 +3088,6 @@
           {
             "source": "05 Daily Notes/2026-11-05",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-03",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-11-06",
@@ -2882,46 +3140,6 @@
           {
             "source": "05 Daily Notes/2026-11-07",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Block 1 Sinnfehler A1-A28 (Bausteine)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-08",
-            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "05 Daily Notes/2026-11-09",
@@ -3147,7 +3365,7 @@
       }
     },
     "habits": {
-      "capturedAt": "2026-11-16T19:27:40.091Z",
+      "capturedAt": "2026-11-16T19:33:31.013Z",
       "data": {
         "tage": [
           {
@@ -5197,7 +5415,7 @@
       }
     },
     "noten": {
-      "capturedAt": "2026-11-16T19:27:40.263Z",
+      "capturedAt": "2026-11-16T19:33:31.048Z",
       "data": {
         "halbjahre": [
           {
@@ -6040,7 +6258,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-16T19:27:40.354Z",
+      "capturedAt": "2026-11-16T19:33:31.105Z",
       "data": {
         "projects": [
           {
@@ -6103,7 +6321,7 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-16T19:27:40.407Z",
+      "capturedAt": "2026-11-16T19:33:31.132Z",
       "data": {
         "heute": [
           {
@@ -6237,7 +6455,7 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-16T19:27:40.480Z",
+      "capturedAt": "2026-11-16T19:33:31.174Z",
       "data": {
         "path": "05 Daily Notes/2026-11-16.md",
         "exists": true,
@@ -6245,7 +6463,7 @@
       }
     },
     "vault": {
-      "capturedAt": "2026-11-16T19:27:40.530Z",
+      "capturedAt": "2026-11-16T19:33:31.216Z",
       "data": {
         "files": [
           "00 Kontext/",
@@ -6261,7 +6479,7 @@
       }
     },
     "ausgaben": {
-      "capturedAt": "2026-11-16T19:27:37.654Z",
+      "capturedAt": "2026-11-16T19:33:29.378Z",
       "data": {
         "etsy": {
           "preisTypisch": 4.99,

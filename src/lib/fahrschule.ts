@@ -67,7 +67,15 @@ export type FahrschuleBudget = {
   uebungsstundenGeplant: number;
   uebungsstunden: number;
   gutscheinFahrstunden: number;
+  /** Tatsächlich abgezogener Gutscheinbetrag (0, wenn nicht eingerechnet). */
   gutscheinWert: number;
+  /** Was der Gutschein wert wäre, wenn er eingerechnet würde. */
+  gutscheinMoeglich: number;
+  /** Ob der Gutschein in dieser Variante abgezogen ist (Häkchen im Widget). */
+  gutscheinEinrechnen: boolean;
+  /** Dieselbe Rechnung mit umgekehrtem Gutschein-Häkchen – damit das Widget
+   *  ohne neuen Request umschalten kann, auch im Offline-Schnappschuss. */
+  alternativ?: FahrschuleBudget;
   uebungKosten: number;
   gesamtMinimum: number;
   eigenanteil: number;
@@ -90,6 +98,7 @@ type Frontmatter = {
   nicht_bezifferbar?: unknown;
   uebungsstunden_geplant?: unknown;
   gutschein_fahrstunden?: unknown;
+  gutschein_einrechnen?: unknown;
 };
 
 function extractFrontmatter(content: string): Frontmatter {
@@ -134,8 +143,23 @@ function cent(n: number): number {
   return Math.round(n * 100) / 100;
 }
 
-export function parseFahrschuleBudget(content: string): FahrschuleBudget {
+/** Standardvariante laut Datendatei plus die umgeschaltete als `alternativ`. */
+export function parseFahrschuleBudgetMitAlternative(content: string): FahrschuleBudget {
+  const standard = parseFahrschuleBudget(content);
+  return {
+    ...standard,
+    alternativ: parseFahrschuleBudget(content, !standard.gutscheinEinrechnen),
+  };
+}
+
+export function parseFahrschuleBudget(
+  content: string,
+  gutscheinEinrechnenOverride?: boolean,
+): FahrschuleBudget {
   const fm = extractFrontmatter(content);
+  // Fehlt das Feld, gilt der alte Stand (eingerechnet), damit nichts still kippt.
+  const gutscheinEinrechnen =
+    gutscheinEinrechnenOverride ?? fm.gutschein_einrechnen !== false;
 
   const budgetGesamt = requireNumber(fm.budget_gesamt, "budget_gesamt");
   const preisFahrstunde = requireNumber(
@@ -248,7 +272,9 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
     Number(fm.gutschein_fahrstunden ?? 0) || 0,
   );
   // Der Gutschein kann nie mehr abziehen, als an Übungsstunden anfällt.
-  const gutscheinGenutzt = Math.min(gutscheinFahrstunden, uebungsstunden);
+  const gutscheinMoeglichStunden = Math.min(gutscheinFahrstunden, uebungsstunden);
+  const gutscheinMoeglich = cent(gutscheinMoeglichStunden * preisFahrstunde);
+  const gutscheinGenutzt = gutscheinEinrechnen ? gutscheinMoeglichStunden : 0;
   const gutscheinWert = cent(gutscheinGenutzt * preisFahrstunde);
   const uebungKosten = cent((uebungsstunden - gutscheinGenutzt) * preisFahrstunde);
 
@@ -311,6 +337,8 @@ export function parseFahrschuleBudget(content: string): FahrschuleBudget {
     uebungsstunden,
     gutscheinFahrstunden,
     gutscheinWert,
+    gutscheinMoeglich,
+    gutscheinEinrechnen,
     uebungKosten,
     gesamtMinimum,
     eigenanteil,
