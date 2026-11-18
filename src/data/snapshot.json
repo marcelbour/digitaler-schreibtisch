@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-17T22:36:57.639Z",
+  "generatedAt": "2026-11-18T08:43:32.817Z",
   "entries": {
     "fahrschule": {
-      "capturedAt": "2026-11-17T22:36:55.432Z",
+      "capturedAt": "2026-11-18T08:43:30.555Z",
       "data": {
         "budgetGesamt": 2400,
         "preisFahrstunde": 89,
@@ -443,7 +443,7 @@
       }
     },
     "graph": {
-      "capturedAt": "2026-11-17T22:36:57.303Z",
+      "capturedAt": "2026-11-18T08:43:32.299Z",
       "data": {
         "nodes": [
           {
@@ -1197,6 +1197,11 @@
             "folder": "05 Daily Notes"
           },
           {
+            "id": "05 Daily Notes/2026-11-18",
+            "label": "2026-11-18",
+            "folder": "05 Daily Notes"
+          },
+          {
             "id": "07 Anhänge",
             "label": "07 Anhänge",
             "folder": "(root)"
@@ -1208,10 +1213,6 @@
           }
         ],
         "edges": [
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
-          },
           {
             "source": "00 Kontext/Branding",
             "target": "07 Anhänge"
@@ -1545,14 +1546,6 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
           },
           {
-            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
-            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
-          },
-          {
-            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
             "source": "02 Projekte/Abitur",
             "target": "04 Ressourcen/Schule/Noten & Leistungsnachweise Q13"
           },
@@ -1571,6 +1564,14 @@
           {
             "source": "02 Projekte/Abitur",
             "target": "04 Ressourcen/Schule/Einbringung & Abiturberechnung (OSK-Unterlagen)"
+          },
+          {
+            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
+            "target": "03 Bereiche/Sport & Fitness/Skischuhe - Passform und Größe"
+          },
+          {
+            "source": "01 Inbox/Skischuhe Salomon - eBay-Bestellung ski24_pl",
+            "target": "00 Kontext/Erinnerungen"
           },
           {
             "source": "02 Projekte/Digitaler Schreibtisch (Dashboard)",
@@ -1669,22 +1670,6 @@
             "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
             "source": "02 Projekte/TikTok KI-Videos",
             "target": "04 Ressourcen/KI & E-Commerce/TikTok - Posting-Frequenz und Kanalaufbau (Recherche 15.11.2026)"
           },
@@ -1695,6 +1680,10 @@
           {
             "source": "02 Projekte/TikTok KI-Videos",
             "target": "02 Projekte/KI Business (Etsy Shop)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 1 (Einleitung)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)",
@@ -1751,6 +1740,22 @@
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Bauplan (Gliederung im Detail)",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 4.2 (Fehlerhafte Wahrscheinlichkeitsmodelle)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)",
@@ -1813,12 +1818,16 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Überarbeitungsblock 3.3 bis 3.6 (07.11.2026)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche",
@@ -1849,24 +1858,20 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fehlerliste (Schlussdurchgang 08.11.2026)"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
-            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Pflichtkorrekturen 08.11.2026 (kopierbereit)",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
-          },
-          {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Materialsammlung (geparkte Sätze)"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Lesefassung 2.2 C+D und 3.1 (zum Mitlesen)",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
           },
           {
             "source": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Übergabe Abschlussarbeiten (09.11.2026)",
@@ -1981,14 +1986,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 6 (Fazit)"
           },
           {
-            "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
-            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
-          },
-          {
-            "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
-            "target": "02 Projekte/Etsy Listing - Budget Planer"
-          },
-          {
             "source": "02 Projekte/Zweiwochenplan (15.10.-01.11.2026)",
             "target": "00 Kontext/Erinnerungen"
           },
@@ -2017,6 +2014,14 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
+            "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
+            "target": "04 Ressourcen/KI & E-Commerce/Etsy Shop Launch - Strategie & Realitätscheck"
+          },
+          {
+            "source": "03 Bereiche/Finanzen/Ausgaben KI & Tools (Daten)",
+            "target": "02 Projekte/Etsy Listing - Budget Planer"
+          },
+          {
             "source": "03 Bereiche/Finanzen/Finanzen",
             "target": "04 Ressourcen/Investieren & Immobilien/Investieren & Immobilien"
           },
@@ -2025,12 +2030,28 @@
             "target": "05 Daily Notes/2026-10-18"
           },
           {
-            "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "05 Daily Notes/2026-09-15"
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Sport & Fitness/Sport & Fitness"
+          },
+          {
+            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "target": "03 Bereiche/Gesundheit/Gesundheit"
           },
           {
             "source": "03 Bereiche/Sport & Fitness/Sport & Fitness",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "target": "05 Daily Notes/2026-09-15"
           },
           {
             "source": "04 Ressourcen/KI & E-Commerce/Claude & Vault Workflow optimieren",
@@ -2053,14 +2074,6 @@
             "target": "02 Projekte/KI Business (Etsy Shop)"
           },
           {
-            "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
-            "target": "CLAUDE"
-          },
-          {
-            "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
-            "target": "02 Projekte/Abitur"
-          },
-          {
             "source": "04 Ressourcen/PC & Technik/Obsidian - Dateiwiederherstellung auslesen und zurückschreiben",
             "target": "00 Kontext/Vault-Regeln - Belege und Hintergrund"
           },
@@ -2077,24 +2090,16 @@
             "target": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen"
           },
           {
-            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
+            "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
+            "target": "CLAUDE"
           },
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
+            "source": "04 Ressourcen/KI & E-Commerce/Wirtschaft vor acht - ARD-Mediathek auslesen",
             "target": "02 Projekte/Abitur"
           },
           {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten",
-            "target": "03 Bereiche/Gesundheit/Gesundheit"
+            "source": "04 Ressourcen/PC & Technik/Windows Energieeinstellungen",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "04 Ressourcen/Schule/Biologie/Bio-Test 12.10.2026 - Neuronale Informationsverarbeitung (korrigiert)",
@@ -2297,12 +2302,12 @@
             "target": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)"
           },
           {
-            "source": "05 Daily Notes/2026-09-14",
-            "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
-          },
-          {
             "source": "04 Ressourcen/Schule/Wirtschaft/Recht - Leistungsstörungen beim Kauf (S. 54-64)",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-14",
+            "target": "04 Ressourcen/KI & E-Commerce/KI & E-Commerce"
           },
           {
             "source": "05 Daily Notes/2026-09-15",
@@ -2349,18 +2354,6 @@
             "target": "00 Kontext/Erinnerungen"
           },
           {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
-          },
-          {
-            "source": "05 Daily Notes/2026-09-17",
-            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
-          },
-          {
             "source": "05 Daily Notes/2026-09-21",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
           },
@@ -2371,6 +2364,18 @@
           {
             "source": "05 Daily Notes/2026-09-22",
             "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "00 Kontext/Erinnerungen"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-09-17",
+            "target": "02 Projekte/Digitaler Schreibtisch (Dashboard)"
           },
           {
             "source": "05 Daily Notes/2026-09-24",
@@ -2693,26 +2698,6 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Schreibanleitung"
           },
           {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/Führerschein"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
-          },
-          {
-            "source": "05 Daily Notes/2026-10-21",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
-          },
-          {
             "source": "05 Daily Notes/2026-10-20",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
@@ -2731,6 +2716,26 @@
           {
             "source": "05 Daily Notes/2026-10-20",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/Führerschein"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 2 fertigschreiben"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.1 (SCHUFA-Scoring)"
+          },
+          {
+            "source": "05 Daily Notes/2026-10-21",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Quellen & Recherche"
           },
           {
             "source": "05 Daily Notes/2026-10-22",
@@ -3017,6 +3022,18 @@
             "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-05",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
+          },
+          {
             "source": "05 Daily Notes/2026-11-04",
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Nutzungstabelle (Anhang)"
           },
@@ -3047,38 +3064,6 @@
           {
             "source": "05 Daily Notes/2026-11-04",
             "target": "00 Kontext/Erinnerungen"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.3 (Ausfallwahrscheinlichkeit PD)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-05",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Fragen an die Lehrkraft"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.5 (Erwarteter Verlust)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-06",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.6 (Binomialverteilung)"
-          },
-          {
-            "source": "05 Daily Notes/2026-11-06",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-11-07",
@@ -3113,24 +3098,24 @@
             "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 5 (Regulierung nach der Finanzkrise)"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Befundliste (Durchsicht 06.11.2026)"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/Abitur"
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.4 (Risikoklassen)"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "00 Kontext/Erinnerungen - Archiv"
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.5 (Erwarteter Verlust)"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - Arbeitsblatt Kapitel 3.6 (Binomialverteilung)"
           },
           {
-            "source": "05 Daily Notes/2026-11-09",
-            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+            "source": "05 Daily Notes/2026-11-06",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Habit-Log"
           },
           {
             "source": "05 Daily Notes/2026-11-08",
@@ -3221,6 +3206,26 @@
             "target": "04 Ressourcen/Schule/Deutsch/Kafka - Biografie mit Bezug auf Die Verwandlung"
           },
           {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit - KI-Dokumentation, Schlusserklärung & Prüfungsgespräch"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/Abitur"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "00 Kontext/Erinnerungen - Archiv"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "02 Projekte/W-Seminararbeit/W-Seminararbeit"
+          },
+          {
+            "source": "05 Daily Notes/2026-11-09",
+            "target": "03 Bereiche/Routinen & Gewohnheiten/Routinen & Gewohnheiten"
+          },
+          {
             "source": "05 Daily Notes/2026-11-12",
             "target": "02 Projekte/Abitur"
           },
@@ -3309,6 +3314,10 @@
             "target": "02 Projekte/Führerschein"
           },
           {
+            "source": "05 Daily Notes/2026-11-17",
+            "target": "02 Projekte/TikTok KI-Videos"
+          },
+          {
             "source": "07 Anhänge",
             "target": "04 Ressourcen/Schule/Informatik/Laufzeit von Algorithmen"
           },
@@ -3384,7 +3393,7 @@
       }
     },
     "habits": {
-      "capturedAt": "2026-11-17T22:36:57.337Z",
+      "capturedAt": "2026-11-18T08:43:32.401Z",
       "data": {
         "tage": [
           {
@@ -4285,8 +4294,8 @@
                 "zahl": null
               },
               "zehnfinger": {
-                "status": "ok",
-                "roh": "✓",
+                "status": "fehlt",
+                "roh": "✗ (Nachtrag 18.11.)",
                 "zahl": null
               },
               "englisch": {
@@ -5042,16 +5051,16 @@
                 "zahl": null
               },
               {
-                "status": "ok",
-                "roh": "✓",
+                "status": "fehlt",
+                "roh": "✗ (Nachtrag 18.11.)",
                 "zahl": null
               }
             ],
-            "erledigt": 2,
+            "erledigt": 1,
             "faellig": 2,
-            "quote": 1,
-            "streak": 2,
-            "ausfallStreak": 0,
+            "quote": 0.5,
+            "streak": 0,
+            "ausfallStreak": 1,
             "schnitt": null,
             "trend": null
           },
@@ -5430,11 +5439,11 @@
         ],
         "tageGesamt": 23,
         "letzterEintrag": "2026-11-17",
-        "tageSeitLetztem": 0
+        "tageSeitLetztem": 1
       }
     },
     "noten": {
-      "capturedAt": "2026-11-17T22:36:57.366Z",
+      "capturedAt": "2026-11-18T08:43:32.482Z",
       "data": {
         "halbjahre": [
           {
@@ -6277,7 +6286,7 @@
       }
     },
     "projects": {
-      "capturedAt": "2026-11-17T22:36:57.406Z",
+      "capturedAt": "2026-11-18T08:43:32.593Z",
       "data": {
         "projects": [
           {
@@ -6340,9 +6349,14 @@
       }
     },
     "reminders": {
-      "capturedAt": "2026-11-17T22:36:57.430Z",
+      "capturedAt": "2026-11-18T08:43:32.656Z",
       "data": {
         "heute": [
+          {
+            "icon": "🎬",
+            "title": "TikTok Video 5 = Fingerknack-Mythos bauen – Mi 18.11",
+            "details": "(Marcel 18.11., 00:25: „Wir machen morgen das Fingerknack-Video\"). Für den Upload Do 19.11., 17:00 – danach ist der Vorrat leer. Neuer Chat. Vor dem Skript Correctiv-Seite + Unger-Studie (1998) im Original öffnen. Neu einbauen: Behauptung im 1. Satz **und** groß im Bild, Frage am Ende. Weitere Mythen (Video 6–8): „Mythen-Liste 2\" in [[02 Projekte/TikTok KI-Videos.md]] – 7 von Marcel ausgewählt."
+          },
           {
             "icon": "🗓️",
             "title": "MORGEN NACH DER ABGABE: die Zeit nach dem W-Seminar einmal komplett neu planen – das ist der wichtigste Termin der Woche",
@@ -6359,11 +6373,6 @@
             "icon": "📊",
             "title": "TikTok-Widget freischalten – verschoben auf Sa 21.11., 11:30–12:00",
             "details": "(Kalender). Das Entwicklerkonto mit marcel.bour187@gmail.com ist gelöscht und blockiert die Adresse (Login: „gelöscht\", Neuanlage: „schon verbunden\") → neu mit **marcel.bour187+tiktok@gmail.com** versuchen (ob TikTok das „+\" annimmt, ungeprüft). Dann App + Sandbox, Key + Secret an Claude, „Mit TikTok verbinden\". Details: [[02 Projekte/Digitaler Schreibtisch (Dashboard).md]], Abschnitt „TikTok-Widget\"."
-          },
-          {
-            "icon": "🎬",
-            "title": "TikTok Video 5–8 bauen lassen – vor der Durchsicht Mi 18.11., 16:00",
-            "details": "(neuer Chat, Themenliste in [[02 Projekte/TikTok KI-Videos.md]], jetzt mit Soundeffekten). Vorrat reicht bis Mi 18.11. (Seil Di + Blitz Mi sind in TikTok für 17:00 geplant), ab Do 19.11. braucht es neue Videos. Marcel will es Di 17.11. besprechen."
           },
           {
             "icon": "🕕",
@@ -6474,15 +6483,15 @@
       }
     },
     "today": {
-      "capturedAt": "2026-11-17T22:36:57.467Z",
+      "capturedAt": "2026-11-18T08:43:32.761Z",
       "data": {
-        "path": "05 Daily Notes/2026-11-17.md",
+        "path": "05 Daily Notes/2026-11-18.md",
         "exists": true,
-        "content": "# Dienstag, 17.11.2026\n\n## Habit-Check (Abend-Check 23:0x–23:3x)\n\n| Auf | Schlaf | Wasser | Dehnen | Zähne | News | 10F | Englisch | Lesen | Training |\n|---|---|---|---|---|---|---|---|---|---|\n| **07:38** (Soll 06:30) | ca. 8,5 h, unterbrochen | ✓ | ✗ | ✓ | ✗ | ✓ | ✗ | ✗ | ✓ (okay) |\n\n- 😴 **Verschlafen:** Wecker 06:30 gehört, wieder eingeschlafen, um 07:38 aufgewacht, morgens Stress.\n- 🩸 **In der Nacht Nasenbluten.** Falls das öfter vorkommt, beim Hausarzt ansprechen.\n- 📊 Tag **„schlecht“**, Plantreue **„gar nicht“**.\n- Nachtrag 16.11.: 10-Finger ✓, Englisch ✗, Lesen ✗ (im Habit-Log eingetragen).\n\n## Was passiert ist\n- 📚 Ethik-Ex 09:50 (Ergebnis noch offen).\n- ❌ **Deutsch-Lernblock 15:45–17:45 ausgefallen** → Termin gelöscht, **Ersatz Mi 18.11., 13:30–15:30** (Buß- und Bettag, schulfrei).\n- ⚽ Training: war da, „okay“.\n- 🎵 Frage zu TikTok-Sounds am PC beantwortet: Für den Business-Account in der **Commercial Music Library** (TikTok Creative Center) suchen. Trend-Songs aus dem Feed sind für Business-Accounts riskant.\n\n## ➡️ Nächster Schritt (bei Rückkehr) – Stand 23:35\n- 🎓 **Mi 18.11., 13:30–15:30: Deutsch lernen**, die Schulaufgabe ist **Do 19.11.** Der Block ist der letzte vor der Schulaufgabe und darf nicht ausfallen.\n- 🎬 Mi 16:00–16:30: TikTok-Videos 5–8 durchsehen. Ab Do 19.11. sind keine Videos mehr im Vorrat. Die Videos sind noch **nicht gebaut**, das kommt in einem neuen Chat.\n- 🏊 Mi 18:00 Schwimmen: entscheidest du spontan.\n- ❓ Fr 20.11. Mathe: Nachschreibtermin oder verschobene Schulaufgabe? Ist weiterhin offen.\n- 📕 Lesen ist seit 04.11. durchgehend ausgefallen. Darüber sprechen, ob der Block so noch Sinn ergibt."
+        "content": "# Mittwoch, 18.11.2026 – Buß- und Bettag (schulfrei)\n\n## 🎯 Die eine wichtigste Aufgabe heute\n🎓 **Deutsch lernen 13:30–15:30** – Schulaufgabe ist morgen (Do 19.11.), das ist der letzte Block davor.\n\n## Termine\n- 13:30–15:30 🎓 Deutsch lernen (Ersatz für Di 17.11.)\n- 16:00–16:30 🎬 TikTok: Fingerknack-Video durchsehen (Upload Do 19.11., 17:00)\n- 18:00–19:15 🏊 Schwimmen (spontan)\n- 22:30 📕 Lesen → Bett 23:00\n\n## Was passiert ist\n- 09:4x Morgen-Check.\n\n## ➡️ Nächster Schritt (bei Rückkehr)\n- Fingerknack-Video **vor 16:00** bauen (neuer Chat) – Correctiv + Unger-Studie (1998) im Original prüfen."
       }
     },
     "vault": {
-      "capturedAt": "2026-11-17T22:36:57.638Z",
+      "capturedAt": "2026-11-18T08:43:32.817Z",
       "data": {
         "files": [
           "00 Kontext/",
@@ -6498,7 +6507,7 @@
       }
     },
     "ausgaben": {
-      "capturedAt": "2026-11-17T22:36:55.394Z",
+      "capturedAt": "2026-11-18T08:43:30.348Z",
       "data": {
         "etsy": {
           "preisTypisch": 4.99,
