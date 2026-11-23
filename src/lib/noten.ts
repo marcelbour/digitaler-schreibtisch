@@ -80,6 +80,8 @@ export type FachRegel = {
   eingebracht: number;
   /** true = Pflichtfach, jedes Halbjahr zählt und ist nicht abwählbar. */
   pflicht: boolean;
+  /** Wie viele Halbjahresleistungen höchstens gestrichen werden dürfen (Pflicht: 0). */
+  streichbar: number;
   grund: string;
 };
 
@@ -188,6 +190,82 @@ export function abiNote(punkte: number): number | null {
   const roh = 17 / 3 - punkte / 180;
   // Math.floor, NICHT Math.round – 823 P ergibt 1,0944 und muss 1,0 werden.
   return Math.max(1.0, Math.floor(roh * 10) / 10);
+}
+
+export type EinbringSlot = {
+  id: string;
+  fach: string;
+  halbjahr: string;
+  /** Zeugnispunkte; null = noch offen. */
+  wert: number | null;
+};
+
+/**
+ * Auswahl aus dem Topf – ZWEI STUFEN. Liefert nur die Pool-Slots;
+ * Pflichtfächer zählen ohnehin immer.
+ *
+ * Das bayerische Modell ist nicht „nimm einfach die besten 12". Laut
+ * gymnasiale-oberstufe.bayern.de gilt beides gleichzeitig:
+ *   1. In den übrigen Fächern darf „in der Regel JEWEILS EINE" Leistung
+ *      gestrichen werden – also eine Mindesteinbringung pro Fach.
+ *   2. Dazu kommen „bis zu drei weitere Ergebnisse nach freier Wahl".
+ *
+ * Stufe 1 sichert je Fach die Mindestzahl (die besten davon), Stufe 2
+ * verteilt die übrigen Plätze global an die besten Verbliebenen.
+ * ⚠️ Ohne Stufe 1 würden z.B. zwei Geschichte-Leistungen gestrichen –
+ * das erlaubt die Regel nicht.
+ *
+ * Eine noch unbenotete Leistung wird mit dem bisherigen Schnitt bewertet.
+ * Nicht einfach alle offenen zuerst nehmen: sonst fliegt eine echte 11
+ * raus, während Unbekannte drinbleiben (von Marcel am 27.10. beanstandet).
+ *
+ * Wird auch vom Was-wäre-wenn im Widget benutzt – mit hypothetischen
+ * Noten, damit die Streichungen dort mitwandern.
+ */
+export function waehleEinbringung(
+  slots: EinbringSlot[],
+  pool: { fach: string; streichbar: number }[],
+  poolSoll: number,
+): Set<string> {
+  const niveau =
+    mittel(slots.filter((s) => s.wert !== null).map((s) => s.wert as number)) ?? 0;
+
+  const rang = (s: EinbringSlot) => s.wert ?? niveau;
+  const besteZuerst = (a: EinbringSlot, b: EinbringSlot) =>
+    rang(b) - rang(a) ||
+    // Gleichstand: die bekannte Note schlägt die Schätzung – sie ist sicher.
+    Number(b.wert !== null) - Number(a.wert !== null) ||
+    // Unter offenen Slots die früheren behalten, das späteste Halbjahr ist
+    // am wenigsten absehbar.
+    a.halbjahr.localeCompare(b.halbjahr);
+
+  const gewaehlt = new Set<string>();
+  // ---- Stufe 1: Mindesteinbringung je Fach ----
+  const rest: EinbringSlot[] = [];
+  for (const g of pool) {
+    const eigene = slots.filter((s) => s.fach === g.fach).sort(besteZuerst);
+    const mindest = Math.max(0, eigene.length - g.streichbar);
+    eigene.forEach((s, i) => {
+      if (i < mindest) gewaehlt.add(s.id);
+      else rest.push(s);
+    });
+  }
+  // ---- Stufe 2: freie Einbringungen global vergeben ----
+  const freiePlaetze = Math.max(0, poolSoll - gewaehlt.size);
+  for (const s of rest.sort(besteZuerst).slice(0, freiePlaetze)) gewaehlt.add(s.id);
+  return gewaehlt;
+}
+
+/**
+ * Kleinste Gesamtpunktzahl, die mindestens die Zielnote ergibt.
+ * null = Ziel nicht erreichbar (besser als 1,0 / über 900).
+ */
+export function punkteFuerNote(ziel: number, maxGesamt = 900, bestehen = 300): number | null {
+  for (let p = bestehen; p <= maxGesamt; p++) {
+    const n = abiNote(p);
+    if (n !== null && n <= ziel + 1e-9) return p;
+  }
+  return null;
 }
 
 export function parseNotenStand(content: string): NotenStand {
@@ -339,52 +417,15 @@ export function parseNotenStand(content: string): NotenStand {
     );
   }
 
-  // Auswahl aus dem Topf – ZWEI STUFEN.
-  //
-  // Das bayerische Modell ist nicht „nimm einfach die besten 12". Laut
-  // gymnasiale-oberstufe.bayern.de gilt beides gleichzeitig:
-  //   1. In den übrigen Fächern darf „in der Regel JEWEILS EINE" Leistung
-  //      gestrichen werden – also eine Mindesteinbringung pro Fach.
-  //   2. Dazu kommen „bis zu drei weitere Ergebnisse nach freier Wahl".
-  //
-  // Stufe 1 sichert je Fach die Mindestzahl (die besten davon), Stufe 2
-  // verteilt die übrigen Plätze global an die besten Verbliebenen.
-  // ⚠️ Ohne Stufe 1 würde das Widget z.B. zwei Geschichte-Leistungen
-  // streichen – das erlaubt die Regel nicht.
-  //
-  // Eine noch unbenotete Leistung wird mit dem bisherigen Schnitt bewertet.
-  // Nicht einfach alle offenen zuerst nehmen: sonst fliegt eine echte 11
-  // raus, während Unbekannte drinbleiben (von Marcel am 27.10. beanstandet).
-  const alleBenoteten = rohHalbjahre.flatMap((h) =>
-    h.slots.filter((s) => s.zeugnis !== null).map((s) => s.zeugnis as number),
-  );
-  const niveau = mittel(alleBenoteten) ?? 0;
-
-  const rang = (s: RohSlot) => s.zeugnis ?? niveau;
-  const besteZuerst = (a: RohSlot, b: RohSlot) =>
-    rang(b) - rang(a) ||
-    // Gleichstand: die bekannte Note schlägt die Schätzung – sie ist sicher.
-    Number(b.zeugnis !== null) - Number(a.zeugnis !== null) ||
-    // Unter offenen Slots die früheren behalten, das späteste Halbjahr ist
-    // am wenigsten absehbar.
-    a.halbjahr.localeCompare(b.halbjahr);
-
-  // ---- Stufe 1: Mindesteinbringung je Fach ----
-  const rest: RohSlot[] = [];
-  for (const g of poolGruppe) {
-    const slots = [...(proFach.get(g.fach) ?? [])].sort(besteZuerst);
-    const mindest = Math.max(0, slots.length - g.streichbar);
-    slots.forEach((s, i) => {
-      if (i < mindest) eingebrachtIds.add(s.id);
-      else rest.push(s);
-    });
-  }
-
-  // ---- Stufe 2: freie Einbringungen global vergeben ----
-  const freiePlaetze = Math.max(0, poolSoll - eingebrachtIds.size + pflichtAnzahl);
-  for (const s of rest.sort(besteZuerst).slice(0, freiePlaetze)) {
-    eingebrachtIds.add(s.id);
-  }
+  // Auswahl aus dem Topf – Logik und Begründung siehe waehleEinbringung().
+  for (const id of waehleEinbringung(
+    rohHalbjahre.flatMap((h) =>
+      h.slots.map((sl) => ({ id: sl.id, fach: sl.fach, halbjahr: sl.halbjahr, wert: sl.zeugnis })),
+    ),
+    poolGruppe,
+    poolSoll,
+  ))
+    eingebrachtIds.add(id);
 
   const regeln: FachRegel[] = [...proFach.entries()]
     .map(([fach, slots]) => ({
@@ -393,6 +434,9 @@ export function parseNotenStand(content: string): NotenStand {
       belegt: slots.length,
       eingebracht: slots.filter((s) => eingebrachtIds.has(s.id)).length,
       pflicht: istPflicht.has(fach),
+      streichbar: istPflicht.has(fach)
+        ? 0
+        : (poolGruppe.find((g) => g.fach === fach)?.streichbar ?? 1),
       grund: grundMap.get(fach) ?? "",
     }))
     .sort(

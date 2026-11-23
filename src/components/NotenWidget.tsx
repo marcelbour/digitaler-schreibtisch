@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { CARD, HEADING, iconBadge, ROW } from "@/lib/ui";
 import { abiNote, type NotenStand, type Slot } from "@/lib/noten";
+import { NotenWasWaereWenn } from "@/components/NotenWasWaereWenn";
 
 /** Farbskala für Notenpunkte – rot bei wenig, grün bei viel. */
 function punkteFarbe(p: number): string {
@@ -50,6 +51,8 @@ export function NotenWidget() {
   const [error, setError] = useState<string | null>(null);
   /** Marcels eigene Auswahl. null = noch nicht angefasst, es gilt der Vorschlag. */
   const [wahl, setWahl] = useState<Set<string> | null>(null);
+  /** Was-wäre-wenn aufgeklappt? */
+  const [wasWennOffen, setWasWennOffen] = useState(false);
 
   useEffect(() => {
     fetch("/api/noten")
@@ -317,6 +320,26 @@ export function NotenWidget() {
                 bessere Noten, nicht durch Warten.
               </span>
             </p>
+          </div>
+
+          {/* ═══ Was wäre wenn (ausklappbar) ═══ */}
+          <div className="rounded-xl border border-cyan-400/15 bg-cyan-500/[0.04]">
+            <button
+              onClick={() => setWasWennOffen((o) => !o)}
+              className="flex w-full items-center gap-2 px-3 py-2 text-left text-xs text-zinc-300 hover:bg-white/[0.03]"
+            >
+              <span>🔮</span>
+              <span className="font-medium">Was wäre wenn?</span>
+              <span className="text-[11px] text-zinc-500">
+                Welche Noten bräuchte ich für welchen Abi-Schnitt – mit Reglern durchspielen
+              </span>
+              <span className="ml-auto text-zinc-500">{wasWennOffen ? "▲" : "▼"}</span>
+            </button>
+            {wasWennOffen && (
+              <div className="border-t border-white/[0.06] p-3">
+                <NotenWasWaereWenn data={data} />
+              </div>
+            )}
           </div>
 
           {/* ═══ Halbjahre nebeneinander ═══ */}
